@@ -5,79 +5,79 @@
 \contentsline {paragraph}{}{iv}{paragraph*.10}%
 \contentsline {chapter}{Товчилсон үгс}{v}{table.0.1}%
 \contentsline {chapter}{Удиртгал}{1}{section*.15}%
-\contentsline {chapter}{\numberline {1}... системийн тухай онол, арга зүйн судалгаа}{4}{chapter.37}%
-\contentsline {section}{\numberline {1.1}... тухай}{4}{section.38}%
-\contentsline {paragraph}{}{4}{paragraph*.39}%
-\contentsline {section}{\numberline {1.2}... бий болгосон эхэн үеийн алгоритмууд}{4}{section.41}%
-\contentsline {paragraph}{}{4}{paragraph*.42}%
-\contentsline {subsection}{\numberline {1.2.1}Виола Жонес илрүүлэлт}{4}{subsection.43}%
-\contentsline {paragraph}{}{4}{paragraph*.44}%
-\contentsline {subsection}{\numberline {1.2.2}HOG /Histogram of Oriented Gradients/ илрүүлэлт}{5}{subsection.48}%
-\contentsline {paragraph}{}{5}{paragraph*.49}%
-\contentsline {subsection}{\numberline {1.2.3}DPM /Deformable Part-based Model/ илрүүлэлт}{8}{subsection.56}%
-\contentsline {paragraph}{}{8}{paragraph*.57}%
-\contentsline {section}{\numberline {1.3}Объект илрүүлэлтэд ашиглаж буй сүүлийн үеийн алгоритмууд}{8}{section.59}%
-\contentsline {paragraph}{}{8}{paragraph*.60}%
-\contentsline {subsection}{\numberline {1.3.1}RCNN, Fast RCNN, Faster RCNN илрүүлэлт}{8}{subsection.61}%
-\contentsline {subsection}{\numberline {1.3.2}SSD /Single Shot Detector/ илрүүлэлт }{11}{subsection.69}%
-\contentsline {subsection}{\numberline {1.3.3}YOLO /You Only Look Once/ илрүүлэлт }{12}{subsection.71}%
-\contentsline {section}{\numberline {1.4}Ижил төстэй системийн судалгаа}{13}{section.75}%
-\contentsline {paragraph}{}{13}{paragraph*.76}%
-\contentsline {section}{\numberline {1.5}Хөгжүүлэлтэд ашиглах алгоритм}{15}{section.81}%
-\contentsline {paragraph}{}{15}{paragraph*.82}%
-\contentsline {subsection}{\numberline {1.5.1}Объект илрүүлэлтэд ашиглах алгоритм }{15}{subsection.83}%
-\contentsline {paragraph}{}{15}{paragraph*.84}%
-\contentsline {paragraph}{}{16}{paragraph*.88}%
-\contentsline {paragraph}{}{17}{paragraph*.90}%
-\contentsline {section}{\numberline {1.6}Технологийн судалгаа}{20}{section.100}%
-\contentsline {paragraph}{}{20}{paragraph*.101}%
-\contentsline {subsection}{\numberline {1.6.1}Back-End хөгжүүлэлтэд ашиглах технологиуд}{20}{subsection.102}%
-\contentsline {subsubsection}{OpenCV зургийн сан}{20}{subsubsection*.103}%
-\contentsline {subsubsection}{FAST API}{21}{subsubsection*.105}%
-\contentsline {subsubsection}{Python gTTS сан}{21}{subsubsection*.107}%
-\contentsline {paragraph}{}{21}{paragraph*.108}%
-\contentsline {subsubsection}{Chimege API}{21}{subsubsection*.110}%
-\contentsline {subsubsection}{MySQL өгөгдлийн сан удирдах систем}{22}{subsubsection*.112}%
-\contentsline {subsubsection}{PyCharm IDE}{22}{subsubsection*.114}%
-\contentsline {subsection}{\numberline {1.6.2}Front-End хөгжүүлэлтэнд ашиглах технологиуд}{23}{subsection.116}%
-\contentsline {subsubsection}{React фреймворк}{23}{subsubsection*.117}%
-\contentsline {subsubsection}{Ant design}{24}{subsubsection*.119}%
-\contentsline {subsubsection}{Visual Studio Code}{25}{subsubsection*.121}%
-\contentsline {subsection}{\numberline {1.6.3}Кодын менежмент}{25}{subsection.123}%
-\contentsline {section}{\numberline {1.7}Бүлгийн дүгнэлт}{25}{section.124}%
-\contentsline {paragraph}{}{25}{paragraph*.125}%
-\contentsline {paragraph}{}{26}{paragraph*.126}%
-\contentsline {chapter}{\numberline {2}... системийн шинжилгээ}{27}{chapter.127}%
-\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{27}{section.128}%
-\contentsline {section}{\numberline {2.2}Системийг ашиглах хэрэглэгчид}{27}{section.129}%
-\contentsline {paragraph}{}{27}{paragraph*.130}%
-\contentsline {section}{\numberline {2.3}Функцийн шаардлага}{27}{section.131}%
-\contentsline {section}{\numberline {2.4}Функцийн бус шаардлага}{28}{section.144}%
-\contentsline {section}{\numberline {2.5}Юзкейс диаграмм}{29}{section.155}%
-\contentsline {paragraph}{}{29}{paragraph*.156}%
-\contentsline {section}{\numberline {2.6}Юзкейсийн тодорхойлолт}{29}{section.158}%
-\contentsline {section}{\numberline {2.7}Шинжилгээний класс диаграмм}{32}{section.183}%
-\contentsline {paragraph}{}{32}{paragraph*.184}%
-\contentsline {section}{\numberline {2.8}Шинжилгээний дарааллын диаграмм}{32}{section.186}%
-\contentsline {paragraph}{}{32}{paragraph*.187}%
-\contentsline {section}{\numberline {2.9}Үйл ажиллагааны диаграмм}{34}{section.193}%
-\contentsline {paragraph}{}{34}{paragraph*.194}%
-\contentsline {section}{\numberline {2.10}Бүлгийн дүгнэлт}{36}{section.200}%
-\contentsline {paragraph}{}{36}{paragraph*.201}%
-\contentsline {chapter}{\numberline {3}... системийн зохиомж ба хөгжүүлэлт}{37}{chapter.202}%
-\contentsline {section}{\numberline {3.1}Системийн архитектур}{37}{section.203}%
-\contentsline {paragraph}{}{37}{paragraph*.204}%
-\contentsline {section}{\numberline {3.2}Зохиомжийн шатны класс диаграмм}{37}{section.206}%
-\contentsline {paragraph}{}{37}{paragraph*.207}%
-\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем }{38}{section.209}%
-\contentsline {paragraph}{}{38}{paragraph*.210}%
-\contentsline {section}{\numberline {3.4}Системийн прототип}{38}{section.212}%
-\contentsline {paragraph}{}{38}{paragraph*.213}%
-\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{41}{section.224}%
-\contentsline {paragraph}{}{41}{paragraph*.225}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{42}{section.232}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{42}{section.233}%
-\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{42}{section.234}%
-\contentsline {paragraph}{}{42}{paragraph*.235}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{44}{section*.236}%
-\contentsline {paragraph}{}{44}{paragraph*.237}%
+\contentsline {chapter}{\numberline {1}... системийн тухай онол, арга зүйн судалгаа}{4}{chapter.29}%
+\contentsline {section}{\numberline {1.1}... тухай}{4}{section.30}%
+\contentsline {paragraph}{}{4}{paragraph*.31}%
+\contentsline {section}{\numberline {1.2}... бий болгосон эхэн үеийн алгоритмууд}{4}{section.33}%
+\contentsline {paragraph}{}{4}{paragraph*.34}%
+\contentsline {subsection}{\numberline {1.2.1}Виола Жонес илрүүлэлт}{4}{subsection.35}%
+\contentsline {paragraph}{}{4}{paragraph*.36}%
+\contentsline {subsection}{\numberline {1.2.2}HOG /Histogram of Oriented Gradients/ илрүүлэлт}{5}{subsection.40}%
+\contentsline {paragraph}{}{5}{paragraph*.41}%
+\contentsline {subsection}{\numberline {1.2.3}DPM /Deformable Part-based Model/ илрүүлэлт}{8}{subsection.48}%
+\contentsline {paragraph}{}{8}{paragraph*.49}%
+\contentsline {section}{\numberline {1.3}Объект илрүүлэлтэд ашиглаж буй сүүлийн үеийн алгоритмууд}{8}{section.51}%
+\contentsline {paragraph}{}{8}{paragraph*.52}%
+\contentsline {subsection}{\numberline {1.3.1}RCNN, Fast RCNN, Faster RCNN илрүүлэлт}{8}{subsection.53}%
+\contentsline {subsection}{\numberline {1.3.2}SSD /Single Shot Detector/ илрүүлэлт }{11}{subsection.61}%
+\contentsline {subsection}{\numberline {1.3.3}YOLO /You Only Look Once/ илрүүлэлт }{12}{subsection.63}%
+\contentsline {section}{\numberline {1.4}Ижил төстэй системийн судалгаа}{13}{section.67}%
+\contentsline {paragraph}{}{13}{paragraph*.68}%
+\contentsline {section}{\numberline {1.5}Хөгжүүлэлтэд ашиглах алгоритм}{15}{section.73}%
+\contentsline {paragraph}{}{15}{paragraph*.74}%
+\contentsline {subsection}{\numberline {1.5.1}Объект илрүүлэлтэд ашиглах алгоритм }{15}{subsection.75}%
+\contentsline {paragraph}{}{15}{paragraph*.76}%
+\contentsline {paragraph}{}{16}{paragraph*.80}%
+\contentsline {paragraph}{}{17}{paragraph*.82}%
+\contentsline {section}{\numberline {1.6}Технологийн судалгаа}{20}{section.92}%
+\contentsline {paragraph}{}{20}{paragraph*.93}%
+\contentsline {subsection}{\numberline {1.6.1}Back-End хөгжүүлэлтэд ашиглах технологиуд}{20}{subsection.94}%
+\contentsline {subsubsection}{OpenCV зургийн сан}{20}{subsubsection*.95}%
+\contentsline {subsubsection}{FAST API}{21}{subsubsection*.97}%
+\contentsline {subsubsection}{Python gTTS сан}{21}{subsubsection*.99}%
+\contentsline {paragraph}{}{21}{paragraph*.100}%
+\contentsline {subsubsection}{Chimege API}{21}{subsubsection*.102}%
+\contentsline {subsubsection}{MySQL өгөгдлийн сан удирдах систем}{22}{subsubsection*.104}%
+\contentsline {subsubsection}{PyCharm IDE}{22}{subsubsection*.106}%
+\contentsline {subsection}{\numberline {1.6.2}Front-End хөгжүүлэлтэнд ашиглах технологиуд}{23}{subsection.108}%
+\contentsline {subsubsection}{React фреймворк}{23}{subsubsection*.109}%
+\contentsline {subsubsection}{Ant design}{24}{subsubsection*.111}%
+\contentsline {subsubsection}{Visual Studio Code}{25}{subsubsection*.113}%
+\contentsline {subsection}{\numberline {1.6.3}Кодын менежмент}{25}{subsection.115}%
+\contentsline {section}{\numberline {1.7}Бүлгийн дүгнэлт}{25}{section.116}%
+\contentsline {paragraph}{}{25}{paragraph*.117}%
+\contentsline {paragraph}{}{26}{paragraph*.118}%
+\contentsline {chapter}{\numberline {2}... системийн шинжилгээ}{27}{chapter.119}%
+\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{27}{section.120}%
+\contentsline {section}{\numberline {2.2}Системийг ашиглах хэрэглэгчид}{27}{section.121}%
+\contentsline {paragraph}{}{27}{paragraph*.122}%
+\contentsline {section}{\numberline {2.3}Функцийн шаардлага}{27}{section.123}%
+\contentsline {section}{\numberline {2.4}Функцийн бус шаардлага}{28}{section.136}%
+\contentsline {section}{\numberline {2.5}Юзкейс диаграмм}{29}{section.147}%
+\contentsline {paragraph}{}{29}{paragraph*.148}%
+\contentsline {section}{\numberline {2.6}Юзкейсийн тодорхойлолт}{29}{section.150}%
+\contentsline {section}{\numberline {2.7}Шинжилгээний класс диаграмм}{32}{section.175}%
+\contentsline {paragraph}{}{32}{paragraph*.176}%
+\contentsline {section}{\numberline {2.8}Шинжилгээний дарааллын диаграмм}{32}{section.178}%
+\contentsline {paragraph}{}{32}{paragraph*.179}%
+\contentsline {section}{\numberline {2.9}Үйл ажиллагааны диаграмм}{34}{section.185}%
+\contentsline {paragraph}{}{34}{paragraph*.186}%
+\contentsline {section}{\numberline {2.10}Бүлгийн дүгнэлт}{36}{section.192}%
+\contentsline {paragraph}{}{36}{paragraph*.193}%
+\contentsline {chapter}{\numberline {3}... системийн зохиомж ба хөгжүүлэлт}{37}{chapter.194}%
+\contentsline {section}{\numberline {3.1}Системийн архитектур}{37}{section.195}%
+\contentsline {paragraph}{}{37}{paragraph*.196}%
+\contentsline {section}{\numberline {3.2}Зохиомжийн шатны класс диаграмм}{37}{section.198}%
+\contentsline {paragraph}{}{37}{paragraph*.199}%
+\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем }{38}{section.201}%
+\contentsline {paragraph}{}{38}{paragraph*.202}%
+\contentsline {section}{\numberline {3.4}Системийн прототип}{38}{section.204}%
+\contentsline {paragraph}{}{38}{paragraph*.205}%
+\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{41}{section.216}%
+\contentsline {paragraph}{}{41}{paragraph*.217}%
+\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{42}{section.224}%
+\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{42}{section.225}%
+\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{42}{section.226}%
+\contentsline {paragraph}{}{42}{paragraph*.227}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{44}{section*.228}%
+\contentsline {paragraph}{}{44}{paragraph*.229}%
