@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  28 FEB 2026 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  28 FEB 2026 23:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,12 +614,46 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count314
 \enitdp@description=\count315
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen197
+\TX@old@table=\dimen198
+\TX@old@col=\dimen199
+\TX@target=\dimen256
+\TX@delta=\dimen257
+\TX@cols=\count316
+\TX@ftn=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count317
+\l__lipsum_a_int=\count318
+\l__lipsum_b_int=\count319
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen197
-\pgfutil@tempdimb=\dimen198
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen258
+\pgfutil@tempdimb=\dimen259
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box75
@@ -636,33 +670,33 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen199
-\pgf@y=\dimen256
-\pgf@xa=\dimen257
-\pgf@ya=\dimen258
-\pgf@xb=\dimen259
-\pgf@yb=\dimen260
-\pgf@xc=\dimen261
-\pgf@yc=\dimen262
-\pgf@xd=\dimen263
-\pgf@yd=\dimen264
+\pgf@x=\dimen260
+\pgf@y=\dimen261
+\pgf@xa=\dimen262
+\pgf@ya=\dimen263
+\pgf@xb=\dimen264
+\pgf@yb=\dimen265
+\pgf@xc=\dimen266
+\pgf@yc=\dimen267
+\pgf@xd=\dimen268
+\pgf@yd=\dimen269
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count316
-\c@pgf@countb=\count317
-\c@pgf@countc=\count318
-\c@pgf@countd=\count319
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count320
+\c@pgf@counta=\count320
+\c@pgf@countb=\count321
+\c@pgf@countc=\count322
+\c@pgf@countd=\count323
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count324
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -677,8 +711,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count321
-\pgfsyssoftpath@bigbuffer@items=\count322
+\pgfsyssoftpath@smallbuffer@items=\count325
+\pgfsyssoftpath@bigbuffer@items=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -690,12 +724,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen265
-\pgfmath@count=\count323
+\pgfmath@dimen=\dimen270
+\pgfmath@count=\count327
 \pgfmath@box=\box76
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -716,38 +750,38 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count324
+\c@pgfmathroundto@lastzeros=\count328
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen266
-\pgf@picmaxx=\dimen267
-\pgf@picminy=\dimen268
-\pgf@picmaxy=\dimen269
-\pgf@pathminx=\dimen270
-\pgf@pathmaxx=\dimen271
-\pgf@pathminy=\dimen272
-\pgf@pathmaxy=\dimen273
-\pgf@xx=\dimen274
-\pgf@xy=\dimen275
-\pgf@yx=\dimen276
-\pgf@yy=\dimen277
-\pgf@zx=\dimen278
-\pgf@zy=\dimen279
+\pgf@picminx=\dimen271
+\pgf@picmaxx=\dimen272
+\pgf@picminy=\dimen273
+\pgf@picmaxy=\dimen274
+\pgf@pathminx=\dimen275
+\pgf@pathmaxx=\dimen276
+\pgf@pathminy=\dimen277
+\pgf@pathmaxy=\dimen278
+\pgf@xx=\dimen279
+\pgf@xy=\dimen280
+\pgf@yx=\dimen281
+\pgf@yy=\dimen282
+\pgf@zx=\dimen283
+\pgf@zy=\dimen284
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen280
-\pgf@path@lasty=\dimen281
+\pgf@path@lastx=\dimen285
+\pgf@path@lasty=\dimen286
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen282
-\pgf@shorten@start@additional=\dimen283
+\pgf@shorten@end@additional=\dimen287
+\pgf@shorten@start@additional=\dimen288
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -755,19 +789,19 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box77
 \pgf@hbox=\box78
 \pgf@layerbox@main=\box79
-\pgf@picture@serial@count=\count325
+\pgf@picture@serial@count=\count329
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen284
+\pgflinewidth=\dimen289
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen285
-\pgf@pt@y=\dimen286
-\pgf@pt@temp=\dimen287
+\pgf@pt@x=\dimen290
+\pgf@pt@y=\dimen291
+\pgf@pt@temp=\dimen292
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -783,13 +817,13 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen288
+\pgfarrowsep=\dimen293
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen289
-\pgf@sys@shading@range@num=\count326
-\pgf@shadingcount=\count327
+\pgf@max=\dimen294
+\pgf@sys@shading@range@num=\count330
+\pgf@shadingcount=\count331
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -823,8 +857,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen290
-\pgf@nodesepend=\dimen291
+\pgf@nodesepstart=\dimen295
+\pgf@nodesepend=\dimen296
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -837,10 +871,10 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen292
-\pgffor@skip=\dimen293
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@iter=\dimen297
+\pgffor@skip=\dimen298
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
@@ -848,33 +882,33 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count328
-\pgfplotmarksize=\dimen294
+\pgf@plot@mark@count=\count332
+\pgfplotmarksize=\dimen299
 )
-\tikz@lastx=\dimen295
-\tikz@lasty=\dimen296
-\tikz@lastxsaved=\dimen297
-\tikz@lastysaved=\dimen298
-\tikz@lastmovetox=\dimen299
-\tikz@lastmovetoy=\dimen300
-\tikzleveldistance=\dimen301
-\tikzsiblingdistance=\dimen302
+\tikz@lastx=\dimen300
+\tikz@lasty=\dimen301
+\tikz@lastxsaved=\dimen302
+\tikz@lastysaved=\dimen303
+\tikz@lastmovetox=\dimen304
+\tikz@lastmovetoy=\dimen305
+\tikzleveldistance=\dimen306
+\tikzsiblingdistance=\dimen307
 \tikz@figbox=\box82
 \tikz@figbox@bg=\box83
 \tikz@tempbox=\box84
 \tikz@tempbox@bg=\box85
-\tikztreelevel=\count329
-\tikznumberofchildren=\count330
-\tikznumberofcurrentchild=\count331
-\tikz@fig@count=\count332
+\tikztreelevel=\count333
+\tikznumberofchildren=\count334
+\tikznumberofcurrentchild=\count335
+\tikz@fig@count=\count336
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count333
-\pgfmatrixcurrentcolumn=\count334
-\pgf@matrix@numberofcolumns=\count335
+\pgfmatrixcurrentrow=\count337
+\pgfmatrixcurrentcolumn=\count338
+\pgf@matrix@numberofcolumns=\count339
 )
-\tikz@expandcount=\count336
+\tikz@expandcount=\count340
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -955,7 +989,7 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen303
+\arrowsize=\dimen308
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryautomata.code.tex
@@ -969,13 +1003,13 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count337
-\csq@gtype=\count338
-\csq@glevel=\count339
-\csq@qlevel=\count340
-\csq@maxlvl=\count341
-\csq@tshold=\count342
-\csq@ltx@everypar=\toks43
+\csq@reset=\count341
+\csq@gtype=\count342
+\csq@glevel=\count343
+\csq@qlevel=\count344
+\csq@maxlvl=\count345
+\csq@tshold=\count346
+\csq@ltx@everypar=\toks44
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -999,7 +1033,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count343
+\lrq@indent=\count347
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1008,49 +1042,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count344
-\c@listtotal=\count345
-\c@listcount=\count346
-\c@liststart=\count347
-\c@liststop=\count348
-\c@citecount=\count349
-\c@citetotal=\count350
-\c@multicitecount=\count351
-\c@multicitetotal=\count352
-\c@instcount=\count353
-\c@maxnames=\count354
-\c@minnames=\count355
-\c@maxitems=\count356
-\c@minitems=\count357
-\c@citecounter=\count358
-\c@maxcitecounter=\count359
-\c@savedcitecounter=\count360
-\c@uniquelist=\count361
-\c@uniquename=\count362
-\c@refsection=\count363
-\c@refsegment=\count364
-\c@maxextratitle=\count365
-\c@maxextratitleyear=\count366
-\c@maxextraname=\count367
-\c@maxextradate=\count368
-\c@maxextraalpha=\count369
-\c@abbrvpenalty=\count370
-\c@highnamepenalty=\count371
-\c@lownamepenalty=\count372
-\c@maxparens=\count373
-\c@parenlevel=\count374
-\blx@tempcnta=\count375
-\blx@tempcntb=\count376
-\blx@tempcntc=\count377
-\c@blx@maxsection=\count378
-\blx@maxsegment@0=\count379
-\blx@notetype=\count380
-\blx@parenlevel@text=\count381
-\blx@parenlevel@foot=\count382
-\blx@sectionciteorder@0=\count383
-\blx@sectionciteorderinternal@0=\count384
-\blx@entrysetcounter=\count385
-\blx@biblioinstance=\count386
+\c@tabx@nest=\count348
+\c@listtotal=\count349
+\c@listcount=\count350
+\c@liststart=\count351
+\c@liststop=\count352
+\c@citecount=\count353
+\c@citetotal=\count354
+\c@multicitecount=\count355
+\c@multicitetotal=\count356
+\c@instcount=\count357
+\c@maxnames=\count358
+\c@minnames=\count359
+\c@maxitems=\count360
+\c@minitems=\count361
+\c@citecounter=\count362
+\c@maxcitecounter=\count363
+\c@savedcitecounter=\count364
+\c@uniquelist=\count365
+\c@uniquename=\count366
+\c@refsection=\count367
+\c@refsegment=\count368
+\c@maxextratitle=\count369
+\c@maxextratitleyear=\count370
+\c@maxextraname=\count371
+\c@maxextradate=\count372
+\c@maxextraalpha=\count373
+\c@abbrvpenalty=\count374
+\c@highnamepenalty=\count375
+\c@lownamepenalty=\count376
+\c@maxparens=\count377
+\c@parenlevel=\count378
+\blx@tempcnta=\count379
+\blx@tempcntb=\count380
+\blx@tempcntc=\count381
+\c@blx@maxsection=\count382
+\blx@maxsegment@0=\count383
+\blx@notetype=\count384
+\blx@parenlevel@text=\count385
+\blx@parenlevel@foot=\count386
+\blx@sectionciteorder@0=\count387
+\blx@sectionciteorderinternal@0=\count388
+\blx@entrysetcounter=\count389
+\blx@biblioinstance=\count390
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -1062,85 +1096,87 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language91
-\c@mincomprange=\count387
-\c@maxcomprange=\count388
-\c@mincompwidth=\count389
+\c@mincomprange=\count391
+\c@maxcomprange=\count392
+\c@mincompwidth=\count393
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count390
-\c@savedafterword=\count391
-\c@annotator=\count392
-\c@savedannotator=\count393
-\c@author=\count394
-\c@savedauthor=\count395
-\c@bookauthor=\count396
-\c@savedbookauthor=\count397
-\c@commentator=\count398
-\c@savedcommentator=\count399
-\c@editor=\count400
-\c@savededitor=\count401
-\c@editora=\count402
-\c@savededitora=\count403
-\c@editorb=\count404
-\c@savededitorb=\count405
-\c@editorc=\count406
-\c@savededitorc=\count407
-\c@foreword=\count408
-\c@savedforeword=\count409
-\c@holder=\count410
-\c@savedholder=\count411
-\c@introduction=\count412
-\c@savedintroduction=\count413
-\c@namea=\count414
-\c@savednamea=\count415
-\c@nameb=\count416
-\c@savednameb=\count417
-\c@namec=\count418
-\c@savednamec=\count419
-\c@translator=\count420
-\c@savedtranslator=\count421
-\c@shortauthor=\count422
-\c@savedshortauthor=\count423
-\c@shorteditor=\count424
-\c@savedshorteditor=\count425
-\c@labelname=\count426
-\c@savedlabelname=\count427
-\c@institution=\count428
-\c@savedinstitution=\count429
-\c@lista=\count430
-\c@savedlista=\count431
-\c@listb=\count432
-\c@savedlistb=\count433
-\c@listc=\count434
-\c@savedlistc=\count435
-\c@listd=\count436
-\c@savedlistd=\count437
-\c@liste=\count438
-\c@savedliste=\count439
-\c@listf=\count440
-\c@savedlistf=\count441
-\c@location=\count442
-\c@savedlocation=\count443
-\c@organization=\count444
-\c@savedorganization=\count445
-\c@origlocation=\count446
-\c@savedoriglocation=\count447
-\c@origpublisher=\count448
-\c@savedorigpublisher=\count449
-\c@publisher=\count450
-\c@savedpublisher=\count451
-\c@language=\count452
-\c@savedlanguage=\count453
-\c@origlanguage=\count454
-\c@savedoriglanguage=\count455
-\c@pageref=\count456
-\c@savedpageref=\count457
+\c@afterword=\count394
+\c@savedafterword=\count395
+\c@annotator=\count396
+\c@savedannotator=\count397
+\c@author=\count398
+\c@savedauthor=\count399
+\c@bookauthor=\count400
+\c@savedbookauthor=\count401
+\c@commentator=\count402
+\c@savedcommentator=\count403
+\c@editor=\count404
+\c@savededitor=\count405
+\c@editora=\count406
+\c@savededitora=\count407
+\c@editorb=\count408
+\c@savededitorb=\count409
+\c@editorc=\count410
+\c@savededitorc=\count411
+\c@foreword=\count412
+\c@savedforeword=\count413
+\c@holder=\count414
+\c@savedholder=\count415
+\c@introduction=\count416
+\c@savedintroduction=\count417
+\c@namea=\count418
+\c@savednamea=\count419
+\c@nameb=\count420
+\c@savednameb=\count421
+\c@namec=\count422
+\c@savednamec=\count423
+\c@translator=\count424
+\c@savedtranslator=\count425
+\c@shortauthor=\count426
+\c@savedshortauthor=\count427
+\c@shorteditor=\count428
+\c@savedshorteditor=\count429
+\c@labelname=\count430
+\c@savedlabelname=\count431
+\c@institution=\count432
+\c@savedinstitution=\count433
+\c@lista=\count434
+\c@savedlista=\count435
+\c@listb=\count436
+\c@savedlistb=\count437
+\c@listc=\count438
+\c@savedlistc=\count439
+\c@listd=\count440
+\c@savedlistd=\count441
+\c@liste=\count442
+\c@savedliste=\count443
+\c@listf=\count444
+\c@savedlistf=\count445
+\c@location=\count446
+\c@savedlocation=\count447
+\c@organization=\count448
+\c@savedorganization=\count449
+\c@origlocation=\count450
+\c@savedoriglocation=\count451
+\c@origpublisher=\count452
+\c@savedorigpublisher=\count453
+\c@publisher=\count454
+\c@savedpublisher=\count455
+\c@language=\count456
+\c@savedlanguage=\count457
+\c@origlanguage=\count458
+\c@savedoriglanguage=\count459
+\c@pageref=\count460
+\c@savedpageref=\count461
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -1161,42 +1197,24 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back bibtex backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count458
-\c@textcitetotal=\count459
-\c@textcitemaxnames=\count460
-\c@biburlbigbreakpenalty=\count461
-\c@biburlbreakpenalty=\count462
-\c@biburlnumpenalty=\count463
-\c@biburlucpenalty=\count464
-\c@biburllcpenalty=\count465
+\c@textcitecount=\count462
+\c@textcitetotal=\count463
+\c@textcitemaxnames=\count464
+\c@biburlbigbreakpenalty=\count465
+\c@biburlbreakpenalty=\count466
+\c@biburlnumpenalty=\count467
+\c@biburlucpenalty=\count468
+\c@biburllcpenalty=\count469
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count466
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
-File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting.
+\c@smartand=\count470
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1208,8 +1226,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count467
-\c@bbx:relatedtotal=\count468
+\c@bbx:relatedcount=\count471
+\c@bbx:relatedtotal=\count472
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1265,15 +1283,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count469
+\c@section@level=\count473
 )
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen304
-\Hy@linkcounter=\count470
-\Hy@pagecounter=\count471
+\@linkdim=\dimen309
+\Hy@linkcounter=\count474
+\Hy@pagecounter=\count475
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
@@ -1283,7 +1301,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count472
+\Hy@SavedSpaceFactor=\count476
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
@@ -1297,9 +1315,9 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count473
+\c@Hy@tempcnt=\count477
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen305
+\XeTeXLinkMargin=\dimen310
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1308,9 +1326,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count474
-\Field@Width=\dimen306
-\Fld@charsize=\dimen307
+\Fld@menulength=\count478
+\Field@Width=\dimen311
+\Fld@charsize=\dimen312
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -1323,9 +1341,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count475
-\c@Item=\count476
-\c@Hfootnote=\count477
+\Hy@abspage=\count479
+\c@Item=\count480
+\c@Hfootnote=\count481
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1337,8 +1355,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count478
-\c@bookmark@seq@number=\count479
+\Fld@listcount=\count482
+\c@bookmark@seq@number=\count483
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1351,43 +1369,46 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip86
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 108.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 108.
-Package hyperref Info: Option `colorlinks' set `true' on input line 108.
-Package hyperref Info: Option `unicode' set `true' on input line 108.
-Package hyperref Info: Option `breaklinks' set `true' on input line 108.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 113.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 113.
+Package hyperref Info: Option `colorlinks' set `true' on input line 113.
+Package hyperref Info: Option `unicode' set `true' on input line 113.
+Package hyperref Info: Option `breaklinks' set `true' on input line 113.
 
 (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
-(./Chapters/Introduction.aux) (./Chapters/Chapter1.aux)
-(./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Summary.aux)
+(./Chapters/Introduction.aux) (./Chapters/Chapter1.aux
+
+LaTeX Warning: Label `fig:popularCloudProviders' multiply defined.
+
+) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Summary.aux)
 (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
 Package translations Info: no dictionary file `translations-basic-dictionary-mo
-ngolian.trsl' found. on input line 146.
+ngolian.trsl' found. on input line 157.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1395,21 +1416,21 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 146.
+or `english'. on input line 157.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count480
-\scratchdimen=\dimen308
+\scratchcounter=\count484
+\scratchdimen=\dimen313
 \scratchbox=\box106
-\nofMPsegments=\count481
-\nofMParguments=\count482
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count483
-\MPscratchDim=\dimen309
-\MPnumerator=\count484
-\makeMPintoPDFobject=\count485
-\everyMPtoPDFconversion=\toks45
+\nofMPsegments=\count485
+\nofMParguments=\count486
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count487
+\MPscratchDim=\dimen314
+\MPnumerator=\count488
+\makeMPintoPDFobject=\count489
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1460,12 +1481,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count486
+\c@lstlisting=\count490
 Package biblatex Info: Trying to load language 'mongolian'...
 Package biblatex Info: ... file 'mongolian.lbx' not found.
 
 Package biblatex Warning: Language 'mongolian' not supported.
-(biblatex)                Using dummy definitions on input line 146.
+(biblatex)                Using dummy definitions on input line 157.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1475,18 +1496,14 @@ File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout4 = `main-blx.bib'.
+\openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 146.
-Package biblatex Info: Reference segment=0 on input line 146.
-Package hyperref Info: Link coloring ON on input line 146.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 157.
+Package biblatex Info: Reference segment=0 on input line 157.
+Package hyperref Info: Link coloring ON on input line 157.
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1494,7 +1511,7 @@ Package hyperref Info: Link coloring ON on input line 146.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
  (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=221, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=164, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1637,16 +1654,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 [7] (./main.lof
-
-[8
-
-]
-Overfull \hbox (0.3139pt too wide) in paragraph at lines 69--69
+Overfull \hbox (0.3139pt too wide) in paragraph at lines 29--29
  [][] [][][]\T2A/cmr/m/n/12 ¡≥Ú„˝ÎËÈÌ Ï˝-‰˝˝-Î˝Î ‡Ï-ÊËÎÚ-Ú‡È ¯Ë-Ì˝˜-Î˝„‰-Ò˝-ÌË
 È„ ı‡-ÛÛ-Î‡ı ‰˝Î-„˝-ˆËÈÌ 
  []
 
-)
+
+
+[8
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -1669,19 +1686,6 @@ Overfull \hbox (0.3139pt too wide) in paragraph at lines 69--69
 
 
 ]
-
-! Package enumitem Error: noesp undefined.
-
-See the enumitem package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30         \begin{enumerate}[noesp]
-                                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 Overfull \hbox (3.01477pt too wide) in paragraph at lines 42--43
 []\T2A/cmr/m/n/12 —≥ÎÊ˝˝ÌËÈ ı‡Ì-‰‡Î-Ú˚Ì ıÛ‚¸‰ NAT traversal ·Ó-ÎÓÌ Reverse Prox
 y-‰ ÒÛÛ-ËÎ-Ò‡Ì ¯ËÈ‰-
@@ -1715,1088 +1719,101 @@ and I'll forget about whatever was undefined.
 
 
 ]
+<Figures/chapter1/nextcloud_data_diagram.png, id=423, 526.96875pt x 359.3425pt>
 
-LaTeX Warning: Citation 'medeeStatistic' on page 4 undefined on input line 22.
-
-
-LaTeX Warning: File `Figures/chapter1/imgRegVSobjDec.PNG' not found on input li
-ne 25.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/imgRegVSobjDec.PNG' not foun
-d: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...0.85]{Figures/chapter1/imgRegVSobjDec.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-25.
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Citation 'Reference1' on page 4 undefined on input line 33.
-
-
-LaTeX Warning: File `Figures/chapter1/edge&lineFeatures.PNG' not found on input
- line 39.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/edge&lineFeatures.PNG' not f
-ound: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 ...5]{Figures/chapter1/edge&lineFeatures.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
+<use Figures/chapter1/nextcloud_data_diagram.png>
+Package pdftex.def Info: Figures/chapter1/nextcloud_data_diagram.png  used on i
+nput line 28.
+(pdftex.def)             Requested size: 395.22559pt x 269.50621pt.
 
 
 [4
 
-]
-
-LaTeX Warning: File `Figures/chapter1/featuresOnFace.PNG' not found on input li
-ne 46.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/featuresOnFace.PNG' not foun
-d: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 ...0.85]{Figures/chapter1/featuresOnFace.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ <./Figures/chapter1/nextcloud_data_diagram.png>]
+<Figures/chapter1/cloud_providers.png, id=438, 421.0932pt x 155.8623pt>
+File: Figures/chapter1/cloud_providers.png Graphic file (type png)
+<use Figures/chapter1/cloud_providers.png>
+Package pdftex.def Info: Figures/chapter1/cloud_providers.png  used on input li
+ne 52.
+(pdftex.def)             Requested size: 315.81912pt x 116.89642pt.
 
 
-! LaTeX Error: There's no line here to end.
+[5 <./Figures/chapter1/cloud_providers.png (PNG copy)>]
+<Figures/chapter1/self_cloud_providers.png, id=448, 378.213pt x 208.6194pt>
+File: Figures/chapter1/self_cloud_providers.png Graphic file (type png)
+<use Figures/chapter1/self_cloud_providers.png>
+Package pdftex.def Info: Figures/chapter1/self_cloud_providers.png  used on inp
+ut line 71.
+(pdftex.def)             Requested size: 283.65904pt x 156.46416pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 \end{figure} \newline
-                           HAAR -—Ç”©—Å—Ç –æ–Ω—Ü–ª–æ–≥—É—É–¥ –±—É—é—É –¥–∞—Ä...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: File `Figures/chapter1/featureDetector.PNG' not found on input l
-ine 53.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/featureDetector.PNG' not fou
-nd: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...e=1]{Figures/chapter1/featureDetector.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'introHOG' on page 5 undefined on input line 61.
-
-
-LaTeX Warning: Citation 'Reference2' on page 5 undefined on input line 62.
-
-
-LaTeX Warning: File `Figures/chapter1/stephog.PNG' not found on input line 66.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/stephog.PNG' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...[scale=0.75]{Figures/chapter1/stephog.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (10.72939pt too wide) in paragraph at lines 85--86
+[]\T2A/cmr/m/n/12 ›‰„˝˝ ÒËÒ-ÚÂ-Ï≥≥‰ Ì¸ Ú∞-ı∞∞-∞ÏÊ ·≥-ËÈ„ ‰‡‚-Ú‡„-‰‡¯-„≥È Ú‡-
+ÌËı Ú˝Ï-‰˝„ (device identity)-
+ []
 
 
 
-[5]
-
-LaTeX Warning: File `Figures/chapter1/preprocessinghog.PNG' not found on input 
-line 77.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/preprocessinghog.PNG' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 ...=1]{Figures/chapter1/preprocessinghog.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[6 <./Figures/chapter1/self_cloud_providers.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\T2A/cmr/bx/n/12 LAN
+ []
 
 
-LaTeX Warning: File `Figures/chapter1/calculateGradient.PNG' not found on input
- line 84.
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\T2A/cmr/bx/n/12 Auto
+ []
 
 
-! Package pdftex.def Error: File `Figures/chapter1/calculateGradient.PNG' not f
-ound: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...1]{Figures/chapter1/calculateGradient.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\T2A/cmr/bx/n/12 Relay
+ []
 
 
-
-[6]
-
-LaTeX Warning: File `Figures/chapter1/gradientmagnitudeandirection.PNG' not fou
-nd on input line 91.
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]|\T2A/cmr/bx/n/12 UX ˝Ì-
+ []
 
 
-! Package pdftex.def Error: File `Figures/chapter1/gradientmagnitudeandirection
-.PNG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 ...chapter1/gradientmagnitudeandirection.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+\T2A/cmr/bx/n/12 „ËÈÌ
+ []
 
 
-LaTeX Warning: File `Figures/chapter1/createvector.PNG' not found on input line
- 98.
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\T2A/cmr/m/n/12 Peer-to-Peer
+ []
 
 
-! Package pdftex.def Error: File `Figures/chapter1/createvector.PNG' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 ...cale=1]{Figures/chapter1/createvector.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (4.76846pt too wide) in paragraph at lines 99--100
+[]|\T2A/cmr/m/n/12 ’‡¸ˆ‡Ì„ÛÈ
+ []
 
 
-LaTeX Warning: File `Figures/chapter1/visualhog.PNG' not found on input line 10
-8.
+Overfull \hbox (28.42587pt too wide) in paragraph at lines 101--101
+[]|\T2A/cmr/m/n/12 ’ˇÁ„‡‡Î‡„‰Ï‡Î| 
+ []
 
 
-! Package pdftex.def Error: File `Figures/chapter1/visualhog.PNG' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 ...ale=0.85]{Figures/chapter1/visualhog.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 2744) in paragraph at lines 103--103
+[]|\T2A/cmr/m/n/12 —‡Ì‡Î ·ÓÎ-„ÓÊ
+ []
 
 
+Underfull \hbox (badness 2318) in paragraph at lines 103--103
+[]|\T2A/cmr/m/n/12 Hybrid (Server
+ []
+
+
+Overfull \hbox (20.17282pt too wide) in paragraph at lines 93--106
+ [][] 
+ []
+
+)
 
 [7]
 
-LaTeX Warning: Citation 'introdDPM' on page 8 undefined on input line 116.
-
-
-LaTeX Warning: File `Figures/chapter1/dpm.PNG' not found on input line 119.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/dpm.PNG' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.119 ...ics[scale=0.85]{Figures/chapter1/dpm.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'introdRCNN' on page 8 undefined on input line 132.
-
-
-LaTeX Warning: File `Figures/chapter1/wholeprocessRCNN.PNG' not found on input 
-line 135.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/wholeprocessRCNN.PNG' not fo
-und: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...5]{Figures/chapter1/wholeprocessRCNN.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
 [8]
-
-LaTeX Warning: File `Figures/chapter1/selectivealgorithm.PNG' not found on inpu
-t line 144.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/selectivealgorithm.PNG' not 
-found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 ...{Figures/chapter1/selectivealgorithm.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/wrapping.PNG' not found on input line 153
-.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/wrapping.PNG' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 ...scale=0.4]{Figures/chapter1/wrapping.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[9]
-
-LaTeX Warning: File `Figures/chapter1/extractobjwithcnn.PNG' not found on input
- line 160.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/extractobjwithcnn.PNG' not f
-ound: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 ...]{Figures/chapter1/extractobjwithcnn.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/classification.PNG' not found on input li
-ne 167.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/classification.PNG' not foun
-d: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 ...0.5]{Figures/chapter1/classification.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/fastRCNN.PNG' not found on input line 178
-.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/fastRCNN.PNG' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...scale=0.8]{Figures/chapter1/fastRCNN.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'introdRCNN' on page 10 undefined on input line 184.
-
-
-LaTeX Warning: File `Figures/chapter1/fastestRCNN.PNG' not found on input line 
-187.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/fastestRCNN.PNG' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 ...e=0.75]{Figures/chapter1/fastestRCNN.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]|\T2A/cmr/bx/n/12 ¿¯Ë„Î‡„‰‰‡„
- []
-
-
-Overfull \hbox (21.54718pt too wide) in alignment at lines 191--200
- [] [] [] [] 
- []
-
-
-LaTeX Warning: Citation 'introdSSD' on page 11 undefined on input line 203.
-
-
-LaTeX Warning: File `Figures/chapter1/ssd.png' not found on input line 206.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/ssd.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 ...ics[scale=0.35]{Figures/chapter1/ssd.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'introdYOLO' on page 11 undefined on input line 211.
-
-
-
-[11]
-
-LaTeX Warning: File `Figures/chapter1/residual.png' not found on input line 221
-.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/residual.png' not found: usi
-ng draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 ...cale=0.34]{Figures/chapter1/residual.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/boundingbox.PNG' not found on input line 
-231.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/boundingbox.PNG' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...cale=1]{Figures/chapter1/boundingbox.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'introdYOLO' on page 12 undefined on input line 237.
-
-
-LaTeX Warning: File `Figures/chapter1/intersection.jpeg' not found on input lin
-e 240.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/intersection.jpeg' not found
-: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...=0.4]{Figures/chapter1/intersection.jpeg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[12]
-
-LaTeX Warning: Citation 'iashin' on page 13 undefined on input line 258.
-
-
-LaTeX Warning: Citation 'iashin' on page 13 undefined on input line 258.
-
-
-LaTeX Warning: File `Figures/chapter1/iashinweb1.PNG' not found on input line 2
-61.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/iashinweb1.PNG' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.261 ...le=0.85]{Figures/chapter1/iashinweb1.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/iashinweb.PNG' not found on input line 26
-8.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/iashinweb.PNG' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.268 ...ale=0.35]{Figures/chapter1/iashinweb.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[13]
-
-LaTeX Warning: Citation 'cloudsightinc' on page 14 undefined on input line 273.
-
-
-
-LaTeX Warning: Citation 'taptapsee' on page 14 undefined on input line 273.
-
-
-LaTeX Warning: Citation 'cloudsightapi' on page 14 undefined on input line 273.
-
-
-
-LaTeX Warning: File `Figures/chapter1/taptapsee.PNG' not found on input line 27
-6.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/taptapsee.PNG' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276 ...[scale=1]{Figures/chapter1/taptapsee.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/taptapsee2.PNG' not found on input line 2
-83.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/taptapsee2.PNG' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 ...ale=0.8]{Figures/chapter1/taptapsee2.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[14]
-Underfull \hbox (badness 2495) in paragraph at lines 295--295
-[]|\T2A/cmr/bx/n/12 »Î˝Ò˝Ì Ó·˙-ÂÍ-ÚÛÛ-‰˚Ì Ï˝-‰˝˝Î-
- []
-
-
-Underfull \hbox (badness 2495) in paragraph at lines 296--296
-[]|\T2A/cmr/bx/n/12 »Î˝Ò˝Ì Ó·˙-ÂÍ-ÚÛÛ-‰˚Ì Ï˝-‰˝˝Î-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
-[]|\T2A/cmr/bx/n/12 ¬Ë‰ÂÓÌÓÓÒ Ó·˙-ÂÍÚ ËÎ-≥≥-Î˝ÎÚ
- []
-
-
-Overfull \hbox (9.14719pt too wide) in alignment at lines 288--300
- [] [] [] 
- []
-
-
-LaTeX Warning: Citation 'mobilenet' on page 15 undefined on input line 306.
-
-
-Overfull \hbox (11.35909pt too wide) in paragraph at lines 305--309
-\T2A/cmr/m/n/12 Application/ „˝ı ÒÛ-‰‡Î-„‡‡-Ì˚ ‡ÊËÎ ‰˝˝-˝˝ Ú‡-ÌËÎ-ˆÛÛÎÊ ·‡È-Ò‡
-Ì [[]]. \T2A/cmr/bx/n/12 SSD /Single
- []
-
-
-
-[15]
-
-LaTeX Warning: Citation 'ssd' on page 16 undefined on input line 313.
-
-
-LaTeX Warning: File `Figures/chapter1/mobilenetSSD-architecture.PNG' not found 
-on input line 316.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/mobilenetSSD-architecture.PN
-G' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.316 ...s/chapter1/mobilenetSSD-architecture.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/kernelling.PNG' not found on input line 3
-24.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/kernelling.PNG' not found: u
-sing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.324 ...ale=1.3]{Figures/chapter1/kernelling.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[16]
-
-LaTeX Warning: File `Figures/chapter1/cnn-filters.PNG' not found on input line 
-339.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/cnn-filters.PNG' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.339 ...cale=1]{Figures/chapter1/cnn-filters.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/featureMaps.PNG' not found on input line 
-346.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/featureMaps.PNG' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.346 ...cale=1]{Figures/chapter1/featureMaps.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[17]
-
-LaTeX Warning: File `Figures/chapter1/predictions.PNG' not found on input line 
-354.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/predictions.PNG' not found: 
-using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.354 ...le=0.6]{Figures/chapter1/predictions.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/f1.PNG' not found on input line 361.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/f1.PNG' not found: using dra
-ft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.361 ...raphics[scale=1]{Figures/chapter1/f1.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/ssd-prediction.PNG' not found on input li
-ne 370.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/ssd-prediction.PNG' not foun
-d: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.370 ....75]{Figures/chapter1/ssd-prediction.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[18]
-
-LaTeX Warning: Citation 'accuracy-mobilenet' on page 19 undefined on input line
- 377.
-
-
-LaTeX Warning: Citation 'accuracy-mobilenet' on page 19 undefined on input line
- 379.
-
-
-LaTeX Warning: File `Figures/chapter1/map-mobilenet.PNG' not found on input lin
-e 382.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/map-mobilenet.PNG' not found
-: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.382 ...=0.8]{Figures/chapter1/map-mobilenet.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.392 {mAP}& \centering 53.29\%  \ \hline
-                                         
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.393 {
-       mAP /–î—É–Ω–¥–∞–∂ —Ö—ç–º–∂—ç—ç—Ç—ç–π –û–±—ä–µ–∫—Ç/} & \centering 58.3...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.393 {
-       mAP /–î—É–Ω–¥–∞–∂ —Ö—ç–º–∂—ç—ç—Ç—ç–π –û–±—ä–µ–∫—Ç/} & \centering 58.3...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.393 ...—ä–µ–∫—Ç/} & \centering 58.33\%  \ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.394 {
-       mAP /–ñ–∏–∂–∏–≥ —Ö—ç–º–∂—ç—ç—Ç—ç–π –û–±—ä–µ–∫—Ç/} & \centering 53.34\...
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.394 {
-       mAP /–ñ–∏–∂–∏–≥ —Ö—ç–º–∂—ç—ç—Ç—ç–π –û–±—ä–µ–∫—Ç/} & \centering 53.34\...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.394 ...—ä–µ–∫—Ç/} & \centering 53.34\%  \ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.395 {
-       mAP(0.5IOU)} & \centering 97.8\%  \ \hline
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.395 {
-       mAP(0.5IOU)} & \centering 97.8\%  \ \hline
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.395 {mAP(0.5IOU)} & \centering 97.8\%  \ \hline
-                                                 
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.396 {
-       mAP(0.75IOU)} & \centering 51.28\%  \ \hline
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.396 {
-       mAP(0.75IOU)} & \centering 51.28\%  \ \hline
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.396 ...(0.75IOU)} & \centering 51.28\%  \ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.397 {
-       –ò–ª—Ä“Ø“Ø–ª—ç–ª—Ç–∏–π–Ω —Ö—É—Ä–¥} & \centering 135.5–º—Å\ \hline
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.397 {
-       –ò–ª—Ä“Ø“Ø–ª—ç–ª—Ç–∏–π–Ω —Ö—É—Ä–¥} & \centering 135.5–º—Å\ \hline
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.397 ... —Ö—É—Ä–¥} & \centering 135.5–º—Å\ \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.398 \end
-          {longtable}
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Extra alignment tab has been changed to \cr.
-<template> ... width\arrayrulewidth }\endtemplate 
-                                                  
-l.398 \end
-          {longtable}
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-
-[19]
-
-LaTeX Warning: Citation 'OpenCV' on page 20 undefined on input line 411.
-
-
-LaTeX Warning: File `Figures/chapter1/opencv.png' not found on input line 414.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/opencv.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.414 ...s[scale=0.8]{Figures/chapter1/opencv.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[20]
-
-LaTeX Warning: File `Figures/chapter1/fastapi.png' not found on input line 432.
-
-
-
-! Package pdftex.def Error: File `Figures/chapter1/fastapi.png' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.432 ...scale=0.25]{Figures/chapter1/fastapi.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/gtts.PNG' not found on input line 441.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/gtts.PNG' not found: using d
-raft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.441 ...cs[scale=0.65]{Figures/chapter1/gtts.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[21]
-
-LaTeX Warning: File `Figures/chapter1/chimege.png' not found on input line 456.
-
-
-
-! Package pdftex.def Error: File `Figures/chapter1/chimege.png' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.456 ...[scale=0.2]{Figures/chapter1/chimege.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/mysql.png' not found on input line 465.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/mysql.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.465 ...s[scale=0.75]{Figures/chapter1/mysql.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/pycharm.png' not found on input line 475.
-
-
-
-! Package pdftex.def Error: File `Figures/chapter1/pycharm.png' not found: usin
-g draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.475 ...[scale=0.9]{Figures/chapter1/pycharm.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[22]
-Overfull \hbox (1.9801pt too wide) in paragraph at lines 494--495
-\T2A/cmr/m/n/12 Î˝Î-ÚËÈÌ Ì‡-ËÈÌ Ú∞-‚∞„-Ú˝È ·‡È‰-Î˚„ ‡ËÎ-„‡-ı˚Ì ÚÛÎ‰ Òomponent
-s/-·≥-˝Î-‰˝-ı≥≥Ì ı˝Ò„≥≥‰/-
- []
-
-
-
-[23]
-
-LaTeX Warning: File `Figures/chapter1/react.png' not found on input line 510.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/react.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.510 ...[scale=0.055]{Figures/chapter1/react.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/antdesign.jpg' not found on input line 52
-7.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/antdesign.jpg' not found: us
-ing draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.527 ...cale=1.2]{Figures/chapter1/antdesign.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `Figures/chapter1/vscode.png' not found on input line 535.
-
-
-! Package pdftex.def Error: File `Figures/chapter1/vscode.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535 ...s[scale=0.8]{Figures/chapter1/vscode.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[24]
-Overfull \hbox (13.92155pt too wide) in paragraph at lines 547--548
-\T2A/cmr/m/n/12 ËÎ-≥≥-Î˝Î-Ú≥≥‰, Ó-˜ËÌ ≥ÂËÈÌ ‡-ıË-ÚÂÍ-ÚÛ-ÛÛ-‰‡‰ ÚÓÓ-ˆÓ„-‰Óı 
-RCNN, FastRCNN, FasterRCNN,
- []
-
-
-
-[25])
-
-[26]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
@@ -2814,15 +1831,12 @@ and I'll forget about whatever was undefined.
 
 
 
-[27
+[9
 
 
 
 
 ]
-
-LaTeX Warning: Citation 'Reference3' on page 27 undefined on input line 7.
-
 ! Undefined control sequence.
 l.7 ... –∑“Ø–π–ª–¥ —Ö—É–≤–∞–∞–Ω —Ç–∞–Ω–∏–Ω–∞. \say
                                                   { –•“Ø–Ω, —É–Ω–∞–¥–∞–≥ –¥—...
@@ -2834,12 +1848,12 @@ and I'll forget about whatever was undefined.
 
 
 
-[27
+[9
 
 ]
 
-[28]
-<Figures/chapter2/usecase.pdf, id=762, 636.03111pt x 302.3557pt>
+[10]
+<Figures/chapter2/usecase.pdf, id=503, 636.03111pt x 302.3557pt>
 File: Figures/chapter2/usecase.pdf Graphic file (type pdf)
 <use Figures/chapter2/usecase.pdf>
 Package pdftex.def Info: Figures/chapter2/usecase.pdf  used on input line 52.
@@ -2864,7 +1878,7 @@ Overfull \hbox (8.75609pt too wide) in alignment at lines 57--92
  [] [] 
  []
 
-[29 <./Figures/chapter2/usecase.pdf>]
+[11 <./Figures/chapter2/usecase.pdf>]
 Underfull \hbox (badness 1701) in paragraph at lines 108--109
 []\T2A/cmr/m/n/12 ’˝˝„Î˝„˜ Ó·˙-ÂÍÚ ËÎ-≥≥-Î˝Î-ÚËÈÌ Ï˝-‰˝˝Î-ÎËÈ„ ı≥-Î˝˝Ì
  []
@@ -2879,7 +1893,7 @@ Overfull \hbox (3.20883pt too wide) in alignment at lines 93--127
  [] [] 
  []
 
-[30]
+[12]
 ! Undefined control sequence.
 l.130 ...–∞–º–∞–∞—Ä–ª—ã–≥ –¥“Ø—Ä—Å—ç–ª—Å—ç–Ω. \say
                                                   {“Æ—Ä –¥“Ø–Ω–≥–∏–π–Ω –±–æ–...
@@ -2960,9 +1974,13 @@ l.133 ...scale=0.8]{Figures/chapter2/sh-class.pdf}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+133.
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 
-
-[31]
+[13]
 ! Undefined control sequence.
 l.140 ...≥—Ä–∞–º–º–¥ —Ç–æ–¥–æ—Ä—Ö–æ–π–ª—Å–æ–Ω \say
                                                   {control} —Ç”©—Ä–ª–∏–π–Ω
@@ -3086,7 +2104,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[32]
+[14]
 ! Undefined control sequence.
 l.161 ...–æ–Ω —É—Å—Ç–≥–∞—Ö –ø—Ä–æ—Ü–µ—Å—Å—ã–≥ \say
                                                   {—Ö—ç—Ä—ç–≥–ª—ç–≥—á–∏–π–Ω ...
@@ -3209,7 +2227,7 @@ Underfull \hbox (badness 4846) in paragraph at lines 182--182
 
 
 
-[33]
+[15]
 
 LaTeX Warning: File `Figures/chapter2/ua-burtgel-zh.pdf' not found on input lin
 e 193.
@@ -3255,7 +2273,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[34]
+[16]
 ! Undefined control sequence.
 l.207 ...–π–ª—ã–Ω—Ö–∞–∞ –∞—Ä–¥ –±–∞–π—Ä–ª–∞—Ö \say
                                                   {—É—Å—Ç–≥–∞—Ö} —Ç–æ–≤—á–∏–...
@@ -3327,9 +2345,9 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[35])
+[17])
 
-[36]
+[18]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
@@ -3347,13 +2365,13 @@ and I'll forget about whatever was undefined.
 
 
 
-[37
+[19
 
 
 
 
 ]
-<Figures/chapter3/arch-diagram.pdf, id=851, 485.45557pt x 240.31857pt>
+<Figures/chapter3/arch-diagram.pdf, id=593, 485.45557pt x 240.31857pt>
 File: Figures/chapter3/arch-diagram.pdf Graphic file (type pdf)
 <use Figures/chapter3/arch-diagram.pdf>
 Package pdftex.def Info: Figures/chapter3/arch-diagram.pdf  used on input line 
@@ -3523,7 +2541,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[37
+[19
 
  <./Figures/chapter3/arch-diagram.pdf>]
 
@@ -3584,7 +2602,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[38]
+[20]
 
 LaTeX Warning: File `Figures/chapter3/Frame 3.pdf' not found on input line 57.
 
@@ -3785,7 +2803,7 @@ Overfull \hbox (28.67204pt too wide) in paragraph at lines 77--83
 
 
 
-[39]
+[21]
 
 LaTeX Warning: File `Figures/chapter3/Frame 7.pdf' not found on input line 87.
 
@@ -3866,7 +2884,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[40]
+[22]
 
 LaTeX Warning: File `Figures/chapter3/home.pdf' not found on input line 124.
 
@@ -3933,7 +2951,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[41]
+[23]
 
 LaTeX Warning: File `Figures/chapter3/home-with-user.pdf' not found on input li
 ne 152.
@@ -3970,9 +2988,9 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 
-[42]
+[24]
 
-[43]
+[25]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex
@@ -3983,7 +3001,7 @@ Overfull \hbox (0.28462pt too wide) in paragraph at lines 15--16
 
 )
 
-[44
+[26
 
 
 
@@ -4004,20 +3022,60 @@ and I'll forget about whatever was undefined.
 
 
 
-[45
+[27
 
 
 
 
 ])
 
-[45
+[27
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 209.
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
 
-(./main.aux (./FrontBackMatter/Titlepage.aux)
+
+Package biblatex Warning: Bibliography string 'july' untranslated
+(biblatex)                at entry 'nextcloud2018architecture' on input line 22
+0.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'syncthingspecifications' on input line 220.
+
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (2.74783pt too wide) in paragraph at lines 220--220
+[]\T2A/cmr/m/n/12 Syncthing Project. \T2A/cmr/m/it/12 Syncthing Protocol Specif
+ications\T2A/cmr/m/n/12 . Syncthing Documentation. 2024.
+ []
+
+
+
+[28
+
+
+
+] (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
@@ -4030,15 +3088,10 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4CC6E74D308D76A0407E91B8B994439B;12655.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 5F6DE9485D3FBFFEA60E7BE88B078C0A;9758.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -4049,32 +3102,33 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 77 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 47470 strings out of 473197
- 1074328 string characters out of 5718605
- 1719860 words of memory out of 5000000
- 69714 multiletter control sequences out of 15000+600000
- 578027 words of font info for 67 fonts, out of 8000000 for 9000
+ 46511 strings out of 473197
+ 1029544 string characters out of 5718605
+ 2011312 words of memory out of 5000000
+ 68808 multiletter control sequences out of 15000+600000
+ 578717 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,20n,135p,3158b,1444s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 138i,20n,135p,3103b,1558s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (65 pages, 853242 bytes).
+ype1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+frm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+tt1200.pfb>
+Output written on main.pdf (48 pages, 1097557 bytes).
 PDF statistics:
- 1114 PDF objects out of 1200 (max. 8388607)
- 992 compressed objects within 10 object streams
- 333 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 744 compressed objects within 8 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 

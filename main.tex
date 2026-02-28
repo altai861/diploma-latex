@@ -50,6 +50,11 @@ headsepline, % Толгой мөрийн доогуур шугам татахы�
 \usepackage[table]{xcolor}
 \usepackage{rotating} % эргүүлэх
 \usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{pifont}
+\usepackage{array}
+\usepackage{lipsum}
 \setlist{noitemsep}
 
 \let\oldtabular\tabular
@@ -104,7 +109,7 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 
 \usepackage[autostyle=false]{csquotes} % Ном зүйд хэлнээс хамаарсан хашилт оруулахад хэрэгтэй
 
-\usepackage[backend=bibtex,natbib=true,sorting=none,sortcites]{biblatex} % Ном зүйд bibtex -г ашиглах
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex} % Ном зүйд bibtex -г ашиглах
 
 \addbibresource{references.bib} % Ном зүйн файл
 
@@ -115,6 +120,12 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 \newcommand{\acknowledgementname}{Талархал}
 \newcommand{\abstractname}{Хураангуй}
  
+
+\newcommand{\cmark}{\ding{51}}   % checkmark
+\newcommand{\xmark}{\ding{55}}   % cross
+\newcommand{\warn}{\ding{48}}    % circle (warning)
+
+
 %-------------------------------------------------------------------------------
 %	THESIS INFORMATION
 %-------------------------------------------------------------------------------
