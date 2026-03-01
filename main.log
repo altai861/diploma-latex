@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  1 MAR 2026 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  1 MAR 2026 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,7 +1513,7 @@ Package biblatex Info: Reference segment=0 on input line 160.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=188, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=204, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1721,7 +1721,7 @@ and I'll forget about whatever was undefined.
 
 
 ]
-<Figures/chapter1/nextcloud_data_diagram.png, id=456, 526.96875pt x 359.3425pt>
+<Figures/chapter1/nextcloud_data_diagram.png, id=477, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
@@ -1733,7 +1733,7 @@ nput line 28.
 [4
 
  <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/cloud_providers.png, id=472, 421.0932pt x 155.8623pt>
+<Figures/chapter1/cloud_providers.png, id=494, 421.0932pt x 155.8623pt>
 File: Figures/chapter1/cloud_providers.png Graphic file (type png)
 <use Figures/chapter1/cloud_providers.png>
 Package pdftex.def Info: Figures/chapter1/cloud_providers.png  used on input li
@@ -1742,7 +1742,7 @@ ne 52.
 
 
 [5 <./Figures/chapter1/cloud_providers.png (PNG copy)>]
-<Figures/chapter1/self_cloud_providers.png, id=483, 378.213pt x 208.6194pt>
+<Figures/chapter1/self_cloud_providers.png, id=504, 378.213pt x 208.6194pt>
 File: Figures/chapter1/self_cloud_providers.png Graphic file (type png)
 <use Figures/chapter1/self_cloud_providers.png>
 Package pdftex.def Info: Figures/chapter1/self_cloud_providers.png  used on inp
@@ -1780,11 +1780,18 @@ Overfull \hbox (4.69319pt too wide) in paragraph at lines 188--191
 
 
 
-[10])
+[10]
 
 [11]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+221.
+ (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 
-[12]
+[12])
+
+[13]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
@@ -1802,7 +1809,7 @@ and I'll forget about whatever was undefined.
 
 
 
-[13
+[14
 
 
 
@@ -1819,12 +1826,12 @@ and I'll forget about whatever was undefined.
 
 
 
-[13
+[14
 
 ]
 
-[14]
-<Figures/chapter2/usecase.pdf, id=586, 636.03111pt x 302.3557pt>
+[15]
+<Figures/chapter2/usecase.pdf, id=620, 636.03111pt x 302.3557pt>
 File: Figures/chapter2/usecase.pdf Graphic file (type pdf)
 <use Figures/chapter2/usecase.pdf>
 Package pdftex.def Info: Figures/chapter2/usecase.pdf  used on input line 52.
@@ -1849,7 +1856,7 @@ Overfull \hbox (8.75609pt too wide) in alignment at lines 57--92
  [] [] 
  []
 
-[15 <./Figures/chapter2/usecase.pdf>]
+[16 <./Figures/chapter2/usecase.pdf>]
 Underfull \hbox (badness 1701) in paragraph at lines 108--109
 []\T2A/cmr/m/n/12 ��������� ���-��� ��-�-���-���� ��-����-���� ��-����
  []
@@ -1864,7 +1871,7 @@ Overfull \hbox (3.20883pt too wide) in alignment at lines 93--127
  [] [] 
  []
 
-[16]
+[17]
 ! Undefined control sequence.
 l.130 ...амаарлыг дүрсэлсэн. \say
                                                   {Үр дүнгийн бо�...
@@ -1945,13 +1952,9 @@ l.133 ...scale=0.8]{Figures/chapter2/sh-class.pdf}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-133.
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 
-[17]
+
+[18]
 ! Undefined control sequence.
 l.140 ...�раммд тодорхойлсон \say
                                                   {control} төрлийн
@@ -2075,7 +2078,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[18]
+[19]
 ! Undefined control sequence.
 l.161 ...он устгах процессыг \say
                                                   {хэрэглэгчийн ...
@@ -2198,7 +2201,7 @@ Underfull \hbox (badness 4846) in paragraph at lines 182--182
 
 
 
-[19]
+[20]
 
 LaTeX Warning: File `Figures/chapter2/ua-burtgel-zh.pdf' not found on input lin
 e 193.
@@ -2244,7 +2247,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[20]
+[21]
 ! Undefined control sequence.
 l.207 ...йлынхаа ард байрлах \say
                                                   {устгах} товчи�...
@@ -2316,9 +2319,9 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[21])
+[22])
 
-[22]
+[23]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
@@ -2336,13 +2339,13 @@ and I'll forget about whatever was undefined.
 
 
 
-[23
+[24
 
 
 
 
 ]
-<Figures/chapter3/arch-diagram.pdf, id=675, 485.45557pt x 240.31857pt>
+<Figures/chapter3/arch-diagram.pdf, id=708, 485.45557pt x 240.31857pt>
 File: Figures/chapter3/arch-diagram.pdf Graphic file (type pdf)
 <use Figures/chapter3/arch-diagram.pdf>
 Package pdftex.def Info: Figures/chapter3/arch-diagram.pdf  used on input line 
@@ -2512,7 +2515,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[23
+[24
 
  <./Figures/chapter3/arch-diagram.pdf>]
 
@@ -2573,7 +2576,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[24]
+[25]
 
 LaTeX Warning: File `Figures/chapter3/Frame 3.pdf' not found on input line 57.
 
@@ -2774,7 +2777,7 @@ Overfull \hbox (28.67204pt too wide) in paragraph at lines 77--83
 
 
 
-[25]
+[26]
 
 LaTeX Warning: File `Figures/chapter3/Frame 7.pdf' not found on input line 87.
 
@@ -2855,7 +2858,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[26]
+[27]
 
 LaTeX Warning: File `Figures/chapter3/home.pdf' not found on input line 124.
 
@@ -2922,7 +2925,7 @@ If that doesn't work, type  X <return>  to quit.
 
 
 
-[27]
+[28]
 
 LaTeX Warning: File `Figures/chapter3/home-with-user.pdf' not found on input li
 ne 152.
@@ -2959,9 +2962,9 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 
-[28]
-
 [29]
+
+[30]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex
@@ -2972,7 +2975,7 @@ Overfull \hbox (0.28462pt too wide) in paragraph at lines 15--16
 
 )
 
-[30
+[31
 
 
 
@@ -2993,14 +2996,14 @@ and I'll forget about whatever was undefined.
 
 
 
-[31
+[32
 
 
 
 
 ])
 
-[31
+[32
 
 ]
 
@@ -3078,7 +3081,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[32
+[33
 
 
 
@@ -3098,7 +3101,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6A2E895D3EF4A5A7DC3BB5C80DA53690;11308.
+(rerunfilecheck)             Checksum: EA6E328A8BCC307C4691E68C110E4624;12895.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3109,10 +3112,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 77 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 46570 strings out of 473197
- 1030599 string characters out of 5718605
- 2008357 words of memory out of 5000000
- 68834 multiletter control sequences out of 15000+600000
+ 46587 strings out of 473197
+ 1030820 string characters out of 5718605
+ 2008457 words of memory out of 5000000
+ 68838 multiletter control sequences out of 15000+600000
  578717 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,3103b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3135,10 +3138,10 @@ ic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728
 mf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/publi
 c/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.
 pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (52 pages, 1155379 bytes).
+Output written on main.pdf (53 pages, 1165387 bytes).
 PDF statistics:
- 962 PDF objects out of 1000 (max. 8388607)
- 840 compressed objects within 9 object streams
- 291 named destinations out of 1000 (max. 500000)
- 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 997 PDF objects out of 1000 (max. 8388607)
+ 874 compressed objects within 9 object streams
+ 304 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
