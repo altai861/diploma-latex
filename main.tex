@@ -55,6 +55,7 @@ headsepline, % Толгой мөрийн доогуур шугам татахы�
 \usepackage{pifont}
 \usepackage{array}
 \usepackage{lipsum}
+\usepackage{hyperref}
 \setlist{noitemsep}
 
 \let\oldtabular\tabular
@@ -125,6 +126,8 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 \newcommand{\xmark}{\ding{55}}   % cross
 \newcommand{\warn}{\ding{48}}    % circle (warning)
 
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 
 %-------------------------------------------------------------------------------
 %	THESIS INFORMATION

@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{cloudstorageusage}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=886600eb88a72692616cf77b0d78d852}{%
+           family={{Threadgold consulting}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{886600eb88a72692616cf77b0d78d852}
+      \strng{fullhash}{886600eb88a72692616cf77b0d78d852}
+      \strng{fullhashraw}{886600eb88a72692616cf77b0d78d852}
+      \strng{bibnamehash}{886600eb88a72692616cf77b0d78d852}
+      \strng{authorbibnamehash}{886600eb88a72692616cf77b0d78d852}
+      \strng{authornamehash}{886600eb88a72692616cf77b0d78d852}
+      \strng{authorfullhash}{886600eb88a72692616cf77b0d78d852}
+      \strng{authorfullhashraw}{886600eb88a72692616cf77b0d78d852}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Personal Cloud Storage Usage report}
+      \field{title}{Personal Cloud Storage Usage}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://threadgoldconsulting.com/research/personal-cloud-storage-usage
+      \endverb
+      \verb{url}
+      \verb https://threadgoldconsulting.com/research/personal-cloud-storage-usage
+      \endverb
+    \endentry
     \entry{nextcloud2018architecture}{report}{}{}
       \name{author}{1}{}{%
         {{hash=dd630ec90881e3d8105e429b77bc0541}{%
@@ -36,12 +68,12 @@
       \strng{authornamehash}{dd630ec90881e3d8105e429b77bc0541}
       \strng{authorfullhash}{dd630ec90881e3d8105e429b77bc0541}
       \strng{authorfullhashraw}{dd630ec90881e3d8105e429b77bc0541}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
-      \field{note}{Accessed: 2024-05-22}
+      \field{note}{Accessed: 2026-03-01}
       \field{title}{Nextcloud Architecture Whitepaper}
       \field{type}{Whitepaper}
       \field{year}{2018}
@@ -66,15 +98,15 @@
       \strng{authornamehash}{41a02e0c82149cd9a2be0e92948e17bb}
       \strng{authorfullhash}{41a02e0c82149cd9a2be0e92948e17bb}
       \strng{authorfullhashraw}{41a02e0c82149cd9a2be0e92948e17bb}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Syncthing Documentation}
       \field{title}{Syncthing Protocol Specifications}
-      \field{urlday}{22}
-      \field{urlmonth}{5}
-      \field{urlyear}{2024}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
       \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
@@ -82,6 +114,38 @@
       \endverb
       \verb{url}
       \verb https://docs.syncthing.net/specs/index.html
+      \endverb
+    \endentry
+    \entry{ibm-e2ee}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Information about E2EE}
+      \field{title}{What is end-to-end encryption (E2EE)?}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/end-to-end-encryption
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/end-to-end-encryption
       \endverb
     \endentry
   \enddatalist
