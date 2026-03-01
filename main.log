@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  1 MAR 2026 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  1 MAR 2026 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1782,14 +1782,9 @@ Overfull \hbox (4.69319pt too wide) in paragraph at lines 188--191
 
 [10]
 
-[11]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-221.
- (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+[11])
 
-[12])
+[12]
 
 [13]
 \openout2 = `Chapters/Chapter2.aux'.
@@ -1831,7 +1826,7 @@ and I'll forget about whatever was undefined.
 ]
 
 [15]
-<Figures/chapter2/usecase.pdf, id=620, 636.03111pt x 302.3557pt>
+<Figures/chapter2/usecase.pdf, id=623, 636.03111pt x 302.3557pt>
 File: Figures/chapter2/usecase.pdf Graphic file (type pdf)
 <use Figures/chapter2/usecase.pdf>
 Package pdftex.def Info: Figures/chapter2/usecase.pdf  used on input line 52.
@@ -1952,7 +1947,11 @@ l.133 ...scale=0.8]{Figures/chapter2/sh-class.pdf}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+133.
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 
 [18]
 ! Undefined control sequence.
@@ -2345,7 +2344,7 @@ and I'll forget about whatever was undefined.
 
 
 ]
-<Figures/chapter3/arch-diagram.pdf, id=708, 485.45557pt x 240.31857pt>
+<Figures/chapter3/arch-diagram.pdf, id=727, 485.45557pt x 240.31857pt>
 File: Figures/chapter3/arch-diagram.pdf Graphic file (type pdf)
 <use Figures/chapter3/arch-diagram.pdf>
 Package pdftex.def Info: Figures/chapter3/arch-diagram.pdf  used on input line 
@@ -3100,8 +3099,14 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EA6E328A8BCC307C4691E68C110E4624;12895.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: EA6E328A8BCC307C4691E68C110E4624;12895
+(rerunfilecheck)             After:  55ACB70825942539700BB692DB19D964;12612.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -3112,36 +3117,208 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 77 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 46587 strings out of 473197
- 1030820 string characters out of 5718605
+ 46625 strings out of 473197
+ 1031368 string characters out of 5718605
  2008457 words of memory out of 5000000
  68838 multiletter control sequences out of 15000+600000
  578717 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,3103b,1561s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
-/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/p
-ublic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
-440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm060
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (53 pages, 1165387 bytes).
+
+pdfTeX warning (dest): name{figure.caption.205} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.204} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.203} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.202} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.201} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.194} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.193} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.182} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.179} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.173} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.172} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.171} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.170} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.169} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.163} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.162} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{figure.caption.131} has been referenced but does no
+t exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{lstnumber.242} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.210} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.208} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.207} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.206} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.198} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.186} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.183} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.180} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.177} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.176} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.174} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.167} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.160} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.157} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.132} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.129} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.118} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.105} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.103} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.102} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{chapter.101} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.99} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.95} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.93} has been referenced but does not exi
+st, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.91} has been referenced but does not exi
+st, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+cc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfc
+c2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl1
+200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (53 pages, 1163595 bytes).
 PDF statistics:
- 997 PDF objects out of 1000 (max. 8388607)
- 874 compressed objects within 9 object streams
- 304 named destinations out of 1000 (max. 500000)
+ 1043 PDF objects out of 1200 (max. 8388607)
+ 919 compressed objects within 10 object streams
+ 342 named destinations out of 1000 (max. 500000)
  435 words of extra memory for PDF output out of 10000 (max. 10000000)
 

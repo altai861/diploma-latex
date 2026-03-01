@@ -4,35 +4,35 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Өргөн ашиглагдаж буй үүлэн хадгалалтын үйлчилгээнүүд}}{5}{figure.caption.42}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Хувийн сервер дээр ашиглах боломжтой үүлэн хадгалалтын платформууд}}{6}{figure.caption.48}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Юзкейс диаграмм}}{16}{figure.caption.131}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Шинжилгээний класс диаграмм}}{19}{figure.caption.159}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Хэрэглэгчийн бүртгэлийн мэдээлэл зохион байгуулах шинжилгээний дарааллын диаграмм}}{19}{figure.caption.162}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Бүртгэл үүсгэх шинжилгээний дарааллын диаграмм}}{20}{figure.caption.163}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Хадгалагдсан файлуудын мэдээллийг зохион байгуулах шинжилгээний дарааллын диаграмм}}{20}{figure.caption.164}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Файл системд хуулах шинжилгээний дарааллын диаграмм}}{20}{figure.caption.165}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Объект илрүүлэлт хийх шинжилгээний дарааллын диаграмм}}{21}{figure.caption.166}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Хэрэглэгчийн бүртгэлийн мэдээлэл зохион байгуулах үйл ажиллагааны диаграмм}}{21}{figure.caption.169}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Бүртгэл үүсгэх үйл ажиллагааны диаграмм}}{22}{figure.caption.170}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Хадгалагдсан файлуудын мэдээллийг зохион байгуулах үйл ажиллагааны диаграмм}}{22}{figure.caption.171}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Файл системд хуулах үйл ажиллагааны диаграмм}}{22}{figure.caption.172}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Объект илрүүлэлт хийх үйл ажиллагааны диаграмм}}{23}{figure.caption.173}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Юзкейс диаграмм}}{16}{figure.caption.126}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Шинжилгээний класс диаграмм}}{19}{figure.caption.154}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Хэрэглэгчийн бүртгэлийн мэдээлэл зохион байгуулах шинжилгээний дарааллын диаграмм}}{19}{figure.caption.157}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Бүртгэл үүсгэх шинжилгээний дарааллын диаграмм}}{20}{figure.caption.158}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Хадгалагдсан файлуудын мэдээллийг зохион байгуулах шинжилгээний дарааллын диаграмм}}{20}{figure.caption.159}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Файл системд хуулах шинжилгээний дарааллын диаграмм}}{20}{figure.caption.160}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Объект илрүүлэлт хийх шинжилгээний дарааллын диаграмм}}{21}{figure.caption.161}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Хэрэглэгчийн бүртгэлийн мэдээлэл зохион байгуулах үйл ажиллагааны диаграмм}}{21}{figure.caption.164}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Бүртгэл үүсгэх үйл ажиллагааны диаграмм}}{22}{figure.caption.165}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Хадгалагдсан файлуудын мэдээллийг зохион байгуулах үйл ажиллагааны диаграмм}}{22}{figure.caption.166}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Файл системд хуулах үйл ажиллагааны диаграмм}}{22}{figure.caption.167}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Объект илрүүлэлт хийх үйл ажиллагааны диаграмм}}{23}{figure.caption.168}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{24}{figure.caption.179}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Класс диаграмм}}{25}{figure.caption.182}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Өгөгдлийн ерөнхий схем}}{25}{figure.caption.185}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Зургаас объект илрүүлэлт хийх хуудасны прототип}}{26}{figure.caption.188}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Бүртгэл үүсгэх хуудасны прототип}}{26}{figure.caption.189}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Нэвтрэх хуудасны прототип}}{26}{figure.caption.190}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Бүртгэлтэй файлын мэдээлэл харах хуудасны прототип}}{26}{figure.caption.191}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Хэрэглэгчийн сонголт харуулах дэлгэцийн прототип}}{26}{figure.caption.192}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Бүртгэлийн мэдээлэл шинэчлэх хуудасны прототип}}{27}{figure.caption.193}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Бүртгэлийн мэдээлэл амжилттай шинэчлэгдсэнийг харуулах дэлгэцийн прототип}}{27}{figure.caption.194}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces OTP оруулах хуудасны прототип}}{27}{figure.caption.195}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Бүртгэл амжилттай үүссэнийг харуулах дэлгэцийн прототип}}{27}{figure.caption.196}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Код дахин илгээх эсэхийг лавлах дэлгэцийн прототип}}{27}{figure.caption.197}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Объект илрүүлэлт хийх хуудасны интерфейс}}{28}{figure.caption.200}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Нэвтрэх хуудасны интерфейс}}{28}{figure.caption.201}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Бүртгэл үүсгэх хуудасны интерфейс}}{28}{figure.caption.202}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces OTP шалгах хуудасны интерфейс}}{29}{figure.caption.203}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Хэрэглэгчийн бүртгэлээр орсон үеийн объект илрүүлэлт хийх хуудас}}{29}{figure.caption.204}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Бүртгэлтэй зургуудын жагсаалт харуулах интерфейс}}{29}{figure.caption.205}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{24}{figure.caption.174}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Класс диаграмм}}{25}{figure.caption.177}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Өгөгдлийн ерөнхий схем}}{25}{figure.caption.180}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Зургаас объект илрүүлэлт хийх хуудасны прототип}}{26}{figure.caption.183}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Бүртгэл үүсгэх хуудасны прототип}}{26}{figure.caption.184}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Нэвтрэх хуудасны прототип}}{26}{figure.caption.185}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Бүртгэлтэй файлын мэдээлэл харах хуудасны прототип}}{26}{figure.caption.186}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Хэрэглэгчийн сонголт харуулах дэлгэцийн прототип}}{26}{figure.caption.187}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Бүртгэлийн мэдээлэл шинэчлэх хуудасны прототип}}{27}{figure.caption.188}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Бүртгэлийн мэдээлэл амжилттай шинэчлэгдсэнийг харуулах дэлгэцийн прототип}}{27}{figure.caption.189}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces OTP оруулах хуудасны прототип}}{27}{figure.caption.190}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Бүртгэл амжилттай үүссэнийг харуулах дэлгэцийн прототип}}{27}{figure.caption.191}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Код дахин илгээх эсэхийг лавлах дэлгэцийн прототип}}{27}{figure.caption.192}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Объект илрүүлэлт хийх хуудасны интерфейс}}{28}{figure.caption.195}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Нэвтрэх хуудасны интерфейс}}{28}{figure.caption.196}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Бүртгэл үүсгэх хуудасны интерфейс}}{28}{figure.caption.197}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces OTP шалгах хуудасны интерфейс}}{29}{figure.caption.198}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Хэрэглэгчийн бүртгэлээр орсон үеийн объект илрүүлэлт хийх хуудас}}{29}{figure.caption.199}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Бүртгэлтэй зургуудын жагсаалт харуулах интерфейс}}{29}{figure.caption.200}%

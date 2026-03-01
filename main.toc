@@ -40,50 +40,48 @@
 \contentsline {paragraph}{}{11}{paragraph*.83}%
 \contentsline {section}{\numberline {1.3}Дотоод сүлжээн дэх төхөөрөмж илрүүлэх механизм (Device Discovery Mechanisms in LAN)}{11}{section.84}%
 \contentsline {paragraph}{}{11}{paragraph*.85}%
-\contentsline {subsection}{\numberline {1.3.1}Zero-Configuration Networking (Zeroconf)}{12}{subsection.86}%
+\contentsline {subsection}{\numberline {1.3.1}mDNS (Multicast DNS) болон DNS-SD}{12}{subsection.86}%
 \contentsline {paragraph}{}{12}{paragraph*.87}%
-\contentsline {subsection}{\numberline {1.3.2}mDNS (Multicast DNS) болон DNS-SD}{12}{subsection.91}%
-\contentsline {paragraph}{}{12}{paragraph*.92}%
-\contentsline {subsection}{\numberline {1.3.3}UDP Broadcast илрүүлэлт}{12}{subsection.93}%
-\contentsline {paragraph}{}{12}{paragraph*.94}%
-\contentsline {subsection}{\numberline {1.3.4}Аюулгүй байдал ба Баталгаажуулалт (Manual Pairing)}{12}{subsection.95}%
-\contentsline {paragraph}{}{12}{paragraph*.96}%
-\contentsline {section}{\numberline {1.4}Raspberry Pi-д зориулсан программ хангамж}{13}{section.97}%
-\contentsline {section}{\numberline {1.5}Ашиглах технелогиуд}{13}{section.98}%
-\contentsline {section}{\numberline {1.6}Бүлгийн дүгнэлт}{13}{section.99}%
-\contentsline {paragraph}{}{13}{paragraph*.100}%
-\contentsline {chapter}{\numberline {2}... системийн шинжилгээ}{14}{chapter.101}%
-\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{14}{section.102}%
-\contentsline {section}{\numberline {2.2}Системийг ашиглах хэрэглэгчид}{14}{section.103}%
-\contentsline {paragraph}{}{14}{paragraph*.104}%
-\contentsline {section}{\numberline {2.3}Функцийн шаардлага}{14}{section.105}%
-\contentsline {section}{\numberline {2.4}Функцийн бус шаардлага}{15}{section.118}%
-\contentsline {section}{\numberline {2.5}Юзкейс диаграмм}{16}{section.129}%
-\contentsline {paragraph}{}{16}{paragraph*.130}%
-\contentsline {section}{\numberline {2.6}Юзкейсийн тодорхойлолт}{16}{section.132}%
-\contentsline {section}{\numberline {2.7}Шинжилгээний класс диаграмм}{19}{section.157}%
-\contentsline {paragraph}{}{19}{paragraph*.158}%
-\contentsline {section}{\numberline {2.8}Шинжилгээний дарааллын диаграмм}{19}{section.160}%
-\contentsline {paragraph}{}{19}{paragraph*.161}%
-\contentsline {section}{\numberline {2.9}Үйл ажиллагааны диаграмм}{21}{section.167}%
-\contentsline {paragraph}{}{21}{paragraph*.168}%
-\contentsline {section}{\numberline {2.10}Бүлгийн дүгнэлт}{23}{section.174}%
-\contentsline {paragraph}{}{23}{paragraph*.175}%
-\contentsline {chapter}{\numberline {3}... системийн зохиомж ба хөгжүүлэлт}{24}{chapter.176}%
-\contentsline {section}{\numberline {3.1}Системийн архитектур}{24}{section.177}%
-\contentsline {paragraph}{}{24}{paragraph*.178}%
-\contentsline {section}{\numberline {3.2}Зохиомжийн шатны класс диаграмм}{24}{section.180}%
-\contentsline {paragraph}{}{24}{paragraph*.181}%
-\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем }{25}{section.183}%
-\contentsline {paragraph}{}{25}{paragraph*.184}%
-\contentsline {section}{\numberline {3.4}Системийн прототип}{25}{section.186}%
-\contentsline {paragraph}{}{25}{paragraph*.187}%
-\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{28}{section.198}%
-\contentsline {paragraph}{}{28}{paragraph*.199}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{29}{section.206}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{29}{section.207}%
-\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{29}{section.208}%
-\contentsline {paragraph}{}{29}{paragraph*.209}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{31}{section*.210}%
-\contentsline {paragraph}{}{31}{paragraph*.211}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{33}{lstnumber.242}%
+\contentsline {subsection}{\numberline {1.3.2}UDP Broadcast илрүүлэлт}{12}{subsection.88}%
+\contentsline {paragraph}{}{12}{paragraph*.89}%
+\contentsline {subsection}{\numberline {1.3.3}Аюулгүй байдал ба Баталгаажуулалт (Manual Pairing)}{12}{subsection.90}%
+\contentsline {paragraph}{}{12}{paragraph*.91}%
+\contentsline {section}{\numberline {1.4}Raspberry Pi-д зориулсан программ хангамж}{13}{section.92}%
+\contentsline {section}{\numberline {1.5}Ашиглах технелогиуд}{13}{section.93}%
+\contentsline {section}{\numberline {1.6}Бүлгийн дүгнэлт}{13}{section.94}%
+\contentsline {paragraph}{}{13}{paragraph*.95}%
+\contentsline {chapter}{\numberline {2}... системийн шинжилгээ}{14}{chapter.96}%
+\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{14}{section.97}%
+\contentsline {section}{\numberline {2.2}Системийг ашиглах хэрэглэгчид}{14}{section.98}%
+\contentsline {paragraph}{}{14}{paragraph*.99}%
+\contentsline {section}{\numberline {2.3}Функцийн шаардлага}{14}{section.100}%
+\contentsline {section}{\numberline {2.4}Функцийн бус шаардлага}{15}{section.113}%
+\contentsline {section}{\numberline {2.5}Юзкейс диаграмм}{16}{section.124}%
+\contentsline {paragraph}{}{16}{paragraph*.125}%
+\contentsline {section}{\numberline {2.6}Юзкейсийн тодорхойлолт}{16}{section.127}%
+\contentsline {section}{\numberline {2.7}Шинжилгээний класс диаграмм}{19}{section.152}%
+\contentsline {paragraph}{}{19}{paragraph*.153}%
+\contentsline {section}{\numberline {2.8}Шинжилгээний дарааллын диаграмм}{19}{section.155}%
+\contentsline {paragraph}{}{19}{paragraph*.156}%
+\contentsline {section}{\numberline {2.9}Үйл ажиллагааны диаграмм}{21}{section.162}%
+\contentsline {paragraph}{}{21}{paragraph*.163}%
+\contentsline {section}{\numberline {2.10}Бүлгийн дүгнэлт}{23}{section.169}%
+\contentsline {paragraph}{}{23}{paragraph*.170}%
+\contentsline {chapter}{\numberline {3}... системийн зохиомж ба хөгжүүлэлт}{24}{chapter.171}%
+\contentsline {section}{\numberline {3.1}Системийн архитектур}{24}{section.172}%
+\contentsline {paragraph}{}{24}{paragraph*.173}%
+\contentsline {section}{\numberline {3.2}Зохиомжийн шатны класс диаграмм}{24}{section.175}%
+\contentsline {paragraph}{}{24}{paragraph*.176}%
+\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем }{25}{section.178}%
+\contentsline {paragraph}{}{25}{paragraph*.179}%
+\contentsline {section}{\numberline {3.4}Системийн прототип}{25}{section.181}%
+\contentsline {paragraph}{}{25}{paragraph*.182}%
+\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{28}{section.193}%
+\contentsline {paragraph}{}{28}{paragraph*.194}%
+\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{29}{section.201}%
+\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{29}{section.202}%
+\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{29}{section.203}%
+\contentsline {paragraph}{}{29}{paragraph*.204}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{31}{section*.205}%
+\contentsline {paragraph}{}{31}{paragraph*.206}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{33}{lstnumber.237}%
