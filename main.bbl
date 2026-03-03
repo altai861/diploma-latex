@@ -148,6 +148,38 @@
       \verb https://www.ibm.com/think/topics/end-to-end-encryption
       \endverb
     \endentry
+    \entry{rust-book}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f5e265d607cb720058fc166e00083fe8}{%
+           family={{Rust}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5e265d607cb720058fc166e00083fe8}
+      \strng{fullhash}{f5e265d607cb720058fc166e00083fe8}
+      \strng{fullhashraw}{f5e265d607cb720058fc166e00083fe8}
+      \strng{bibnamehash}{f5e265d607cb720058fc166e00083fe8}
+      \strng{authorbibnamehash}{f5e265d607cb720058fc166e00083fe8}
+      \strng{authornamehash}{f5e265d607cb720058fc166e00083fe8}
+      \strng{authorfullhash}{f5e265d607cb720058fc166e00083fe8}
+      \strng{authorfullhashraw}{f5e265d607cb720058fc166e00083fe8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Book about Rust}
+      \field{title}{The Rust Programming Language}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doc.rust-lang.org/book/
+      \endverb
+      \verb{url}
+      \verb https://doc.rust-lang.org/book/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
