@@ -17,71 +17,52 @@
 \contentsline {paragraph}{}{6}{paragraph*.47}%
 \contentsline {subsection}{\numberline {1.1.3}Peer-to-Peer өгөгдөл синхрончлолын системүүд}{6}{subsection.49}%
 \contentsline {subsection}{\numberline {1.1.4}Харьцуулсан шинжилгээ}{7}{subsection.52}%
-\contentsline {paragraph}{}{7}{paragraph*.53}%
-\contentsline {section}{\numberline {1.2}End-to-End шифрлэлт (E2EE)}{7}{section.55}%
-\contentsline {paragraph}{}{7}{paragraph*.56}%
-\contentsline {paragraph}{}{8}{paragraph*.57}%
-\contentsline {paragraph}{}{8}{paragraph*.58}%
-\contentsline {subsection}{\numberline {1.2.1}E2EE хэрхэн ажилладаг вэ?}{8}{subsection.59}%
-\contentsline {subsubsection}{Шифрлэлт}{8}{subsubsection*.64}%
-\contentsline {paragraph}{}{8}{paragraph*.65}%
-\contentsline {paragraph}{}{9}{paragraph*.66}%
-\contentsline {subsubsection}{Дамжуулалт}{9}{subsubsection*.67}%
-\contentsline {paragraph}{}{9}{paragraph*.68}%
-\contentsline {subsubsection}{Өгөгдлийг тайлах}{9}{subsubsection*.69}%
-\contentsline {paragraph}{}{9}{paragraph*.70}%
-\contentsline {subsubsection}{Баталгаажуулалт}{9}{subsubsection*.71}%
-\contentsline {paragraph}{}{9}{paragraph*.72}%
-\contentsline {subsection}{\numberline {1.2.2}Шифрлэлтийн алгоритм ба тэгш хэмт ба тэгш хэмт бус шифрлэлт (Symmetric vs asymmetric)}{9}{subsection.73}%
-\contentsline {paragraph}{}{9}{paragraph*.74}%
-\contentsline {paragraph}{}{10}{paragraph*.77}%
-\contentsline {paragraph}{}{10}{paragraph*.81}%
-\contentsline {subsection}{\numberline {1.2.3}E2EE-ийн нийтлэг хэрэглээний тохиолдлууд}{11}{subsection.82}%
-\contentsline {paragraph}{}{11}{paragraph*.83}%
-\contentsline {section}{\numberline {1.3}Дотоод сүлжээн дэх төхөөрөмж илрүүлэх механизм (Device Discovery Mechanisms in LAN)}{11}{section.84}%
-\contentsline {paragraph}{}{11}{paragraph*.85}%
-\contentsline {subsection}{\numberline {1.3.1}mDNS (Multicast DNS) болон DNS-SD}{12}{subsection.86}%
-\contentsline {paragraph}{}{12}{paragraph*.87}%
-\contentsline {subsection}{\numberline {1.3.2}UDP Broadcast илрүүлэлт}{12}{subsection.88}%
-\contentsline {paragraph}{}{12}{paragraph*.89}%
-\contentsline {subsection}{\numberline {1.3.3}Аюулгүй байдал ба Баталгаажуулалт (Manual Pairing)}{12}{subsection.90}%
-\contentsline {paragraph}{}{12}{paragraph*.91}%
-\contentsline {section}{\numberline {1.4}Ашиглах технелогиуд}{12}{section.92}%
-\contentsline {paragraph}{}{12}{paragraph*.93}%
-\contentsline {paragraph}{}{13}{paragraph*.94}%
-\contentsline {section}{\numberline {1.5}Бүлгийн дүгнэлт}{13}{section.95}%
-\contentsline {paragraph}{}{13}{paragraph*.96}%
-\contentsline {chapter}{\numberline {2}Хувийн үүлэн хадгалалтын системийн шинжилгээ}{14}{chapter.97}%
-\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{14}{section.98}%
-\contentsline {paragraph}{}{14}{paragraph*.99}%
-\contentsline {paragraph}{}{14}{paragraph*.100}%
-\contentsline {paragraph}{}{14}{paragraph*.101}%
-\contentsline {section}{\numberline {2.2}Функциональ шаардлага}{15}{section.102}%
-\contentsline {subsection}{\numberline {2.2.1}Usecase диаграмм}{15}{subsection.112}%
-\contentsline {paragraph}{}{15}{paragraph*.113}%
-\contentsline {section}{\numberline {2.3}Функциональ бус шаардлага}{16}{section.115}%
-\contentsline {section}{\numberline {2.4}Ажлын хүрээ}{17}{section.119}%
-\contentsline {subsection}{\numberline {2.4.1}Scope (Хамрах хүрээ)}{17}{subsection.120}%
-\contentsline {subsection}{\numberline {2.4.2}Out of Scope (Хийхгүй зүйлс)}{17}{subsection.124}%
-\contentsline {section}{\numberline {2.5}Хөгжүүлэлтийн төлөвлөгөө}{18}{section.128}%
-\contentsline {paragraph}{}{18}{paragraph*.129}%
-\contentsline {subsection}{\numberline {2.5.1}Долоо хоног бүрийн зорилтууд}{20}{subsection.132}%
-\contentsline {section}{\numberline {2.6}Бүлгийн дүгнэлт}{22}{section.145}%
-\contentsline {chapter}{\numberline {3}... системийн зохиомж ба хөгжүүлэлт}{23}{chapter.146}%
-\contentsline {section}{\numberline {3.1}Системийн архитектур}{23}{section.147}%
-\contentsline {paragraph}{}{23}{paragraph*.148}%
-\contentsline {section}{\numberline {3.2}Зохиомжийн шатны класс диаграмм}{23}{section.150}%
-\contentsline {paragraph}{}{23}{paragraph*.151}%
-\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем }{24}{section.153}%
-\contentsline {paragraph}{}{24}{paragraph*.154}%
-\contentsline {section}{\numberline {3.4}Системийн прототип}{24}{section.156}%
-\contentsline {paragraph}{}{24}{paragraph*.157}%
-\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{27}{section.168}%
-\contentsline {paragraph}{}{27}{paragraph*.169}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{28}{section.176}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{28}{section.177}%
-\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{28}{section.178}%
-\contentsline {paragraph}{}{28}{paragraph*.179}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{30}{section*.180}%
-\contentsline {paragraph}{}{30}{paragraph*.181}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{32}{lstnumber.212}%
+\contentsline {section}{\numberline {1.2}Ашиглах технологиуд}{7}{section.53}%
+\contentsline {paragraph}{}{7}{paragraph*.54}%
+\contentsline {paragraph}{}{7}{paragraph*.55}%
+\contentsline {section}{\numberline {1.3}Бүлгийн дүгнэлт}{7}{section.56}%
+\contentsline {paragraph}{}{7}{paragraph*.57}%
+\contentsline {chapter}{\numberline {2}Хувийн үүлэн хадгалалтын системийн шинжилгээ}{8}{chapter.58}%
+\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{8}{section.59}%
+\contentsline {paragraph}{}{8}{paragraph*.60}%
+\contentsline {paragraph}{}{8}{paragraph*.61}%
+\contentsline {paragraph}{}{8}{paragraph*.62}%
+\contentsline {paragraph}{}{8}{paragraph*.63}%
+\contentsline {section}{\numberline {2.2}Функциональ шаардлага}{8}{section.64}%
+\contentsline {subsection}{\numberline {2.2.1}Usecase диаграмм}{9}{subsection.80}%
+\contentsline {paragraph}{}{9}{paragraph*.81}%
+\contentsline {paragraph}{}{9}{paragraph*.82}%
+\contentsline {subsection}{\numberline {2.2.2}Юзкейсийн тодорхойлолт}{11}{subsection.84}%
+\contentsline {subsubsection}{Хэрэглэгч үүсгэх (UC-001)}{11}{subsubsection*.85}%
+\contentsline {subsubsection}{Хэрэглэгч устгах (UC-002)}{12}{subsubsection*.92}%
+\contentsline {subsubsection}{Эрх олгох (UC-003)}{13}{subsubsection*.98}%
+\contentsline {subsubsection}{Системд нэвтрэх (UC-004)}{14}{subsubsection*.103}%
+\contentsline {subsubsection}{Файл болон хавтас харах (UC-005)}{15}{subsubsection*.109}%
+\contentsline {subsubsection}{Файл байршуулах (UC-006)}{16}{subsubsection*.112}%
+\contentsline {subsubsection}{Файл татаж авах (UC-007)}{17}{subsubsection*.118}%
+\contentsline {subsubsection}{Хавтас үүсгэх (UC-008)}{18}{subsubsection*.123}%
+\contentsline {subsubsection}{Файл/хавтас устгах (UC-009)}{19}{subsubsection*.129}%
+\contentsline {subsubsection}{Файл/хавтас шилжүүлэх (UC-010)}{20}{subsubsection*.137}%
+\contentsline {section}{\numberline {2.3}Функциональ бус шаардлага}{20}{section.144}%
+\contentsline {section}{\numberline {2.4}Ажлын хүрээ}{21}{section.154}%
+\contentsline {subsection}{\numberline {2.4.1}Scope (Хамрах хүрээ)}{21}{subsection.155}%
+\contentsline {subsection}{\numberline {2.4.2}Out of Scope (Хийхгүй зүйлс)}{21}{subsection.159}%
+\contentsline {section}{\numberline {2.5}Бүлгийн дүгнэлт}{22}{section.161}%
+\contentsline {chapter}{\numberline {3}... системийн зохиомж ба хөгжүүлэлт}{23}{chapter.162}%
+\contentsline {section}{\numberline {3.1}Системийн архитектур}{23}{section.163}%
+\contentsline {paragraph}{}{23}{paragraph*.164}%
+\contentsline {section}{\numberline {3.2}Зохиомжийн шатны класс диаграмм}{23}{section.166}%
+\contentsline {paragraph}{}{23}{paragraph*.167}%
+\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем }{24}{section.169}%
+\contentsline {paragraph}{}{24}{paragraph*.170}%
+\contentsline {section}{\numberline {3.4}Системийн прототип}{24}{section.172}%
+\contentsline {paragraph}{}{24}{paragraph*.173}%
+\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{27}{section.184}%
+\contentsline {paragraph}{}{27}{paragraph*.185}%
+\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{28}{section.192}%
+\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{28}{section.193}%
+\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{28}{section.194}%
+\contentsline {paragraph}{}{28}{paragraph*.195}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{30}{section*.196}%
+\contentsline {paragraph}{}{30}{paragraph*.197}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{32}{lstnumber.228}%
