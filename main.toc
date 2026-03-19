@@ -59,10 +59,10 @@
 \contentsline {paragraph}{}{24}{paragraph*.173}%
 \contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{27}{section.184}%
 \contentsline {paragraph}{}{27}{paragraph*.185}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{28}{section.192}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{28}{section.193}%
-\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{28}{section.194}%
-\contentsline {paragraph}{}{28}{paragraph*.195}%
+\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{29}{section.192}%
+\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{29}{section.193}%
+\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{29}{section.194}%
+\contentsline {paragraph}{}{29}{paragraph*.195}%
 \contentsline {chapter}{Ерөнхий дүгнэлт}{30}{section*.196}%
 \contentsline {paragraph}{}{30}{paragraph*.197}%
 \contentsline {chapter}{Ашигласан материалын жагсаалт}{32}{lstnumber.228}%
