@@ -60,23 +60,24 @@
 \contentsline {paragraph}{}{25}{paragraph*.173}%
 \contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем}{26}{section.178}%
 \contentsline {paragraph}{}{26}{paragraph*.179}%
-\contentsline {section}{\numberline {3.4}Системийн прототип}{26}{section.180}%
-\contentsline {paragraph}{}{26}{paragraph*.181}%
-\contentsline {paragraph}{}{26}{paragraph*.182}%
+\contentsline {paragraph}{}{26}{paragraph*.180}%
+\contentsline {section}{\numberline {3.4}Системийн прототип}{27}{section.182}%
+\contentsline {paragraph}{}{27}{paragraph*.183}%
 \contentsline {paragraph}{}{27}{paragraph*.184}%
-\contentsline {paragraph}{}{27}{paragraph*.186}%
-\contentsline {paragraph}{}{28}{paragraph*.188}%
-\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{28}{section.190}%
-\contentsline {paragraph}{}{28}{paragraph*.191}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{28}{section.196}%
-\contentsline {paragraph}{}{28}{paragraph*.197}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{29}{section.201}%
-\contentsline {paragraph}{}{29}{paragraph*.202}%
-\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{29}{section.203}%
-\contentsline {paragraph}{}{29}{paragraph*.204}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{30}{section*.205}%
+\contentsline {paragraph}{}{28}{paragraph*.186}%
+\contentsline {paragraph}{}{29}{paragraph*.188}%
+\contentsline {paragraph}{}{29}{paragraph*.190}%
+\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{30}{section.192}%
+\contentsline {paragraph}{}{30}{paragraph*.193}%
+\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{30}{section.198}%
+\contentsline {paragraph}{}{30}{paragraph*.199}%
+\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{30}{section.203}%
+\contentsline {paragraph}{}{30}{paragraph*.204}%
+\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{30}{section.205}%
 \contentsline {paragraph}{}{30}{paragraph*.206}%
-\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{31}{appendix.207}%
-\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{31}{section.208}%
-\contentsline {paragraph}{}{31}{paragraph*.209}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{32}{lstnumber.225}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{32}{section*.207}%
+\contentsline {paragraph}{}{32}{paragraph*.208}%
+\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{33}{appendix.209}%
+\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{33}{section.210}%
+\contentsline {paragraph}{}{33}{paragraph*.211}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{34}{lstnumber.227}%
