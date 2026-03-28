@@ -84,6 +84,38 @@
       \verb https://nextcloud.com/c/uploads/2022/03/Architecture-Whitepaper-WebVersion-072018.pdf
       \endverb
     \endentry
+    \entry{nextcloud-system-requirements}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{NextCloud official Documentation}
+      \field{title}{Nextcloud System Requirements}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/installation/system_requirements.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/installation/system_requirements.html
+      \endverb
+    \endentry
     \entry{syncthingspecifications}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=41a02e0c82149cd9a2be0e92948e17bb}{%
@@ -98,8 +130,8 @@
       \strng{authornamehash}{41a02e0c82149cd9a2be0e92948e17bb}
       \strng{authorfullhash}{41a02e0c82149cd9a2be0e92948e17bb}
       \strng{authorfullhashraw}{41a02e0c82149cd9a2be0e92948e17bb}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Syncthing Documentation}
@@ -130,8 +162,8 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Information about E2EE}
@@ -162,8 +194,8 @@
       \strng{authornamehash}{f5e265d607cb720058fc166e00083fe8}
       \strng{authorfullhash}{f5e265d607cb720058fc166e00083fe8}
       \strng{authorfullhashraw}{f5e265d607cb720058fc166e00083fe8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Book about Rust}

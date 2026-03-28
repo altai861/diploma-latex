@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  25 MAR 2026 08:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  28 MAR 2026 08:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1750,7 +1750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 ]
-<Figures/chapter1/cloud-market.png, id=440, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=444, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
@@ -1774,7 +1774,7 @@ Overfull \hbox (8.64346pt too wide) in paragraph at lines 60--61
 ха-маа-рах эсэх, peer discovery/relay
  []
 
-<Figures/chapter1/cloud_providers.png, id=456, 421.0932pt x 155.8623pt>
+<Figures/chapter1/cloud_providers.png, id=460, 421.0932pt x 155.8623pt>
 File: Figures/chapter1/cloud_providers.png Graphic file (type png)
 <use Figures/chapter1/cloud_providers.png>
 Package pdftex.def Info: Figures/chapter1/cloud_providers.png  used on input li
@@ -1783,7 +1783,7 @@ ne 77.
 
 
 [6]
-<Figures/chapter1/self_cloud_providers.png, id=473, 378.213pt x 208.6194pt>
+<Figures/chapter1/self_cloud_providers.png, id=477, 378.213pt x 208.6194pt>
 File: Figures/chapter1/self_cloud_providers.png Graphic file (type png)
 <use Figures/chapter1/self_cloud_providers.png>
 Package pdftex.def Info: Figures/chapter1/self_cloud_providers.png  used on inp
@@ -1793,7 +1793,7 @@ ut line 95.
 
 [7 <./Figures/chapter1/cloud_providers.png (PNG copy)> <./Figures/chapter1/self
 _cloud_providers.png (PNG copy)>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=484, 526.96875pt x 359.3425pt>
+<Figures/chapter1/nextcloud_data_diagram.png, id=488, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
@@ -1801,169 +1801,192 @@ Package pdftex.def Info: Figures/chapter1/nextcloud_data_diagram.png  used on i
 nput line 109.
 (pdftex.def)             Requested size: 395.22559pt x 269.50621pt.
 
+Overfull \hbox (40.22876pt too wide) in paragraph at lines 118--119
+\T2A/cmr/m/n/12 aio-database, nextcloud-aio-whiteboard, nextcloud-aio-notify-pu
+sh, nextcloud-aio-talk, nextcloud-
+ []
+
+
 
 [8 <./Figures/chapter1/nextcloud_data_diagram.png>]
-Overfull \hbox (4.8517pt too wide) in paragraph at lines 126--127
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=498, 785.93625pt x 202.
+7575pt>
+File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
+)
+<use Figures/chapter1/nextcloud-containers-ramusage.png>
+Package pdftex.def Info: Figures/chapter1/nextcloud-containers-ramusage.png  us
+ed on input line 122.
+(pdftex.def)             Requested size: 432.26627pt x 111.51697pt.
+<Figures/chapter1/nextcloud-interface.png, id=499, 1917.1625pt x 1044.90375pt>
+File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
+<use Figures/chapter1/nextcloud-interface.png>
+Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
+t line 131.
+(pdftex.def)             Requested size: 421.77705pt x 229.87953pt.
+
+
+[9 <./Figures/chapter1/nextcloud-containers-ramusage.png>]
+Overfull \hbox (4.8517pt too wide) in paragraph at lines 145--146
 [] [][] \T2A/cmr/m/n/12 Эд-гээр сис-те-міід нь т°-х°°-р°мж бі-рийг дав-таг-даш-
 гій та-них тэм-дэг (device identity)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []|\T2A/cmr/m/n/12 Гуравдагч та-лын
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 138--138
+Underfull \hbox (badness 3646) in paragraph at lines 157--157
 []|\T2A/cmr/m/n/12 Хэрэглэгч °°-рийн
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 []|\T2A/cmr/m/n/12 Т°х°°р°мж хоо-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \T2A/cmr/m/n/12 ронд тарх-мал
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []|\T2A/cmr/m/n/12 Харьцангуй эн-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []|\T2A/cmr/m/n/12 Тохиргоо, ар-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 \T2A/cmr/m/n/12 чил-гаа °н-д°р
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 []|\T2A/cmr/m/n/12 Peer хол-бол-тын
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 139--139
+Underfull \hbox (badness 2653) in paragraph at lines 158--158
 \T2A/cmr/m/n/12 орч-ноос ха-маа-ран
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 140--140
+Underfull \hbox (badness 1755) in paragraph at lines 159--159
 []|\T2A/cmr/m/n/12 Аюулгій байд-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []|\T2A/cmr/m/n/12 “йлчилгээ ізіі-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []|\T2A/cmr/m/n/12 Локал бод-ло-гоо
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \T2A/cmr/m/n/12 °°-р°° удир-дах
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []|\T2A/cmr/m/n/12 Дамжуулалтын
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 \T2A/cmr/m/n/12 хам-гаа-лалт сайн
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 140--140
+Underfull \hbox (badness 6316) in paragraph at lines 159--159
 \T2A/cmr/m/n/12 бо-ловч т°в-л°р-с°н
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 []|\T2A/cmr/m/n/12 Discovery/relay
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T2A/cmr/m/n/12 ђд°р тут-мын
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T2A/cmr/m/n/12 Хамгийн эн-гийн,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T2A/cmr/m/n/12 ав-то-мат-жуу-лалт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T2A/cmr/m/n/12 Боломж °р-г°н
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 142--142
+Underfull \hbox (badness 5592) in paragraph at lines 161--161
 \T2A/cmr/m/n/12 ч тех-ник мэд-лэг
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\T2A/cmr/m/n/12 Sync хэ-рэг-лээнд
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T2A/cmr/m/n/12 хіч-тэй, cloud-like
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \T2A/cmr/m/n/12 UX харь-цан-гуй
  []
 
 
 
-[9])
+[10 <./Figures/chapter1/nextcloud-interface.png>]
 
-[10]
+[11])
 
-[11]
+[12]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 2.
 
 
-[12
+[13
 
 
 
 
 ]
 
-[12
+[13
 
 ]
-<Figures/chapter2/usecase.png, id=540, 434.62375pt x 614.295pt>
+<Figures/chapter2/usecase.png, id=554, 434.62375pt x 614.295pt>
 File: Figures/chapter2/usecase.png Graphic file (type png)
 <use Figures/chapter2/usecase.png>
 Package pdftex.def Info: Figures/chapter2/usecase.png  used on input line 65.
 (pdftex.def)             Requested size: 304.23454pt x 430.00356pt.
 
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 94--94
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -1975,7 +1998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
 
 
-[14 <./Figures/chapter2/usecase.png>]
+[15 <./Figures/chapter2/usecase.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -1987,7 +2010,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
 
 
-[15]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -1999,7 +2022,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 
 
 
-[16]
+[17]
 Underfull \hbox (badness 5622) in paragraph at lines 201--201
 []|\T2A/cmr/m/n/12 Хувийн іі-лэн хад-га-лал-тын сис-те-мийг ашиг-лах
  []
@@ -2021,7 +2044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--223
 
 
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2033,7 +2056,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--258
 
 
 
-[18]
+[19]
 Underfull \hbox (badness 1406) in paragraph at lines 275--275
 []|\T2A/cmr/m/n/12 Хэрэглэгч °°-рийн іі-лэн хад-га-лал-тын т°-х°°-р°мж
  []
@@ -2050,7 +2073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--297
 
 
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2062,7 +2085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
 
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2079,7 +2102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--361
 
 
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2096,7 +2119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--405
 
 
 
-[22]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2108,7 +2131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--448
 
 
 
-[23]
+[24]
 Overfull \hbox (2.4675pt too wide) in paragraph at lines 457--458
 []\T2A/cmr/m/n/12 Серверийн про-грамм нь Linux, Windows, MacOS ійлд-лийн сис-те
 -міід дээр ажил-
@@ -2116,7 +2139,7 @@ Overfull \hbox (2.4675pt too wide) in paragraph at lines 457--458
 
 
 
-[24]
+[25]
 Overfull \hbox (20.42357pt too wide) in paragraph at lines 473--474
 []\T2A/cmr/m/n/12 Файл дам-жуу-лах яв-цад °г°гд-лийн бі-рэн бі-тэн байд-лыг шал
 -гах ме-ха-низм (checksum
@@ -2124,22 +2147,22 @@ Overfull \hbox (20.42357pt too wide) in paragraph at lines 473--474
 
 
 
-[25])
+[26])
 
-[26]
+[27]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 3.
 
 
-[27
+[28
 
 
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio.png, id=669, 885.3075pt x 444.6612
+<Figures/chapter3/pcloud-architecture.drawio.png, id=683, 885.3075pt x 444.6612
 5pt>
 File: Figures/chapter3/pcloud-architecture.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-architecture.drawio.png>
@@ -2148,7 +2171,7 @@ on input line 11.
 (pdftex.def)             Requested size: 442.65266pt x 222.33008pt.
 
 
-[27
+[28
 
  <./Figures/chapter3/pcloud-architecture.drawio.png>]
 Overfull \hbox (6.83698pt too wide) in paragraph at lines 31--32
@@ -2162,7 +2185,7 @@ Overfull \hbox (3.23755pt too wide) in paragraph at lines 31--32
 m/it/12 sessions \T2A/cmr/m/n/12 хіс-нэг-тээр дам-жуу-лан удир-
  []
 
-<Figures/chapter3/pcloud-erd.drawio.png, id=680, 1252.68pt x 1055.945pt>
+<Figures/chapter3/pcloud-erd.drawio.png, id=694, 1252.68pt x 1055.945pt>
 File: Figures/chapter3/pcloud-erd.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-erd.drawio.png>
 Package pdftex.def Info: Figures/chapter3/pcloud-erd.drawio.png  used on input 
@@ -2170,8 +2193,8 @@ line 35.
 (pdftex.def)             Requested size: 438.44456pt x 369.58629pt.
 
 
-[28]
-<Figures/chapter3/admin-first-launch.png, id=688, 1734.48pt x 1121.18875pt>
+[29]
+<Figures/chapter3/admin-first-launch.png, id=702, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
@@ -2179,13 +2202,13 @@ Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
 (pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
 
 
-[29 <./Figures/chapter3/pcloud-erd.drawio.png>]
-<Figures/chapter3/login.png, id=696, 2178.1375pt x 1121.18875pt>
+[30 <./Figures/chapter3/pcloud-erd.drawio.png>]
+<Figures/chapter3/login.png, id=710, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 58.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=697, 2178.1375pt x 1121.18875pt>
+<Figures/chapter3/normal-user-homepage.png, id=711, 2178.1375pt x 1121.18875pt>
 
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
@@ -2194,8 +2217,8 @@ ut line 67.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
 
 
-[30 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=705, 2195.20125pt x 1121.18875pt>
+[31 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
+<Figures/chapter3/admin-home-page.png, id=720, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2203,17 +2226,17 @@ ne 76.
 (pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
 
 
-[31 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
+[32 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
 e-page.png>])
 
-[32]
-
 [33]
+
+[34]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex)
 
-[34
+[35
 
 
 
@@ -2224,7 +2247,7 @@ e-page.png>])
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
 
 
-[35
+[36
 
 
 
@@ -2236,7 +2259,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 
-[35
+[36
 
 ]
 
@@ -2268,6 +2291,31 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 Package biblatex Warning: Bibliography string 'july' untranslated
 (biblatex)                at entry 'nextcloud2018architecture' on input line 22
 4.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'nextcloud-system-requirements' on input lin
+e 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (9.37943pt too wide) in paragraph at lines 224--224
+\T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/12 https : / / docs . 
+nextcloud . com / server / stable / admin _ manual / installation /
+ []
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2332,7 +2380,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[36
+[37
 
 
 
@@ -2348,16 +2396,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C0C249B0936B98D699AD2C43FD4DC090;12616.
+(rerunfilecheck)             Checksum: 5DFF813F22CB14E7E51E015C3D6B9252;12617.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46580 strings out of 473197
- 1021719 string characters out of 5718605
- 1984085 words of memory out of 5000000
- 68807 multiletter control sequences out of 15000+600000
+ 46603 strings out of 473197
+ 1022782 string characters out of 5718605
+ 1984415 words of memory out of 5000000
+ 68826 multiletter control sequences out of 15000+600000
  578730 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,2420b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2376,10 +2424,10 @@ uper/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sftt1200.pfb>
-Output written on main.pdf (55 pages, 1623252 bytes).
+Output written on main.pdf (56 pages, 1823964 bytes).
 PDF statistics:
- 937 PDF objects out of 1000 (max. 8388607)
- 811 compressed objects within 9 object streams
- 303 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 954 PDF objects out of 1000 (max. 8388607)
+ 823 compressed objects within 9 object streams
+ 307 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
 

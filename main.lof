@@ -4,13 +4,15 @@
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Өргөн ашиглагдаж буй үүлэн хадгалалтын үйлчилгээнүүд}}{7}{figure.caption.51}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Хувийн сервер дээр ашиглах боломжтой үүлэн хадгалалтын платформууд}}{7}{figure.caption.57}%
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Nextcloud системийн өгөгдлийн давхаргын нэгдсэн шийдэл}}{8}{figure.caption.61}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Nextcloud-ийг Docker ашиглан асаасны дараа нийт RAM-ийн хэрэглээ}}{9}{figure.caption.64}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Nextcloud-ийy веб хэрэглэгчийн интерфэйс}}{10}{figure.caption.65}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{14}{figure.caption.102}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{15}{figure.caption.104}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{27}{figure.caption.184}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{29}{figure.caption.194}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Анхны тохиргооны дэлгэц}}{30}{figure.caption.198}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Нэвтрэх дэлгэц}}{30}{figure.caption.200}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{31}{figure.caption.202}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{31}{figure.caption.204}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{28}{figure.caption.186}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{30}{figure.caption.196}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Анхны тохиргооны дэлгэц}}{31}{figure.caption.200}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Нэвтрэх дэлгэц}}{31}{figure.caption.202}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{32}{figure.caption.204}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{32}{figure.caption.206}%
 \addvspace {10\p@ }
