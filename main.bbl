@@ -33,8 +33,8 @@
       \strng{authornamehash}{886600eb88a72692616cf77b0d78d852}
       \strng{authorfullhash}{886600eb88a72692616cf77b0d78d852}
       \strng{authorfullhashraw}{886600eb88a72692616cf77b0d78d852}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Personal Cloud Storage Usage report}
@@ -49,6 +49,396 @@
       \endverb
       \verb{url}
       \verb https://threadgoldconsulting.com/research/personal-cloud-storage-usage
+      \endverb
+    \endentry
+    \entry{google-colossus-storage-layer}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=075932b333f06975a9a016a51863b888}{%
+           family={{Dean Hildebrand, Denis Serenyi}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{075932b333f06975a9a016a51863b888}
+      \strng{fullhash}{075932b333f06975a9a016a51863b888}
+      \strng{fullhashraw}{075932b333f06975a9a016a51863b888}
+      \strng{bibnamehash}{075932b333f06975a9a016a51863b888}
+      \strng{authorbibnamehash}{075932b333f06975a9a016a51863b888}
+      \strng{authornamehash}{075932b333f06975a9a016a51863b888}
+      \strng{authorfullhash}{075932b333f06975a9a016a51863b888}
+      \strng{authorfullhashraw}{075932b333f06975a9a016a51863b888}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google's Scalable Storage Solution}
+      \field{title}{Colossus under the hood: a peek into Google’s scalable storage system}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system
+      \endverb
+      \verb{url}
+      \verb https://cloud.google.com/blog/products/storage-data-transfer/a-peek-behind-colossus-googles-file-system
+      \endverb
+    \endentry
+    \entry{google-workspace-security-whitepaper}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=512aa7012aff23efa1f64c9e11a8fbb8}{%
+           family={{Google Workspace}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{fullhash}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{fullhashraw}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{bibnamehash}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{authorbibnamehash}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{authornamehash}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{authorfullhash}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \strng{authorfullhashraw}{512aa7012aff23efa1f64c9e11a8fbb8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Workspace Security Whitepaper}
+      \field{title}{Google Workspace security whitepaper: Technology with security at its core}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://workspace.google.com/learn-more/security/security-whitepaper/page-4/
+      \endverb
+      \verb{url}
+      \verb https://workspace.google.com/learn-more/security/security-whitepaper/page-4/
+      \endverb
+    \endentry
+    \entry{google-drive-api-manage-changes}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Drive API Documentation}
+      \field{title}{Google Drive API: Track changes for users and shared drives}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/workspace/drive/api/guides/manage-changes
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/workspace/drive/api/guides/manage-changes
+      \endverb
+    \endentry
+    \entry{google-drive-api-push}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Drive API Push Notification Guide}
+      \field{title}{Google Drive API: Receive notifications for resource changes}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/workspace/drive/api/guides/push
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/workspace/drive/api/guides/push
+      \endverb
+    \endentry
+    \entry{google-drive-api-manage-uploads}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Drive API Upload Guide}
+      \field{title}{Google Drive API: Manage uploads}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developers.google.com/drive/api/v3/manage-uploads
+      \endverb
+      \verb{url}
+      \verb https://developers.google.com/drive/api/v3/manage-uploads
+      \endverb
+    \endentry
+    \entry{apple-icloud-security-overview}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
+           family={{Apple}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{fullhashraw}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{authorfullhashraw}{9f6290f4436e5a2351f12e03b6433c3c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Apple Platform Security}
+      \field{title}{iCloud security overview}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.apple.com/en-au/guide/security/secacde2d0da/web
+      \endverb
+      \verb{url}
+      \verb https://support.apple.com/en-au/guide/security/secacde2d0da/web
+      \endverb
+    \endentry
+    \entry{apple-cloudkit-overview}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3dd122ecce0ce9058f026211834f686e}{%
+           family={{Apple Developer}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{fullhash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{fullhashraw}{3dd122ecce0ce9058f026211834f686e}
+      \strng{bibnamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorbibnamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authornamehash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorfullhash}{3dd122ecce0ce9058f026211834f686e}
+      \strng{authorfullhashraw}{3dd122ecce0ce9058f026211834f686e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{CloudKit Overview and Architecture Concepts}
+      \field{title}{Build apps using CloudKit}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.apple.com/icloud/cloudkit/
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/icloud/cloudkit/
+      \endverb
+    \endentry
+    \entry{apple-icloud-data-security-overview}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fccd4c7120b656b0bd4cda0d836e087c}{%
+           family={{Apple Support}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{fullhash}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{fullhashraw}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{bibnamehash}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{authorbibnamehash}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{authornamehash}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{authorfullhash}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{authorfullhashraw}{fccd4c7120b656b0bd4cda0d836e087c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Apple iCloud Data Security Categories and CloudKit Security Diagram}
+      \field{title}{iCloud data security overview}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.apple.com/en-us/102651
+      \endverb
+      \verb{url}
+      \verb https://support.apple.com/en-us/102651
+      \endverb
+    \endentry
+    \entry{microsoft-onedrive-sharepoint-encryption}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Microsoft Learn Documentation}
+      \field{title}{Data encryption in OneDrive and SharePoint}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo
+      \endverb
+    \endentry
+    \entry{microsoft-onedrive-overview}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Microsoft Learn Documentation}
+      \field{title}{Overview of OneDrive in Microsoft 365}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/sharepoint/onedrive-overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/sharepoint/onedrive-overview
+      \endverb
+    \endentry
+    \entry{microsoft-onedrive-safeguards}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7bfcdfba2f79a6f7eaf61eae9da024da}{%
+           family={{Microsoft Support}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{fullhash}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{fullhashraw}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{bibnamehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{authorbibnamehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{authornamehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{authorfullhash}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \strng{authorfullhashraw}{7bfcdfba2f79a6f7eaf61eae9da024da}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{OneDrive Security and Resilience Practices}
+      \field{title}{How OneDrive safeguards your data in the cloud}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.microsoft.com/en-us/office/how-onedrive-safeguards-your-data-in-the-cloud-23c6ea94-3608-48d7-8bf0-80e142edd1e1
+      \endverb
+      \verb{url}
+      \verb https://support.microsoft.com/en-us/office/how-onedrive-safeguards-your-data-in-the-cloud-23c6ea94-3608-48d7-8bf0-80e142edd1e1
+      \endverb
+    \endentry
+    \entry{microsoft-onedrive-sync-process-pdf}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{OneDrive Sync Process Architecture Diagram}
+      \field{title}{How OneDrive sync works (PDF)}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://download.microsoft.com/download/B/E/3/BE3AA684-77D3-4985-B0A2-87775F21CF31/How%20OneDrive%20sync%20works.pdf
+      \endverb
+      \verb{url}
+      \verb https://download.microsoft.com/download/B/E/3/BE3AA684-77D3-4985-B0A2-87775F21CF31/How%20OneDrive%20sync%20works.pdf
       \endverb
     \endentry
     \entry{nextcloud2018architecture}{report}{}{}
@@ -68,8 +458,8 @@
       \strng{authornamehash}{dd630ec90881e3d8105e429b77bc0541}
       \strng{authorfullhash}{dd630ec90881e3d8105e429b77bc0541}
       \strng{authorfullhashraw}{dd630ec90881e3d8105e429b77bc0541}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -98,8 +488,8 @@
       \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
       \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
       \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{NextCloud official Documentation}
@@ -130,8 +520,8 @@
       \strng{authornamehash}{41a02e0c82149cd9a2be0e92948e17bb}
       \strng{authorfullhash}{41a02e0c82149cd9a2be0e92948e17bb}
       \strng{authorfullhashraw}{41a02e0c82149cd9a2be0e92948e17bb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Syncthing Documentation}
@@ -162,8 +552,8 @@
       \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
       \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Information about E2EE}
@@ -194,8 +584,8 @@
       \strng{authornamehash}{f5e265d607cb720058fc166e00083fe8}
       \strng{authorfullhash}{f5e265d607cb720058fc166e00083fe8}
       \strng{authorfullhashraw}{f5e265d607cb720058fc166e00083fe8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Book about Rust}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  28 MAR 2026 08:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  29 MAR 2026 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,7 +1567,7 @@ Package biblatex Info: Reference segment=0 on input line 161.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=209, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=221, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1750,7 +1750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 ]
-<Figures/chapter1/cloud-market.png, id=444, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=476, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
@@ -1774,219 +1774,389 @@ Overfull \hbox (8.64346pt too wide) in paragraph at lines 60--61
 ха-маа-рах эсэх, peer discovery/relay
  []
 
-<Figures/chapter1/cloud_providers.png, id=460, 421.0932pt x 155.8623pt>
-File: Figures/chapter1/cloud_providers.png Graphic file (type png)
-<use Figures/chapter1/cloud_providers.png>
-Package pdftex.def Info: Figures/chapter1/cloud_providers.png  used on input li
-ne 77.
-(pdftex.def)             Requested size: 315.81912pt x 116.89642pt.
 
 
 [6]
-<Figures/chapter1/self_cloud_providers.png, id=477, 378.213pt x 208.6194pt>
-File: Figures/chapter1/self_cloud_providers.png Graphic file (type png)
-<use Figures/chapter1/self_cloud_providers.png>
-Package pdftex.def Info: Figures/chapter1/self_cloud_providers.png  used on inp
-ut line 95.
-(pdftex.def)             Requested size: 283.65904pt x 156.46416pt.
+<Figures/chapter1/google-colossus-control-plane.png, id=513, 2007.5pt x 1129.21
+875pt>
+File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
+)
+<use Figures/chapter1/google-colossus-control-plane.png>
+Package pdftex.def Info: Figures/chapter1/google-colossus-control-plane.png  us
+ed on input line 84.
+(pdftex.def)             Requested size: 432.48051pt x 243.25975pt.
 
 
-[7 <./Figures/chapter1/cloud_providers.png (PNG copy)> <./Figures/chapter1/self
-_cloud_providers.png (PNG copy)>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=488, 526.96875pt x 359.3425pt>
+[7 <./Figures/chapter1/google-colossus-control-plane.png>]
+<Figures/chapter1/apple-cloudkit-zone-model.png, id=530, 1273.75874pt x 926.461
+24pt>
+File: Figures/chapter1/apple-cloudkit-zone-model.png Graphic file (type png)
+<use Figures/chapter1/apple-cloudkit-zone-model.png>
+Package pdftex.def Info: Figures/chapter1/apple-cloudkit-zone-model.png  used o
+n input line 98.
+(pdftex.def)             Requested size: 409.71692pt x 298.00041pt.
 
-File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
-<use Figures/chapter1/nextcloud_data_diagram.png>
-Package pdftex.def Info: Figures/chapter1/nextcloud_data_diagram.png  used on i
-nput line 109.
-(pdftex.def)             Requested size: 395.22559pt x 269.50621pt.
 
-Overfull \hbox (40.22876pt too wide) in paragraph at lines 118--119
-\T2A/cmr/m/n/12 aio-database, nextcloud-aio-whiteboard, nextcloud-aio-notify-pu
-sh, nextcloud-aio-talk, nextcloud-
+[8 <./Figures/chapter1/apple-cloudkit-zone-model.png>]
+Overfull \hbox (12.74771pt too wide) in paragraph at lines 108--109
+\T2A/cmr/m/n/12 recycle bin зэ-рэг шийд-ліі-дээр хэ-рэг-лээ-ний эн-гийн байд-лы
+г хад-гал-даг [[][]11[][]]. М°н Microsoft
+ []
+
+<Figures/chapter1/microsoft-onedrive-sync-architecture.png, id=546, 794.97pt x 
+2458.88048pt>
+File: Figures/chapter1/microsoft-onedrive-sync-architecture.png Graphic file (t
+ype png)
+<use Figures/chapter1/microsoft-onedrive-sync-architecture.png>
+Package pdftex.def Info: Figures/chapter1/microsoft-onedrive-sync-architecture.
+png  used on input line 112.
+(pdftex.def)             Requested size: 175.57323pt x 543.05647pt.
+
+
+[9]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 122.
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T2A/cmr/bx/n/10.95 Архитектурын
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T2A/cmr/bx/n/10.95 Найдвартай
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+[]|\T2A/cmr/bx/n/10.95 Аюулгій байд-
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 125--125
+[]|\T2A/cmr/m/n/10.95 Colossus, Spanner,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T2A/cmr/m/n/10.95 дав-хард-сан хуул-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T2A/cmr/m/n/10.95 бар-лалт, failover,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]|\T2A/cmr/m/n/10.95 Дамжуулалтын
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T2A/cmr/m/n/10.95 бо-лон хад-га-лал-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T2A/cmr/m/n/10.95 тын шифр-лэлт,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T2A/cmr/m/n/10.95 Workspace-ийн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+[]|\T2A/cmr/m/n/10.95 iCloud services
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T2A/cmr/m/n/10.95 ба CloudKit
+ []
+
+
+Overfull \hbox (3.6703pt too wide) in paragraph at lines 126--126
+\T2A/cmr/m/n/10.95 (container/DB/zone)
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 126--126
+[]|\T2A/cmr/m/n/10.95 TLS, хад-га-лал-тын
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
+\T2A/cmr/m/n/10.95 шифр-лэлт, ADP
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 126--126
+\T2A/cmr/m/n/10.95 идэвх-тэй іед °р-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T2A/cmr/m/n/10.95 Microsoft
+ []
+
+
+Overfull \hbox (6.08813pt too wide) in paragraph at lines 127--127
+[]|\T2A/cmr/m/n/10.95 OneDrive/SharePoint
+ []
+
+
+Underfull \hbox (badness 8000) in paragraph at lines 127--127
+\T2A/cmr/m/n/10.95 нэгд-сэн хад-га-лал-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T2A/cmr/m/n/10.95 Geo-replication,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T2A/cmr/m/n/10.95 version history,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T2A/cmr/m/n/10.95 TLS, BitLocker,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T2A/cmr/m/n/10.95 per-file AES-256,
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 130--130
+[]\T2A/cmr/m/sc/10.95 Хіснэгт 1.1: |\T2A/cmr/m/n/10.95 Ний-тийн іі-лэн плат-фор
+-муу-дын ар-хи-тек-тур ба
  []
 
 
 
-[8 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=498, 785.93625pt x 202.
+[10 <./Figures/chapter1/microsoft-onedrive-sync-architecture.png (PNG copy)>]
+Overfull \hbox (40.0957pt too wide) in paragraph at lines 135--136
+\T2A/cmr/m/n/12 ба data plane-ийг сал-гах, тарх-мал хад-га-лалт ашиг-лах, та-са
+л-далд тэс-вэр-тэй replication/failover
+ []
+
+<Figures/chapter1/cloud_providers.png, id=561, 421.0932pt x 155.8623pt>
+File: Figures/chapter1/cloud_providers.png Graphic file (type png)
+<use Figures/chapter1/cloud_providers.png>
+Package pdftex.def Info: Figures/chapter1/cloud_providers.png  used on input li
+ne 139.
+(pdftex.def)             Requested size: 315.81912pt x 116.89642pt.
+
+
+[11 <./Figures/chapter1/cloud_providers.png (PNG copy)>]
+<Figures/chapter1/self_cloud_providers.png, id=570, 378.213pt x 208.6194pt>
+File: Figures/chapter1/self_cloud_providers.png Graphic file (type png)
+<use Figures/chapter1/self_cloud_providers.png>
+Package pdftex.def Info: Figures/chapter1/self_cloud_providers.png  used on inp
+ut line 157.
+(pdftex.def)             Requested size: 283.65904pt x 156.46416pt.
+<Figures/chapter1/nextcloud_data_diagram.png, id=572, 526.96875pt x 359.3425pt>
+
+File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
+<use Figures/chapter1/nextcloud_data_diagram.png>
+Package pdftex.def Info: Figures/chapter1/nextcloud_data_diagram.png  used on i
+nput line 171.
+(pdftex.def)             Requested size: 395.22559pt x 269.50621pt.
+
+
+[12 <./Figures/chapter1/self_cloud_providers.png (PNG copy)>]
+Overfull \hbox (40.22876pt too wide) in paragraph at lines 180--181
+\T2A/cmr/m/n/12 aio-database, nextcloud-aio-whiteboard, nextcloud-aio-notify-pu
+sh, nextcloud-aio-talk, nextcloud-
+ []
+
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=583, 785.93625pt x 202.
 7575pt>
 File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
 )
 <use Figures/chapter1/nextcloud-containers-ramusage.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-containers-ramusage.png  us
-ed on input line 122.
+ed on input line 184.
 (pdftex.def)             Requested size: 432.26627pt x 111.51697pt.
-<Figures/chapter1/nextcloud-interface.png, id=499, 1917.1625pt x 1044.90375pt>
+
+
+[13 <./Figures/chapter1/nextcloud_data_diagram.png>]
+<Figures/chapter1/nextcloud-interface.png, id=591, 1917.1625pt x 1044.90375pt>
 File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
 <use Figures/chapter1/nextcloud-interface.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
-t line 131.
+t line 193.
 (pdftex.def)             Requested size: 421.77705pt x 229.87953pt.
 
-
-[9 <./Figures/chapter1/nextcloud-containers-ramusage.png>]
-Overfull \hbox (4.8517pt too wide) in paragraph at lines 145--146
+Overfull \hbox (4.8517pt too wide) in paragraph at lines 207--208
 [] [][] \T2A/cmr/m/n/12 Эд-гээр сис-те-міід нь т°-х°°-р°мж бі-рийг дав-таг-даш-
 гій та-них тэм-дэг (device identity)-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+
+[14 <./Figures/chapter1/nextcloud-containers-ramusage.png> <./Figures/chapter1/
+nextcloud-interface.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\T2A/cmr/m/n/12 Гуравдагч та-лын
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 157--157
+Underfull \hbox (badness 3646) in paragraph at lines 219--219
 []|\T2A/cmr/m/n/12 Хэрэглэгч °°-рийн
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 []|\T2A/cmr/m/n/12 Т°х°°р°мж хоо-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
 \T2A/cmr/m/n/12 ронд тарх-мал
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []|\T2A/cmr/m/n/12 Харьцангуй эн-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []|\T2A/cmr/m/n/12 Тохиргоо, ар-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 \T2A/cmr/m/n/12 чил-гаа °н-д°р
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []|\T2A/cmr/m/n/12 Peer хол-бол-тын
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 158--158
+Underfull \hbox (badness 2653) in paragraph at lines 220--220
 \T2A/cmr/m/n/12 орч-ноос ха-маа-ран
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 159--159
+Underfull \hbox (badness 1755) in paragraph at lines 221--221
 []|\T2A/cmr/m/n/12 Аюулгій байд-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []|\T2A/cmr/m/n/12 “йлчилгээ ізіі-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []|\T2A/cmr/m/n/12 Локал бод-ло-гоо
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 \T2A/cmr/m/n/12 °°-р°° удир-дах
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 []|\T2A/cmr/m/n/12 Дамжуулалтын
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
 \T2A/cmr/m/n/12 хам-гаа-лалт сайн
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 159--159
+Underfull \hbox (badness 6316) in paragraph at lines 221--221
 \T2A/cmr/m/n/12 бо-ловч т°в-л°р-с°н
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\T2A/cmr/m/n/12 Discovery/relay
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\T2A/cmr/m/n/12 ђд°р тут-мын
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\T2A/cmr/m/n/12 Хамгийн эн-гийн,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \T2A/cmr/m/n/12 ав-то-мат-жуу-лалт
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\T2A/cmr/m/n/12 Боломж °р-г°н
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 161--161
+Underfull \hbox (badness 5592) in paragraph at lines 223--223
 \T2A/cmr/m/n/12 ч тех-ник мэд-лэг
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 []|\T2A/cmr/m/n/12 Sync хэ-рэг-лээнд
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \T2A/cmr/m/n/12 хіч-тэй, cloud-like
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--161
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \T2A/cmr/m/n/12 UX харь-цан-гуй
  []
 
 
 
-[10 <./Figures/chapter1/nextcloud-interface.png>]
+[15])
 
-[11])
+[16]
 
-[12]
+[17]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 2.
 
 
-[13
+[18
 
 
 
 
 ]
 
-[13
+[18
 
 ]
-<Figures/chapter2/usecase.png, id=554, 434.62375pt x 614.295pt>
+<Figures/chapter2/usecase.png, id=646, 434.62375pt x 614.295pt>
 File: Figures/chapter2/usecase.png Graphic file (type png)
 <use Figures/chapter2/usecase.png>
 Package pdftex.def Info: Figures/chapter2/usecase.png  used on input line 65.
 (pdftex.def)             Requested size: 304.23454pt x 430.00356pt.
 
 
-[14]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 94--94
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -1998,7 +2168,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
 
 
-[15 <./Figures/chapter2/usecase.png>]
+[20 <./Figures/chapter2/usecase.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2010,7 +2180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
 
 
-[16]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 174--174
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2022,7 +2192,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 
 
 
-[17]
+[22]
 Underfull \hbox (badness 5622) in paragraph at lines 201--201
 []|\T2A/cmr/m/n/12 Хувийн іі-лэн хад-га-лал-тын сис-те-мийг ашиг-лах
  []
@@ -2044,7 +2214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--223
 
 
 
-[18]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 250--250
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2056,7 +2226,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--258
 
 
 
-[19]
+[24]
 Underfull \hbox (badness 1406) in paragraph at lines 275--275
 []|\T2A/cmr/m/n/12 Хэрэглэгч °°-рийн іі-лэн хад-га-лал-тын т°-х°°-р°мж
  []
@@ -2073,7 +2243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--297
 
 
 
-[20]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2085,7 +2255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--318
 
 
 
-[21]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2102,7 +2272,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--361
 
 
 
-[22]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 389--389
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2119,7 +2289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--405
 
 
 
-[23]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []|\T2A/cmr/bx/n/12 Main success
  []
@@ -2131,7 +2301,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--448
 
 
 
-[24]
+[29]
 Overfull \hbox (2.4675pt too wide) in paragraph at lines 457--458
 []\T2A/cmr/m/n/12 Серверийн про-грамм нь Linux, Windows, MacOS ійлд-лийн сис-те
 -міід дээр ажил-
@@ -2139,7 +2309,7 @@ Overfull \hbox (2.4675pt too wide) in paragraph at lines 457--458
 
 
 
-[25]
+[30]
 Overfull \hbox (20.42357pt too wide) in paragraph at lines 473--474
 []\T2A/cmr/m/n/12 Файл дам-жуу-лах яв-цад °г°гд-лийн бі-рэн бі-тэн байд-лыг шал
 -гах ме-ха-низм (checksum
@@ -2147,22 +2317,22 @@ Overfull \hbox (20.42357pt too wide) in paragraph at lines 473--474
 
 
 
-[26])
+[31])
 
-[27]
+[32]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 3.
 
 
-[28
+[33
 
 
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio.png, id=683, 885.3075pt x 444.6612
+<Figures/chapter3/pcloud-architecture.drawio.png, id=774, 885.3075pt x 444.6612
 5pt>
 File: Figures/chapter3/pcloud-architecture.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-architecture.drawio.png>
@@ -2171,7 +2341,7 @@ on input line 11.
 (pdftex.def)             Requested size: 442.65266pt x 222.33008pt.
 
 
-[28
+[33
 
  <./Figures/chapter3/pcloud-architecture.drawio.png>]
 Overfull \hbox (6.83698pt too wide) in paragraph at lines 31--32
@@ -2185,7 +2355,7 @@ Overfull \hbox (3.23755pt too wide) in paragraph at lines 31--32
 m/it/12 sessions \T2A/cmr/m/n/12 хіс-нэг-тээр дам-жуу-лан удир-
  []
 
-<Figures/chapter3/pcloud-erd.drawio.png, id=694, 1252.68pt x 1055.945pt>
+<Figures/chapter3/pcloud-erd.drawio.png, id=785, 1252.68pt x 1055.945pt>
 File: Figures/chapter3/pcloud-erd.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-erd.drawio.png>
 Package pdftex.def Info: Figures/chapter3/pcloud-erd.drawio.png  used on input 
@@ -2193,8 +2363,8 @@ line 35.
 (pdftex.def)             Requested size: 438.44456pt x 369.58629pt.
 
 
-[29]
-<Figures/chapter3/admin-first-launch.png, id=702, 1734.48pt x 1121.18875pt>
+[34]
+<Figures/chapter3/admin-first-launch.png, id=793, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
@@ -2202,13 +2372,13 @@ Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
 (pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
 
 
-[30 <./Figures/chapter3/pcloud-erd.drawio.png>]
-<Figures/chapter3/login.png, id=710, 2178.1375pt x 1121.18875pt>
+[35 <./Figures/chapter3/pcloud-erd.drawio.png>]
+<Figures/chapter3/login.png, id=802, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 58.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=711, 2178.1375pt x 1121.18875pt>
+<Figures/chapter3/normal-user-homepage.png, id=803, 2178.1375pt x 1121.18875pt>
 
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
@@ -2217,8 +2387,8 @@ ut line 67.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
 
 
-[31 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=720, 2195.20125pt x 1121.18875pt>
+[36 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
+<Figures/chapter3/admin-home-page.png, id=811, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2226,17 +2396,17 @@ ne 76.
 (pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
 
 
-[32 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
+[37 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
 e-page.png>])
 
-[33]
+[38]
 
-[34]
+[39]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex)
 
-[35
+[40
 
 
 
@@ -2247,7 +2417,7 @@ e-page.png>])
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
 
 
-[36
+[41
 
 
 
@@ -2259,7 +2429,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 
-[36
+[41
 
 ]
 
@@ -2272,6 +2442,272 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'cloudstorageusage' on input line 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (2.55127pt too wide) in paragraph at lines 224--224
+[]\T2A/cmr/m/n/12 Threadgold consulting. \T2A/cmr/m/it/12 Personal Cloud Storag
+e Usage\T2A/cmr/m/n/12 . Personal Cloud Storage Usage
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'google-colossus-storage-layer' on input lin
+e 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'google-workspace-security-whitepaper' on in
+put line 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (3.77219pt too wide) in paragraph at lines 224--224
+\T2A/cmr/m/it/12 at its core\T2A/cmr/m/n/12 . Google Workspace Security Whitepa
+per. 2026. \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/12 https : 
+/ / workspace .
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'google-drive-api-manage-changes' on input l
+ine 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'google-drive-api-push' on input line 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'google-drive-api-manage-uploads' on input l
+ine 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'apple-icloud-security-overview' on input li
+ne 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'apple-cloudkit-overview' on input line 224.
+
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (4.6503pt too wide) in paragraph at lines 224--224
+\T2A/cmr/m/n/12 Concepts. 2026. \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A
+/cmtt/m/n/12 https : / / developer . apple . com / icloud / cloudkit/$[][] \T2A
+/cmr/m/n/12 ([]
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'apple-icloud-data-security-overview' on inp
+ut line 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (3.85515pt too wide) in paragraph at lines 224--224
+[]\T2A/cmr/m/n/12 Apple Support. \T2A/cmr/m/it/12 iCloud data security overview
+\T2A/cmr/m/n/12 . Apple iCloud Data Security Categories
+ []
+
+
+
+[42
+
+
+
+]
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'microsoft-onedrive-sharepoint-encryption' o
+n input line 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (28.34352pt too wide) in paragraph at lines 224--224
+[]\T2A/cmr/m/n/12 Microsoft. \T2A/cmr/m/it/12 Data encryption in OneDrive and S
+harePoint\T2A/cmr/m/n/12 . Microsoft Learn Documentation.
+ []
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'microsoft-onedrive-overview' on input line 
+224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'microsoft-onedrive-safeguards' on input lin
+e 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
+
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'microsoft-onedrive-sync-process-pdf' on inp
+ut line 224.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2312,7 +2748,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (9.37943pt too wide) in paragraph at lines 224--224
+Overfull \hbox (4.35437pt too wide) in paragraph at lines 224--224
+[]\T2A/cmr/m/n/12 Nextcloud. \T2A/cmr/m/it/12 Nextcloud System Requirements\T2A
+/cmr/m/n/12 . NextCloud official Documentation. 2026.
+ []
+
+
+Overfull \hbox (15.25299pt too wide) in paragraph at lines 224--224
 \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/12 https : / / docs . 
 nextcloud . com / server / stable / admin _ manual / installation /
  []
@@ -2337,9 +2779,10 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (2.74783pt too wide) in paragraph at lines 224--224
-[]\T2A/cmr/m/n/12 Syncthing Project. \T2A/cmr/m/it/12 Syncthing Protocol Specif
-ications\T2A/cmr/m/n/12 . Syncthing Documentation. 2024.
+Overfull \hbox (14.71922pt too wide) in paragraph at lines 224--224
+\T2A/cmr/m/n/12 2024. \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/
+12 https : / / docs . syncthing . net / specs / index . html$[][] \T2A/cmr/m/n/
+12 ([] 01/03/2026). 
  []
 
 
@@ -2380,11 +2823,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[37
-
-
-
-] (./main.aux (./FrontBackMatter/Titlepage.aux)
+[43] (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
@@ -2396,38 +2835,38 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5DFF813F22CB14E7E51E015C3D6B9252;12617.
+(rerunfilecheck)             Checksum: A0D0C74ACA8FD53FABB8EEAADC3356C1;13598.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46603 strings out of 473197
- 1022782 string characters out of 5718605
- 1984415 words of memory out of 5000000
- 68826 multiletter control sequences out of 15000+600000
- 578730 words of font info for 69 fonts, out of 8000000 for 9000
+ 46705 strings out of 473197
+ 1027341 string characters out of 5718605
+ 1986245 words of memory out of 5000000
+ 68895 multiletter control sequences out of 15000+600000
+ 580472 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,20n,135p,2420b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 138i,20n,135p,2438b,2148s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sftt1200.pfb>
-Output written on main.pdf (56 pages, 1823964 bytes).
+fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (62 pages, 3907326 bytes).
 PDF statistics:
- 954 PDF objects out of 1000 (max. 8388607)
- 823 compressed objects within 9 object streams
- 307 named destinations out of 1000 (max. 500000)
- 483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1086 PDF objects out of 1200 (max. 8388607)
+ 940 compressed objects within 10 object streams
+ 339 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 
