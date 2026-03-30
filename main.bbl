@@ -115,6 +115,72 @@
       \verb https://workspace.google.com/learn-more/security/security-whitepaper/page-4/
       \endverb
     \endentry
+    \entry{google-workspace-data-region-policy}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6bf847d4362421ba6254a6998b7cc1e}{%
+           family={{Google Workspace Admin Help}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{fullhash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{fullhashraw}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{bibnamehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authorbibnamehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authornamehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authorfullhash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authorfullhashraw}{b6bf847d4362421ba6254a6998b7cc1e}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Workspace Data Region Policy Guide}
+      \field{title}{Choose a geographic location for your data}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.google.com/a/answer/14310028?hl=en
+      \endverb
+      \verb{url}
+      \verb https://support.google.com/a/answer/14310028?hl=en
+      \endverb
+    \endentry
+    \entry{google-workspace-cse}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6bf847d4362421ba6254a6998b7cc1e}{%
+           family={{Google Workspace Admin Help}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{fullhash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{fullhashraw}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{bibnamehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authorbibnamehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authornamehash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authorfullhash}{b6bf847d4362421ba6254a6998b7cc1e}
+      \strng{authorfullhashraw}{b6bf847d4362421ba6254a6998b7cc1e}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Google Workspace Client-side Encryption Overview}
+      \field{title}{Protect your organization's data with CSE}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://support.google.com/a/answer/14326936?hl=en
+      \endverb
+      \verb{url}
+      \verb https://support.google.com/a/answer/14326936?hl=en
+      \endverb
+    \endentry
     \entry{google-drive-api-manage-changes}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=6bc28252c14133d21331dc54856c1797}{%
@@ -130,8 +196,8 @@
       \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
       \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Google Drive API Documentation}
@@ -163,8 +229,8 @@
       \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
       \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Google Drive API Push Notification Guide}
@@ -196,8 +262,8 @@
       \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
       \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
       \field{extraname}{3}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Google Drive API Upload Guide}
@@ -214,231 +280,135 @@
       \verb https://developers.google.com/drive/api/v3/manage-uploads
       \endverb
     \endentry
-    \entry{apple-icloud-security-overview}{misc}{}{}
+    \entry{google-drive-api-manage-revisions}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=9f6290f4436e5a2351f12e03b6433c3c}{%
-           family={{Apple}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=6bc28252c14133d21331dc54856c1797}{%
+           family={{Google Developers}},
+           familyi={G\bibinitperiod}}}%
       }
-      \strng{namehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{fullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{fullhashraw}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{bibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorbibnamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authornamehash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorfullhash}{9f6290f4436e5a2351f12e03b6433c3c}
-      \strng{authorfullhashraw}{9f6290f4436e5a2351f12e03b6433c3c}
+      \strng{namehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{fullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \strng{bibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorbibnamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authornamehash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhash}{6bc28252c14133d21331dc54856c1797}
+      \strng{authorfullhashraw}{6bc28252c14133d21331dc54856c1797}
+      \field{extraname}{4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Apple Platform Security}
-      \field{title}{iCloud security overview}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://support.apple.com/en-au/guide/security/secacde2d0da/web
-      \endverb
-      \verb{url}
-      \verb https://support.apple.com/en-au/guide/security/secacde2d0da/web
-      \endverb
-    \endentry
-    \entry{apple-cloudkit-overview}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=3dd122ecce0ce9058f026211834f686e}{%
-           family={{Apple Developer}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{fullhash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{fullhashraw}{3dd122ecce0ce9058f026211834f686e}
-      \strng{bibnamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorbibnamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authornamehash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorfullhash}{3dd122ecce0ce9058f026211834f686e}
-      \strng{authorfullhashraw}{3dd122ecce0ce9058f026211834f686e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{CloudKit Overview and Architecture Concepts}
-      \field{title}{Build apps using CloudKit}
+      \field{note}{Google Drive API Revision Management Guide}
+      \field{title}{Google Drive API: Manage file revisions}
       \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://developer.apple.com/icloud/cloudkit/
+      \verb https://developers.google.com/workspace/drive/api/guides/manage-revisions
       \endverb
       \verb{url}
-      \verb https://developer.apple.com/icloud/cloudkit/
+      \verb https://developers.google.com/workspace/drive/api/guides/manage-revisions
       \endverb
     \endentry
-    \entry{apple-icloud-data-security-overview}{misc}{}{}
+    \entry{google-drive-file-versions-help}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=fccd4c7120b656b0bd4cda0d836e087c}{%
-           family={{Apple Support}},
-           familyi={A\bibinitperiod}}}%
+        {{hash=9729adb2a6bce677f01695909de77085}{%
+           family={{Google Drive Help}},
+           familyi={G\bibinitperiod}}}%
       }
-      \strng{namehash}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{fullhash}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{fullhashraw}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{bibnamehash}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{authorbibnamehash}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{authornamehash}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{authorfullhash}{fccd4c7120b656b0bd4cda0d836e087c}
-      \strng{authorfullhashraw}{fccd4c7120b656b0bd4cda0d836e087c}
+      \strng{namehash}{9729adb2a6bce677f01695909de77085}
+      \strng{fullhash}{9729adb2a6bce677f01695909de77085}
+      \strng{fullhashraw}{9729adb2a6bce677f01695909de77085}
+      \strng{bibnamehash}{9729adb2a6bce677f01695909de77085}
+      \strng{authorbibnamehash}{9729adb2a6bce677f01695909de77085}
+      \strng{authornamehash}{9729adb2a6bce677f01695909de77085}
+      \strng{authorfullhash}{9729adb2a6bce677f01695909de77085}
+      \strng{authorfullhashraw}{9729adb2a6bce677f01695909de77085}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Apple iCloud Data Security Categories and CloudKit Security Diagram}
-      \field{title}{iCloud data security overview}
+      \field{note}{Google Drive Version History and Activity Guide}
+      \field{title}{Check activity and file versions}
       \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://support.apple.com/en-us/102651
+      \verb https://support.google.com/drive/answer/2409045?hl=en
       \endverb
       \verb{url}
-      \verb https://support.apple.com/en-us/102651
+      \verb https://support.google.com/drive/answer/2409045?hl=en
       \endverb
     \endentry
-    \entry{microsoft-onedrive-sharepoint-encryption}{misc}{}{}
+    \entry{nextcloud-files-overview}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Microsoft Learn Documentation}
-      \field{title}{Data encryption in OneDrive and SharePoint}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/purview/data-encryption-in-odb-and-spo
-      \endverb
-    \endentry
-    \entry{microsoft-onedrive-overview}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Microsoft Learn Documentation}
-      \field{title}{Overview of OneDrive in Microsoft 365}
-      \field{urlday}{29}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/sharepoint/onedrive-overview
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/sharepoint/onedrive-overview
-      \endverb
-    \endentry
-    \entry{microsoft-onedrive-safeguards}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=7bfcdfba2f79a6f7eaf61eae9da024da}{%
-           family={{Microsoft Support}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{fullhash}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{fullhashraw}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{bibnamehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{authorbibnamehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{authornamehash}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{authorfullhash}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \strng{authorfullhashraw}{7bfcdfba2f79a6f7eaf61eae9da024da}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{OneDrive Security and Resilience Practices}
-      \field{title}{How OneDrive safeguards your data in the cloud}
+      \field{note}{Official Nextcloud Files overview page}
+      \field{title}{Nextcloud Files - Open source file sync and share platform}
       \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://support.microsoft.com/en-us/office/how-onedrive-safeguards-your-data-in-the-cloud-23c6ea94-3608-48d7-8bf0-80e142edd1e1
+      \verb https://nextcloud.com/files/
       \endverb
       \verb{url}
-      \verb https://support.microsoft.com/en-us/office/how-onedrive-safeguards-your-data-in-the-cloud-23c6ea94-3608-48d7-8bf0-80e142edd1e1
+      \verb https://nextcloud.com/files/
       \endverb
     \endentry
-    \entry{microsoft-onedrive-sync-process-pdf}{misc}{}{}
+    \entry{nextcloud-fork-announcement}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{OneDrive Sync Process Architecture Diagram}
-      \field{title}{How OneDrive sync works (PDF)}
+      \field{note}{Official Nextcloud launch announcement}
+      \field{title}{Core ownCloud Contributors Fork ownCloud Into Nextcloud}
       \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
-      \field{year}{2019}
+      \field{year}{2016}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://download.microsoft.com/download/B/E/3/BE3AA684-77D3-4985-B0A2-87775F21CF31/How%20OneDrive%20sync%20works.pdf
+      \verb https://nextcloud.com/blog/press_releases/pr20160602/
       \endverb
       \verb{url}
-      \verb https://download.microsoft.com/download/B/E/3/BE3AA684-77D3-4985-B0A2-87775F21CF31/How%20OneDrive%20sync%20works.pdf
+      \verb https://nextcloud.com/blog/press_releases/pr20160602/
       \endverb
     \endentry
     \entry{nextcloud2018architecture}{report}{}{}
@@ -458,8 +428,8 @@
       \strng{authornamehash}{dd630ec90881e3d8105e429b77bc0541}
       \strng{authorfullhash}{dd630ec90881e3d8105e429b77bc0541}
       \strng{authorfullhashraw}{dd630ec90881e3d8105e429b77bc0541}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -472,6 +442,237 @@
       \endverb
       \verb{url}
       \verb https://nextcloud.com/c/uploads/2022/03/Architecture-Whitepaper-WebVersion-072018.pdf
+      \endverb
+    \endentry
+    \entry{nextcloud-external-storage}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Configuring External Storage (GUI)}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/external_storage_configuration_gui.html
+      \endverb
+    \endentry
+    \entry{nextcloud-file-access-control}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Files access control}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/30/admin_manual/file_workflows/access_control.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/30/admin_manual/file_workflows/access_control.html
+      \endverb
+    \endentry
+    \entry{nextcloud-encryption-configuration}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Server-side Encryption}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/encryption_configuration.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/encryption_configuration.html
+      \endverb
+    \endentry
+    \entry{nextcloud-file-versioning}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Controlling file versions and aging}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/file_versioning.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/file_versioning.html
+      \endverb
+    \endentry
+    \entry{nextcloud-trashbin-configuration}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Deleted Items (trash bin)}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/trashbin_configuration.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_files/trashbin_configuration.html
+      \endverb
+    \endentry
+    \entry{nextcloud-transactional-file-locking}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Transactional file locking}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/31/admin_manual/configuration_files/files_locking_transactional.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/31/admin_manual/configuration_files/files_locking_transactional.html
+      \endverb
+    \endentry
+    \entry{nextcloud-caching-configuration}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d666a3dbc79e42eb871913a5c586fcf3}{%
+           family={{Nextcloud}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{fullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{bibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorbibnamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
+      \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nextcloud Administration Manual}
+      \field{title}{Memory caching}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/caching_configuration.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nextcloud.com/server/stable/admin_manual/configuration_server/caching_configuration.html
       \endverb
     \endentry
     \entry{nextcloud-system-requirements}{misc}{}{}
@@ -488,6 +689,7 @@
       \strng{authornamehash}{d666a3dbc79e42eb871913a5c586fcf3}
       \strng{authorfullhash}{d666a3dbc79e42eb871913a5c586fcf3}
       \strng{authorfullhashraw}{d666a3dbc79e42eb871913a5c586fcf3}
+      \field{extraname}{10}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -506,68 +708,136 @@
       \verb https://docs.nextcloud.com/server/stable/admin_manual/installation/system_requirements.html
       \endverb
     \endentry
-    \entry{syncthingspecifications}{misc}{}{}
+    \entry{owncloud-infinite-scale-release}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=41a02e0c82149cd9a2be0e92948e17bb}{%
-           family={{Syncthing Project}},
-           familyi={S\bibinitperiod}}}%
+        {{hash=34a2bb3666242f3a95946770a4dfaaa2}{%
+           family={{ownCloud}},
+           familyi={o\bibinitperiod}}}%
       }
-      \strng{namehash}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{fullhash}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{fullhashraw}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{bibnamehash}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{authorbibnamehash}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{authornamehash}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{authorfullhash}{41a02e0c82149cd9a2be0e92948e17bb}
-      \strng{authorfullhashraw}{41a02e0c82149cd9a2be0e92948e17bb}
+      \strng{namehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{bibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorbibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authornamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Syncthing Documentation}
-      \field{title}{Syncthing Protocol Specifications}
-      \field{urlday}{1}
+      \field{note}{Official ownCloud Infinite Scale release announcement}
+      \field{title}{Scalable, secure, faster and more efficient: ownCloud Infinite Scale is here}
+      \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
-      \field{year}{2024}
+      \field{year}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://docs.syncthing.net/specs/index.html
+      \verb https://owncloud.com/news/infinitescalerelease/
       \endverb
       \verb{url}
-      \verb https://docs.syncthing.net/specs/index.html
+      \verb https://owncloud.com/news/infinitescalerelease/
       \endverb
     \endentry
-    \entry{ibm-e2ee}{misc}{}{}
+    \entry{owncloud-ocis-architecture}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
-           family={{IBM}},
-           familyi={I\bibinitperiod}}}%
+        {{hash=34a2bb3666242f3a95946770a4dfaaa2}{%
+           family={{ownCloud}},
+           familyi={o\bibinitperiod}}}%
       }
-      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{namehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{bibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorbibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authornamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Information about E2EE}
-      \field{title}{What is end-to-end encryption (E2EE)?}
-      \field{urlday}{1}
+      \field{note}{ownCloud Infinite Scale Architecture Documentation}
+      \field{title}{Architecture and Concepts of Infinite Scale}
+      \field{urlday}{29}
       \field{urlmonth}{3}
       \field{urlyear}{2026}
       \field{year}{2026}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.ibm.com/think/topics/end-to-end-encryption
+      \verb https://doc.owncloud.com/ocis/next/architecture/architecture.html
       \endverb
       \verb{url}
-      \verb https://www.ibm.com/think/topics/end-to-end-encryption
+      \verb https://doc.owncloud.com/ocis/next/architecture/architecture.html
+      \endverb
+    \endentry
+    \entry{owncloud-ocis-security}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=34a2bb3666242f3a95946770a4dfaaa2}{%
+           family={{ownCloud}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{bibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorbibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authornamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ownCloud Infinite Scale Security Documentation}
+      \field{title}{Security Aspects of Infinite Scale}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doc.owncloud.com/ocis/next/security/security.html
+      \endverb
+      \verb{url}
+      \verb https://doc.owncloud.com/ocis/next/security/security.html
+      \endverb
+    \endentry
+    \entry{owncloud-ocis-availability}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=34a2bb3666242f3a95946770a4dfaaa2}{%
+           family={{ownCloud}},
+           familyi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{fullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{bibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorbibnamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authornamehash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhash}{34a2bb3666242f3a95946770a4dfaaa2}
+      \strng{authorfullhashraw}{34a2bb3666242f3a95946770a4dfaaa2}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{ownCloud Infinite Scale Availability and Scaling Guide}
+      \field{title}{Availability and Scalability}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doc.owncloud.com/ocis/next/availability_scaling/availability_scaling.html
+      \endverb
+      \verb{url}
+      \verb https://doc.owncloud.com/ocis/next/availability_scaling/availability_scaling.html
       \endverb
     \endentry
     \entry{rust-book}{misc}{}{}
@@ -584,8 +854,8 @@
       \strng{authornamehash}{f5e265d607cb720058fc166e00083fe8}
       \strng{authorfullhash}{f5e265d607cb720058fc166e00083fe8}
       \strng{authorfullhashraw}{f5e265d607cb720058fc166e00083fe8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Book about Rust}

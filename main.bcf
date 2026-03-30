@@ -2376,28 +2376,45 @@
     <bcf:citekey order="5" intorder="1">cloudstorageusage</bcf:citekey>
     <bcf:citekey order="6" intorder="1">google-colossus-storage-layer</bcf:citekey>
     <bcf:citekey order="7" intorder="1">google-workspace-security-whitepaper</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">google-drive-api-manage-changes</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">google-drive-api-push</bcf:citekey>
-    <bcf:citekey order="8" intorder="3">google-drive-api-manage-uploads</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">google-colossus-storage-layer</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">google-workspace-data-region-policy</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">google-workspace-cse</bcf:citekey>
     <bcf:citekey order="10" intorder="1">google-colossus-storage-layer</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">apple-icloud-security-overview</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">apple-icloud-security-overview</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">apple-cloudkit-overview</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">apple-icloud-data-security-overview</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">apple-icloud-data-security-overview</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">microsoft-onedrive-sharepoint-encryption</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">microsoft-onedrive-sharepoint-encryption</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">microsoft-onedrive-overview</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">microsoft-onedrive-safeguards</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">microsoft-onedrive-sync-process-pdf</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">microsoft-onedrive-sync-process-pdf</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">nextcloud2018architecture</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">nextcloud-system-requirements</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">syncthingspecifications</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">ibm-e2ee</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">rust-book</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">rust-book</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">google-colossus-storage-layer</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">google-colossus-storage-layer</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">google-drive-api-manage-changes</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">google-drive-api-push</bcf:citekey>
+    <bcf:citekey order="13" intorder="3">google-drive-api-manage-uploads</bcf:citekey>
+    <bcf:citekey order="13" intorder="4">google-drive-api-manage-revisions</bcf:citekey>
+    <bcf:citekey order="13" intorder="5">google-drive-file-versions-help</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">nextcloud-files-overview</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">nextcloud-fork-announcement</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">nextcloud2018architecture</bcf:citekey>
+    <bcf:citekey order="16" intorder="2">nextcloud-external-storage</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">nextcloud-external-storage</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">nextcloud2018architecture</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">nextcloud2018architecture</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">nextcloud-external-storage</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">nextcloud-file-access-control</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">nextcloud-encryption-configuration</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">nextcloud-file-versioning</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">nextcloud-trashbin-configuration</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">nextcloud-transactional-file-locking</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">nextcloud-caching-configuration</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">nextcloud-system-requirements</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">owncloud-infinite-scale-release</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">owncloud-ocis-architecture</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">owncloud-ocis-architecture</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">owncloud-ocis-architecture</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">owncloud-ocis-architecture</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">owncloud-ocis-architecture</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">owncloud-ocis-security</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">owncloud-ocis-security</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">owncloud-ocis-security</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">owncloud-ocis-availability</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">owncloud-ocis-architecture</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">owncloud-ocis-availability</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">rust-book</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">rust-book</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
