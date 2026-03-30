@@ -51,56 +51,60 @@
 \contentsline {section}{\numberline {1.4}Бүлгийн дүгнэлт}{18}{section.85}%
 \contentsline {paragraph}{}{18}{paragraph*.86}%
 \contentsline {chapter}{\numberline {2}Хувийн үүлэн хадгалалтын системийн шинжилгээ}{19}{chapter.87}%
-\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны тухай дэлгэрэнгүй}{19}{section.88}%
+\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны дэлгэрэнгүй}{19}{section.88}%
 \contentsline {paragraph}{}{19}{paragraph*.89}%
 \contentsline {paragraph}{}{19}{paragraph*.90}%
 \contentsline {paragraph}{}{19}{paragraph*.91}%
 \contentsline {paragraph}{}{19}{paragraph*.92}%
-\contentsline {section}{\numberline {2.2}Функциональ шаардлага}{19}{section.93}%
-\contentsline {subsection}{\numberline {2.2.1}Usecase диаграмм}{20}{subsection.109}%
-\contentsline {paragraph}{}{20}{paragraph*.110}%
-\contentsline {paragraph}{}{20}{paragraph*.111}%
-\contentsline {subsection}{\numberline {2.2.2}Юзкейсийн тодорхойлолт}{22}{subsection.113}%
-\contentsline {subsubsection}{Хэрэглэгч үүсгэх (UC-001)}{22}{subsubsection*.114}%
-\contentsline {subsubsection}{Хэрэглэгч устгах (UC-002)}{23}{subsubsection*.121}%
-\contentsline {subsubsection}{Эрх олгох (UC-003)}{24}{subsubsection*.127}%
-\contentsline {subsubsection}{Системд нэвтрэх (UC-004)}{25}{subsubsection*.132}%
-\contentsline {subsubsection}{Файл болон хавтас харах (UC-005)}{26}{subsubsection*.138}%
-\contentsline {subsubsection}{Файл байршуулах (UC-006)}{27}{subsubsection*.141}%
-\contentsline {subsubsection}{Файл татаж авах (UC-007)}{28}{subsubsection*.147}%
-\contentsline {subsubsection}{Хавтас үүсгэх (UC-008)}{29}{subsubsection*.152}%
-\contentsline {subsubsection}{Файл/хавтас устгах (UC-009)}{30}{subsubsection*.158}%
-\contentsline {subsubsection}{Файл/хавтас шилжүүлэх (UC-010)}{31}{subsubsection*.166}%
-\contentsline {section}{\numberline {2.3}Функциональ бус шаардлага}{31}{section.173}%
-\contentsline {section}{\numberline {2.4}Ажлын хүрээ}{32}{section.183}%
-\contentsline {subsection}{\numberline {2.4.1}Scope (Хамрах хүрээ)}{32}{subsection.184}%
-\contentsline {subsection}{\numberline {2.4.2}Out of Scope (Хийхгүй зүйлс)}{32}{subsection.188}%
-\contentsline {section}{\numberline {2.5}Бүлгийн дүгнэлт}{33}{section.190}%
-\contentsline {chapter}{\numberline {3}Хувийн үүлэн хадгалалтын системийн зохиомж ба хөгжүүлэлт}{34}{chapter.191}%
-\contentsline {section}{\numberline {3.1}Системийн архитектур}{34}{section.192}%
-\contentsline {paragraph}{}{34}{paragraph*.193}%
-\contentsline {section}{\numberline {3.2}Зохиомжийн үндсэн компонентууд}{34}{section.195}%
-\contentsline {paragraph}{}{34}{paragraph*.196}%
-\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем}{35}{section.201}%
-\contentsline {paragraph}{}{35}{paragraph*.202}%
-\contentsline {paragraph}{}{35}{paragraph*.203}%
-\contentsline {section}{\numberline {3.4}Системийн прототип}{36}{section.205}%
-\contentsline {paragraph}{}{36}{paragraph*.206}%
-\contentsline {paragraph}{}{36}{paragraph*.207}%
-\contentsline {paragraph}{}{37}{paragraph*.209}%
-\contentsline {paragraph}{}{38}{paragraph*.211}%
-\contentsline {paragraph}{}{38}{paragraph*.213}%
-\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{39}{section.215}%
-\contentsline {paragraph}{}{39}{paragraph*.216}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{39}{section.221}%
-\contentsline {paragraph}{}{39}{paragraph*.222}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{39}{section.226}%
-\contentsline {paragraph}{}{39}{paragraph*.227}%
-\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{39}{section.228}%
-\contentsline {paragraph}{}{39}{paragraph*.229}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{41}{section*.230}%
-\contentsline {paragraph}{}{41}{paragraph*.231}%
-\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{42}{appendix.232}%
-\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{42}{section.233}%
-\contentsline {paragraph}{}{42}{paragraph*.234}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{43}{lstnumber.250}%
+\contentsline {paragraph}{}{19}{paragraph*.93}%
+\contentsline {paragraph}{}{20}{paragraph*.94}%
+\contentsline {section}{\numberline {2.2}Функциональ шаардлага}{20}{section.95}%
+\contentsline {subsection}{\numberline {2.2.1}Usecase диаграмм}{21}{subsection.118}%
+\contentsline {paragraph}{}{21}{paragraph*.119}%
+\contentsline {paragraph}{}{21}{paragraph*.120}%
+\contentsline {subsection}{\numberline {2.2.2}Юзкейсийн тодорхойлолт}{23}{subsection.122}%
+\contentsline {subsubsection}{Хэрэглэгч үүсгэх (UC-001)}{23}{subsubsection*.123}%
+\contentsline {subsubsection}{Хэрэглэгч устгах (UC-002)}{24}{subsubsection*.131}%
+\contentsline {subsubsection}{Эрх олгох (UC-003)}{26}{subsubsection*.137}%
+\contentsline {subsubsection}{Системд нэвтрэх (UC-004)}{27}{subsubsection*.144}%
+\contentsline {subsubsection}{Файл болон хавтас харах (UC-005)}{28}{subsubsection*.150}%
+\contentsline {subsubsection}{Файл байршуулах (UC-006)}{29}{subsubsection*.155}%
+\contentsline {subsubsection}{Файл татаж авах (UC-007)}{30}{subsubsection*.162}%
+\contentsline {subsubsection}{Хавтас үүсгэх (UC-008)}{31}{subsubsection*.168}%
+\contentsline {subsubsection}{Файл/хавтас устгах (UC-009)}{32}{subsubsection*.173}%
+\contentsline {subsubsection}{Файл/хавтас шилжүүлэх (UC-010)}{33}{subsubsection*.180}%
+\contentsline {section}{\numberline {2.3}Функциональ бус шаардлага}{34}{section.186}%
+\contentsline {section}{\numberline {2.4}Ажлын хүрээ}{34}{section.196}%
+\contentsline {subsection}{\numberline {2.4.1}Scope (Хамрах хүрээ)}{34}{subsection.197}%
+\contentsline {subsection}{\numberline {2.4.2}Out of Scope (Хийхгүй зүйлс)}{35}{subsection.201}%
+\contentsline {section}{\numberline {2.5}Бүлгийн дүгнэлт}{35}{section.204}%
+\contentsline {paragraph}{}{35}{paragraph*.205}%
+\contentsline {paragraph}{}{35}{paragraph*.206}%
+\contentsline {chapter}{\numberline {3}Хувийн үүлэн хадгалалтын системийн зохиомж ба хөгжүүлэлт}{36}{chapter.207}%
+\contentsline {section}{\numberline {3.1}Системийн архитектур}{36}{section.208}%
+\contentsline {paragraph}{}{36}{paragraph*.209}%
+\contentsline {section}{\numberline {3.2}Зохиомжийн үндсэн компонентууд}{36}{section.211}%
+\contentsline {paragraph}{}{36}{paragraph*.212}%
+\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем}{37}{section.217}%
+\contentsline {paragraph}{}{37}{paragraph*.218}%
+\contentsline {paragraph}{}{37}{paragraph*.219}%
+\contentsline {section}{\numberline {3.4}Системийн прототип}{38}{section.221}%
+\contentsline {paragraph}{}{38}{paragraph*.222}%
+\contentsline {paragraph}{}{38}{paragraph*.223}%
+\contentsline {paragraph}{}{39}{paragraph*.225}%
+\contentsline {paragraph}{}{40}{paragraph*.227}%
+\contentsline {paragraph}{}{40}{paragraph*.229}%
+\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{41}{section.231}%
+\contentsline {paragraph}{}{41}{paragraph*.232}%
+\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{41}{section.237}%
+\contentsline {paragraph}{}{41}{paragraph*.238}%
+\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{41}{section.242}%
+\contentsline {paragraph}{}{41}{paragraph*.243}%
+\contentsline {section}{\numberline {3.8}Бүлгийн дүгнэлт}{41}{section.244}%
+\contentsline {paragraph}{}{41}{paragraph*.245}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{43}{section*.246}%
+\contentsline {paragraph}{}{43}{paragraph*.247}%
+\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{44}{appendix.248}%
+\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{44}{section.249}%
+\contentsline {paragraph}{}{44}{paragraph*.250}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{45}{lstnumber.266}%
