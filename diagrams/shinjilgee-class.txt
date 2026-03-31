@@ -1,0 +1,70 @@
+@startuml
+
+class User {
+  +id: long
+  +username: string
+  +email: string
+  +fullName: string
+  +role: UserRole
+  +status: UserStatus
+  +storageQuotaBytes: long
+  +storageUsedBytes: long
+  +createdAtUnixMs: long
+  +profileImageUrl: string
+}
+
+class Session {
+  +accessToken: string
+  +expiresAt: datetime
+}
+
+class SystemConfig {
+  +isInitialized: boolean
+  +storageRootPath: string
+  +totalStorageLimitBytes: long
+}
+
+abstract class StorageEntry {
+  +id: long
+  +name: string
+  +path: string
+  +ownerUserId: long
+  +createdByUserId: long
+  +isStarred: boolean
+  +isDeleted: boolean
+  +modifiedAtUnixMs: long
+}
+
+class Folder {
+  +parentFolderId: long
+  +createdAtUnixMs: long
+}
+
+class File {
+  +folderId: long
+  +sizeBytes: long
+  +mimeType: string
+  +extension: string
+  +createdAtUnixMs: long
+}
+
+class SharePermission {
+  +resourceId: long
+  +entryType: EntryType
+  +privilegeType: PrivilegeType
+  +createdAtUnixMs: long
+}
+
+StorageEntry <|-- Folder
+StorageEntry <|-- File
+
+User "1" -- "0..*" Session
+User "1" -- "0..*" StorageEntry : owns
+User "1" -- "0..*" StorageEntry : creates
+Folder "0..1" -- "0..*" Folder : contains
+Folder "1" -- "0..*" File : contains
+User "1" -- "0..*" SharePermission : grants
+SharePermission "0..*" --> "1" User : assigned to
+SharePermission "0..*" --> "1" StorageEntry : resource
+
+@enduml

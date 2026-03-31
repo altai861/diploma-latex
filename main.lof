@@ -7,12 +7,13 @@
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Docker дээр ажиллуулсан Nextcloud AIO контейнерүүдийн санах ойн хэрэглээний дэлгэцийн зураг}}{11}{figure.caption.64}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces ownCloud Infinite Scale-ийн system context зураг (эх сурвалж: ownCloud docs) \blx@tocontentsinit {0}\cite {owncloud-ocis-architecture}}}{13}{figure.caption.71}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{22}{figure.caption.121}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{23}{figure.caption.121}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн шинжилгээний класс диаграмм}}{37}{figure.caption.215}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{36}{figure.caption.210}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{38}{figure.caption.220}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Анхны тохиргооны дэлгэц}}{39}{figure.caption.224}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Нэвтрэх дэлгэц}}{39}{figure.caption.226}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{40}{figure.caption.228}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{40}{figure.caption.230}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{40}{figure.caption.233}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{42}{figure.caption.243}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Анхны тохиргооны дэлгэц}}{43}{figure.caption.247}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Нэвтрэх дэлгэц}}{43}{figure.caption.249}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{44}{figure.caption.251}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{44}{figure.caption.253}%
 \addvspace {10\p@ }

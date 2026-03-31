@@ -872,6 +872,38 @@
       \verb https://doc.rust-lang.org/book/
       \endverb
     \endentry
+    \entry{postgresql-about}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=917cf2b2062aec0c604dbecc106084cd}{%
+           family={{The PostgreSQL Global Development Group}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{fullhash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{fullhashraw}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{bibnamehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authorbibnamehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authornamehash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authorfullhash}{917cf2b2062aec0c604dbecc106084cd}
+      \strng{authorfullhashraw}{917cf2b2062aec0c604dbecc106084cd}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Official PostgreSQL overview page}
+      \field{title}{About PostgreSQL}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/about/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/about/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

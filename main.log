@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  30 MAR 2026 08:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  31 MAR 2026 08:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,7 +1567,7 @@ Package biblatex Info: Reference segment=0 on input line 161.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=200, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=213, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1750,7 +1750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 ]
-<Figures/chapter1/cloud-market.png, id=445, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=466, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
@@ -1771,7 +1771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 [5 <./Figures/chapter1/cloud-market.png>]
 
 [6]
-<Figures/chapter1/google-colossus-control-plane.png, id=479, 2007.5pt x 1129.21
+<Figures/chapter1/google-colossus-control-plane.png, id=500, 2007.5pt x 1129.21
 875pt>
 File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
 )
@@ -1784,7 +1784,7 @@ ed on input line 79.
 [7]
 
 [8 <./Figures/chapter1/google-colossus-control-plane.png>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=514, 526.96875pt x 359.3425pt>
+<Figures/chapter1/nextcloud_data_diagram.png, id=535, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
@@ -1808,7 +1808,7 @@ Overfull \hbox (4.08792pt too wide) in paragraph at lines 111--112
 
 
 [10 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-interface.png, id=542, 1917.1625pt x 1044.90375pt>
+<Figures/chapter1/nextcloud-interface.png, id=563, 1917.1625pt x 1044.90375pt>
 File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
 <use Figures/chapter1/nextcloud-interface.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
@@ -1820,7 +1820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--119
 ан Nextcloud-ийн веб
  []
 
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=544, 785.93625pt x 202.
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=565, 785.93625pt x 202.
 7575pt>
 File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
 )
@@ -1838,7 +1838,7 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 containers-ramusage.png>]
 
 [12]
-<Figures/chapter1/c4-ocis-system-context.png, id=576, 918.43124pt x 788.9475pt>
+<Figures/chapter1/c4-ocis-system-context.png, id=597, 918.43124pt x 788.9475pt>
 
 File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type png)
 <use Figures/chapter1/c4-ocis-system-context.png>
@@ -2050,111 +2050,161 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 [15]
 
 [16]
+<Figures/chapter1/tech-logos/rust.png, id=637, 467.7475pt x 466.74374pt>
+File: Figures/chapter1/tech-logos/rust.png Graphic file (type png)
+<use Figures/chapter1/tech-logos/rust.png>
+Package pdftex.def Info: Figures/chapter1/tech-logos/rust.png  used on input li
+ne 202.
+(pdftex.def)             Requested size: 45.88847pt x 45.78687pt.
+<Figures/chapter1/tech-logos/postgresql.png, id=640, 221.82875pt x 228.855pt>
+File: Figures/chapter1/tech-logos/postgresql.png Graphic file (type png)
+<use Figures/chapter1/tech-logos/postgresql.png>
+Package pdftex.def Info: Figures/chapter1/tech-logos/postgresql.png  used on in
+put line 212.
+(pdftex.def)             Requested size: 45.88847pt x 47.3416pt.
+<Figures/chapter1/tech-logos/swift.jpeg, id=642, 225.84375pt x 225.84375pt>
+File: Figures/chapter1/tech-logos/swift.jpeg Graphic file (type jpg)
+<use Figures/chapter1/tech-logos/swift.jpeg>
+Package pdftex.def Info: Figures/chapter1/tech-logos/swift.jpeg  used on input 
+line 223.
+(pdftex.def)             Requested size: 45.88847pt x 45.88817pt.
 
-[17])
-Overfull \hbox (0.611pt too wide) in paragraph at lines 218--197
+
+[17 <./Figures/chapter1/tech-logos/rust.png> <./Figures/chapter1/tech-logos/pos
+tgresql.png>]
+<Figures/chapter1/tech-logos/angular.jpeg, id=653, 225.84375pt x 225.84375pt>
+File: Figures/chapter1/tech-logos/angular.jpeg Graphic file (type jpg)
+<use Figures/chapter1/tech-logos/angular.jpeg>
+Package pdftex.def Info: Figures/chapter1/tech-logos/angular.jpeg  used on inpu
+t line 233.
+(pdftex.def)             Requested size: 45.88847pt x 45.88817pt.
+)
+Overfull \hbox (0.611pt too wide) in paragraph at lines 246--197
 []\T2A/cmr/m/n/12 Иймээс энэ-хіі дип-ло-мын аж-лын хувьд х°н-г°н бі-тэц-тэй, °°
 -рийн сер-вер дээр ажил-
  []
 
 
 
-[18]
+[18 <./Figures/chapter1/tech-logos/swift.jpeg> <./Figures/chapter1/tech-logos/a
+ngular.jpeg>]
+
+[19]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 2.
 
 
-[19
+[20
 
 
 
 
 ]
 
-[19
+[20
 
 ]
 
-[20]
-<Figures/chapter2/usecase.png, id=666, 434.62375pt x 614.295pt>
+[21]
+<Figures/chapter2/usecase.png, id=698, 514.92375pt x 653.44125pt>
 File: Figures/chapter2/usecase.png Graphic file (type png)
 <use Figures/chapter2/usecase.png>
 Package pdftex.def Info: Figures/chapter2/usecase.png  used on input line 85.
-(pdftex.def)             Requested size: 304.23454pt x 430.00356pt.
+(pdftex.def)             Requested size: 360.44417pt x 457.40576pt.
 
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []|\T2A/cmr/bx/n/12 Special
  []
 
 
+Underfull \hbox (badness 1558) in paragraph at lines 127--127
+[]|\T2A/cmr/m/n/12 Жагсаалтын мэ-дээ-лэл нь да-раа-гийн удирд-ла-гын
+ []
 
-[22 <./Figures/chapter2/usecase.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 129.
+See the caption package documentation for explanation.
+
+
+
+[23 <./Figures/chapter2/usecase.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
+Underfull \hbox (badness 10000) in paragraph at lines 167--167
 []|\T2A/cmr/bx/n/12 Special
  []
 
 
-
-[23]
-Underfull \hbox (badness 1264) in paragraph at lines 185--185
-[]|\T2A/cmr/m/n/12 ђ°рийн файл эс-вэл хавт-сыг бу-сад-тай ху-ваал-цах
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]|\T2A/cmr/bx/n/12 Main success
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-[]|\T2A/cmr/m/n/12 Эрхийн жаг-саал-тад сон-го-сон хэ-рэг-лэгч бо-лон
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]|\T2A/cmr/bx/n/12 Special
- []
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 169.
+See the caption package documentation for explanation.
 
 
 
 [24]
-
-[25]
-Overfull \vbox (12.29405pt too high) has occurred while \output is active []
-
-
-
-[26]
-Underfull \hbox (badness 5622) in paragraph at lines 227--227
-[]|\T2A/cmr/m/n/12 Хувийн іі-лэн хад-га-лал-тын сис-те-мийг ашиг-лах
+Underfull \hbox (badness 6380) in paragraph at lines 192--193
+[]\T2A/cmr/m/n/12 Хэрэглэгчийн ши-нэ мэ-дээ-лэл хад-га-лагд-сан
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--251
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
 []|\T2A/cmr/bx/n/12 Special
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 209.
+See the caption package documentation for explanation.
+
+
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
+[]|\T2A/cmr/bx/n/12 Main success
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 246--246
+[]|\T2A/cmr/m/n/12 Устгасан хэ-рэг-лэг-чээр да-хин нэвт-рэх бо-ломж-гій
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+[]|\T2A/cmr/bx/n/12 Special
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 249.
+See the caption package documentation for explanation.
+
+
+
+[26]
+Underfull \hbox (badness 1264) in paragraph at lines 263--263
+[]|\T2A/cmr/m/n/12 ђ°рийн файл эс-вэл хавт-сыг бу-сад-тай ху-ваал-цах
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
 []|\T2A/cmr/bx/n/12 Main success
  []
 
@@ -2164,120 +2214,187 @@ Underfull \hbox (badness 10000) in paragraph at lines 288--288
  []
 
 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 290.
+See the caption package documentation for explanation.
+
+
 
 [27]
-Underfull \hbox (badness 10000) in paragraph at lines 318--318
-[]|\T2A/cmr/bx/n/12 Main success
- []
-
-
-Underfull \hbox (badness 1194) in paragraph at lines 323--324
-[]\T2A/cmr/m/n/12 Систем файл байр-шуу-лах эрх, хад-га-лал-тын
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-[]|\T2A/cmr/bx/n/12 Special
- []
-
-
 
 [28]
-Underfull \hbox (badness 2035) in paragraph at lines 343--343
-[]|\T2A/cmr/m/n/12 Хэрэглэгч °°-рийн хан-дах эрх-тэй фай-лыг та-тах,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--351
+Underfull \hbox (badness 1430) in paragraph at lines 323--324
+[]\T2A/cmr/m/n/12 Систем session ііс-гэж, хэ-рэг-лэг-чийг інд-сэн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
 []|\T2A/cmr/bx/n/12 Special
  []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 331.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\T2A/cmr/bx/n/12 Main success
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
+[]|\T2A/cmr/bx/n/12 Special
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 368.
+See the caption package documentation for explanation.
 
 
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 380--380
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
 []|\T2A/cmr/bx/n/12 Special
  []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 409.
+See the caption package documentation for explanation.
 
 
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--431
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
 []|\T2A/cmr/bx/n/12 Special
  []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 449.
+See the caption package documentation for explanation.
 
 
 
 [31]
-Underfull \hbox (badness 1092) in paragraph at lines 446--446
-[]|\T2A/cmr/m/n/12 Эзэмшигч хэ-рэг-лэгч нэг бу-юу хэд хэ-дэн °°-рийн
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []|\T2A/cmr/bx/n/12 Main success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 []|\T2A/cmr/bx/n/12 Special
  []
 
 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 489.
+See the caption package documentation for explanation.
+
+
 
 [32]
-Overfull \hbox (2.4675pt too wide) in paragraph at lines 479--480
-[]\T2A/cmr/m/n/12 Серверийн про-грамм нь Linux, Windows, MacOS ійлд-лийн сис-те
--міід дээр ажил-
+Underfull \hbox (badness 1210) in paragraph at lines 502--502
+[]|\T2A/cmr/m/n/12 Эзэмшигч хэ-рэг-лэгч °°-рийн файл эс-вэл хавт-сыг
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+[]|\T2A/cmr/bx/n/12 Main success
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]|\T2A/cmr/bx/n/12 Special
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 530.
+See the caption package documentation for explanation.
 
 
 
 [33]
-Overfull \hbox (2.24396pt too wide) in paragraph at lines 485--486
+Underfull \hbox (badness 1331) in paragraph at lines 553--554
+[]\T2A/cmr/m/n/12 Сонгосон °г°г-д°л ши-нэ байр-шилд шилж-сэн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]|\T2A/cmr/bx/n/12 Main success
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 567--567
+[]|\T2A/cmr/m/n/12 Шилжіілсэн °г°г-д°л хуу-чин байрш-лаа-саа ал-га
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
+[]|\T2A/cmr/bx/n/12 Special
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 570.
+See the caption package documentation for explanation.
+
+
+
+[34]
+
+[35]
+Overfull \hbox (2.24396pt too wide) in paragraph at lines 583--584
 []\T2A/cmr/m/n/12 Хэрэглэгч бо-лон сер-ве-рийн хоо-ронд дам-жих біх °г°г-д°л аю
 ул-гій сув-гаар шифр-
  []
 
+<Figures/chapter2/shinjilgee-class.png, id=826, 687.56876pt x 1108.14pt>
+File: Figures/chapter2/shinjilgee-class.png Graphic file (type png)
+<use Figures/chapter2/shinjilgee-class.png>
+Package pdftex.def Info: Figures/chapter2/shinjilgee-class.png  used on input l
+ine 604.
+(pdftex.def)             Requested size: 327.7763pt x 528.26576pt.
 
-Overfull \hbox (20.42357pt too wide) in paragraph at lines 495--496
-[]\T2A/cmr/m/n/12 Файл дам-жуу-лах яв-цад °г°гд-лийн бі-рэн бі-тэн байд-лыг шал
--гах ме-ха-низм (checksum
- []
 
+[36]
 
+[37 <./Figures/chapter2/shinjilgee-class.png>]
 
-[34])
+[38])
 
-[35]
+[39]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 3.
 
 
-[36
+[40
 
 
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio.png, id=804, 885.3075pt x 444.6612
+<Figures/chapter3/pcloud-architecture.drawio.png, id=869, 885.3075pt x 444.6612
 5pt>
 File: Figures/chapter3/pcloud-architecture.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-architecture.drawio.png>
@@ -2286,7 +2403,7 @@ on input line 11.
 (pdftex.def)             Requested size: 442.65266pt x 222.33008pt.
 
 
-[36
+[40
 
  <./Figures/chapter3/pcloud-architecture.drawio.png>]
 Overfull \hbox (6.83698pt too wide) in paragraph at lines 31--32
@@ -2294,13 +2411,7 @@ Overfull \hbox (6.83698pt too wide) in paragraph at lines 31--32
 но. Файл бо-лон хав-тас бір нь \T2A/cmr/m/it/12 owner_user_id
  []
 
-
-Overfull \hbox (3.23755pt too wide) in paragraph at lines 31--32
-\T2A/cmr/m/n/12 рэг-жи-нэ. М°н хэ-рэг-лэг-чийн нэвт-рэл-тийн сес-сийг \T2A/cmr/
-m/it/12 sessions \T2A/cmr/m/n/12 хіс-нэг-тээр дам-жуу-лан удир-
- []
-
-<Figures/chapter3/pcloud-erd.drawio.png, id=815, 1252.68pt x 1055.945pt>
+<Figures/chapter3/pcloud-erd.drawio.png, id=880, 1252.68pt x 1055.945pt>
 File: Figures/chapter3/pcloud-erd.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-erd.drawio.png>
 Package pdftex.def Info: Figures/chapter3/pcloud-erd.drawio.png  used on input 
@@ -2308,8 +2419,8 @@ line 35.
 (pdftex.def)             Requested size: 438.44456pt x 369.58629pt.
 
 
-[37]
-<Figures/chapter3/admin-first-launch.png, id=824, 1734.48pt x 1121.18875pt>
+[41]
+<Figures/chapter3/admin-first-launch.png, id=888, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
@@ -2317,13 +2428,13 @@ Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
 (pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
 
 
-[38 <./Figures/chapter3/pcloud-erd.drawio.png>]
-<Figures/chapter3/login.png, id=832, 2178.1375pt x 1121.18875pt>
+[42 <./Figures/chapter3/pcloud-erd.drawio.png>]
+<Figures/chapter3/login.png, id=896, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 58.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=833, 2178.1375pt x 1121.18875pt>
+<Figures/chapter3/normal-user-homepage.png, id=897, 2178.1375pt x 1121.18875pt>
 
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
@@ -2332,8 +2443,8 @@ ut line 67.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
 
 
-[39 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=841, 2195.20125pt x 1121.18875pt>
+[43 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
+<Figures/chapter3/admin-home-page.png, id=906, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2341,17 +2452,17 @@ ne 76.
 (pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
 
 
-[40 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
+[44 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
 e-page.png>])
 
-[41]
+[45]
 
-[42]
+[46]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex)
 
-[43
+[47
 
 
 
@@ -2362,14 +2473,14 @@ e-page.png>])
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
 
 
-[44
+[48
 
 
 
 
 ])
 
-[44
+[48
 
 ]
 
@@ -2561,7 +2672,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[45
+[49
 
 
 
@@ -2777,7 +2888,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[46]
+[50]
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2916,8 +3027,32 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
+Package biblatex Warning: Using fallback definition for \mkbibdatelong.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdatelong.
 
-[47] (./main.aux (./FrontBackMatter/Titlepage.aux)
+
+Package biblatex Warning: Bibliography string 'urlseen' untranslated
+(biblatex)                at entry 'postgresql-about' on input line 224.
+
+
+Package biblatex Warning: Using fallback definition for \mkbibdateshort.
+(biblatex)                The command should be defined in the .lbx file.
+(biblatex)                If you see this message, the .lbx file could not be
+(biblatex)                loaded, is faulty or does not contain a definition
+(biblatex)                for \mkbibdateshort.
+
+
+Overfull \hbox (5.81436pt too wide) in paragraph at lines 224--224
+[]\T2A/cmr/m/n/12 The PostgreSQL Global Development Group. \T2A/cmr/m/it/12 Abo
+ut PostgreSQL\T2A/cmr/m/n/12 . Official PostgreSQL
+ []
+
+
+
+[51] (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
@@ -2929,16 +3064,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0A142DF67029F516B29894E6B4B4D106;12149.
+(rerunfilecheck)             Checksum: 5A2888AC5DA98C0884B2334A85F1F75A;13060.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46721 strings out of 473197
- 1027977 string characters out of 5718605
- 1987634 words of memory out of 5000000
- 68889 multiletter control sequences out of 15000+600000
+ 46791 strings out of 473197
+ 1030022 string characters out of 5718605
+ 1986856 words of memory out of 5000000
+ 68931 multiletter control sequences out of 15000+600000
  580472 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,2438b,2148s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2957,10 +3092,10 @@ uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (66 pages, 2037283 bytes).
+Output written on main.pdf (70 pages, 2114254 bytes).
 PDF statistics:
- 1140 PDF objects out of 1200 (max. 8388607)
- 992 compressed objects within 10 object streams
- 361 named destinations out of 1000 (max. 500000)
- 467 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1211 PDF objects out of 1440 (max. 8388607)
+ 1051 compressed objects within 11 object streams
+ 389 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 

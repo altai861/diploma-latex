@@ -89,104 +89,182 @@
 
 \subsection{Юзкейсийн тодорхойлолт}
 
-\subsubsection{Хэрэглэгч үүсгэх (UC-001)}
+\paragraph{}
+Доорх тодорхойлолтуудад зөвхөн usecase диаграмм дээр дүрслэгдсэн өндөр түвшний 12 usecase-ийг тусгав. Анхны тохиргоо, профайл, хайлт, сэргээх, онцолсон төлөв зэрэг туслах урсгалуудыг энэ хэсэгт зориуд оруулаагүй бөгөөд системийн бусад шаардлагын тайлбар дотор үлдээв.
 
-\begin{table}[H]
+\subsubsection{Хэрэглэгчдийн жагсаалт харах (UC-001)}
+
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
         \textbf{Usecase ID} & UC-001 \\ \hline
-        \textbf{Usecase name} & Хэрэглэгч үүсгэх \\ \hline
+        \textbf{Usecase name} & Хэрэглэгчдийн жагсаалт харах \\ \hline
         \textbf{Actor(s)} & Админ \\ \hline
-        \textbf{Description} & Админ шинэ энгийн хэрэглэгч үүсгэж, тухайн хэрэглэгчид нэвтрэх мэдээлэл болон хадгалалтын хязгаар онооно. \\ \hline
-        \textbf{Trigger} & Системд шинэ хэрэглэгч нэмэх шаардлага гарсан. \\ \hline
-        \textbf{Preconditions} & 
+        \textbf{Description} & Админ системд бүртгэлтэй хэрэглэгчдийн жагсаалтыг харж, тэдний үндсэн мэдээлэл болон хадгалалтын хэрэглээг хянана. \\ \hline
+        \textbf{Trigger} & Хэрэглэгчийн бүртгэлүүдийг хянах шаардлага гарсан. \\ \hline
+        \textbf{Preconditions} &
         \begin{itemize}
             \item Админ системд нэвтэрсэн байх.
         \end{itemize}
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Шинэ хэрэглэгч идэвхтэй төлөвтэйгээр үүссэн байх.
-            \item Тухайн хэрэглэгч системд өөрийн нэвтрэх нэр, нууц үгээр нэвтрэх боломжтой болсон байх.
+            \item Хэрэглэгчдийн жагсаалт дэлгэц дээр харагдсан байх.
         \end{itemize}
-         \\ \hline
-        \textbf{Main success scenario} & 
+        \\ \hline
+        \textbf{Main success scenario} &
         \begin{enumerate}
-            \item Админ хэрэглэгчийн менежмент хэсэг рүү орно.
-            \item Шинэ хэрэглэгч үүсгэх товчийг дарна.
-            \item Нэвтрэх нэр, и-мэйл, бүтэн нэр, нууц үг, нууц үгийн баталгаажуулалт, хадгалалтын хязгаарын мэдээллийг оруулна.
-            \item Үүсгэх товчийг дарна.
-            \item Систем өгөгдлийг шалгаж, хэрэглэгчийг үүсгэнэ.
-            \item Шинэ хэрэглэгч жагсаалт дээр харагдана.
+            \item Админ хэрэглэгчийн удирдлагын хэсэг рүү орно.
+            \item Систем бүх хэрэглэгчийн жагсаалтыг ачаалж харуулна.
+            \item Админ хэрэглэгч бүрийн нэр, и-мэйл, role, төлөв, хадгалалтын хязгаар, ашигласан хэмжээг шалгана.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} &  \\ \hline
-        \textbf{Exception flows} & Нэвтрэх нэр эсвэл и-мэйл давхцах, нууц үгийн шалгуур биелэхгүй байх, эсвэл хадгалалтын хязгаар буруу оруулсан тохиолдолд алдаа гарна. \\ \hline
-        \textbf{Acceptance criteria} & Шинэ хэрэглэгч амжилттай бүртгэгдэж, жагсаалт дээр харагдсан байх. \\ \hline
-        \textbf{Special requirements} & Үүсгэгдэж буй хэрэглэгчийн role нь энэ usecase-д тогтмол `user` байна. \\ \hline
+        \textbf{Alternative flows} & Жагсаалтаас хүссэн хэрэглэгчээ сонгон дараагийн засварлах эсвэл устгах урсгал руу шилжиж болно. \\ \hline
+        \textbf{Exception flows} & Админ биш хэрэглэгч энэ хэсэг рүү хандах гэж оролдвол хандалтыг хориглоно. \\ \hline
+        \textbf{Acceptance criteria} & Системд байгаа бүх хэрэглэгч жагсаалтад харагдаж, үндсэн удирдлагын мэдээллүүд зөв дүрслэгдсэн байх. \\ \hline
+        \textbf{Special requirements} & Жагсаалтын мэдээлэл нь дараагийн удирдлагын usecase-үүдийн эхлэл цэг болно. \\ \hline
     \end{tabular}
-    \caption{UC-001 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-001 usecase-ийн тодорхойлолт}
+\end{center}
 
+\subsubsection{Хэрэглэгч үүсгэх (UC-002)}
 
-\subsubsection{Хэрэглэгч устгах (UC-002)}
-
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
         \textbf{Usecase ID} & UC-002 \\ \hline
-        \textbf{Usecase name} & Хэрэглэгч устгах \\ \hline
+        \textbf{Usecase name} & Хэрэглэгч үүсгэх \\ \hline
         \textbf{Actor(s)} & Админ \\ \hline
-        \textbf{Description} & Админ admin биш хэрэглэгчийг системээс устгана. \\ \hline
-        \textbf{Trigger} & Устгах шаардлагатай хэрэглэгч гарсан. \\ \hline
-        \textbf{Preconditions} & 
+        \textbf{Description} & Админ шинэ энгийн хэрэглэгч үүсгэж, тухайн хэрэглэгчид нэвтрэх мэдээлэл болон хадгалалтын хязгаар онооно. \\ \hline
+        \textbf{Trigger} & Системд шинэ хэрэглэгч нэмэх шаардлага гарсан. \\ \hline
+        \textbf{Preconditions} &
         \begin{itemize}
             \item Админ системд нэвтэрсэн байх.
-            \item Устгах гэж буй хэрэглэгч admin биш байх.
         \end{itemize}
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Хэрэглэгч системээс устсан байх.
-            \item Тухайн хэрэглэгчийн нэвтэрсэн төлөв, профайлын зураг, хуваалцах эрхүүд болон хувийн хадгалалтын өгөгдөл цэвэрлэгдсэн байх.
+            \item Шинэ хэрэглэгч `user` role-той, идэвхтэй төлөвөөр үүссэн байх.
+            \item Тухайн хэрэглэгч нэвтрэх боломжтой болсон байх.
         \end{itemize}
-         \\ \hline
-        \textbf{Main success scenario} & 
+        \\ \hline
+        \textbf{Main success scenario} &
         \begin{enumerate}
-            \item Админ хэрэглэгчийн менежмент хэсэг рүү орно.
-            \item Хэрэглэгчийн жагсаалтаас устгах хэрэглэгчээ сонгож устгах товч дарна.
-            \item Баталгаажуулах цонх гарч ирж баталгаажуулна.
-            \item Систем хэрэглэгчийг холбогдох өгөгдлүүдтэй нь хамт устгана.
+            \item Админ шинэ хэрэглэгч үүсгэх үйлдлийг сонгоно.
+            \item Нэвтрэх нэр, и-мэйл, бүтэн нэр, нууц үг, нууц үгийн баталгаажуулалт, хадгалалтын хязгаарыг оруулна.
+            \item Үүсгэх үйлдлийг баталгаажуулна.
+            \item Систем өгөгдлийг шалгаж шинэ хэрэглэгчийг бүртгэнэ.
+            \item Шинэ хэрэглэгч жагсаалтад харагдана.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} &  \\ \hline
-        \textbf{Exception flows} & Хэрэв сонгосон хэрэглэгч admin бол устгах үйлдэл цуцлагдаж алдаа буцаана. \\ \hline
-        \textbf{Acceptance criteria} & Хэрэглэгч устсан байх бөгөөд тухайн бүртгэлээр дахин нэвтрэх боломжгүй болсон байх.  \\ \hline
-        \textbf{Special requirements} & Энэ usecase нь зөвхөн админ хэрэглэгчид нээлттэй байна. \\ \hline
+        \textbf{Alternative flows} & Хэрэглэгчийн хадгалалтын хязгаарыг 0 гэж оруулсан бол хэрэглэгч үүсэх боловч тусгай quota үлдэгдэлгүй байна. \\ \hline
+        \textbf{Exception flows} & Хэрэглэгчийн нэр эсвэл и-мэйл давхцах, нууц үгийн шалгуур биелэхгүй байх, эсвэл хадгалалтын хязгаар сөрөг байвал алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Шинэ хэрэглэгч амжилттай бүртгэгдэж, жагсаалт дээр харагдсан байх. \\ \hline
+        \textbf{Special requirements} & Нууц үг дор хаяж 8 тэмдэгттэй, том үсэг, жижиг үсэг, тоо агуулсан байх ёстой. \\ \hline
     \end{tabular}
-    \caption{UC-002 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-002 usecase-ийн тодорхойлолт}
+\end{center}
 
-\subsubsection{Эрх олгох (UC-003)}
+\subsubsection{Хэрэглэгчийн мэдээлэл засварлах (UC-003)}
 
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
         \textbf{Usecase ID} & UC-003 \\ \hline
+        \textbf{Usecase name} & Хэрэглэгчийн мэдээлэл засварлах \\ \hline
+        \textbf{Actor(s)} & Админ \\ \hline
+        \textbf{Description} & Админ хэрэглэгчийн үндсэн мэдээлэл болон хадгалалтын хязгаарыг шинэчилнэ. \\ \hline
+        \textbf{Trigger} & Хэрэглэгчийн мэдээллийг засах шаардлага гарсан. \\ \hline
+        \textbf{Preconditions} &
+        \begin{itemize}
+            \item Админ системд нэвтэрсэн байх.
+            \item Засварлах хэрэглэгч бүртгэлтэй байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Postconditions} &
+        \begin{itemize}
+            \item Хэрэглэгчийн шинэ мэдээлэл хадгалагдсан байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Main success scenario} &
+        \begin{enumerate}
+            \item Админ жагсаалтаас засварлах хэрэглэгчээ сонгоно.
+            \item Хэрэглэгчийн нэр, и-мэйл, бүтэн нэр, хадгалалтын хязгаарыг засна.
+            \item Хадгалах үйлдлийг баталгаажуулна.
+            \item Систем өгөгдлийг шалгаж шинэчилнэ.
+            \item Жагсаалт дээр шинэчилсэн мэдээлэл шууд харагдана.
+        \end{enumerate}
+        \\ \hline
+        \textbf{Alternative flows} & Хэрэв зөвхөн хадгалалтын хязгаар өөрчлөгдөж байгаа бол бусад талбарууд өмнөх утгаараа үлдэж болно. \\ \hline
+        \textbf{Exception flows} & Хадгалалтын хязгаар хэрэглэгчийн одоогийн ашигласан хэмжээнээс бага, эсвэл шинэ нэр, и-мэйл өөр хэрэглэгчтэй давхцвал алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Шинэчилсэн мэдээлэл жагсаалт болон дараагийн удирдлагын үйлдлүүдэд зөв туссан байх. \\ \hline
+        \textbf{Special requirements} & Хадгалалтын хязгаар сөрөг утгатай байж болохгүй. \\ \hline
+    \end{tabular}
+    \captionof{table}{UC-003 usecase-ийн тодорхойлолт}
+\end{center}
+
+\subsubsection{Хэрэглэгч устгах (UC-004)}
+
+\begin{center}
+    \centering
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{4cm}|p{10cm}|}
+        \hline
+        \textbf{Usecase ID} & UC-004 \\ \hline
+        \textbf{Usecase name} & Хэрэглэгч устгах \\ \hline
+        \textbf{Actor(s)} & Админ \\ \hline
+        \textbf{Description} & Админ админ биш хэрэглэгчийг системээс устгана. \\ \hline
+        \textbf{Trigger} & Устгах шаардлагатай хэрэглэгч гарсан. \\ \hline
+        \textbf{Preconditions} &
+        \begin{itemize}
+            \item Админ системд нэвтэрсэн байх.
+            \item Устгах гэж буй хэрэглэгч админ биш байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Postconditions} &
+        \begin{itemize}
+            \item Хэрэглэгчийн бүртгэл устсан байх.
+            \item Холбогдох session, профайлын зураг, хуваалцах эрх, хувийн хадгалалтын бүтэц цэвэрлэгдсэн байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Main success scenario} &
+        \begin{enumerate}
+            \item Админ жагсаалтаас устгах хэрэглэгчээ сонгоно.
+            \item Устгах үйлдлийг сонгож баталгаажуулна.
+            \item Систем хэрэглэгчтэй холбоотой дагалдах өгөгдлүүдийг хамтад нь цэвэрлэнэ.
+            \item Жагсаалтаас тухайн хэрэглэгч алга болно.
+        \end{enumerate}
+        \\ \hline
+        \textbf{Alternative flows} &  \\ \hline
+        \textbf{Exception flows} & Сонгосон хэрэглэгч админ бол, эсвэл хэрэглэгч олдохгүй бол устгах үйлдлийг цуцалж алдаа буцаана. \\ \hline
+        \textbf{Acceptance criteria} & Устгасан хэрэглэгчээр дахин нэвтрэх боломжгүй болж, жагсаалтад харагдахгүй болсон байх. \\ \hline
+        \textbf{Special requirements} & Энэ usecase нь зөвхөн админ хэрэглэгчид нээлттэй байна. \\ \hline
+    \end{tabular}
+    \captionof{table}{UC-004 usecase-ийн тодорхойлолт}
+\end{center}
+
+\subsubsection{Эрх олгох (UC-005)}
+
+\begin{center}
+    \centering
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{4cm}|p{10cm}|}
+        \hline
+        \textbf{Usecase ID} & UC-005 \\ \hline
         \textbf{Usecase name} & Эрх олгох \\ \hline
         \textbf{Actor(s)} & Эзэмшигч хэрэглэгч \\ \hline
         \textbf{Description} & Эзэмшигч хэрэглэгч өөрийн файл эсвэл хавтас дээр бусад хэрэглэгчид харах эсвэл засварлах эрх олгоно. \\ \hline
         \textbf{Trigger} & Өөрийн файл эсвэл хавтсыг бусадтай хуваалцах шаардлага гарсан. \\ \hline
-        \textbf{Preconditions} & 
+        \textbf{Preconditions} &
         \begin{itemize}
-            \item Тухайн хэрэглэгч нэвтэрсэн байх.
-            \item Хуваалцах гэж буй файл эсвэл хавтас тухайн хэрэглэгчийн эзэмшлийнх байх.
+            \item Хэрэглэгч системд нэвтэрсэн байх.
+            \item Хуваалцах өгөгдөл тухайн хэрэглэгчийн эзэмшлийнх байх.
             \item Эрх авах хэрэглэгч идэвхтэй төлөвтэй бөгөөд өөрөө өөртөө эрх олгохгүй байх.
         \end{itemize}
         \\ \hline
@@ -194,178 +272,195 @@
         \begin{itemize}
             \item Сонгосон хэрэглэгч дээр харах эсвэл засварлах эрх үүссэн байх.
         \end{itemize}
-         \\ \hline
-        \textbf{Main success scenario} & 
+        \\ \hline
+        \textbf{Main success scenario} &
         \begin{enumerate}
-            \item Хэрэглэгч хуваалцах гэж буй файл эсвэл хавтсаа сонгоно.
-            \item Хуваалцах товч дээр дарна.
-            \item Систем share хийх боломжтой хэрэглэгчдийг хайх интерфэйсийг харуулна.
-            \item Хэрэглэгч зорилтот хэрэглэгчийг сонгож, харах эсвэл засварлах эрхийг заана.
-            \item Баталгаажуулахад систем хуваалцах эрх үүсгэнэ.
+            \item Хэрэглэгч хуваалцах файл эсвэл хавтсаа сонгоно.
+            \item Хуваалцах үйлдлийг сонгоно.
+            \item Систем зорилтот хэрэглэгч хайх боломж олгоно.
+            \item Хэрэглэгч эрх авах хүнийг сонгож харах эсвэл засварлах эрхийг заана.
+            \item Баталгаажуулахад систем эрхийг хадгална.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} & Хэрэв тухайн хэрэглэгч дээр өмнө нь эрх байсан бол систем шинээр давхар үүсгэхийн оронд эрхийн түвшинг шинэчилнэ. \\ \hline
-        \textbf{Exception flows} & Хэрэглэгч эзэмшигч биш, өөрөө өөртөө эрх өгөх гэж оролдсон, эсвэл буруу resource сонгосон бол алдаа гарна. \\ \hline
-        \textbf{Acceptance criteria} & Эрхийн жагсаалтад сонгосон хэрэглэгч болон privilege type зөв харагдаж байх.  \\ \hline
-        \textbf{Special requirements} & Хуваалцах эрхийг зөвхөн эзэмшигч хэрэглэгч үүсгэх, харах, цуцлах боломжтой. \\ \hline
+        \textbf{Alternative flows} & Хэрэв тухайн хэрэглэгч дээр өмнө нь эрх байсан бол систем шинээр давхар үүсгэхийн оронд эрхийн түвшинг шинэчилж болно. \\ \hline
+        \textbf{Exception flows} & Эзэмшигч биш хэрэглэгч эрх олгох гэж оролдвол, өөрөө өөртөө эрх өгөх гэж оролдвол, эсвэл зорилтот хэрэглэгч олдохгүй бол алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Эрх олгосны дараа сонгосон хэрэглэгч тухайн өгөгдөлд оноосон privilege-ээрээ хандах боломжтой болсон байх. \\ \hline
+        \textbf{Special requirements} & Систем `viewer` болон `editor` гэсэн хоёр эрхийн түвшинд нормчлон хадгална. \\ \hline
     \end{tabular}
-    \caption{UC-003 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-005 usecase-ийн тодорхойлолт}
+\end{center}
 
+\subsubsection{Системд нэвтрэх (UC-006)}
 
-\subsubsection{Системд нэвтрэх (UC-004)}
-
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
-        \textbf{Usecase ID} & UC-004 \\ \hline
+        \textbf{Usecase ID} & UC-006 \\ \hline
         \textbf{Usecase name} & Системд нэвтрэх \\ \hline
         \textbf{Actor(s)} & Админ, хэрэглэгч \\ \hline
         \textbf{Description} & Хэрэглэгч нэвтрэх нэр, нууц үг ашиглан системд нэвтэрч өөрийн эрхтэй орчинд хандана. \\ \hline
-        \textbf{Trigger} & Хувийн үүлэн хадгалалтын системийг ашиглах шаардлага гарсан. \\ \hline
-        \textbf{Preconditions} & 
+        \textbf{Trigger} & Системийг ашиглах шаардлага гарсан. \\ \hline
+        \textbf{Preconditions} &
         \begin{itemize}
-            \item Тухайн нэвтрэх гэж буй хэрэглэгчийн мэдээлэл системд бүртгэгдсэн байх.
+            \item Хэрэглэгч системд бүртгэлтэй байх.
             \item Хэрэглэгч идэвхтэй төлөвтэй байх.
         \end{itemize}
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Хэрэглэгчийн нэвтрэлт баталгаажсан байх.
+            \item Нэвтэрсэн хэрэглэгчийн session идэвхтэй болсон байх.
             \item Хэрэглэгч өөрийн эрхтэй үндсэн дэлгэц рүү орсон байх.
         \end{itemize}
-         \\ \hline
-        \textbf{Main success scenario} & 
+        \\ \hline
+        \textbf{Main success scenario} &
         \begin{enumerate}
             \item Хэрэглэгч нэвтрэх хуудсыг нээнэ.
-            \item Нэвтрэх нэр болон нууц үгийг оруулаад нэвтрэх товчийг дарна.
+            \item Нэвтрэх нэр болон нууц үгээ оруулна.
+            \item Нэвтрэх үйлдлийг баталгаажуулна.
             \item Систем хэрэглэгчийн мэдээллийг шалгаж нэвтрэлтийг баталгаажуулна.
-            \item Хэрэглэгчийг үндсэн хуудас руу оруулна.
+            \item Систем session үүсгэж, хэрэглэгчийг үндсэн хуудас руу оруулна.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} &  \\ \hline
-        \textbf{Exception flows} & Нэвтрэх нэр эсвэл нууц үг буруу, эсвэл хэрэглэгч идэвхгүй бол алдааны мессеж харуулна. \\ \hline
-        \textbf{Acceptance criteria} & Хэрэглэгч амжилттай нэвтэрч өөрийн эрхтэй орчинд хандсан байх.  \\ \hline
-        \textbf{Special requirements} & Нэвтэрсэн хэрэглэгчийн ажиллагаа хугацаатай нэвтрэлтийн төлөвөөр хамгаалагдсан байх. \\ \hline
+        \textbf{Alternative flows} & Админ болон энгийн хэрэглэгч хоёул адил нэвтрэх урсгал ашиглах боловч нэвтэрсний дараах боломжууд нь эрхээсээ хамаарч ялгаатай байна. \\ \hline
+        \textbf{Exception flows} & Нэвтрэх нэр эсвэл нууц үг буруу, эсвэл хэрэглэгч идэвхгүй бол нэвтрэлтийг цуцалж алдааны мэдээлэл харуулна. \\ \hline
+        \textbf{Acceptance criteria} & Хэрэглэгч амжилттай нэвтэрч, өөрийн эрхтэй үндсэн орчинд хандсан байх. \\ \hline
+        \textbf{Special requirements} & Үүсэх session нь хугацаатай байх ба дараагийн хамгаалалттай үйлдлүүд түүнд тулгуурлана. \\ \hline
     \end{tabular}
-    \caption{UC-004 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-006 usecase-ийн тодорхойлолт}
+\end{center}
 
-\subsubsection{Файл болон хавтас харах (UC-005)}
+\subsubsection{Файл болон хавтас харах (UC-007)}
 
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
-        \textbf{Usecase ID} & UC-005 \\ \hline
-        \textbf{Usecase name} & Файл болон хавтас харах (Browse хийх) \\ \hline
+        \textbf{Usecase ID} & UC-007 \\ \hline
+        \textbf{Usecase name} & Файл болон хавтас харах \\ \hline
         \textbf{Actor(s)} & Хэрэглэгч \\ \hline
-        \textbf{Description} & Хэрэглэгч өөрийн болон өөртэй нь хуваалцсан файл, хавтаснуудыг харах, тэдгээрийн дэлгэрэнгүй мэдээллийг шалгах, хайлт хийх. \\ \hline
-        \textbf{Trigger} & Хэрэглэгч файл эсвэл хавтас олох, агуулгаа шалгах шаардлагатай болсон. \\ \hline
-        \textbf{Preconditions} & 
+        \textbf{Description} & Хэрэглэгч өөрийн болон өөртэй нь хуваалцсан файл, хавтаснуудыг жагсааж харах боломжтой. \\ \hline
+        \textbf{Trigger} & Хэрэглэгч агуулгаа харах шаардлагатай болсон. \\ \hline
+        \textbf{Preconditions} &
         \begin{itemize}
             \item Хэрэглэгч системд нэвтэрсэн байх.
         \end{itemize}
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Сонгосон байршлын агуулга, дэлгэрэнгүй мэдээлэл эсвэл хайлтын үр дүн дэлгэц дээр харагдсан байх.
+            \item Сонгосон байршлын агуулга дэлгэц дээр харагдсан байх.
         \end{itemize}
-         \\ \hline
-        \textbf{Main success scenario} & 
+        \\ \hline
+        \textbf{Main success scenario} &
         \begin{enumerate}
             \item Хэрэглэгч үндсэн файлын сангийн дэлгэц рүү орно.
             \item Систем сонгосон байршлын агуулгыг жагсааж харуулна.
-            \item Хэрэглэгч хавтас руу гүнзгий орж, файл эсвэл хавтсын дэлгэрэнгүй мэдээллийг харж болно.
+            \item Хэрэглэгч хавтас руу гүнзгий орж дараагийн түвшний агуулгыг харна.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} & Хэрэглэгч хайлт ашиглан хандах эрхтэй өгөгдлүүдээс нэрээр хайх, мөн хуваалцсан өгөгдөл, онцолсон өгөгдөл, устгасан өгөгдлийн харагдац руу орж болно. \\ \hline
-        \textbf{Exception flows} & Сонгосон байршил эсвэл өгөгдөл олдохгүй, эсвэл тухайн хэрэглэгч эрхгүй бол алдаа гарна. \\ \hline
+        \textbf{Alternative flows} & Хэрэглэгч хуваалцсан өгөгдөл рүү орж өөрт олгогдсон privilege-тэйгээр агуулгыг харж болно. \\ \hline
+        \textbf{Exception flows} & Сонгосон байршил олдохгүй, эсвэл хэрэглэгч тухайн агуулгад эрхгүй бол алдаа гарна. \\ \hline
         \textbf{Acceptance criteria} & Хэрэглэгч зөвхөн өөрийн хандах эрхтэй файл, хавтсуудыг харсан байх. \\ \hline
-        \textbf{Special requirements} & Жагсаалтын мэдээлэлд ашигласан хадгалалтын хэмжээ, хадгалалтын хязгаар, тухайн байршил дээрх хандалтын эрхийн түвшин зэрэг мэдээлэл давхар агуулагдана. \\ \hline
+        \textbf{Special requirements} & Жагсаалтын мэдээлэлд privilege түвшин, эзэмшигч, хадгалалтын хэмжээ зэрэг үндсэн мэдээлэл давхар харагдаж болно. \\ \hline
     \end{tabular}
-    \caption{UC-005 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-007 usecase-ийн тодорхойлолт}
+\end{center}
 
+\subsubsection{Файл байршуулах (UC-008)}
 
-\subsubsection{Файл байршуулах (UC-006)}
-
-\begin{table}[H]
-    \centering
-    \renewcommand{\arraystretch}{1.3}
-    \begin{tabular}{|p{4cm}|p{10cm}|}
-        \hline
-        \textbf{Usecase ID} & UC-006 \\ \hline
-        \textbf{Usecase name} & Файл байршуулах \\ \hline
-        \textbf{Actor(s)} & Хэрэглэгч \\ \hline
-        \textbf{Description} & Хэрэглэгч эзэмшигч эсвэл засварлагч эрхтэй хавтас дотор нэг файл байршуулах боломжтой. \\ \hline
-        \textbf{Trigger} & Хэрэглэгч системд шинэ файл хадгалах шаардлагатай болсон. \\ \hline
-        \textbf{Preconditions} & 
-        \begin{itemize}
-            \item Хэрэглэгч нэвтэрсэн байх.
-            \item Зорилтот хавтас дээр эзэмшигч эсвэл засварлагч эрхтэй байх.
-        \end{itemize}
-        \\ \hline
-        \textbf{Postconditions} &
-        \begin{itemize}
-            \item Файл систем дээр хадгалагдсан байх.
-            \item Ашигласан хадгалалтын хэмжээ шинэчлэгдсэн байх.
-        \end{itemize}
-         \\ \hline
-        \textbf{Main success scenario} & 
-        \begin{enumerate}
-            \item Хэрэглэгч үндсэн хуудас дээрх файл системээр явж файл байршуулах хавтас руугаа орно.
-            \item Файл байршуулах товчийг сонгоно.
-            \item Файл сонгох цонх гарч ирж хэрэглэгч нэг файл сонгоно.
-            \item Систем файл байршуулах эрх, хадгалалтын хязгаар, бусад шаардлагыг шалгана.
-            \item Амжилттай бол файл жагсаалт дээр харагдана.
-        \end{enumerate}
-        \\ \hline
-        \textbf{Alternative flows} &  \\ \hline
-        \textbf{Exception flows} & Сүлжээ тасрах, эрх хүрэлцэхгүй байх, хэрэглэгчийн хадгалалтын хязгаар эсвэл системийн нийт хязгаар хэтрэх, эсвэл файл 5 GB-оос их байх үед алдаа гарна. \\ \hline
-        \textbf{Acceptance criteria} & Сонгосон файл сервер дээр хадгалагдаж, жагсаалт дээр харагдсан байх. \\ \hline
-        \textbf{Special requirements} & Хуваалцсан хавтас дотор байршуулсан файл ч гэсэн тухайн эх хавтсын эзэмшигчийг дагана. \\ \hline
-    \end{tabular}
-    \caption{UC-006 usecase-ийн тодорхойлолт}
-\end{table}
-
-\subsubsection{Файл татаж авах (UC-007)} 
-\begin{table}[H] 
-    \centering 
-    \renewcommand{\arraystretch}{1.3} 
-    \begin{tabular}{|p{4cm}|p{10cm}|} 
-        \hline \textbf{Usecase ID} & UC-007 \\ \hline 
-        \textbf{Usecase name} & Файл татаж авах \\ \hline 
-        \textbf{Actor(s)} & Хэрэглэгч \\ \hline 
-        \textbf{Description} & Хэрэглэгч өөрийн хандах эрхтэй файлыг татах, шаардлагатай бол урьдчилан харах. \\ \hline 
-        \textbf{Trigger} & Хэрэглэгчид файлыг татах шаардлага гарсан. \\ \hline 
-        \textbf{Preconditions} & \begin{itemize} \item Хэрэглэгч системд нэвтэрсэн байх. \end{itemize} \\ \hline 
-        \textbf{Postconditions} & \begin{itemize} \item Файл хэрэглэгчийн төхөөрөмж дээр татагдсан байх \end{itemize} \\ \hline 
-        \textbf{Main success scenario} & \begin{enumerate} \item Хэрэглэгч татахыг хүссэн файлаа сонгоно. \item Татах товчийг дарна. \item Систем файлд хандах эрхийг шалгаж binary stream-ээр буцаана. \item Файл хэрэглэгчийн төхөөрөмж дээр хадгалагдана. \end{enumerate} \\ \hline 
-        \textbf{Alternative flows} & Хэрэглэгч урьдчилан харах товчийг дарж файлыг шууд үзэх, эсвэл хэд хэдэн файл, хавтсыг нэг дор шахсан файл хэлбэрээр татаж авч болно. \\ \hline 
-        \textbf{Exception flows} & Файл олдохгүй байх, эрх хүрэлцэхгүй байх, эсвэл сүлжээ тасрах үед таталт амжилтгүй болно. \\ \hline 
-        \textbf{Acceptance criteria} & Файл хэрэглэгчийн төхөөрөмж дээр татагдсан байх \\ \hline 
-        \textbf{Special requirements} & Хуваалцсан файл татах үед тухайн файлыг байрлалаар нь биш, дотоод ялгах мэдээллээр нь таних шаардлага гарч болно. \\ \hline 
-    \end{tabular} 
-    \caption{UC-007 usecase-ийн тодорхойлолт} 
-\end{table}
-
-
-\subsubsection{Хавтас үүсгэх (UC-008)}
-
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
         \textbf{Usecase ID} & UC-008 \\ \hline
-        \textbf{Usecase name} & Хавтас үүсгэх \\ \hline
+        \textbf{Usecase name} & Файл байршуулах \\ \hline
+        \textbf{Actor(s)} & Эзэмшигч эсвэл засварлагч \\ \hline
+        \textbf{Description} & Хэрэглэгч зөвшөөрөгдсөн хавтас дотор файл байршуулах боломжтой. \\ \hline
+        \textbf{Trigger} & Шинэ файл системд хадгалах шаардлага гарсан. \\ \hline
+        \textbf{Preconditions} &
+        \begin{itemize}
+            \item Хэрэглэгч системд нэвтэрсэн байх.
+            \item Зорилтот хавтас дээр эзэмшигч эсвэл засварлагч эрхтэй байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Postconditions} &
+        \begin{itemize}
+            \item Файл хадгалагдаж жагсаалтад харагдсан байх.
+            \item Хадгалалтын ашиглалтын тооцоо шинэчлэгдсэн байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Main success scenario} &
+        \begin{enumerate}
+            \item Хэрэглэгч файл байршуулах байршлаа сонгоно.
+            \item Файл байршуулах үйлдлийг сонгоно.
+            \item Системээс файл сонгож байршуулахыг баталгаажуулна.
+            \item Систем эрх, quota, системийн нийт хязгаар, файлын хэмжээг шалгана.
+            \item Амжилттай бол файл хадгалагдаж жагсаалт дээр гарна.
+        \end{enumerate}
+        \\ \hline
+        \textbf{Alternative flows} & Хэрэв зорилтот хавтас заагаагүй бол файл үндсэн түвшинд байршуулж болно. Хуваалцсан хавтас дотор байршуулах үед эзэмшил нь эх хавтсын эзэмшигчийг дагана. \\ \hline
+        \textbf{Exception flows} & Эрх хүрэлцэхгүй, quota эсвэл системийн нийт хязгаар хэтрэх, файл 5 GB-оос их байх, эсвэл дамжуулалт тасалдах үед алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Сонгосон файл амжилттай хадгалагдаж, жагсаалт дээр харагдсан байх. \\ \hline
+        \textbf{Special requirements} & Нэг request-ээр 5 GB хүртэлх файл байршуулахыг дэмжинэ. \\ \hline
+    \end{tabular}
+    \captionof{table}{UC-008 usecase-ийн тодорхойлолт}
+\end{center}
+
+\subsubsection{Файл татаж авах (UC-009)}
+
+\begin{center}
+    \centering
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{4cm}|p{10cm}|}
+        \hline
+        \textbf{Usecase ID} & UC-009 \\ \hline
+        \textbf{Usecase name} & Файл татаж авах \\ \hline
         \textbf{Actor(s)} & Хэрэглэгч \\ \hline
-        \textbf{Description} & Хэрэглэгч эзэмшигч эсвэл засварлагч эрхтэй байршилд шинэ хавтас үүсгэнэ. \\ \hline
-        \textbf{Trigger} & Хэрэглэгч шинэ хавтас үүсгэх шаардлага гарсан. \\ \hline
+        \textbf{Description} & Хэрэглэгч өөрийн хандах эрхтэй файлыг татаж авах боломжтой. \\ \hline
+        \textbf{Trigger} & Файлыг төхөөрөмж дээрээ хадгалах шаардлага гарсан. \\ \hline
+        \textbf{Preconditions} &
+        \begin{itemize}
+            \item Хэрэглэгч системд нэвтэрсэн байх.
+            \item Сонгосон файлд хандах эрхтэй байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Postconditions} &
+        \begin{itemize}
+            \item Файл хэрэглэгчийн төхөөрөмж дээр татагдсан байх.
+        \end{itemize}
+        \\ \hline
+        \textbf{Main success scenario} &
+        \begin{enumerate}
+            \item Хэрэглэгч татахыг хүссэн файлаа сонгоно.
+            \item Татах үйлдлийг сонгоно.
+            \item Систем хандалтын эрхийг шалгана.
+            \item Систем файлыг дамжуулна.
+            \item Файл хэрэглэгчийн төхөөрөмж дээр хадгалагдана.
+        \end{enumerate}
+        \\ \hline
+        \textbf{Alternative flows} & Хуваалцсан орчин дахь файлыг дотоод ялгах мэдээллээр нь сонгон татаж болно. \\ \hline
+        \textbf{Exception flows} & Файл олдохгүй байх, эрх хүрэлцэхгүй байх, эсвэл дамжуулалт тасрах үед таталт амжилтгүй болно. \\ \hline
+        \textbf{Acceptance criteria} & Хэрэглэгч зөвхөн хандах эрхтэй файлаа амжилттай татсан байх. \\ \hline
+        \textbf{Special requirements} & Таталтын урсгал нь том файлууд дээр ч тогтвортой ажиллах ёстой. \\ \hline
+    \end{tabular}
+    \captionof{table}{UC-009 usecase-ийн тодорхойлолт}
+\end{center}
+
+\subsubsection{Хавтас үүсгэх (UC-010)}
+
+\begin{center}
+    \centering
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{|p{4cm}|p{10cm}|}
+        \hline
+        \textbf{Usecase ID} & UC-010 \\ \hline
+        \textbf{Usecase name} & Хавтас үүсгэх \\ \hline
+        \textbf{Actor(s)} & Эзэмшигч эсвэл засварлагч \\ \hline
+        \textbf{Description} & Хэрэглэгч зөвшөөрөгдсөн байршилд шинэ хавтас үүсгэнэ. \\ \hline
+        \textbf{Trigger} & Агуулгаа зохион байгуулах шинэ хавтас хэрэгтэй болсон. \\ \hline
         \textbf{Preconditions} &
         \begin{itemize}
             \item Хэрэглэгч системд нэвтэрсэн байх.
@@ -374,109 +469,112 @@
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Шинэ хавтас системд амжилттай үүссэн байна.
+            \item Шинэ хавтас үүсэж жагсаалтад харагдсан байх.
         \end{itemize}
         \\ \hline
         \textbf{Main success scenario} &
         \begin{enumerate}
-            \item Хэрэглэгч хүссэн parent folder дотор хавтас үүсгэх товчийг дарна.
+            \item Хэрэглэгч зорилтот байршил руу орно.
+            \item Хавтас үүсгэх үйлдлийг сонгоно.
             \item Шинэ хавтасны нэрийг оруулна.
-            \item Систем шинэ хавтсыг үүсгэж харуулна.
+            \item Систем нэр болон эрхийг шалгаж хавтсыг үүсгэнэ.
+            \item Шинэ хавтас жагсаалтад харагдана.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} & Хэрэв зорилтот эх хавтас заагаагүй бол хавтас үндсэн түвшинд үүсэж болно. \\ \hline
-        \textbf{Exception flows} & Ижил нэртэй хавтас аль хэдийн үүссэн, эсвэл эрх хүрэлцэхгүй бол алдаа гарна. \\ \hline
-        \textbf{Acceptance criteria} & Шинэ хавтас файл системд харагдаж байх. \\ \hline
-        \textbf{Special requirements} & Хуваалцсан хавтас дотор үүссэн хавтас нь эх хавтсын эзэмшигчийг дагана. \\ \hline
+        \textbf{Alternative flows} & Хэрэв эх хавтас заагаагүй бол хавтас үндсэн түвшинд үүсэж болно. \\ \hline
+        \textbf{Exception flows} & Ижил нэртэй хавтас аль хэдийн үүссэн, нэр хоосон, эсвэл хэрэглэгчийн эрх хүрэлцэхгүй бол алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Шинэ хавтас зөв байршилд үүсэж, browse урсгалд харагдаж байх. \\ \hline
+        \textbf{Special requirements} & Хуваалцсан хавтас дотор үүссэн хавтасны эзэмшил нь эх хавтсын эзэмшигчийг дагана. \\ \hline
     \end{tabular}
-    \caption{UC-008 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-010 usecase-ийн тодорхойлолт}
+\end{center}
 
-\subsubsection{Файл/хавтас устгах (UC-009)}
+\subsubsection{Файл/хавтас устгах (UC-011)}
 
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
-        \textbf{Usecase ID} & UC-009 \\ \hline
+        \textbf{Usecase ID} & UC-011 \\ \hline
         \textbf{Usecase name} & Файл/хавтас устгах \\ \hline
-        \textbf{Actor(s)} & Хэрэглэгч \\ \hline
-        \textbf{Description} & Эзэмшигч хэрэглэгч өөрийн файл эсвэл хавтсыг эхлээд устгасан өгөгдлийн хэсэг рүү зөөж, дараа нь сэргээх эсвэл бүр мөсөн устгах боломжтой. \\ \hline
-        \textbf{Trigger} & Хэрэглэгч файл эсвэл хавтас устгах шаардлага гарсан. \\ \hline
+        \textbf{Actor(s)} & Эзэмшигч \\ \hline
+        \textbf{Description} & Эзэмшигч хэрэглэгч өөрийн файл эсвэл хавтсыг идэвхтэй жагсаалтаас устгаж, устгасан өгөгдлийн төлөвт шилжүүлнэ. \\ \hline
+        \textbf{Trigger} & Хэрэглэгч өгөгдлөө идэвхтэй орчноос хасах шаардлагатай болсон. \\ \hline
         \textbf{Preconditions} &
         \begin{itemize}
             \item Хэрэглэгч системд нэвтэрсэн байх.
-            \item Хэрэглэгч тухайн файл эсвэл хавтсын эзэмшигч байх.
+            \item Сонгосон өгөгдөл тухайн хэрэглэгчийн эзэмшлийнх байх.
         \end{itemize}
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Файл эсвэл хавтас идэвхтэй жагсаалтаас алга болсон байна.
-            \item Эхний шатны устгал хийсэн бол устгасан өгөгдлийн хэсэгт харагдана.
+            \item Сонгосон өгөгдөл идэвхтэй жагсаалтаас алга болсон байх.
+            \item Өгөгдөл устгасан төлөвт шилжсэн байх.
         \end{itemize}
         \\ \hline
         \textbf{Main success scenario} &
         \begin{enumerate}
-            \item Хэрэглэгч устгахыг хүссэн файл эсвэл хавтсыг сонгоно.
-            \item Устгах товчийг дарна.
-            \item Систем баталгаажуулах цонх харуулна.
+            \item Хэрэглэгч устгахыг хүссэн файл эсвэл хавтсаа сонгоно.
+            \item Устгах үйлдлийг сонгоно.
+            \item Систем баталгаажуулах асуулга харуулна.
             \item Хэрэглэгч баталгаажуулна.
-            \item Систем файл эсвэл хавтсыг устгасан өгөгдлийн хэсэг рүү зөөнө.
+            \item Систем өгөгдлийг идэвхтэй жагсаалтаас хасаж устгасан төлөвт шилжүүлнэ.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} & Хэрэглэгч устгасан өгөгдлийн харагдац руу орж устгасан өгөгдлөө сэргээх эсвэл бүр мөсөн устгаж болно. \\ \hline
-        \textbf{Exception flows} & Үндсэн эх хавтсыг устгах боломжгүй. Хавтас сэргээх үед түүний дээд хавтас устгасан өгөгдлийн хэсэгт хэвээр байвал сэргээх боломжгүй. \\ \hline
-        \textbf{Acceptance criteria} & Сонгосон файл эсвэл хавтас идэвхтэй байршлаасаа алга болж, эхний шатны устгал хийсэн бол устгасан өгөгдлийн хэсэгт харагдсан байх. \\ \hline
-        \textbf{Special requirements} & Бүр мөсөн устгасны дараа чөлөөлөгдсөн хадгалалтын хэмжээ нийт тооцоололд тусгагдана. \\ \hline
+        \textbf{Alternative flows} & Хэрэглэгч нэг удаад хэд хэдэн өгөгдлийг сонгон устгаж болно. \\ \hline
+        \textbf{Exception flows} & Root хавтсыг устгах боломжгүй. Эзэмшигч биш хэрэглэгч устгах гэж оролдвол алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Сонгосон файл эсвэл хавтас идэвхтэй байршлаасаа алга болсон байх. \\ \hline
+        \textbf{Special requirements} & Устгал нь шууд бүр мөсөн арилгах биш, эхлээд логик устгалын төлөв рүү шилжүүлэх байдлаар хэрэгжинэ. \\ \hline
     \end{tabular}
-    \caption{UC-009 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-011 usecase-ийн тодорхойлолт}
+\end{center}
 
-\subsubsection{Файл/хавтас шилжүүлэх (UC-010)}
+\subsubsection{Файл/хавтас шилжүүлэх (UC-012)}
 
-\begin{table}[H]
+\begin{center}
     \centering
     \renewcommand{\arraystretch}{1.3}
     \begin{tabular}{|p{4cm}|p{10cm}|}
         \hline
-        \textbf{Usecase ID} & UC-010 \\ \hline
+        \textbf{Usecase ID} & UC-012 \\ \hline
         \textbf{Usecase name} & Файл/хавтас шилжүүлэх \\ \hline
-        \textbf{Actor(s)} & Хэрэглэгч \\ \hline
-        \textbf{Description} & Эзэмшигч хэрэглэгч нэг буюу хэд хэдэн өөрийн файл, хавтсыг өөрийн эзэмшлийн өөр хавтас руу шилжүүлнэ. \\ \hline
-        \textbf{Trigger} & Хэрэглэгч файл эсвэл хавтасны байршлыг өөрчлөх шаардлага гарсан. \\ \hline
+        \textbf{Actor(s)} & Эзэмшигч \\ \hline
+        \textbf{Description} & Эзэмшигч хэрэглэгч өөрийн файл, хавтсуудыг өөрийн эзэмшлийн өөр хавтас руу шилжүүлнэ. \\ \hline
+        \textbf{Trigger} & Файл эсвэл хавтсын байршлыг өөрчлөх шаардлага гарсан. \\ \hline
         \textbf{Preconditions} &
         \begin{itemize}
             \item Хэрэглэгч системд нэвтэрсэн байх.
-            \item Шилжүүлэх файл, хавтаснууд болон зорилтот хавтас бүгд тухайн хэрэглэгчийн эзэмшлийнх байх.
+            \item Шилжүүлэх өгөгдлүүд болон зорилтот хавтас тухайн хэрэглэгчийн эзэмшлийнх байх.
         \end{itemize}
         \\ \hline
         \textbf{Postconditions} &
         \begin{itemize}
-            \item Файл эсвэл хавтас шинэ байршилд шилжсэн байна.
+            \item Сонгосон өгөгдөл шинэ байршилд шилжсэн байх.
         \end{itemize}
         \\ \hline
         \textbf{Main success scenario} &
         \begin{enumerate}
             \item Хэрэглэгч шилжүүлэх нэг буюу хэд хэдэн файл, хавтсыг сонгоно.
-            \item Move үйлдлийг сонгоно.
-            \item Зорилтот хавтсыг сонгоно.
-            \item Систем эзэмшил болон бүтцийн шалгалтуудыг хийж, шинэ байршилд шилжүүлнэ.
+            \item Шилжүүлэх үйлдлийг сонгоно.
+            \item Зорилтот хавтсыг заана.
+            \item Систем эзэмшил болон бүтцийн шалгалтыг хийнэ.
+            \item Систем өгөгдлийг шинэ байршилд шилжүүлнэ.
         \end{enumerate}
         \\ \hline
-        \textbf{Alternative flows} & Хэрэглэгч хэд хэдэн файл, хавтсыг нэг үйлдлээр зэрэг шилжүүлж болно. \\ \hline
-        \textbf{Exception flows} & Зорилтот хавтас олдохгүй, хуваалцсан өгөгдөл сонгогдсон, эсвэл хавтас өөрийнхөө дотор эсвэл үргэлжлэл бүтэц рүү шилжих гэж оролдвол алдаа гарна. \\ \hline
-        \textbf{Acceptance criteria} & Файл эсвэл хавтас шинэ хавтас дотор харагдаж байх. \\ \hline
-        \textbf{Special requirements} & Нэг хүсэлтээр шилжүүлэх item-ийн дээд тоо хязгаартай байна. \\ \hline
+        \textbf{Alternative flows} & Хэрэглэгч нэг удаад олон өгөгдлийг зэрэг шилжүүлж болно. \\ \hline
+        \textbf{Exception flows} & Зорилтот хавтас өөрийн эзэмшлийнх биш, эсвэл хавтсыг өөрийнх нь дотор эсвэл үргэлжлэл бүтэц рүү шилжүүлэх гэж оролдвол алдаа гарна. \\ \hline
+        \textbf{Acceptance criteria} & Шилжүүлсэн өгөгдөл хуучин байршлаасаа алга болж, шинэ байршилд харагдсан байх. \\ \hline
+        \textbf{Special requirements} & Root хавтсыг шилжүүлэхгүй, нэг үйлдлээр хамгийн ихдээ 500 өгөгдөл шилжүүлэхийг дэмжинэ. \\ \hline
     \end{tabular}
-    \caption{UC-010 usecase-ийн тодорхойлолт}
-\end{table}
+    \captionof{table}{UC-012 usecase-ийн тодорхойлолт}
+\end{center}
 
 \section{Функциональ бус шаардлага}
 
 \begin{enumerate}
 
-\item Серверийн программ нь Linux, Windows, MacOS үйлдлийн системүүд дээр ажиллах боломжтой байх.
+\item Серверийн программ нь өөрийн сервер дээр байршуулан ажиллуулах боломжтой, ялангуяа Linux орчинд найдвартай ажиллахаар төлөвлөгдсөн байх.
 
 \item Хэрэглэгчийн client аппликейшн нь web болон iOS платформ дээр ажиллах боломжтой байх.
 
@@ -486,33 +584,53 @@
 
 \item Хэрэглэгчийн нууц үгийг сервер дээр plaintext хэлбэрээр хадгалахгүй бөгөөд аюулгүй hash алгоритм ашиглан хадгалдаг байх.
 
-\item Систем нь нэг сервер дээр олон хэрэглэгчийн зэрэг хандалтыг дэмжих боломжтой байх.
+\item Систем нь нэг сервер дээр хэд хэдэн хэрэглэгч зэрэг хандах үед үндсэн үйлдлүүдийн зөв ажиллагааг алдагдуулахгүй байх.
 
 \item Файл байршуулах болон татах үйлдлийн явцыг хэрэглэгчийн интерфэйс дээр харуулах боломжтой байх.
 
 \item Систем нь хэрэглэгч зөвхөн өөрийн файл болон өөрт олгогдсон эрхтэй өгөгдөлд хандах боломжийг хангах байх.
 
-\item Файл дамжуулах явцад өгөгдлийн бүрэн бүтэн байдлыг шалгах механизм (checksum эсвэл hash) ашигладаг байх.
+\item Файл дамжуулах болон хадгалах үед өгөгдлийн бүрэн бүтэн байдлыг шалгах боломжтой байх.
 
 \end{enumerate}
 
-% \section{Шинжилгээний класс диаграмм}
+\section{Шинжилгээний класс диаграмм}
+
+\paragraph{}
+Функциональ шаардлага болон usecase-үүдийг өгөгдлийн бүтцийн түвшинд буулгахдаа системийн үндсэн ойлголтуудыг хэрэглэгч, нэвтэрсэн төлөв, хадгалж буй өгөгдөл, хуваалцах эрх, мөн системийн ерөнхий тохиргоо гэсэн хэд хэдэн цөм класст төвлөрүүлэн тодорхойлсон. Зураг \ref{fig:analysis-class-diagram}-т эдгээр классуудын шинжилгээний түвшний хамаарлыг харуулав.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\textwidth]{Figures/chapter2/shinjilgee-class.png}
+    \caption{Хувийн үүлэн хадгалалтын системийн шинжилгээний класс диаграмм}
+    \label{fig:analysis-class-diagram}
+\end{figure}
+
+\paragraph{}
+Энэ диаграммын төвд \textit{User} классыг байрлуулсан. Учир нь системийн ихэнх үндсэн үйл ажиллагаа хэрэглэгчээс эхэлнэ. Хэрэглэгч нь өөрийн профайл мэдээлэл, үүрэг, хадгалалтын хязгаар, ашигласан хэмжээ зэрэг атрибуттай байна. Мөн нэг хэрэглэгч олон \textit{Session}-тэй байж болохоор тодорхойлсон нь нэг хэрэглэгч олон төхөөрөмжөөс эсвэл өөр өөр хугацаанд нэвтрэх боломжийг илэрхийлнэ. Үүний зэрэгцээ хэрэглэгч өөрийн \textit{StorageEntry}-үүдийг эзэмшиж, шинээр үүсгэнэ гэж үзсэн бөгөөд энэ нь файл болон хавтсын нийтлэг шинжүүдийг нэг суурь ойлголтоор зангидах боломж олгож байна.
+
+\paragraph{}
+\textit{StorageEntry} классыг хийсвэр класс байдлаар тодорхойлсон нь файл болон хавтсыг нэг ижил түвшинд удирдах шаардлагатай холбоотой. Нэр, зам, эзэмшигч, үүсгэсэн хэрэглэгч, онцолсон төлөв, устгасан төлөв, өөрчлөгдсөн хугацаа зэрэг шинжүүд нь файл болон хавтасны аль алинд нь нийтлэг тул тусдаа давхардуулан тодорхойлохын оронд нэг суурь класст нэгтгэхээр шийдсэн. Үүний доор \textit{Folder} болон \textit{File} классуудыг байрлуулсан. Хавтас нь эцэг хавтастай байх, бусад файл эсвэл хавтсыг агуулж болох бүтэцтэй; харин файл нь хэмжээ, төрөл, өргөтгөл зэрэг зөвхөн өөрт нь хамаарах мэдээллийг агуулна.
+
+\paragraph{}
+Хуваалцах логикийг \textit{SharePermission} классаар илэрхийлсэн. Энэ класс нь аль хэрэглэгч ямар өгөгдөл дээр ямар түвшний эрхтэй болохыг тодорхойлж, нэг талаас эрх олгож буй хэрэглэгчтэй, нөгөө талаас эрх авч буй хэрэглэгчтэй, мөн тухайн нөөцтэй холбогдоно. Ингэснээр usecase хэсэгт тодорхойлсон “эрх олгох” үйл ажиллагааг өгөгдлийн түвшинд хэрхэн буулгасныг ойлгомжтой харуулах боломжтой болсон. Харин \textit{SystemConfig} классыг систем нэг удаа анхны тохиргоо хийгдсэн эсэх, өгөгдөл хадгалах үндсэн зам, нийт хадгалалтын дээд хязгаар зэрэг системийн нийт төлвийг илэрхийлэхээр оруулсан. Иймээс энэхүү диаграмм нь дараагийн бүлэгт тайлбарлах архитектур болон өгөгдлийн сангийн зохиомжийн суурь ойлголтыг өгч байна.
+
 % \section{Үйл ажиллагааны диаграмм}
 % \section{Шинжилгээний дарааллын диаграмм}
 
 \section{Ажлын хүрээ}
 
-\subsection{Scope (Хамрах хүрээ)}
+\subsection{Хамрах хүрээ}
 
 Энэхүү төслийн хүрээнд дараах програм хангамжийн бүрэлдэхүүнүүдийг хөгжүүлнэ:
 
 \begin{enumerate}
-    \item \textbf{Хувийн үүлэн хадгалалтын үндсэн серверийн программ: } Үндсэн серверийн программ нь өөрийн сервер дээр ажиллах орчинд байршиж, системийн анхны тохиргоо, хэрэглэгчийн нэвтрэлт ба нэвтэрсэн төлөв, хэрэглэгчийн удирдлага, файл болон хавтасны хадгалалт, хуваалцах эрхийн удирдлага, устгасан өгөгдөл, хайлт, таталт болон урьдчилан харах зэрэг үндсэн логикийг хэрэгжүүлнэ.
-    \item \textbf{iOS үйлдлийн системд зориулсан мобайл клиент аппликейшн: } iOS мобайл аппликейшн нь системийн өдөр тутмын хэрэглэгчийн урсгалуудыг дэмжинэ. Үүнд нэвтрэх, файл болон хавтас харах, хайх, дэлгэрэнгүй мэдээлэл харах, файл байршуулах, татах, урьдчилан харах, хуваалцсан өгөгдөлтэй ажиллах зэрэг боломжууд орно.
-    \item \textbf{Веб апп:} Веб аппликейшн нь iOS клиенттэй ижил үндсэн боломжуудыг өгөхийн зэрэгцээ анхны тохиргоо хийх, админ хэрэглэгчийн менежмент хийх, хадгалалтын хязгаар болон хэрэглэгчийн мэдээлэл шинэчлэх зэрэг админ урсгалуудыг мөн дэмжинэ.
+    \item \textbf{Хувийн үүлэн хадгалалтын үндсэн серверийн программ: } Үндсэн сервер нь өөрийн сервер дээр байршиж ажиллах бөгөөд системийн анхны тохиргоо, нэвтрэлт, хэрэглэгчийн удирдлага, файл болон хавтас харах, байршуулах, татах, үүсгэх, устгах, шилжүүлэх, мөн хуваалцах эрхийн удирдлага зэрэг үндсэн боломжуудыг хангана.
+    \item \textbf{iOS үйлдлийн системд зориулсан мобайл клиент аппликейшн: } iOS мобайл аппликейшн нь өдөр тутмын хэрэглэгчийн үндсэн урсгалуудыг дэмжинэ. Үүнд системд нэвтрэх, өөрийн файл болон хавтсыг харах, файл байршуулах, татах, хавтас үүсгэх, өгөгдөл устгах, шилжүүлэх, өөрт хуваалцсан өгөгдөлтэй ажиллах зэрэг боломжууд орно.
+    \item \textbf{Веб аппликейшн: } Веб аппликейшн нь энгийн хэрэглэгчийн үндсэн урсгалуудыг дэмжихийн зэрэгцээ анхны тохиргоо хийх, хэрэглэгчийн жагсаалт харах, хэрэглэгч үүсгэх, мэдээлэл шинэчлэх, хэрэглэгч устгах зэрэг админы урсгалуудыг мөн дэмжинэ.
 \end{enumerate}
 
-\subsection{Out of Scope (Хийхгүй зүйлс)}
+\subsection{Хүрээнээс хасах зүйлс}
 
 \begin{enumerate}
     \item \textbf{Android мобайл аппликейшн: }
@@ -534,7 +652,7 @@
 
 \section{Бүлгийн дүгнэлт}
 \paragraph{}
-Энэ бүлэгт хувийн үүлэн хадгалалтын системийн үйл ажиллагааны урсгал, функциональ болон функциональ бус шаардлагуудыг тодорхойлов. Үүний үр дүнд систем нь анхны тохиргоо, нэвтрэлт ба нэвтэрсэн төлөв, хэрэглэгчийн менежмент, файл хадгалалт, хуваалцах эрхийн удирдлага, устгасан өгөгдөл, хайлт, таталт болон урьдчилан харах зэрэг үндсэн боломжуудтай байхаар шаардлага тавигдаж байна. Мөн эзэмшигч болон засварлагч эрхийн ялгаа, өөрийн сервер дээр ажиллах орчны хадгалалтын хязгаар, эрхийн удирдлагад суурилсан хязгаарлалтууд нь дараагийн бүлгийн зохиомжид чухал нөлөө үзүүлнэ.
+Энэ бүлэгт хувийн үүлэн хадгалалтын системийн үндсэн шаардлагуудыг usecase, функциональ шаардлага, функциональ бус шаардлага, мөн шинжилгээний класс диаграммын түвшинд тодорхойллоо. Үүний үр дүнд хөгжүүлэх систем нь анхны тохиргоо, нэвтрэлт, хэрэглэгчийн удирдлага, файл болон хавтастай ажиллах үндсэн үйлдлүүд, хуваалцах эрхийн удирдлага зэрэг боломжуудтай байхаар төлөвлөгдөж байна. Мөн эзэмшигч, засварлагч, админ хэрэглэгчийн ялгаа, өөрийн сервер дээр ажиллах орчны хязгаарлалт, хөнгөн жинтэй байх чиглэл нь системийн зохиомжид шууд нөлөө үзүүлнэ.
 
 \paragraph{}
-Өөрөөр хэлбэл Chapter 1-д хийсэн архитектурын судалгааг энэ бүлэгт системийн шаардлага болон usecase түвшинд буулгав. Дараагийн бүлэгт эдгээр шаардлагад нийцсэн архитектур, өгөгдлийн бүтэц, интерфэйсийн зохиомжийг дэлгэрэнгүй тайлбарлана.
+Өөрөөр хэлбэл нэгдүгээр бүлэгт хийсэн судалгааны үр дүнг энэ бүлэгт системийн шаардлага болон өгөгдлийн бүтцийн түвшинд буулгасан гэж үзэж болно. Дараагийн бүлэгт эдгээр шаардлагад тулгуурласан системийн архитектур, өгөгдлийн сангийн зохиомж, интерфэйсийн шийдлүүдийг дэлгэрэнгүй тайлбарлана.

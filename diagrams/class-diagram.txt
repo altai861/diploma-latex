@@ -1,0 +1,261 @@
+@startuml
+
+enum UserRole {
+  admin
+  user
+}
+
+enum UserStatus {
+  active
+  inactive
+}
+
+enum EntryType {
+  folder
+  file
+}
+
+enum PrivilegeType {
+  owner
+  editor
+  viewer
+}
+
+class User {
+  +id: long
+  +username: string
+  +email: string
+  +fullName: string
+  +passwordHash: string
+  +role: UserRole
+  +status: UserStatus
+  +storageQuotaBytes: long
+  +storageUsedBytes: long
+  +createdAtUnixMs: long
+  +updatedAtUnixMs: long
+  +profileImageUrl: string
+  --
+  +isAdmin(): boolean
+  +canLogin(): boolean
+  +updateProfileImage(url: string): void
+}
+
+class Session {
+  +id: long
+  +accessToken: string
+  +expiresAt: datetime
+  +createdAtUnixMs: long
+  +revokedAtUnixMs: long
+  --
+  +isExpired(): boolean
+  +revoke(): void
+}
+
+class SystemConfig {
+  +id: long
+  +isInitialized: boolean
+  +storageRootPath: string
+  +totalStorageLimitBytes: long
+  +createdAtUnixMs: long
+  +updatedAtUnixMs: long
+  --
+  +initialize(): void
+  +updateStorageRootPath(path: string): void
+  +updateTotalStorageLimit(limit: long): void
+}
+
+abstract class StorageEntry {
+  +id: long
+  +name: string
+  +path: string
+  +entryType: EntryType
+  +isStarred: boolean
+  +isDeleted: boolean
+  +deletedAtUnixMs: long
+  +createdAtUnixMs: long
+  +modifiedAtUnixMs: long
+  --
+  +rename(newName: string): void
+  +softDelete(): void
+  +restore(): void
+  +setStarred(starred: boolean): void
+}
+
+class Folder {
+  --
+  +createSubfolder(name: string): Folder
+  +listChildren(): List<StorageEntry>
+  +moveTo(destination: Folder): void
+}
+
+class File {
+  +sizeBytes: long
+  +mimeType: string
+  +extension: string
+  --
+  +moveTo(destination: Folder): void
+  +download(): binary
+  +preview(): binary
+}
+
+class SharePermission {
+  +id: long
+  +privilegeType: PrivilegeType
+  +createdAtUnixMs: long
+  --
+  +updatePrivilege(privilegeType: PrivilegeType): void
+  +revoke(): void
+}
+
+class ProfileImage {
+  +id: long
+  +mimeType: string
+  +sizeBytes: long
+  +storagePath: string
+  +uploadedAtUnixMs: long
+}
+
+class SetupService {
+  --
+  +getStatus(): boolean
+  +initializeSystem(admin: User, config: SystemConfig): void
+}
+
+class AuthService {
+  --
+  +login(username: string, password: string): Session
+  +logout(accessToken: string): void
+  +authenticate(accessToken: string): User
+}
+
+class UserService {
+  --
+  +getCurrentUser(accessToken: string): User
+  +listUsers(): List<User>
+  +createUser(user: User): User
+  +updateUser(userId: long, user: User): User
+  +deleteUser(userId: long): void
+  +uploadProfileImage(userId: long, image: ProfileImage): void
+  +getProfileImage(userId: long): ProfileImage
+}
+
+class StorageService {
+  --
+  +listFolder(path: string, folderId: long, q: string, limit: int, cursor: string): List<StorageEntry>
+  +listTrash(q: string): List<StorageEntry>
+  +listStarred(q: string): List<StorageEntry>
+  +listShared(q: string): List<StorageEntry>
+  +searchAccessibleResources(q: string, limit: int, cursor: string): List<StorageEntry>
+  +getFolderMetadata(path: string, folderId: long): Folder
+  +getFileMetadata(fileId: long): File
+  +createFolder(parentPath: string, parentFolderId: long, name: string): Folder
+  +renameFolder(path: string, resourceId: long, newName: string): Folder
+  +deleteFolder(path: string): void
+  +uploadFile(path: string, folderId: long, file: File): File
+  +renameFile(path: string, resourceId: long, newName: string): File
+  +deleteFile(path: string): void
+  +moveItems(destinationFolderId: long, items: List<StorageEntry>): void
+  +setStarred(path: string, entryType: EntryType, starred: boolean): StorageEntry
+}
+
+class TrashService {
+  --
+  +restoreFile(path: string): void
+  +restoreFolder(path: string): void
+  +deleteFilePermanently(path: string): void
+  +deleteFolderPermanently(path: string): void
+}
+
+class SharingService {
+  --
+  +searchTargetUsers(q: string): List<User>
+  +listPermissions(entryType: EntryType, resourceId: long): List<SharePermission>
+  +grantPermission(entryType: EntryType, resourceId: long, targetUserId: long, privilegeType: PrivilegeType): void
+  +removePermission(entryType: EntryType, resourceId: long, targetUserId: long): void
+}
+
+class DownloadService {
+  --
+  +downloadFile(path: string, fileId: long, accessToken: string): binary
+  +previewFile(path: string, fileId: long, accessToken: string): binary
+  +downloadBatch(items: List<StorageEntry>): binary
+}
+
+class StorageEntryRepository {
+  --
+  +findById(id: long): StorageEntry
+  +findByPath(path: string): StorageEntry
+  +save(entry: StorageEntry): void
+  +delete(entry: StorageEntry): void
+  +search(q: string): List<StorageEntry>
+}
+
+class UserRepository {
+  --
+  +findById(id: long): User
+  +findByUsername(username: string): User
+  +save(user: User): void
+  +delete(user: User): void
+  +findAll(): List<User>
+}
+
+class SessionRepository {
+  --
+  +findByToken(token: string): Session
+  +save(session: Session): void
+  +delete(session: Session): void
+}
+
+class SharePermissionRepository {
+  --
+  +findByResource(entryType: EntryType, resourceId: long): List<SharePermission>
+  +findByTargetUser(targetUserId: long): List<SharePermission>
+  +save(permission: SharePermission): void
+  +delete(permission: SharePermission): void
+}
+
+StorageEntry <|-- Folder
+StorageEntry <|-- File
+
+User "1" -- "0..*" Session
+User "1" -- "0..1" ProfileImage
+User "1" -- "0..*" StorageEntry : owns
+User "1" -- "0..*" StorageEntry : creates
+
+Folder "0..1" -- "0..*" Folder : parent
+Folder "1" -- "0..*" File : contains
+
+File "0..*" --> "1" Folder : stored in
+StorageEntry "0..*" --> "1" User : owner
+StorageEntry "0..*" --> "1" User : createdBy
+
+User "1" -- "0..*" SharePermission : grantedBy
+SharePermission "0..*" --> "1" User : targetUser
+SharePermission "0..*" --> "1" StorageEntry : resource
+
+SetupService ..> SystemConfig
+SetupService ..> User
+AuthService ..> User
+AuthService ..> Session
+UserService ..> User
+UserService ..> ProfileImage
+StorageService ..> StorageEntry
+StorageService ..> Folder
+StorageService ..> File
+TrashService ..> StorageEntry
+TrashService ..> Folder
+TrashService ..> File
+SharingService ..> SharePermission
+SharingService ..> StorageEntry
+SharingService ..> User
+DownloadService ..> File
+DownloadService ..> StorageEntry
+
+AuthService ..> UserRepository
+AuthService ..> SessionRepository
+UserService ..> UserRepository
+StorageService ..> StorageEntryRepository
+SharingService ..> SharePermissionRepository
+SharingService ..> UserRepository
+
+@enduml
