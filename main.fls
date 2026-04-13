@@ -639,11 +639,11 @@ OUTPUT Chapters/Chapter2.aux
 INPUT ./Chapters/Chapter2.tex
 INPUT ./Chapters/Chapter2.tex
 INPUT Chapters/Chapter2.tex
-INPUT ./Figures/chapter2/usecase.png
-INPUT ./Figures/chapter2/usecase.png
-INPUT ./Figures/chapter2/usecase.png
-INPUT ./Figures/chapter2/usecase.png
-INPUT ./Figures/chapter2/usecase.png
+INPUT ./Figures/chapter2/usecase.jpg
+INPUT ./Figures/chapter2/usecase.jpg
+INPUT ./Figures/chapter2/usecase.jpg
+INPUT ./Figures/chapter2/usecase.jpg
+INPUT ./Figures/chapter2/usecase.jpg
 INPUT ./Figures/chapter2/shinjilgee-class.png
 INPUT ./Figures/chapter2/shinjilgee-class.png
 INPUT ./Figures/chapter2/shinjilgee-class.png
