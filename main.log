@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  12 APR 2026 13:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  17 APR 2026 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1442,28 +1442,28 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 115.
 (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
-LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
 Package translations Info: no dictionary file `translations-basic-dictionary-mo
-ngolian.trsl' found. on input line 161.
+ngolian.trsl' found. on input line 162.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1471,7 +1471,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 161.
+or `english'. on input line 162.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1537,7 +1537,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count517
-Package hyperref Info: Link coloring ON on input line 161.
+Package hyperref Info: Link coloring ON on input line 162.
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1547,7 +1547,7 @@ Package biblatex Info: ... file 'mongolian.lbx' not found.
 
 
 Package biblatex Warning: Language 'mongolian' not supported.
-(biblatex)                Using dummy definitions on input line 161.
+(biblatex)                Using dummy definitions on input line 162.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1562,12 +1562,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 161.
-Package biblatex Info: Reference segment=0 on input line 161.
+Package biblatex Info: Reference section=0 on input line 162.
+Package biblatex Info: Reference segment=0 on input line 162.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=249, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=128, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1750,7 +1750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 ]
-<Figures/chapter1/cloud-market.png, id=531, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=379, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
@@ -1771,7 +1771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--42
 [5 <./Figures/chapter1/cloud-market.png>]
 
 [6]
-<Figures/chapter1/google-colossus-control-plane.png, id=564, 2007.5pt x 1129.21
+<Figures/chapter1/google-colossus-control-plane.png, id=414, 2007.5pt x 1129.21
 875pt>
 File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
 )
@@ -1784,7 +1784,7 @@ ed on input line 79.
 [7]
 
 [8 <./Figures/chapter1/google-colossus-control-plane.png>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=599, 526.96875pt x 359.3425pt>
+<Figures/chapter1/nextcloud_data_diagram.png, id=449, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
@@ -1808,7 +1808,7 @@ Overfull \hbox (4.08792pt too wide) in paragraph at lines 111--112
 
 
 [10 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-interface.png, id=628, 1917.1625pt x 1044.90375pt>
+<Figures/chapter1/nextcloud-interface.png, id=479, 1917.1625pt x 1044.90375pt>
 File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
 <use Figures/chapter1/nextcloud-interface.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
@@ -1820,7 +1820,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--119
 ан Nextcloud-ийн веб
  []
 
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=630, 785.93625pt x 202.
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=481, 785.93625pt x 202.
 7575pt>
 File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
 )
@@ -1838,7 +1838,7 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 containers-ramusage.png>]
 
 [12]
-<Figures/chapter1/c4-ocis-system-context.png, id=662, 918.43124pt x 788.9475pt>
+<Figures/chapter1/c4-ocis-system-context.png, id=514, 918.43124pt x 788.9475pt>
 
 File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type png)
 <use Figures/chapter1/c4-ocis-system-context.png>
@@ -2050,13 +2050,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 [15]
 
 [16]
-<Figures/chapter1/tech-logos/rust.png, id=703, 467.7475pt x 466.74374pt>
+<Figures/chapter1/tech-logos/rust.png, id=556, 467.7475pt x 466.74374pt>
 File: Figures/chapter1/tech-logos/rust.png Graphic file (type png)
 <use Figures/chapter1/tech-logos/rust.png>
 Package pdftex.def Info: Figures/chapter1/tech-logos/rust.png  used on input li
 ne 205.
 (pdftex.def)             Requested size: 45.88847pt x 45.78687pt.
-<Figures/chapter1/tech-logos/postgresql.png, id=706, 221.82875pt x 228.855pt>
+<Figures/chapter1/tech-logos/postgresql.png, id=559, 221.82875pt x 228.855pt>
 File: Figures/chapter1/tech-logos/postgresql.png Graphic file (type png)
 <use Figures/chapter1/tech-logos/postgresql.png>
 Package pdftex.def Info: Figures/chapter1/tech-logos/postgresql.png  used on in
@@ -2066,13 +2066,13 @@ put line 215.
 
 [17 <./Figures/chapter1/tech-logos/rust.png> <./Figures/chapter1/tech-logos/pos
 tgresql.png>]
-<Figures/chapter1/tech-logos/swift.jpeg, id=718, 225.84375pt x 225.84375pt>
+<Figures/chapter1/tech-logos/swift.jpeg, id=571, 225.84375pt x 225.84375pt>
 File: Figures/chapter1/tech-logos/swift.jpeg Graphic file (type jpg)
 <use Figures/chapter1/tech-logos/swift.jpeg>
 Package pdftex.def Info: Figures/chapter1/tech-logos/swift.jpeg  used on input 
 line 226.
 (pdftex.def)             Requested size: 45.88847pt x 45.88817pt.
-<Figures/chapter1/tech-logos/angular.jpeg, id=719, 225.84375pt x 225.84375pt>
+<Figures/chapter1/tech-logos/angular.jpeg, id=572, 225.84375pt x 225.84375pt>
 File: Figures/chapter1/tech-logos/angular.jpeg Graphic file (type jpg)
 <use Figures/chapter1/tech-logos/angular.jpeg>
 Package pdftex.def Info: Figures/chapter1/tech-logos/angular.jpeg  used on inpu
@@ -2082,7 +2082,7 @@ t line 236.
 
 [18 <./Figures/chapter1/tech-logos/swift.jpeg> <./Figures/chapter1/tech-logos/a
 ngular.jpeg>])
-Overfull \hbox (0.611pt too wide) in paragraph at lines 249--197
+Overfull \hbox (0.611pt too wide) in paragraph at lines 249--198
 []\T2A/cmr/m/n/12 Иймээс энэ-хіі дип-ло-мын аж-лын хувьд х°н-г°н бі-тэц-тэй, °°
 -рийн сер-вер дээр ажил-
  []
@@ -2108,7 +2108,7 @@ Overfull \hbox (0.611pt too wide) in paragraph at lines 249--197
 ]
 
 [21]
-<Figures/chapter2/usecase.jpg, id=766, 736.7525pt x 1040.88875pt>
+<Figures/chapter2/usecase.jpg, id=619, 736.7525pt x 1040.88875pt>
 File: Figures/chapter2/usecase.jpg Graphic file (type jpg)
 <use Figures/chapter2/usecase.jpg>
 Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 75.
@@ -2208,7 +2208,7 @@ Overfull \hbox (2.24396pt too wide) in paragraph at lines 1081--1082
 
 
 [45]
-<Figures/chapter2/shinjilgee-class.png, id=1105, 687.56876pt x 1108.14pt>
+<Figures/chapter2/shinjilgee-class.png, id=981, 687.56876pt x 1108.14pt>
 File: Figures/chapter2/shinjilgee-class.png Graphic file (type png)
 <use Figures/chapter2/shinjilgee-class.png>
 Package pdftex.def Info: Figures/chapter2/shinjilgee-class.png  used on input l
@@ -2235,7 +2235,7 @@ ine 1102.
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio.png, id=1147, 885.3075pt x 444.661
+<Figures/chapter3/pcloud-architecture.drawio.png, id=1025, 885.3075pt x 444.661
 25pt>
 File: Figures/chapter3/pcloud-architecture.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-architecture.drawio.png>
@@ -2252,7 +2252,7 @@ Overfull \hbox (6.83698pt too wide) in paragraph at lines 31--32
 но. Файл бо-лон хав-тас бір нь \T2A/cmr/m/it/12 owner_user_id
  []
 
-<Figures/chapter3/pcloud-erd.drawio.png, id=1159, 1252.68pt x 1055.945pt>
+<Figures/chapter3/pcloud-erd.drawio.png, id=1037, 1252.68pt x 1055.945pt>
 File: Figures/chapter3/pcloud-erd.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-erd.drawio.png>
 Package pdftex.def Info: Figures/chapter3/pcloud-erd.drawio.png  used on input 
@@ -2261,7 +2261,7 @@ line 35.
 
 
 [51]
-<Figures/chapter3/admin-first-launch.png, id=1167, 1734.48pt x 1121.18875pt>
+<Figures/chapter3/admin-first-launch.png, id=1045, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
@@ -2270,12 +2270,12 @@ Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
 
 
 [52 <./Figures/chapter3/pcloud-erd.drawio.png>]
-<Figures/chapter3/login.png, id=1175, 2178.1375pt x 1121.18875pt>
+<Figures/chapter3/login.png, id=1053, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 58.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=1176, 2178.1375pt x 1121.18875pt
+<Figures/chapter3/normal-user-homepage.png, id=1054, 2178.1375pt x 1121.18875pt
 >
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
@@ -2285,7 +2285,7 @@ ut line 67.
 
 
 [53 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=1184, 2195.20125pt x 1121.18875pt>
+<Figures/chapter3/admin-home-page.png, id=1062, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2333,7 +2333,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'cloudstorageusage' on input line 224.
+(biblatex)                at entry 'cloudstorageusage' on input line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2343,7 +2343,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (2.55127pt too wide) in paragraph at lines 224--224
+Overfull \hbox (2.55127pt too wide) in paragraph at lines 225--225
 []\T2A/cmr/m/n/12 Threadgold consulting. \T2A/cmr/m/it/12 Personal Cloud Storag
 e Usage\T2A/cmr/m/n/12 . Personal Cloud Storage Usage
  []
@@ -2358,7 +2358,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-colossus-storage-layer' on input lin
-e 224.
+e 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2377,7 +2377,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-workspace-security-whitepaper' on in
-put line 224.
+put line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2387,7 +2387,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (3.77219pt too wide) in paragraph at lines 224--224
+Overfull \hbox (3.77219pt too wide) in paragraph at lines 225--225
 \T2A/cmr/m/it/12 at its core\T2A/cmr/m/n/12 . Google Workspace Security Whitepa
 per. 2026. \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/12 https : 
 / / workspace .
@@ -2403,7 +2403,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-workspace-data-region-policy' on inp
-ut line 224.
+ut line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2421,7 +2421,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-workspace-cse' on input line 224.
+(biblatex)                at entry 'google-workspace-cse' on input line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2431,7 +2431,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (1.70651pt too wide) in paragraph at lines 224--224
+Overfull \hbox (1.70651pt too wide) in paragraph at lines 225--225
 \T2A/cmr/m/n/12 Workspace Client-side Encryption Overview. 2026. \T2A/cmr/m/sc/
 12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/12 https : / / support . google .
  []
@@ -2446,7 +2446,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-api-manage-changes' on input l
-ine 224.
+ine 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2464,7 +2464,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-drive-api-push' on input line 224.
+(biblatex)                at entry 'google-drive-api-push' on input line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2483,7 +2483,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-api-manage-uploads' on input l
-ine 224.
+ine 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2502,7 +2502,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-api-manage-revisions' on input
- line 224.
+ line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2528,7 +2528,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-file-versions-help' on input l
-ine 224.
+ine 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2546,7 +2546,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-files-overview' on input line 224
+(biblatex)                at entry 'nextcloud-files-overview' on input line 225
 .
 
 
@@ -2566,7 +2566,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-fork-announcement' on input line 
-224.
+225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2585,7 +2585,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'july' untranslated
 (biblatex)                at entry 'nextcloud2018architecture' on input line 22
-4.
+5.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2597,7 +2597,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-external-storage' on input line 2
-24.
+25.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2616,7 +2616,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-file-access-control' on input lin
-e 224.
+e 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2626,7 +2626,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (7.23187pt too wide) in paragraph at lines 224--224
+Overfull \hbox (7.23187pt too wide) in paragraph at lines 225--225
 []\T2A/cmr/m/n/12 Nextcloud. \T2A/cmr/m/it/12 Files access control\T2A/cmr/m/n/
 12 . Nextcloud Administration Manual. 2026. \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12
  : [][]$\T2A/cmtt/m/n/12 https :
@@ -2642,7 +2642,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-encryption-configuration' on inpu
-t line 224.
+t line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2661,7 +2661,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-file-versioning' on input line 22
-4.
+5.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2680,7 +2680,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-trashbin-configuration' on input 
-line 224.
+line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2699,7 +2699,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-transactional-file-locking' on in
-put line 224.
+put line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2718,7 +2718,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-caching-configuration' on input l
-ine 224.
+ine 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2740,7 +2740,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-system-requirements' on input lin
-e 224.
+e 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2750,13 +2750,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (4.35437pt too wide) in paragraph at lines 224--224
+Overfull \hbox (4.35437pt too wide) in paragraph at lines 225--225
 []\T2A/cmr/m/n/12 Nextcloud. \T2A/cmr/m/it/12 Nextcloud System Requirements\T2A
 /cmr/m/n/12 . NextCloud official Documentation. 2026.
  []
 
 
-Overfull \hbox (15.25299pt too wide) in paragraph at lines 224--224
+Overfull \hbox (15.25299pt too wide) in paragraph at lines 225--225
 \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]$\T2A/cmtt/m/n/12 https : / / docs . 
 nextcloud . com / server / stable / admin _ manual / installation /
  []
@@ -2771,7 +2771,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-infinite-scale-release' on input l
-ine 224.
+ine 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2790,7 +2790,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-ocis-architecture' on input line 2
-24.
+25.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2808,7 +2808,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'owncloud-ocis-security' on input line 224.
+(biblatex)                at entry 'owncloud-ocis-security' on input line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2818,7 +2818,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (49.9049pt too wide) in paragraph at lines 224--224
+Overfull \hbox (49.9049pt too wide) in paragraph at lines 225--225
 []\T2A/cmr/m/n/12 ownCloud. \T2A/cmr/m/it/12 Security Aspects of Infinite Scale
 \T2A/cmr/m/n/12 . ownCloud Infinite Scale Security Documentation.
  []
@@ -2833,7 +2833,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-ocis-availability' on input line 2
-24.
+25.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2843,7 +2843,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (3.1243pt too wide) in paragraph at lines 224--224
+Overfull \hbox (3.1243pt too wide) in paragraph at lines 225--225
 \T2A/cmr/m/n/12 Scaling Guide. 2026. \T2A/cmr/m/sc/12 url\T2A/cmr/m/n/12 : [][]
 $\T2A/cmtt/m/n/12 https : / / doc . owncloud . com / ocis / next / availability
  _
@@ -2858,7 +2858,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'rust-book' on input line 224.
+(biblatex)                at entry 'rust-book' on input line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2876,7 +2876,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'postgresql-about' on input line 224.
+(biblatex)                at entry 'postgresql-about' on input line 225.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2886,7 +2886,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Overfull \hbox (5.81436pt too wide) in paragraph at lines 224--224
+Overfull \hbox (5.81436pt too wide) in paragraph at lines 225--225
 []\T2A/cmr/m/n/12 The PostgreSQL Global Development Group. \T2A/cmr/m/it/12 Abo
 ut PostgreSQL\T2A/cmr/m/n/12 . Official PostgreSQL
  []
@@ -2905,16 +2905,16 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 39E67486213FE0ADEE2996DB39DBBB25;15467.
+(rerunfilecheck)             Checksum: CF2A3689472C87132F2B913C3EC03724;7268.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46998 strings out of 473197
- 1032164 string characters out of 5718605
- 1988632 words of memory out of 5000000
- 68964 multiletter control sequences out of 15000+600000
+ 46968 strings out of 473197
+ 1031605 string characters out of 5718605
+ 1988605 words of memory out of 5000000
+ 68934 multiletter control sequences out of 15000+600000
  580472 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,2438b,2148s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2933,10 +2933,10 @@ uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (80 pages, 2375111 bytes).
+Output written on main.pdf (80 pages, 2373374 bytes).
 PDF statistics:
- 1526 PDF objects out of 1728 (max. 8388607)
- 1354 compressed objects within 14 object streams
+ 1404 PDF objects out of 1440 (max. 8388607)
+ 1233 compressed objects within 13 object streams
  563 named destinations out of 1000 (max. 500000)
- 588 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 words of extra memory for PDF output out of 10000 (max. 10000000)
 

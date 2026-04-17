@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'main.blg'
-[28] biber:340> INFO - === Sun Apr 12, 2026, 12:54:08
+[29] biber:340> INFO - === Fri Apr 17, 2026, 09:19:16
 [35] Biber.pm:420> INFO - Reading 'main.bcf'
-[60] Biber.pm:994> INFO - Found 27 citekeys in bib section 0
-[67] Biber.pm:4463> INFO - Processing section 0
-[72] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
-[72] bibtex.pm:1713> INFO - LaTeX decoding ...
-[80] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[137] UCollate.pm:68> INFO - Overriding locale 'mn-Cyrl' defaults 'variable = shifted' with 'variable = non-ignorable'
-[137] UCollate.pm:68> INFO - Overriding locale 'mn-Cyrl' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[137] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'mn-Cyrl'
-[137] Biber.pm:4289> INFO - No sort tailoring available for locale 'mn-Cyrl'
-[144] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[147] bbl.pm:779> INFO - Output to main.bbl
+[62] Biber.pm:994> INFO - Found 27 citekeys in bib section 0
+[69] Biber.pm:4463> INFO - Processing section 0
+[73] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[73] bibtex.pm:1713> INFO - LaTeX decoding ...
+[81] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[136] UCollate.pm:68> INFO - Overriding locale 'mn-Cyrl' defaults 'variable = shifted' with 'variable = non-ignorable'
+[136] UCollate.pm:68> INFO - Overriding locale 'mn-Cyrl' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[136] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'mn-Cyrl'
+[136] Biber.pm:4289> INFO - No sort tailoring available for locale 'mn-Cyrl'
+[143] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[146] bbl.pm:779> INFO - Output to main.bbl

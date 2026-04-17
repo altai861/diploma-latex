@@ -51,7 +51,7 @@
 \contentsline {paragraph}{}{18}{paragraph*.85}%
 \contentsline {section}{\numberline {1.4}Бүлгийн дүгнэлт}{18}{section.86}%
 \contentsline {paragraph}{}{18}{paragraph*.87}%
-\contentsline {chapter}{\numberline {2}Хувийн үүлэн хадгалалтын системийн шинжилгээ}{20}{chapter.88}%
+\contentsline {chapter}{\numberline {2}Системийн шаардлага ба шинжилгээ}{20}{chapter.88}%
 \contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны дэлгэрэнгүй}{20}{section.89}%
 \contentsline {paragraph}{}{20}{paragraph*.90}%
 \contentsline {paragraph}{}{20}{paragraph*.91}%
