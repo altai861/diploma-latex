@@ -1,11 +1,12 @@
 @startuml
-title Personal Cloud Storage System - Class Diagram
+title Personal Cloud Storage System - Design Level Class Diagram
 
 skinparam backgroundColor white
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam roundcorner 12
 skinparam linetype ortho
+skinparam packageStyle rectangle
 
 skinparam class {
     BackgroundColor white
@@ -14,174 +15,223 @@ skinparam class {
     FontColor #222222
 }
 
+skinparam classBackgroundColor<<boundary>> #EAF4FF
+skinparam classBorderColor<<boundary>> #2E6F9E
+skinparam classBackgroundColor<<control>> #FFF2E2
+skinparam classBorderColor<<control>> #B86F1C
+skinparam classBackgroundColor<<entity>> #EDF7ED
+skinparam classBorderColor<<entity>> #4C8A4C
+
 hide empty members
 
-enum UserRole {
-  ADMIN
-  USER
+legend right
+|= Stereotype |= Meaning |
+| <<boundary>> | UI/API boundary classes |
+| <<control>> | Application logic and use-case coordination |
+| <<entity>> | Core domain objects |
+endlegend
+
+package "Boundary" {
+  class SetupBoundary <<boundary>> {
+    +checkSetupStatus(): SetupStatus
+    +initializeSystem(adminData, systemData)
+  }
+
+  class AuthBoundary <<boundary>> {
+    +login(username, password)
+    +logout(accessToken)
+    +getCurrentUser(accessToken)
+    +updateProfileImage(accessToken, imageFile)
+  }
+
+  class StorageBoundary <<boundary>> {
+    +listResources(accessToken, path)
+    +createFolder(accessToken, parentPath, folderName)
+    +uploadFile(accessToken, parentPath, file)
+    +renameResource(accessToken, resourceId, newName)
+    +moveResource(accessToken, resourceId, targetFolderId)
+    +deleteResource(accessToken, resourceId)
+    +restoreResource(accessToken, resourceId)
+    +downloadFile(accessToken, fileId)
+    +downloadBatch(accessToken, resourceIds)
+    +searchResources(accessToken, keyword)
+    +setStarred(accessToken, resourceId, starred)
+  }
+
+  class ShareBoundary <<boundary>> {
+    +listSharedResources(accessToken)
+    +listPermissions(accessToken, resourceId)
+    +grantPermission(accessToken, resourceId, targetUserId, accessLevel)
+    +removePermission(accessToken, resourceId, targetUserId)
+    +searchShareableUsers(accessToken, keyword)
+  }
+
+  class AdminBoundary <<boundary>> {
+    +listUsers(accessToken)
+    +createUser(accessToken, userData)
+    +updateUser(accessToken, userId, userData)
+    +deleteUser(accessToken, userId)
+  }
 }
 
-enum UserStatus {
-  ACTIVE
-  DISABLED
+package "Control" {
+  class SetupController <<control>> {
+    +isInitialized(): Boolean
+    +initializeSystem(adminData, systemData)
+  }
+
+  class AuthenticationController <<control>> {
+    +login(username, password): Session
+    +authenticate(accessToken): User
+    +logout(accessToken)
+    +updateProfileImage(userId, imageFile)
+  }
+
+  class StorageController <<control>> {
+    +listResources(userId, path)
+    +getMetadata(userId, resourceId)
+    +createFolder(userId, parentPath, folderName): Folder
+    +uploadFile(userId, parentPath, file): File
+    +renameResource(userId, resourceId, newName): StorageEntry
+    +moveResource(userId, resourceId, targetFolderId): StorageEntry
+    +deleteResource(userId, resourceId)
+    +restoreResource(userId, resourceId)
+    +downloadFile(userId, fileId): File
+    +downloadBatch(userId, resourceIds)
+    +searchResources(userId, keyword)
+    +setStarred(userId, resourceId, starred): StorageEntry
+  }
+
+  class SharingController <<control>> {
+    +listSharedResources(userId)
+    +listPermissions(ownerUserId, resourceId)
+    +grantPermission(ownerUserId, resourceId, targetUserId, accessLevel): SharePermission
+    +removePermission(ownerUserId, resourceId, targetUserId)
+    +searchShareableUsers(userId, keyword)
+  }
+
+  class UserManagementController <<control>> {
+    +listUsers(adminUserId)
+    +createUser(adminUserId, userData): User
+    +updateUser(adminUserId, userId, userData): User
+    +deleteUser(adminUserId, userId)
+  }
 }
 
-enum PermissionType {
-  READ
-  EDIT
-}
+package "Entity" {
+  enum UserRole {
+    ADMIN
+    USER
+  }
 
-enum TrashStatus {
-  ACTIVE
-  TRASHED
-}
+  enum AccessLevel {
+    OWNER
+    EDITOR
+    VIEWER
+  }
 
-class User {
-  -id: UUID
-  -username: String
-  -email: String
-  -passwordHash: String
-  -role: UserRole
-  -status: UserStatus
-  -storageQuotaBytes: Long
-  -storageUsedBytes: Long
-  -createdAt: DateTime
-  -updatedAt: DateTime
-  +changePassword(newPassword: String): void
-  +getStorageUsage(): Long
-  +isAdmin(): Boolean
-}
+  abstract class StorageEntry <<entity>> {
+    +id: Long
+    +name: String
+    +path: String
+    +isDeleted: Boolean
+    +isStarred: Boolean
+    +createdAt: DateTime
+    +updatedAt: DateTime
+  }
 
-class AccessToken {
-  -tokenValue: String
-  -expiresAt: DateTime
-  +isExpired(): Boolean
-}
+  class User <<entity>> {
+    +id: Long
+    +username: String
+    +email: String
+    +fullName: String
+    +passwordHash: String
+    +role: UserRole
+    +status: String
+    +storageQuotaBytes: Long
+    +storageUsedBytes: Long
+  }
 
-class RefreshToken {
-  -id: UUID
-  -tokenHash: String
-  -expiresAt: DateTime
-  -revoked: Boolean
-  -createdAt: DateTime
-  +isExpired(): Boolean
-  +revoke(): void
-}
+  class Session <<entity>> {
+    +id: Long
+    +tokenHash: String
+    +expiresAt: DateTime
+    +revokedAt: DateTime
+  }
 
-class SystemConfig {
-  -isInitialized: Boolean
-  -storageRootPath: String
-  -totalStorageLimitBytes: Long
-  -createdAt: DateTime
-  -updatedAt: DateTime
-  +initialize(): void
-  +updateStorageRoot(path: String): void
-  +updateStorageLimit(limit: Long): void
-}
+  class SystemConfig <<entity>> {
+    +isInitialized: Boolean
+    +storageRootPath: String
+    +totalStorageLimitBytes: Long
+  }
 
-abstract class StorageEntry {
-  -id: UUID
-  -name: String
-  -path: String
-  -isStarred: Boolean
-  -trashStatus: TrashStatus
-  -createdAt: DateTime
-  -updatedAt: DateTime
-  +rename(newName: String): void
-  +move(targetPath: String): void
-  +moveToTrash(): void
-  +restore(): void
-  +setStarred(starred: Boolean): void
-}
+  class Folder <<entity>> {
+    +parentFolderId: Long
+  }
 
-class Folder {
-  +createSubFolder(name: String): Folder
-  +listEntries(): List<StorageEntry>
-}
+  class File <<entity>> {
+    +sizeBytes: Long
+    +mimeType: String
+    +extension: String
+    +storagePath: String
+    +checksum: String
+  }
 
-class File {
-  -mimeType: String
-  -extension: String
-  -sizeBytes: Long
-  -checksum: String
-  -physicalPath: String
-  +download(): Binary
-  +preview(): Binary
-}
-
-class SharePermission {
-  -id: UUID
-  -permissionType: PermissionType
-  -createdAt: DateTime
-  +updatePermission(permission: PermissionType): void
-}
-
-class AuthService {
-  +login(username: String, password: String): AccessToken
-  +refresh(refreshToken: String): AccessToken
-  +validateAccessToken(token: String): User
-  +revokeRefreshToken(token: String): void
-}
-
-class UserService {
-  +createUser(username: String, email: String, password: String): User
-  +updateUser(userId: UUID): User
-  +disableUser(userId: UUID): void
-  +listUsers(): List<User>
-  +findUserById(userId: UUID): User
-}
-
-class StorageService {
-  +listEntries(userId: UUID, path: String): List<StorageEntry>
-  +createFolder(userId: UUID, parentPath: String, name: String): Folder
-  +uploadFile(userId: UUID, parentPath: String, fileName: String): File
-  +renameEntry(path: String, newName: String): StorageEntry
-  +moveEntry(sourcePath: String, targetPath: String): StorageEntry
-  +deleteEntry(path: String): void
-  +restoreEntry(path: String): void
-  +setStarred(path: String, starred: Boolean): StorageEntry
-}
-
-class ShareService {
-  +shareEntry(ownerId: UUID, targetUserId: UUID, path: String, permission: PermissionType): SharePermission
-  +updateSharePermission(shareId: UUID, permission: PermissionType): SharePermission
-  +removeShare(shareId: UUID): void
-  +listSharedEntries(userId: UUID): List<StorageEntry>
-}
-
-class AdminService {
-  +initializeSystem(adminUser: User, config: SystemConfig): void
-  +getSystemConfig(): SystemConfig
-  +updateSystemConfig(config: SystemConfig): SystemConfig
-  +getAllUsers(): List<User>
+  class SharePermission <<entity>> {
+    +id: Long
+    +accessLevel: AccessLevel
+    +createdAt: DateTime
+  }
 }
 
 StorageEntry <|-- Folder
 StorageEntry <|-- File
 
-User "1" -- "0..*" StorageEntry : owns
-User "1" -- "0..*" RefreshToken : has
-User "1" -- "0..*" SharePermission : receives
+SetupBoundary ..> SetupController
+AuthBoundary ..> AuthenticationController
+StorageBoundary ..> AuthenticationController
+StorageBoundary ..> StorageController
+ShareBoundary ..> AuthenticationController
+ShareBoundary ..> SharingController
+AdminBoundary ..> AuthenticationController
+AdminBoundary ..> UserManagementController
 
-StorageEntry "1" -- "0..*" SharePermission : shared through
-Folder "1" *-- "0..*" StorageEntry : contains
+SetupController ..> SystemConfig
+SetupController ..> User
+SetupController ..> Folder
 
-AuthService ..> User
-AuthService ..> AccessToken
-AuthService ..> RefreshToken
+AuthenticationController ..> User
+AuthenticationController ..> Session
 
-UserService ..> User
+StorageController ..> User
+StorageController ..> StorageEntry
+StorageController ..> Folder
+StorageController ..> File
+StorageController ..> SystemConfig
 
-StorageService ..> User
-StorageService ..> StorageEntry
-StorageService ..> Folder
-StorageService ..> File
+SharingController ..> User
+SharingController ..> StorageEntry
+SharingController ..> SharePermission
 
-ShareService ..> User
-ShareService ..> StorageEntry
-ShareService ..> SharePermission
+UserManagementController ..> User
+UserManagementController ..> Folder
+UserManagementController ..> SystemConfig
 
-AdminService ..> User
-AdminService ..> SystemConfig
+User "1" --> "0..*" Session
+User "1" --> "0..*" StorageEntry : owns
+User "1" --> "0..*" StorageEntry : creates
+
+Folder "0..1" *-- "0..*" Folder : contains
+Folder "1" *-- "0..*" File : contains
+
+StorageEntry "1" --> "0..*" SharePermission : shared by
+SharePermission "*" --> "1" User : targetUser
+SharePermission "*" --> "0..1" User : grantedBy
+
+note bottom
+This is a design-level diagram for sequence diagrams, not a full code map.
+It keeps only the main boundary, control, and entity classes needed to model
+core scenarios such as setup, login, user management, storage actions, and sharing.
+end note
 
 @enduml
