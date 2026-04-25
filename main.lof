@@ -7,13 +7,16 @@
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Docker дээр ажиллуулсан Nextcloud AIO контейнерүүдийн санах ойн хэрэглээний дэлгэцийн зураг}}{11}{figure.caption.64}%
 \contentsline {figure}{\numberline {1.6}{\ignorespaces ownCloud Infinite Scale-ийн system context зураг (эх сурвалж: ownCloud docs) \blx@tocontentsinit {0}\cite {owncloud-ocis-architecture}}}{13}{figure.caption.71}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{23}{figure.caption.117}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн шинжилгээний класс диаграмм}}{47}{figure.caption.379}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{22}{figure.caption.97}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн класс диаграм}}{47}{figure.caption.378}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Нэвтрэх үеийн дарааллын диаграмм}}{48}{figure.caption.384}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Файл байршуулах үеийн дарааллын диаграмм}}{49}{figure.caption.386}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Нөөц хуваалцах үеийн дарааллын диаграмм}}{50}{figure.caption.388}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{50}{figure.caption.397}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{52}{figure.caption.407}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Анхны тохиргооны дэлгэц}}{53}{figure.caption.411}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Нэвтрэх дэлгэц}}{53}{figure.caption.413}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{54}{figure.caption.415}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{54}{figure.caption.417}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн архитектур}}{52}{figure.caption.400}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{54}{figure.caption.410}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Анхны тохиргооны дэлгэц}}{55}{figure.caption.414}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Нэвтрэх дэлгэц}}{55}{figure.caption.416}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{56}{figure.caption.418}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{56}{figure.caption.420}%
 \addvspace {10\p@ }

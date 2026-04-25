@@ -167,6 +167,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -457,6 +465,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT ./main.out
 INPUT ./main.out
 INPUT main.out
@@ -644,11 +655,26 @@ INPUT ./Figures/chapter2/usecase.jpg
 INPUT ./Figures/chapter2/usecase.jpg
 INPUT ./Figures/chapter2/usecase.jpg
 INPUT ./Figures/chapter2/usecase.jpg
-INPUT ./Figures/chapter2/shinjilgee-class.png
-INPUT ./Figures/chapter2/shinjilgee-class.png
-INPUT ./Figures/chapter2/shinjilgee-class.png
-INPUT ./Figures/chapter2/shinjilgee-class.png
-INPUT ./Figures/chapter2/shinjilgee-class.png
+INPUT ./Figures/chapter2/design-class-diagram.jpg
+INPUT ./Figures/chapter2/design-class-diagram.jpg
+INPUT ./Figures/chapter2/design-class-diagram.jpg
+INPUT ./Figures/chapter2/design-class-diagram.jpg
+INPUT ./Figures/chapter2/design-class-diagram.jpg
+INPUT ./VP diagrams/Login.jpg
+INPUT ./VP diagrams/Login.jpg
+INPUT ./VP diagrams/Login.jpg
+INPUT ./VP diagrams/Login.jpg
+INPUT ./VP diagrams/Login.jpg
+INPUT ./VP diagrams/Upload File.jpg
+INPUT ./VP diagrams/Upload File.jpg
+INPUT ./VP diagrams/Upload File.jpg
+INPUT ./VP diagrams/Upload File.jpg
+INPUT ./VP diagrams/Upload File.jpg
+INPUT ./VP diagrams/Share Resource.jpg
+INPUT ./VP diagrams/Share Resource.jpg
+INPUT ./VP diagrams/Share Resource.jpg
+INPUT ./VP diagrams/Share Resource.jpg
+INPUT ./VP diagrams/Share Resource.jpg
 INPUT ./Chapters/Chapter3.tex
 INPUT ./Chapters/Chapter3.tex
 OUTPUT Chapters/Chapter3.aux
@@ -660,11 +686,11 @@ INPUT ./Figures/chapter3/pcloud-architecture.drawio.png
 INPUT ./Figures/chapter3/pcloud-architecture.drawio.png
 INPUT ./Figures/chapter3/pcloud-architecture.drawio.png
 INPUT ./Figures/chapter3/pcloud-architecture.drawio.png
-INPUT ./Figures/chapter3/pcloud-erd.drawio.png
-INPUT ./Figures/chapter3/pcloud-erd.drawio.png
-INPUT ./Figures/chapter3/pcloud-erd.drawio.png
-INPUT ./Figures/chapter3/pcloud-erd.drawio.png
-INPUT ./Figures/chapter3/pcloud-erd.drawio.png
+INPUT ./VP diagrams/PCloud.jpg
+INPUT ./VP diagrams/PCloud.jpg
+INPUT ./VP diagrams/PCloud.jpg
+INPUT ./VP diagrams/PCloud.jpg
+INPUT ./VP diagrams/PCloud.jpg
 INPUT ./Figures/chapter3/admin-first-launch.png
 INPUT ./Figures/chapter3/admin-first-launch.png
 INPUT ./Figures/chapter3/admin-first-launch.png
