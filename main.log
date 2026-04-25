@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  19 APR 2026 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  25 APR 2026 13:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,6 +1134,12 @@ File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \gtt@calendar@startofweek=\count378
 \gtt@left@slot=\count379
 \gtt@right@slot=\count380
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count381
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count382
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryshapes.code.tex
@@ -1207,12 +1213,12 @@ File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count381
-\csq@gtype=\count382
-\csq@glevel=\count383
-\csq@qlevel=\count384
-\csq@maxlvl=\count385
-\csq@tshold=\count386
+\csq@reset=\count383
+\csq@gtype=\count384
+\csq@glevel=\count385
+\csq@qlevel=\count386
+\csq@maxlvl=\count387
+\csq@tshold=\count388
 \csq@ltx@everypar=\toks46
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1231,54 +1237,54 @@ Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count387
+\lrq@indent=\count389
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count388
-\c@listtotal=\count389
-\c@listcount=\count390
-\c@liststart=\count391
-\c@liststop=\count392
-\c@citecount=\count393
-\c@citetotal=\count394
-\c@multicitecount=\count395
-\c@multicitetotal=\count396
-\c@instcount=\count397
-\c@maxnames=\count398
-\c@minnames=\count399
-\c@maxitems=\count400
-\c@minitems=\count401
-\c@citecounter=\count402
-\c@maxcitecounter=\count403
-\c@savedcitecounter=\count404
-\c@uniquelist=\count405
-\c@uniquename=\count406
-\c@refsection=\count407
-\c@refsegment=\count408
-\c@maxextratitle=\count409
-\c@maxextratitleyear=\count410
-\c@maxextraname=\count411
-\c@maxextradate=\count412
-\c@maxextraalpha=\count413
-\c@abbrvpenalty=\count414
-\c@highnamepenalty=\count415
-\c@lownamepenalty=\count416
-\c@maxparens=\count417
-\c@parenlevel=\count418
-\blx@tempcnta=\count419
-\blx@tempcntb=\count420
-\blx@tempcntc=\count421
-\c@blx@maxsection=\count422
-\blx@maxsegment@0=\count423
-\blx@notetype=\count424
-\blx@parenlevel@text=\count425
-\blx@parenlevel@foot=\count426
-\blx@sectionciteorder@0=\count427
-\blx@sectionciteorderinternal@0=\count428
-\blx@entrysetcounter=\count429
-\blx@biblioinstance=\count430
+\c@tabx@nest=\count390
+\c@listtotal=\count391
+\c@listcount=\count392
+\c@liststart=\count393
+\c@liststop=\count394
+\c@citecount=\count395
+\c@citetotal=\count396
+\c@multicitecount=\count397
+\c@multicitetotal=\count398
+\c@instcount=\count399
+\c@maxnames=\count400
+\c@minnames=\count401
+\c@maxitems=\count402
+\c@minitems=\count403
+\c@citecounter=\count404
+\c@maxcitecounter=\count405
+\c@savedcitecounter=\count406
+\c@uniquelist=\count407
+\c@uniquename=\count408
+\c@refsection=\count409
+\c@refsegment=\count410
+\c@maxextratitle=\count411
+\c@maxextratitleyear=\count412
+\c@maxextraname=\count413
+\c@maxextradate=\count414
+\c@maxextraalpha=\count415
+\c@abbrvpenalty=\count416
+\c@highnamepenalty=\count417
+\c@lownamepenalty=\count418
+\c@maxparens=\count419
+\c@parenlevel=\count420
+\blx@tempcnta=\count421
+\blx@tempcntb=\count422
+\blx@tempcntc=\count423
+\c@blx@maxsection=\count424
+\blx@maxsegment@0=\count425
+\blx@notetype=\count426
+\blx@parenlevel@text=\count427
+\blx@parenlevel@foot=\count428
+\blx@sectionciteorder@0=\count429
+\blx@sectionciteorderinternal@0=\count430
+\blx@entrysetcounter=\count431
+\blx@biblioinstance=\count432
 \labelnumberwidth=\skip66
 \labelalphawidth=\skip67
 \biblabelsep=\skip68
@@ -1290,9 +1296,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language91
-\c@mincomprange=\count431
-\c@maxcomprange=\count432
-\c@mincompwidth=\count433
+\c@mincomprange=\count433
+\c@maxcomprange=\count434
+\c@mincompwidth=\count435
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1303,74 +1309,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count434
-\c@savedafterword=\count435
-\c@annotator=\count436
-\c@savedannotator=\count437
-\c@author=\count438
-\c@savedauthor=\count439
-\c@bookauthor=\count440
-\c@savedbookauthor=\count441
-\c@commentator=\count442
-\c@savedcommentator=\count443
-\c@editor=\count444
-\c@savededitor=\count445
-\c@editora=\count446
-\c@savededitora=\count447
-\c@editorb=\count448
-\c@savededitorb=\count449
-\c@editorc=\count450
-\c@savededitorc=\count451
-\c@foreword=\count452
-\c@savedforeword=\count453
-\c@holder=\count454
-\c@savedholder=\count455
-\c@introduction=\count456
-\c@savedintroduction=\count457
-\c@namea=\count458
-\c@savednamea=\count459
-\c@nameb=\count460
-\c@savednameb=\count461
-\c@namec=\count462
-\c@savednamec=\count463
-\c@translator=\count464
-\c@savedtranslator=\count465
-\c@shortauthor=\count466
-\c@savedshortauthor=\count467
-\c@shorteditor=\count468
-\c@savedshorteditor=\count469
-\c@labelname=\count470
-\c@savedlabelname=\count471
-\c@institution=\count472
-\c@savedinstitution=\count473
-\c@lista=\count474
-\c@savedlista=\count475
-\c@listb=\count476
-\c@savedlistb=\count477
-\c@listc=\count478
-\c@savedlistc=\count479
-\c@listd=\count480
-\c@savedlistd=\count481
-\c@liste=\count482
-\c@savedliste=\count483
-\c@listf=\count484
-\c@savedlistf=\count485
-\c@location=\count486
-\c@savedlocation=\count487
-\c@organization=\count488
-\c@savedorganization=\count489
-\c@origlocation=\count490
-\c@savedoriglocation=\count491
-\c@origpublisher=\count492
-\c@savedorigpublisher=\count493
-\c@publisher=\count494
-\c@savedpublisher=\count495
-\c@language=\count496
-\c@savedlanguage=\count497
-\c@origlanguage=\count498
-\c@savedoriglanguage=\count499
-\c@pageref=\count500
-\c@savedpageref=\count501
+\c@afterword=\count436
+\c@savedafterword=\count437
+\c@annotator=\count438
+\c@savedannotator=\count439
+\c@author=\count440
+\c@savedauthor=\count441
+\c@bookauthor=\count442
+\c@savedbookauthor=\count443
+\c@commentator=\count444
+\c@savedcommentator=\count445
+\c@editor=\count446
+\c@savededitor=\count447
+\c@editora=\count448
+\c@savededitora=\count449
+\c@editorb=\count450
+\c@savededitorb=\count451
+\c@editorc=\count452
+\c@savededitorc=\count453
+\c@foreword=\count454
+\c@savedforeword=\count455
+\c@holder=\count456
+\c@savedholder=\count457
+\c@introduction=\count458
+\c@savedintroduction=\count459
+\c@namea=\count460
+\c@savednamea=\count461
+\c@nameb=\count462
+\c@savednameb=\count463
+\c@namec=\count464
+\c@savednamec=\count465
+\c@translator=\count466
+\c@savedtranslator=\count467
+\c@shortauthor=\count468
+\c@savedshortauthor=\count469
+\c@shorteditor=\count470
+\c@savedshorteditor=\count471
+\c@labelname=\count472
+\c@savedlabelname=\count473
+\c@institution=\count474
+\c@savedinstitution=\count475
+\c@lista=\count476
+\c@savedlista=\count477
+\c@listb=\count478
+\c@savedlistb=\count479
+\c@listc=\count480
+\c@savedlistc=\count481
+\c@listd=\count482
+\c@savedlistd=\count483
+\c@liste=\count484
+\c@savedliste=\count485
+\c@listf=\count486
+\c@savedlistf=\count487
+\c@location=\count488
+\c@savedlocation=\count489
+\c@organization=\count490
+\c@savedorganization=\count491
+\c@origlocation=\count492
+\c@savedoriglocation=\count493
+\c@origpublisher=\count494
+\c@savedorigpublisher=\count495
+\c@publisher=\count496
+\c@savedpublisher=\count497
+\c@language=\count498
+\c@savedlanguage=\count499
+\c@origlanguage=\count500
+\c@savedoriglanguage=\count501
+\c@pageref=\count502
+\c@savedpageref=\count503
 \shorthandwidth=\skip74
 \shortjournalwidth=\skip75
 \shortserieswidth=\skip76
@@ -1396,19 +1402,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count502
-\c@textcitetotal=\count503
-\c@textcitemaxnames=\count504
-\c@biburlbigbreakpenalty=\count505
-\c@biburlbreakpenalty=\count506
-\c@biburlnumpenalty=\count507
-\c@biburlucpenalty=\count508
-\c@biburllcpenalty=\count509
+\c@textcitecount=\count504
+\c@textcitetotal=\count505
+\c@textcitemaxnames=\count506
+\c@biburlbigbreakpenalty=\count507
+\c@biburlbreakpenalty=\count508
+\c@biburlnumpenalty=\count509
+\c@biburlucpenalty=\count510
+\c@biburllcpenalty=\count511
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count510
+\c@smartand=\count512
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1420,8 +1426,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count511
-\c@bbx:relatedtotal=\count512
+\c@bbx:relatedcount=\count513
+\c@bbx:relatedtotal=\count514
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1456,11 +1462,11 @@ Package biblatex Info: ... and expl3
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 120.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 120.
-Package hyperref Info: Option `colorlinks' set `true' on input line 120.
-Package hyperref Info: Option `unicode' set `true' on input line 120.
-Package hyperref Info: Option `breaklinks' set `true' on input line 120.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 121.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 121.
+Package hyperref Info: Option `colorlinks' set `true' on input line 121.
+Package hyperref Info: Option `unicode' set `true' on input line 121.
+Package hyperref Info: Option `breaklinks' set `true' on input line 121.
 
 (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
@@ -1471,28 +1477,28 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 120.
 (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 172.
-LaTeX Font Info:    ... okay on input line 172.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 173.
+LaTeX Font Info:    ... okay on input line 173.
 Package translations Info: no dictionary file `translations-basic-dictionary-mo
-ngolian.trsl' found. on input line 172.
+ngolian.trsl' found. on input line 173.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
 nary-english.trsl
@@ -1500,20 +1506,20 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 172.
+or `english'. on input line 173.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count513
+\scratchcounter=\count515
 \scratchdimen=\dimen314
 \scratchbox=\box109
-\nofMPsegments=\count514
-\nofMParguments=\count515
+\nofMPsegments=\count516
+\nofMParguments=\count517
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count516
+\MPscratchCnt=\count518
 \MPscratchDim=\dimen315
-\MPnumerator=\count517
-\makeMPintoPDFobject=\count518
+\MPnumerator=\count519
+\makeMPintoPDFobject=\count520
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1565,21 +1571,21 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count519
-LaTeX Info: Redefining \microtypecontext on input line 172.
-Package microtype Info: Applying patch `item' on input line 172.
-Package microtype Info: Applying patch `toc' on input line 172.
-Package microtype Info: Applying patch `eqnum' on input line 172.
-Package microtype Info: Applying patch `footnote' on input line 172.
-Package microtype Info: Applying patch `verbatim' on input line 172.
-LaTeX Info: Redefining \microtypesetup on input line 172.
+\c@lstlisting=\count521
+LaTeX Info: Redefining \microtypecontext on input line 173.
+Package microtype Info: Applying patch `item' on input line 173.
+Package microtype Info: Applying patch `toc' on input line 173.
+Package microtype Info: Applying patch `eqnum' on input line 173.
+Package microtype Info: Applying patch `footnote' on input line 173.
+Package microtype Info: Applying patch `verbatim' on input line 173.
+LaTeX Info: Redefining \microtypesetup on input line 173.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 172.
+LaTeX Info: Redefining \showhyphens on input line 173.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1587,7 +1593,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring ON on input line 172.
+Package hyperref Info: Link coloring ON on input line 173.
  (./main.out)
 (./main.out)
 \@outlinefile=\write5
@@ -1598,7 +1604,7 @@ Package biblatex Info: ... file 'mongolian.lbx' not found.
 
 
 Package biblatex Warning: Language 'mongolian' not supported.
-(biblatex)                Using dummy definitions on input line 172.
+(biblatex)                Using dummy definitions on input line 173.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1613,12 +1619,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 172.
-Package biblatex Info: Reference segment=0 on input line 172.
+Package biblatex Info: Reference section=0 on input line 173.
+Package biblatex Info: Reference segment=0 on input line 173.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=128, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=116, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1748,25 +1754,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 
-] (./main.toc
-
-[6
-
-
-
-])
+] (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
 
-[7] (./main.lof)
+[6
+
+
+
+] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
-[8
+[7
 
 ] (./main.lot)
 \tf@lot=\write8
@@ -1774,7 +1778,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 
-[9
+[8
 
 ]
 \openout2 = `Chapters/Introduction.aux'.
@@ -1801,7 +1805,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 ]
-<Figures/chapter1/cloud-market.png, id=384, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=380, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
@@ -1822,7 +1826,7 @@ Underfull \hbox (badness 7704) in paragraph at lines 42--42
 [5 <./Figures/chapter1/cloud-market.png>]
 
 [6]
-<Figures/chapter1/google-colossus-control-plane.png, id=419, 2007.5pt x 1129.21
+<Figures/chapter1/google-colossus-control-plane.png, id=416, 2007.5pt x 1129.21
 875pt>
 File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
 )
@@ -1835,7 +1839,7 @@ ed on input line 79.
 [7]
 
 [8 <./Figures/chapter1/google-colossus-control-plane.png>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=454, 526.96875pt x 359.3425pt>
+<Figures/chapter1/nextcloud_data_diagram.png, id=451, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
@@ -1847,13 +1851,13 @@ nput line 105.
 [9]
 
 [10 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-interface.png, id=484, 1917.1625pt x 1044.90375pt>
+<Figures/chapter1/nextcloud-interface.png, id=481, 1917.1625pt x 1044.90375pt>
 File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
 <use Figures/chapter1/nextcloud-interface.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
 t line 118.
 (pdftex.def)             Requested size: 418.82375pt x 228.2692pt.
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=486, 785.93625pt x 202.
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=483, 785.93625pt x 202.
 7575pt>
 File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
 )
@@ -1877,7 +1881,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 containers-ramusage.png>]
 
 [12]
-<Figures/chapter1/c4-ocis-system-context.png, id=518, 918.43124pt x 788.9475pt>
+<Figures/chapter1/c4-ocis-system-context.png, id=515, 918.43124pt x 788.9475pt>
 
 File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type png)
 <use Figures/chapter1/c4-ocis-system-context.png>
@@ -2026,19 +2030,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--184
 [15]
 
 [16]
-<Figures/chapter1/tech-logos/rust.png, id=561, 467.7475pt x 466.74374pt>
+<Figures/chapter1/tech-logos/rust.png, id=558, 467.7475pt x 466.74374pt>
 File: Figures/chapter1/tech-logos/rust.png Graphic file (type png)
 <use Figures/chapter1/tech-logos/rust.png>
 Package pdftex.def Info: Figures/chapter1/tech-logos/rust.png  used on input li
 ne 205.
 (pdftex.def)             Requested size: 45.88847pt x 45.78687pt.
-<Figures/chapter1/tech-logos/postgresql.png, id=564, 221.82875pt x 228.855pt>
+<Figures/chapter1/tech-logos/postgresql.png, id=561, 221.82875pt x 228.855pt>
 File: Figures/chapter1/tech-logos/postgresql.png Graphic file (type png)
 <use Figures/chapter1/tech-logos/postgresql.png>
 Package pdftex.def Info: Figures/chapter1/tech-logos/postgresql.png  used on in
 put line 215.
 (pdftex.def)             Requested size: 45.88847pt x 47.3416pt.
-<Figures/chapter1/tech-logos/swift.jpeg, id=566, 225.84375pt x 225.84375pt>
+<Figures/chapter1/tech-logos/swift.jpeg, id=563, 225.84375pt x 225.84375pt>
 File: Figures/chapter1/tech-logos/swift.jpeg Graphic file (type jpg)
 <use Figures/chapter1/tech-logos/swift.jpeg>
 Package pdftex.def Info: Figures/chapter1/tech-logos/swift.jpeg  used on input 
@@ -2048,7 +2052,7 @@ line 226.
 
 [17 <./Figures/chapter1/tech-logos/rust.png> <./Figures/chapter1/tech-logos/pos
 tgresql.png>]
-<Figures/chapter1/tech-logos/angular.jpeg, id=577, 225.84375pt x 225.84375pt>
+<Figures/chapter1/tech-logos/angular.jpeg, id=574, 225.84375pt x 225.84375pt>
 File: Figures/chapter1/tech-logos/angular.jpeg Graphic file (type jpg)
 <use Figures/chapter1/tech-logos/angular.jpeg>
 Package pdftex.def Info: Figures/chapter1/tech-logos/angular.jpeg  used on inpu
@@ -2076,7 +2080,7 @@ ngular.jpeg>]
 [20
 
 ]
-<Figures/chapter2/usecase.jpg, id=604, 735.74875pt x 1040.88875pt>
+<Figures/chapter2/usecase.jpg, id=599, 735.74875pt x 1040.88875pt>
 File: Figures/chapter2/usecase.jpg Graphic file (type jpg)
 <use Figures/chapter2/usecase.jpg>
 Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 34.
@@ -2132,7 +2136,7 @@ Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 34.
 [44]
 
 [45]
-<Figures/chapter2/design-class-diagram.jpg, id=985, 1597.97pt x 1096.095pt>
+<Figures/chapter2/design-class-diagram.jpg, id=982, 1597.97pt x 1096.095pt>
 File: Figures/chapter2/design-class-diagram.jpg Graphic file (type jpg)
 <use Figures/chapter2/design-class-diagram.jpg>
 Package pdftex.def Info: Figures/chapter2/design-class-diagram.jpg  used on inp
@@ -2165,7 +2169,7 @@ agementController \T2A/cmr/m/n/12 (+20) гэ-сэн control
 
 
 [47 <./Figures/chapter2/design-class-diagram.jpg>]
-<VP diagrams/Login.jpg, id=1003, 1050.92625pt x 582.175pt>
+<VP diagrams/Login.jpg, id=1000, 1050.92625pt x 582.175pt>
 File: VP diagrams/Login.jpg Graphic file (type jpg)
 <use VP diagrams/Login.jpg>
 Package pdftex.def Info: VP diagrams/Login.jpg  used on input line 1126.
@@ -2183,7 +2187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1132--1133
 г-чийн мэ-дээл-лийг шал-ган, ам-жилт-тай бол
  []
 
-<VP diagrams/Upload File.jpg, id=1005, 1167.36125pt x 771.88374pt>
+<VP diagrams/Upload File.jpg, id=1002, 1167.36125pt x 771.88374pt>
 File: VP diagrams/Upload File.jpg Graphic file (type jpg)
 <use VP diagrams/Upload File.jpg>
 Package pdftex.def Info: VP diagrams/Upload File.jpg  used on input line 1136.
@@ -2196,7 +2200,7 @@ Underfull \hbox (badness 2707) in paragraph at lines 1142--1143
 mr/m/it/12 (+20) StorageBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг дам-жуулж,
  []
 
-<VP diagrams/Share Resource.jpg, id=1014, 1301.86375pt x 955.57pt>
+<VP diagrams/Share Resource.jpg, id=1010, 1301.86375pt x 955.57pt>
 File: VP diagrams/Share Resource.jpg Graphic file (type jpg)
 <use VP diagrams/Share Resource.jpg>
 Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 114
@@ -2235,7 +2239,7 @@ Entity
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio.png, id=1042, 885.3075pt x 444.661
+<Figures/chapter3/pcloud-architecture.drawio.png, id=1039, 885.3075pt x 444.661
 25pt>
 File: Figures/chapter3/pcloud-architecture.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-architecture.drawio.png>
@@ -2247,15 +2251,12 @@ on input line 11.
 [52
 
  <./Figures/chapter3/pcloud-architecture.drawio.png>]
-<VP diagrams/PCloud.jpg, id=1054, 1477.52pt x 948.54375pt>
+<VP diagrams/PCloud.jpg, id=1048, 1477.52pt x 948.54375pt>
 File: VP diagrams/PCloud.jpg Graphic file (type jpg)
 <use VP diagrams/PCloud.jpg>
 Package pdftex.def Info: VP diagrams/PCloud.jpg  used on input line 35.
 (pdftex.def)             Requested size: 455.24411pt x 292.2508pt.
-
-
-[53]
-<Figures/chapter3/admin-first-launch.png, id=1062, 1734.48pt x 1121.18875pt>
+<Figures/chapter3/admin-first-launch.png, id=1049, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
@@ -2263,13 +2264,13 @@ Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
 (pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
 
 
-[54 <./VP diagrams/PCloud.jpg>]
-<Figures/chapter3/login.png, id=1069, 2178.1375pt x 1121.18875pt>
+[53 <./VP diagrams/PCloud.jpg>]
+<Figures/chapter3/login.png, id=1057, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 58.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=1070, 2178.1375pt x 1121.18875pt
+<Figures/chapter3/normal-user-homepage.png, id=1058, 2178.1375pt x 1121.18875pt
 >
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
@@ -2278,8 +2279,8 @@ ut line 67.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
 
 
-[55 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=1079, 2195.20125pt x 1121.18875pt>
+[54 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
+<Figures/chapter3/admin-home-page.png, id=1066, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2287,17 +2288,97 @@ ne 76.
 (pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
 
 
-[56 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
-e-page.png>])
+[55 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
+e-page.png>]
+<Figures/chapter3/developed-interfaces/admin-initialize.png, id=1076, 1481.535p
+t x 790.955pt>
+File: Figures/chapter3/developed-interfaces/admin-initialize.png Graphic file (
+type png)
+<use Figures/chapter3/developed-interfaces/admin-initialize.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/admin-initialize
+.png  used on input line 88.
+(pdftex.def)             Requested size: 318.66948pt x 170.12442pt.
+<Figures/chapter3/developed-interfaces/login.png, id=1078, 1481.535pt x 790.955
+pt>
+File: Figures/chapter3/developed-interfaces/login.png Graphic file (type png)
+<use Figures/chapter3/developed-interfaces/login.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/login.png  used 
+on input line 98.
+(pdftex.def)             Requested size: 386.96027pt x 206.58482pt.
 
-[57]
 
-[58]
+[56 <./Figures/chapter3/developed-interfaces/admin-initialize.png> <./Figures/c
+hapter3/developed-interfaces/login.png>]
+<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1089, 383.4325
+pt x 792.9625pt>
+File: Figures/chapter3/developed-interfaces/mobile-login-page.png Graphic file 
+(type png)
+<use Figures/chapter3/developed-interfaces/mobile-login-page.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-login-pag
+e.png  used on input line 108.
+(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+<Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1091, 1924.1
+8875pt x 921.4425pt>
+File: Figures/chapter3/developed-interfaces/home-page-dark-mode.png Graphic fil
+e (type png)
+<use Figures/chapter3/developed-interfaces/home-page-dark-mode.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-dark-m
+ode.png  used on input line 118.
+(pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
+
+
+[57 <./Figures/chapter3/developed-interfaces/mobile-login-page.png>]
+<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1100,
+ 383.4325pt x 792.9625pt>
+File: Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png Grap
+hic file (type png)
+<use Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
+-dark-mode.png  used on input line 128.
+(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+
+
+[58 <./Figures/chapter3/developed-interfaces/home-page-dark-mode.png> <./Figure
+s/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
+<Figures/chapter3/developed-interfaces/home-page-light-mode.png, id=1109, 1924.
+18875pt x 921.4425pt>
+File: Figures/chapter3/developed-interfaces/home-page-light-mode.png Graphic fi
+le (type png)
+<use Figures/chapter3/developed-interfaces/home-page-light-mode.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-light-
+mode.png  used on input line 138.
+(pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
+<Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png, id=1111
+, 383.4325pt x 792.9625pt>
+File: Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png Gra
+phic file (type png)
+<use Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
+-light-mode.png  used on input line 148.
+(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+
+
+[59 <./Figures/chapter3/developed-interfaces/home-page-light-mode.png>]
+<Figures/chapter3/developed-interfaces/mobile-sidebar.png, id=1120, 383.4325pt 
+x 792.9625pt>
+File: Figures/chapter3/developed-interfaces/mobile-sidebar.png Graphic file (ty
+pe png)
+<use Figures/chapter3/developed-interfaces/mobile-sidebar.png>
+Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-sidebar.p
+ng  used on input line 158.
+(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+
+
+[60 <./Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png>])
+
+
+[61 <./Figures/chapter3/developed-interfaces/mobile-sidebar.png>]
 \openout2 = `Chapters/Summary.aux'.
 
- (./Chapters/Summary.tex)
 
-[59
+(./Chapters/Summary.tex)
+
+[62
 
 
 
@@ -2308,14 +2389,14 @@ e-page.png>])
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
 
 
-[60
+[63
 
 
 
 
 ])
 
-[60
+[63
 
 ]
 
@@ -2327,7 +2408,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'cloudstorageusage' on input line 235.
+(biblatex)                at entry 'cloudstorageusage' on input line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2346,7 +2427,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-colossus-storage-layer' on input lin
-e 235.
+e 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2365,7 +2446,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-workspace-security-whitepaper' on in
-put line 235.
+put line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2384,7 +2465,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-workspace-data-region-policy' on inp
-ut line 235.
+ut line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2402,7 +2483,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-workspace-cse' on input line 235.
+(biblatex)                at entry 'google-workspace-cse' on input line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2421,7 +2502,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-api-manage-changes' on input l
-ine 235.
+ine 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2439,7 +2520,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-drive-api-push' on input line 235.
+(biblatex)                at entry 'google-drive-api-push' on input line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2458,7 +2539,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-api-manage-uploads' on input l
-ine 235.
+ine 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2477,7 +2558,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-api-manage-revisions' on input
- line 235.
+ line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2488,7 +2569,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[61
+[64
 
 
 
@@ -2503,7 +2584,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-drive-file-versions-help' on input l
-ine 235.
+ine 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2521,7 +2602,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-files-overview' on input line 235
+(biblatex)                at entry 'nextcloud-files-overview' on input line 236
 .
 
 
@@ -2541,7 +2622,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-fork-announcement' on input line 
-235.
+236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2560,7 +2641,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'july' untranslated
 (biblatex)                at entry 'nextcloud2018architecture' on input line 23
-5.
+6.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2572,7 +2653,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-external-storage' on input line 2
-35.
+36.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2591,7 +2672,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-file-access-control' on input lin
-e 235.
+e 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2610,7 +2691,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-encryption-configuration' on inpu
-t line 235.
+t line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2629,7 +2710,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-file-versioning' on input line 23
-5.
+6.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2648,7 +2729,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-trashbin-configuration' on input 
-line 235.
+line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2667,7 +2748,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-transactional-file-locking' on in
-put line 235.
+put line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2686,7 +2767,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-caching-configuration' on input l
-ine 235.
+ine 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2697,7 +2778,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[62]
+[65]
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2708,7 +2789,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-system-requirements' on input lin
-e 235.
+e 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2727,7 +2808,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-infinite-scale-release' on input l
-ine 235.
+ine 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2746,7 +2827,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-ocis-architecture' on input line 2
-35.
+36.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2764,7 +2845,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'owncloud-ocis-security' on input line 235.
+(biblatex)                at entry 'owncloud-ocis-security' on input line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2783,7 +2864,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-ocis-availability' on input line 2
-35.
+36.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2793,7 +2874,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 235--235
+Underfull \hbox (badness 1436) in paragraph at lines 236--236
 []\T2A/cmr/m/n/12 (+20) ownCloud. \T2A/cmr/m/it/12 (+20) Availability and Scala
 bility\T2A/cmr/m/n/12 (+20) . ownCloud Infinite Scale Availability
  []
@@ -2807,7 +2888,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'rust-book' on input line 235.
+(biblatex)                at entry 'rust-book' on input line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2825,7 +2906,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'postgresql-about' on input line 235.
+(biblatex)                at entry 'postgresql-about' on input line 236.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2836,7 +2917,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[63] (./main.aux (./FrontBackMatter/Titlepage.aux)
+[66] (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
@@ -2848,17 +2929,17 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CAE005A024DADF104BFB64D501851800;7198.
+(rerunfilecheck)             Checksum: 526D1375086A03B10C0615E1A2F6E267;6451.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49128 strings out of 473197
- 1067868 string characters out of 5718605
- 2057311 words of memory out of 5000000
- 70788 multiletter control sequences out of 15000+600000
- 593286 words of font info for 218 fonts, out of 8000000 for 9000
+ 49284 strings out of 473197
+ 1073718 string characters out of 5718605
+ 2060124 words of memory out of 5000000
+ 70950 multiletter control sequences out of 15000+600000
+ 592938 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,19n,135p,2438b,2157s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/
@@ -2876,10 +2957,10 @@ uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (82 pages, 4068002 bytes).
+Output written on main.pdf (84 pages, 6428795 bytes).
 PDF statistics:
- 1422 PDF objects out of 1440 (max. 8388607)
- 1248 compressed objects within 13 object streams
+ 1444 PDF objects out of 1728 (max. 8388607)
+ 1252 compressed objects within 13 object streams
  567 named destinations out of 1000 (max. 500000)
- 54123 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 54139 words of extra memory for PDF output out of 61914 (max. 10000000)
 

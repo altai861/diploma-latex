@@ -102,27 +102,28 @@
 \contentsline {chapter}{\numberline {3}Хувийн үүлэн хадгалалтын системийн зохиомж ба хөгжүүлэлт}{52}{chapter.397}%
 \contentsline {section}{\numberline {3.1}Системийн архитектур}{52}{section.398}%
 \contentsline {paragraph}{}{52}{paragraph*.399}%
-\contentsline {section}{\numberline {3.2}Зохиомжийн үндсэн компонентууд}{52}{section.401}%
+\contentsline {section}{\numberline {3.2}Өгөгдлийн ерөнхий схем}{52}{section.401}%
 \contentsline {paragraph}{}{52}{paragraph*.402}%
-\contentsline {section}{\numberline {3.3}Өгөгдлийн ерөнхий схем}{53}{section.407}%
-\contentsline {paragraph}{}{53}{paragraph*.408}%
-\contentsline {paragraph}{}{53}{paragraph*.409}%
-\contentsline {section}{\numberline {3.4}Системийн прототип}{54}{section.411}%
-\contentsline {paragraph}{}{54}{paragraph*.412}%
-\contentsline {paragraph}{}{54}{paragraph*.413}%
-\contentsline {paragraph}{}{55}{paragraph*.415}%
-\contentsline {paragraph}{}{56}{paragraph*.417}%
-\contentsline {paragraph}{}{56}{paragraph*.419}%
-\contentsline {section}{\numberline {3.5}Хөгжүүлсэн системийн интерфейс}{57}{section.421}%
+\contentsline {paragraph}{}{53}{paragraph*.403}%
+\contentsline {section}{\numberline {3.3}Системийн прототип}{53}{section.405}%
+\contentsline {paragraph}{}{53}{paragraph*.406}%
+\contentsline {paragraph}{}{53}{paragraph*.407}%
+\contentsline {paragraph}{}{54}{paragraph*.409}%
+\contentsline {paragraph}{}{55}{paragraph*.411}%
+\contentsline {paragraph}{}{55}{paragraph*.413}%
+\contentsline {section}{\numberline {3.4}Хөгжүүлсэн системийн интерфейс}{56}{section.415}%
+\contentsline {paragraph}{}{56}{paragraph*.416}%
+\contentsline {paragraph}{}{56}{paragraph*.418}%
+\contentsline {paragraph}{}{57}{paragraph*.420}%
 \contentsline {paragraph}{}{57}{paragraph*.422}%
-\contentsline {section}{\numberline {3.6}Системд хийгдсэн тест}{57}{section.427}%
-\contentsline {paragraph}{}{57}{paragraph*.428}%
-\contentsline {section}{\numberline {3.7}Системийн нэвтрүүлэлт}{57}{section.432}%
-\contentsline {paragraph}{}{57}{paragraph*.433}%
-\contentsline {paragraph}{}{57}{paragraph*.434}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{59}{section*.435}%
-\contentsline {paragraph}{}{59}{paragraph*.436}%
-\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{60}{appendix.437}%
-\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{60}{section.438}%
-\contentsline {paragraph}{}{60}{paragraph*.439}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{61}{lstnumber.455}%
+\contentsline {paragraph}{}{58}{paragraph*.424}%
+\contentsline {paragraph}{}{59}{paragraph*.426}%
+\contentsline {paragraph}{}{59}{paragraph*.428}%
+\contentsline {paragraph}{}{60}{paragraph*.430}%
+\contentsline {paragraph}{}{61}{paragraph*.432}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{62}{section*.433}%
+\contentsline {paragraph}{}{62}{paragraph*.434}%
+\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{63}{appendix.435}%
+\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{63}{section.436}%
+\contentsline {paragraph}{}{63}{paragraph*.437}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{64}{lstnumber.453}%

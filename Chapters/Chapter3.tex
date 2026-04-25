@@ -13,15 +13,15 @@
     \label{fig:sys-arch}
 \end{figure}
 
-\section{Зохиомжийн үндсэн компонентууд}
-\paragraph{}
-Системийн зохиомжид дараах үндсэн компонентуудыг тодорхойлсон.
-\begin{enumerate}[nosep]
-    \item \textbf{Хэрэглэгчийн удирдлагын модуль} -- нэвтрэх, нууц үг шалгах, session/token удирдах.
-    \item \textbf{Файл удирдлагын модуль} -- хавтас үүсгэх, файл байршуулах, татах, нэр өөрчлөх, устгах.
-    \item \textbf{Хуваалцах эрхийн модуль} -- хэрэглэгч болон бүлгийн түвшинд read/edit эрх олгох.
-    \item \textbf{Storage abstraction} -- локал диск дээрх өгөгдөл болон өгөгдлийн сангийн мета мэдээллийг уялдуулах.
-\end{enumerate}
+% \section{Зохиомжийн үндсэн компонентууд}
+% \paragraph{}
+% Системийн зохиомжид дараах үндсэн компонентуудыг тодорхойлсон.
+% \begin{enumerate}[nosep]
+%     \item \textbf{Хэрэглэгчийн удирдлагын модуль} -- нэвтрэх, нууц үг шалгах, session/token удирдах.
+%     \item \textbf{Файл удирдлагын модуль} -- хавтас үүсгэх, файл байршуулах, татах, нэр өөрчлөх, устгах.
+%     \item \textbf{Хуваалцах эрхийн модуль} -- хэрэглэгч болон бүлгийн түвшинд read/edit эрх олгох.
+%     \item \textbf{Storage abstraction} -- локал диск дээрх өгөгдөл болон өгөгдлийн сангийн мета мэдээллийг уялдуулах.
+% \end{enumerate}
 
 \section{Өгөгдлийн ерөнхий схем}
 \paragraph{}
@@ -79,27 +79,99 @@
 \end{figure}
 
 \section{Хөгжүүлсэн системийн интерфейс}
-\paragraph{}
-Хөгжүүлсэн интерфейс нь прототипийн үндсэн урсгалыг хадгалсан бөгөөд дараах дарааллаар ажиллана.
-\begin{enumerate}[nosep]
-    \item Анхны тохиргоогоор админ хэрэглэгч болон хадгалалтын үндсэн хавтас үүсгэнэ (Зураг \ref{fig:admin-first-launch}).
-    \item Хэрэглэгч серверийн хаяг, хэрэглэгчийн нэр, нууц үгээр нэвтэрнэ (Зураг \ref{fig:login-screen}).
-    \item Энгийн хэрэглэгч файлуудаа удирдаж, хуваалцсан агуулгад хандана (Зураг \ref{fig:normal-user-homepage}).
-    \item Админ хэрэглэгч хэрэглэгч болон системийн ерөнхий тохиргоог удирдана (Зураг \ref{fig:admin-home-page}).
-\end{enumerate}
 
-\section{Системд хийгдсэн тест}
 \paragraph{}
-Системийн баталгаажуулалтыг дараах түвшинд гүйцэтгэсэн.
-\begin{enumerate}[nosep]
-    \item \textbf{Функциональ тест}: Нэвтрэх, файл байршуулах, татах, нэр өөрчлөх, устгах, эрх олгох урсгалуудыг usecase тус бүрээр шалгасан.
-    \item \textbf{Эрхийн тест}: Админ болон энгийн хэрэглэгчийн эрх ялгарах, зөвшөөрөлгүй хандалтыг блоклох шалгалт хийсэн.
-    \item \textbf{Интерфейсийн тест}: Веб болон мобайл клиент дээр үндсэн дэлгэцүүдийн хэрэглээний урсгал, алдааны мэдэгдлийг шалгасан.
-\end{enumerate}
+Зураг~\ref{fig:dev-admin-init}-т системийг анх ажиллуулах үед гарч ирэх анхны тохиргооны дэлгэцийг харуулав. Энэ дэлгэцэд хэрэглэгч админ бүртгэлийн нэр болон нууц үг, мөн файлуудыг хадгалах серверийн зам (storage path)-ийг тохируулна. Энэхүү анхны тохиргоог амжилттай дуусгасны дараа систем хэвийн ажиллах бэлэн болно.
 
-\section{Системийн нэвтрүүлэлт}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.70\textwidth]{Figures/chapter3/developed-interfaces/admin-initialize.png}
+    \caption{Анхны тохиргооны дэлгэц (хөгжүүлсэн)}
+    \label{fig:dev-admin-init}
+\end{figure}
+
 \paragraph{}
-Системийг дотоод туршилтын орчинд self-hosted хэлбэрээр нэвтрүүлж, серверийн локал storage directory-т өгөгдөл хадгалах байдлаар ажиллуулсан. Нэвтрүүлэлтийн үе шатанд хэрэглэгчийн бүртгэл үүсгэх, файл байршуулах, эрх хуваалцах, татах урсгалуудыг бодит хэрэглээний сценариар туршиж, ажиллагааны алдаануудыг засварласан.
+Зураг~\ref{fig:dev-login-web}-д веб клиентийн нэвтрэх дэлгэцийг харуулав. Серверийн хаяг, хэрэглэгчийн нэр болон нууц үг оруулах талбарууд байх бөгөөд self-hosted системд өөр өөр серверт холбогдох боломжийг олгодог.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figures/chapter3/developed-interfaces/login.png}
+    \caption{Веб нэвтрэх дэлгэц}
+    \label{fig:dev-login-web}
+\end{figure}
+
+\paragraph{}
+Зураг~\ref{fig:dev-login-mobile}-д мобайл клиентийн нэвтрэх дэлгэцийг харуулав. Веб хувилбарттай адил талбаруудыг агуулах бөгөөд мобайл дэлгэцийн хэмжээнд тохирсон компакт байршилтай.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-login-page.png}
+    \caption{Мобайл нэвтрэх дэлгэц}
+    \label{fig:dev-login-mobile}
+\end{figure}
+
+\paragraph{}
+Зураг~\ref{fig:dev-dark-home-web}-д хэрэглэгчийн нүүр хуудасны харанхуй горимын веб хувилбарыг харуулав. Файл болон хавтасны бүтэц жагсаалт хэлбэрээр харагдах бөгөөд upload, download, нэр өөрчлөх, устгах зэрэг үндсэн үйлдлүүдийг хийх боломжтой.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figures/chapter3/developed-interfaces/home-page-dark-mode.png}
+    \caption{Веб нүүр хуудас -- харанхуй горим}
+    \label{fig:dev-dark-home-web}
+\end{figure}
+
+\paragraph{}
+Зураг~\ref{fig:dev-dark-home-mobile}-д мобайл клиентийн харанхуй горимын нүүр хуудасыг харуулав. Веб хувилбарын нэгэн адил үндсэн файл удирдлагын үйлдлүүд мобайл дэлгэцийн хэмжээнд тохирсон хэлбэрт харагдана.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png}
+    \caption{Мобайл нүүр хуудас -- харанхуй горим}
+    \label{fig:dev-dark-home-mobile}
+\end{figure}
+
+\paragraph{}
+Зураг~\ref{fig:dev-light-home-web}-д нүүр хуудасны цайвар горимын веб хувилбарыг харуулав. Харанхуй горимтой адил бүрэн функциональ байхын зэрэгцээ цайвар дэвсгэр дээр тодорхой, ойлгомжтой загварыг ашигласан.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figures/chapter3/developed-interfaces/home-page-light-mode.png}
+    \caption{Веб нүүр хуудас -- цайвар горим}
+    \label{fig:dev-light-home-web}
+\end{figure}
+
+\paragraph{}
+Зураг~\ref{fig:dev-light-home-mobile}-д мобайл клиентийн цайвар горимын нүүр хуудасыг харуулав. Хэрэглэгч аппликейшний тохиргооноос харанхуй болон цайвар горимын аль нэгийг сонгон өөрчлөх боломжтой бөгөөд горим солигдоход бүх дэлгэцийн өнгөний схем нэгэн зэрэг шинэчлэгдэнэ.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png}
+    \caption{Мобайл нүүр хуудас -- цайвар горим}
+    \label{fig:dev-light-home-mobile}
+\end{figure}
+
+\paragraph{}
+Зураг~\ref{fig:dev-mobile-sidebar}-т мобайл аппликейшний хажуугийн навигацийн цэс (sidebar) харагдаж байна. Sidebar нь мобайл хэрэглэгчийн ерөнхий навигацийн хэсэг бөгөөд файл менежмент, хуваалцсан файлууд, дотоод хадгалалт болон аппын тохиргоо руу шилжих сонголтуудыг агуулна. Мобайл хэрэглэгчийн туршлагт нийцүүлэн дэлгэцийн зүүн талаас гулсуулан нээх хэлбэрээр хэрэгжүүлсэн.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-sidebar.png}
+    \caption{Мобайл хажуугийн навигацийн цэс}
+    \label{fig:dev-mobile-sidebar}
+\end{figure}
+
+% \section{Системд хийгдсэн тест}
+% \paragraph{}
+% Системийн баталгаажуулалтыг дараах түвшинд гүйцэтгэсэн.
+% \begin{enumerate}[nosep]
+%     \item \textbf{Функциональ тест}: Нэвтрэх, файл байршуулах, татах, нэр өөрчлөх, устгах, эрх олгох урсгалуудыг usecase тус бүрээр шалгасан.
+%     \item \textbf{Эрхийн тест}: Админ болон энгийн хэрэглэгчийн эрх ялгарах, зөвшөөрөлгүй хандалтыг блоклох шалгалт хийсэн.
+%     \item \textbf{Интерфейсийн тест}: Веб болон мобайл клиент дээр үндсэн дэлгэцүүдийн хэрэглээний урсгал, алдааны мэдэгдлийг шалгасан.
+% \end{enumerate}
+
+% \section{Системийн нэвтрүүлэлт}
+% \paragraph{}
+% Системийг дотоод туршилтын орчинд self-hosted хэлбэрээр нэвтрүүлж, серверийн локал storage directory-т өгөгдөл хадгалах байдлаар ажиллуулсан. Нэвтрүүлэлтийн үе шатанд хэрэглэгчийн бүртгэл үүсгэх, файл байршуулах, эрх хуваалцах, татах урсгалуудыг бодит хэрэглээний сценариар туршиж, ажиллагааны алдаануудыг засварласан.
 
 
 \chapterconclusiontitle{Бүлгийн дүгнэлт}
