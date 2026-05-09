@@ -134,6 +134,8 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 \newcommand{\warn}{\ding{48}}    % circle (warning)
 \newcommand{\chapterconclusiontitle}[1]{%
   \par\bigskip
+  \phantomsection
+  \addcontentsline{toc}{section}{#1}%
   \noindent\textbf{\large #1}\par
   \smallskip
 }
@@ -149,7 +151,7 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 \thesistype{Бакалаврын төгсөлтийн ажил} % Удирдагчийн нэр, нүүр хуудсанд ашиглана. Дурын газарт бол \thesisname командыг хэрэглэнэ
 \supervisor{Магистр (M.Sc) Э.Батцэцэг} % Удирдагчийн нэр, нүүр хуудсанд ашиглана. Дурын газарт бол \supname командыг хэрэглэнэ
 \reader{Магистр (M.Sc) О.Нэр} % Шүүмжлэгчийн нэр, Дурын газарт бол \readname командыг хэрэглэнэ
-\advisor{Доктор (Ph.D), Дэд профессор Г.Ганбат} % Зөвлөгчийн нэр, Дурын газарт бол \advicename командыг хэрэглэнэ
+\advisor{Доктор (Ph.D) Г.Ганбат} % Зөвлөгчийн нэр, Дурын газарт бол \advicename командыг хэрэглэнэ
 \degreeind{071405000000002306} % Мэргэжлийн индекс, нүүр болон хураангуй хуудсанд ашигласан. Өөр газарт бол \degreeid командыг хэрэглэнэ
 \degree{Программ хангамжийн инженерчлэл} % Боловсролын зэрэг, нүүр болон хураангуй хуудсанд ашигласан. Өөр газарт бол \degreename командыг хэрэглэнэ
 \authorshort{Г.Алтай} % Таны товч нэр, нүүр болон хураангуй хуудсанд ашигласан. Дурын газарт бол \shortname командыг хэрэглэнэ 
@@ -167,7 +169,7 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 \hypersetup{pdfauthor=\shortname} % Pdf файлын зохиогчийн нэр
 \hypersetup{pdfkeywords=\keywordnames} % Pdf файлын түлхүүр үгс
 \hypersetup{allcolors=black} % Pdf файлын бүх холбоос хар өнгөтэй
-\setcounter{tocdepth}{1} % Гарчигт section хүртэл харуулна, subsection ба subsubsection-ийг нуух
+\setcounter{tocdepth}{3} % Гарчигт section, subsection, subsubsection хүртэл харуулна
 
 \usepackage{longtable}
 \begin{document}
@@ -223,7 +225,7 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 % Тезисийн бүлгүүдийг Appendices хавтаснаас бие даасан файл байдлаар оруулах
 
 \include{Appendices/AppendixA}
-%\include{Appendices/AppendixB}
+\include{Appendices/AppendixB}
 %\include{Appendices/AppendixC}
 
 %-------------------------------------------------------------------------------

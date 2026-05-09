@@ -1,0 +1,149 @@
+\babel@toc {mongolian}{}\relax 
+\contentsline {chapter}{Зохиогч эрхийн хамгаалал}{i}{section*.8}%
+\contentsline {chapter}{Хураангуй}{iii}{section*.8}%
+\contentsline {chapter}{Талархал}{iv}{section*.9}%
+\contentsline {paragraph}{}{iv}{paragraph*.10}%
+\contentsline {chapter}{Товчилсон үгс}{v}{table.0.1}%
+\contentsline {chapter}{Удиртгал}{1}{section*.15}%
+\contentsline {chapter}{\numberline {1}Хувийн үүлэн хадгалалтын системийн тухай онол, арга зүйн судалгаа}{4}{chapter.30}%
+\contentsline {section}{\numberline {1.1}Системийн танилцуулга ба үүлэн хадгалалтын системийн ерөнхий ойлголт}{4}{section.31}%
+\contentsline {paragraph}{}{4}{paragraph*.32}%
+\contentsline {paragraph}{}{4}{paragraph*.33}%
+\contentsline {paragraph}{}{4}{paragraph*.34}%
+\contentsline {paragraph}{}{4}{paragraph*.35}%
+\contentsline {subsection}{\numberline {1.1.1}Үүлэн хадгалалтын системийн ерөнхий ойлголт}{5}{subsection.36}%
+\contentsline {paragraph}{}{5}{paragraph*.37}%
+\contentsline {paragraph}{}{5}{paragraph*.38}%
+\contentsline {paragraph}{}{5}{paragraph*.39}%
+\contentsline {paragraph}{}{6}{paragraph*.41}%
+\contentsline {section}{\numberline {1.2}Ижил төст системийн судалгаа}{7}{section.42}%
+\contentsline {paragraph}{}{7}{paragraph*.43}%
+\contentsline {paragraph}{}{7}{paragraph*.44}%
+\contentsline {subsection}{\numberline {1.2.1}Судалгааны үнэлгээний шалгуур}{7}{subsection.45}%
+\contentsline {paragraph}{}{7}{paragraph*.46}%
+\contentsline {subsection}{\numberline {1.2.2}Google Drive: Нийтийн Cloud Storage-ийн Төлөөлөл}{7}{subsection.52}%
+\contentsline {paragraph}{}{7}{paragraph*.53}%
+\contentsline {paragraph}{}{8}{paragraph*.54}%
+\contentsline {paragraph}{}{8}{paragraph*.55}%
+\contentsline {paragraph}{}{9}{paragraph*.57}%
+\contentsline {paragraph}{}{9}{paragraph*.58}%
+\contentsline {paragraph}{}{10}{paragraph*.59}%
+\contentsline {subsection}{\numberline {1.2.3}Nextcloud: Self-Hosted Personal Cloud-ийн Төлөөлөл}{10}{subsection.60}%
+\contentsline {paragraph}{}{10}{paragraph*.61}%
+\contentsline {paragraph}{}{10}{paragraph*.62}%
+\contentsline {paragraph}{}{10}{paragraph*.63}%
+\contentsline {paragraph}{}{11}{paragraph*.65}%
+\contentsline {paragraph}{}{11}{paragraph*.66}%
+\contentsline {paragraph}{}{12}{paragraph*.68}%
+\contentsline {paragraph}{}{12}{paragraph*.70}%
+\contentsline {paragraph}{}{13}{paragraph*.71}%
+\contentsline {paragraph}{}{13}{paragraph*.72}%
+\contentsline {subsection}{\numberline {1.2.4}ownCloud Infinite Scale (oCIS): Микросервис Чиглэлийн Personal Cloud}{13}{subsection.73}%
+\contentsline {paragraph}{}{13}{paragraph*.74}%
+\contentsline {paragraph}{}{14}{paragraph*.75}%
+\contentsline {paragraph}{}{15}{paragraph*.77}%
+\contentsline {paragraph}{}{15}{paragraph*.78}%
+\contentsline {paragraph}{}{15}{paragraph*.79}%
+\contentsline {paragraph}{}{15}{paragraph*.80}%
+\contentsline {paragraph}{}{16}{paragraph*.81}%
+\contentsline {subsection}{\numberline {1.2.5}Нэгдсэн Харьцуулалт}{17}{subsection.82}%
+\contentsline {paragraph}{}{17}{paragraph*.84}%
+\contentsline {paragraph}{}{17}{paragraph*.85}%
+\contentsline {section}{\numberline {1.3}Дотоод сүлжээн дэх төхөөрөмж илрүүлэх механизм (Device Discovery Mechanisms in LAN)}{18}{section.86}%
+\contentsline {paragraph}{}{18}{paragraph*.87}%
+\contentsline {subsection}{\numberline {1.3.1}mDNS (Multicast DNS) болон DNS-SD}{18}{subsection.88}%
+\contentsline {paragraph}{}{18}{paragraph*.89}%
+\contentsline {subsection}{\numberline {1.3.2}UDP Broadcast илрүүлэлт}{18}{subsection.90}%
+\contentsline {paragraph}{}{18}{paragraph*.91}%
+\contentsline {subsection}{\numberline {1.3.3}Аюулгүй байдал ба Баталгаажуулалт (Manual Pairing)}{18}{subsection.92}%
+\contentsline {paragraph}{}{18}{paragraph*.93}%
+\contentsline {section}{\numberline {1.4}Ашиглах технологиуд}{19}{section.94}%
+\contentsline {paragraph}{}{19}{paragraph*.95}%
+\contentsline {paragraph}{}{19}{paragraph*.96}%
+\contentsline {paragraph}{}{19}{paragraph*.97}%
+\contentsline {paragraph}{}{20}{paragraph*.98}%
+\contentsline {section}{Бүлгийн дүгнэлт}{20}{section*.99}%
+\contentsline {paragraph}{}{20}{paragraph*.100}%
+\contentsline {chapter}{\numberline {2}Системийн шаардлага ба шинжилгээ}{22}{chapter.101}%
+\contentsline {section}{\numberline {2.1}Системийн үйл ажиллагааны дэлгэрэнгүй}{22}{section.102}%
+\contentsline {paragraph}{}{22}{paragraph*.103}%
+\contentsline {paragraph}{}{22}{paragraph*.104}%
+\contentsline {paragraph}{}{22}{paragraph*.105}%
+\contentsline {paragraph}{}{22}{paragraph*.106}%
+\contentsline {paragraph}{}{22}{paragraph*.107}%
+\contentsline {paragraph}{}{23}{paragraph*.108}%
+\contentsline {section}{\numberline {2.2}Usecase диаграмм}{23}{section.109}%
+\contentsline {paragraph}{}{23}{paragraph*.110}%
+\contentsline {section}{\numberline {2.3}Юзкейсийн тодорхойлолт}{25}{section.112}%
+\contentsline {paragraph}{}{25}{paragraph*.113}%
+\contentsline {subsection}{\numberline {2.3.1}Анхны тохиргоо хийх (UC-001)}{25}{subsection.114}%
+\contentsline {subsection}{\numberline {2.3.2}Админ хэрэглэгч үүсгэх (UC-002)}{26}{subsection.128}%
+\contentsline {subsection}{\numberline {2.3.3}Хэрэглэгч бүртгэх (UC-003)}{27}{subsection.140}%
+\contentsline {paragraph}{}{28}{paragraph*.153}%
+\contentsline {section}{\numberline {2.4}Функциональ шаардлага}{29}{section.154}%
+\contentsline {section}{\numberline {2.5}Функциональ бус шаардлага}{30}{section.173}%
+\contentsline {section}{\numberline {2.6}Класс диаграм}{30}{section.183}%
+\contentsline {paragraph}{}{30}{paragraph*.184}%
+\contentsline {paragraph}{}{31}{paragraph*.186}%
+\contentsline {paragraph}{}{31}{paragraph*.187}%
+\contentsline {paragraph}{}{31}{paragraph*.188}%
+\contentsline {section}{\numberline {2.7}Дарааллын диаграмм}{32}{section.189}%
+\contentsline {paragraph}{}{32}{paragraph*.190}%
+\contentsline {paragraph}{}{32}{paragraph*.192}%
+\contentsline {paragraph}{}{33}{paragraph*.194}%
+\contentsline {paragraph}{}{34}{paragraph*.196}%
+\contentsline {section}{\numberline {2.8}Ажлын хүрээ}{34}{section.197}%
+\contentsline {subsection}{\numberline {2.8.1}Хамрах хүрээ}{34}{subsection.198}%
+\contentsline {section}{Бүлгийн дүгнэлт}{35}{section*.202}%
+\contentsline {paragraph}{}{35}{paragraph*.203}%
+\contentsline {paragraph}{}{35}{paragraph*.204}%
+\contentsline {chapter}{\numberline {3}Хувийн үүлэн хадгалалтын системийн зохиомж ба хөгжүүлэлт}{36}{chapter.205}%
+\contentsline {section}{\numberline {3.1}Системийн архитектур}{36}{section.206}%
+\contentsline {paragraph}{}{36}{paragraph*.207}%
+\contentsline {section}{\numberline {3.2}Өгөгдлийн ерөнхий схем}{36}{section.209}%
+\contentsline {paragraph}{}{36}{paragraph*.210}%
+\contentsline {paragraph}{}{37}{paragraph*.211}%
+\contentsline {section}{\numberline {3.3}Системийн прототип}{37}{section.213}%
+\contentsline {paragraph}{}{37}{paragraph*.214}%
+\contentsline {paragraph}{}{37}{paragraph*.215}%
+\contentsline {paragraph}{}{38}{paragraph*.217}%
+\contentsline {paragraph}{}{39}{paragraph*.219}%
+\contentsline {paragraph}{}{39}{paragraph*.221}%
+\contentsline {section}{\numberline {3.4}Хөгжүүлсэн системийн интерфейс}{40}{section.223}%
+\contentsline {paragraph}{}{40}{paragraph*.224}%
+\contentsline {paragraph}{}{40}{paragraph*.226}%
+\contentsline {paragraph}{}{41}{paragraph*.228}%
+\contentsline {paragraph}{}{41}{paragraph*.230}%
+\contentsline {paragraph}{}{42}{paragraph*.232}%
+\contentsline {paragraph}{}{43}{paragraph*.234}%
+\contentsline {paragraph}{}{43}{paragraph*.236}%
+\contentsline {paragraph}{}{44}{paragraph*.238}%
+\contentsline {section}{Бүлгийн дүгнэлт}{45}{section*.240}%
+\contentsline {paragraph}{}{45}{paragraph*.241}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{46}{section*.242}%
+\contentsline {paragraph}{}{46}{paragraph*.243}%
+\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{47}{appendix.244}%
+\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{47}{section.245}%
+\contentsline {paragraph}{}{47}{paragraph*.246}%
+\contentsline {chapter}{\numberline {B}Юзкейсийн дэлгэрэнгүй тодорхойлолтууд}{48}{appendix.263}%
+\contentsline {section}{\numberline {B.1}Үлдсэн юзкейсийн тодорхойлолтууд}{48}{section.264}%
+\contentsline {paragraph}{}{48}{paragraph*.265}%
+\contentsline {subsection}{\numberline {B.1.1}Хэрэглэгчийн жагсаалт харах (UC-004)}{48}{subsection.266}%
+\contentsline {subsection}{\numberline {B.1.2}Хэрэглэгчийн мэдээлэл өөрчлөх (UC-005)}{49}{subsection.274}%
+\contentsline {subsection}{\numberline {B.1.3}Хэрэглэгч устгах (UC-006)}{49}{subsection.285}%
+\contentsline {subsection}{\numberline {B.1.4}Системд нэвтрэх (UC-007)}{50}{subsection.297}%
+\contentsline {subsection}{\numberline {B.1.5}Нөөцүүдийг харах (UC-008)}{51}{subsection.310}%
+\contentsline {subsection}{\numberline {B.1.6}Нэрээр хайх (UC-009)}{52}{subsection.321}%
+\contentsline {subsection}{\numberline {B.1.7}Шинэ хавтас үүсгэх (UC-010)}{53}{subsection.332}%
+\contentsline {subsection}{\numberline {B.1.8}Файл байршуулах (UC-011)}{54}{subsection.344}%
+\contentsline {subsection}{\numberline {B.1.9}Нөөцийн нэр өөрчлөх (UC-012)}{55}{subsection.357}%
+\contentsline {subsection}{\numberline {B.1.10}Нөөц сэргээх (UC-013)}{56}{subsection.368}%
+\contentsline {subsection}{\numberline {B.1.11}Нөөц шилжүүлэх (UC-014)}{57}{subsection.379}%
+\contentsline {subsection}{\numberline {B.1.12}Нөөц устгах (UC-015)}{58}{subsection.392}%
+\contentsline {subsection}{\numberline {B.1.13}Нөөцийг бүр мөсөн устгах (UC-016)}{59}{subsection.404}%
+\contentsline {subsection}{\numberline {B.1.14}Файл татаж авах (UC-017)}{60}{subsection.418}%
+\contentsline {subsection}{\numberline {B.1.15}Шахсан файл хэлбэрээр татах (UC-018)}{61}{subsection.430}%
+\contentsline {subsection}{\numberline {B.1.16}Нөөц хуваалцах (UC-019)}{62}{subsection.442}%
+\contentsline {subsection}{\numberline {B.1.17}Хандалтын түвшин сонгох (UC-020)}{63}{subsection.454}%
+\contentsline {subsection}{\numberline {B.1.18}Онцлох төлөв өөрчлөх (UC-021)}{64}{subsection.464}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{66}{Item.473}%
