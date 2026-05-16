@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  9 MAY 2026 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  10 MAY 2026 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1830,7 +1830,7 @@ Underfull \hbox (badness 7704) in paragraph at lines 53--53
 [6 <./Figures/chapter1/cloud-market.png>]
 
 [7]
-<Figures/chapter1/google-colossus-control-plane.png, id=614, 2007.5pt x 1129.21
+<Figures/chapter1/google-colossus-control-plane.png, id=613, 2007.5pt x 1129.21
 875pt>
 File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
 )
@@ -1902,11 +1902,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Underfull \hbox (badness 6493) in paragraph at lines 191--191
 []|\T2A/cmr/m/n/10.95 (+20) Хамтын ажил-ла-гаа,
- []
-
-
-Underfull \hbox (badness 7326) in paragraph at lines 191--191
-\T2A/cmr/m/n/10.95 (+20) л°-ріілж удир-да-хад
  []
 
 
@@ -2036,66 +2031,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--195
 [17]
 
 [18]
-<Figures/chapter1/tech-logos/rust.png, id=762, 467.7475pt x 466.74374pt>
-File: Figures/chapter1/tech-logos/rust.png Graphic file (type png)
-<use Figures/chapter1/tech-logos/rust.png>
-Package pdftex.def Info: Figures/chapter1/tech-logos/rust.png  used on input li
-ne 241.
-(pdftex.def)             Requested size: 45.88847pt x 45.78687pt.
-<Figures/chapter1/tech-logos/postgresql.png, id=765, 221.82875pt x 228.855pt>
-File: Figures/chapter1/tech-logos/postgresql.png Graphic file (type png)
-<use Figures/chapter1/tech-logos/postgresql.png>
-Package pdftex.def Info: Figures/chapter1/tech-logos/postgresql.png  used on in
-put line 251.
-(pdftex.def)             Requested size: 45.88847pt x 47.3416pt.
 
+[19])
 
-[19 <./Figures/chapter1/tech-logos/rust.png> <./Figures/chapter1/tech-logos/pos
-tgresql.png>]
-<Figures/chapter1/tech-logos/swift.jpeg, id=777, 225.84375pt x 225.84375pt>
-File: Figures/chapter1/tech-logos/swift.jpeg Graphic file (type jpg)
-<use Figures/chapter1/tech-logos/swift.jpeg>
-Package pdftex.def Info: Figures/chapter1/tech-logos/swift.jpeg  used on input 
-line 262.
-(pdftex.def)             Requested size: 45.88847pt x 45.88817pt.
-<Figures/chapter1/tech-logos/angular.jpeg, id=778, 225.84375pt x 225.84375pt>
-File: Figures/chapter1/tech-logos/angular.jpeg Graphic file (type jpg)
-<use Figures/chapter1/tech-logos/angular.jpeg>
-Package pdftex.def Info: Figures/chapter1/tech-logos/angular.jpeg  used on inpu
-t line 272.
-(pdftex.def)             Requested size: 45.88847pt x 45.88817pt.
-)
-
-[20 <./Figures/chapter1/tech-logos/swift.jpeg> <./Figures/chapter1/tech-logos/a
-ngular.jpeg>]
-
-[21]
+[20]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 2.
 
 
-[22
+[21
 
 
 
 
 ]
 
-[22
+[21
 
 ]
-<Figures/chapter2/usecase.jpg, id=804, 735.74875pt x 1040.88875pt>
+<Figures/chapter2/usecase.jpg, id=792, 735.74875pt x 1040.88875pt>
 File: Figures/chapter2/usecase.jpg Graphic file (type jpg)
 <use Figures/chapter2/usecase.jpg>
-Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 34.
+Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 37.
 (pdftex.def)             Requested size: 404.66306pt x 572.49059pt.
 
 
-[23]
+[22]
 
-[24 <./Figures/chapter2/usecase.jpg>]
+[23 <./Figures/chapter2/usecase.jpg>]
+
+[24]
 
 [25]
 
@@ -2106,16 +2073,14 @@ Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 34.
 [28]
 
 [29]
-<Figures/chapter2/design-class-diagram.jpg, id=896, 1597.97pt x 1096.095pt>
+<Figures/chapter2/design-class-diagram.jpg, id=903, 1597.97pt x 1096.095pt>
 File: Figures/chapter2/design-class-diagram.jpg Graphic file (type jpg)
 <use Figures/chapter2/design-class-diagram.jpg>
 Package pdftex.def Info: Figures/chapter2/design-class-diagram.jpg  used on inp
-ut line 270.
+ut line 283.
 (pdftex.def)             Requested size: 455.24411pt x 312.25652pt.
 
-
-[30]
-Underfull \hbox (badness 1062) in paragraph at lines 276--277
+Underfull \hbox (badness 1062) in paragraph at lines 289--290
 [] [][] \T2A/cmr/m/n/12 (+20) Диа-грам-мын дээд хэ-сэгт би \T2A/cmr/m/it/12 (+2
 0) SetupBoundary\T2A/cmr/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) AuthBoundary\T2A
 /cmr/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) StorageBoundary\T2A/cmr/m/n/12 (+20)
@@ -2123,14 +2088,14 @@ Underfull \hbox (badness 1062) in paragraph at lines 276--277
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 [] [][] \T2A/cmr/m/n/12 (+20) Boundary клас-суу-дын доор би \T2A/cmr/m/it/12 (+
 20) SetupController\T2A/cmr/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) Authenticatio
 nController\T2A/cmr/m/n/12 (+20) ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 \T2A/cmr/m/it/12 (+20) StorageController\T2A/cmr/m/n/12 (+20) , \T2A/cmr/m/it/1
 2 (+20) SharingController\T2A/cmr/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) UserMan
 agementController \T2A/cmr/m/n/12 (+20) гэ-сэн control
@@ -2138,55 +2103,56 @@ agementController \T2A/cmr/m/n/12 (+20) гэ-сэн control
 
 
 
-[31 <./Figures/chapter2/design-class-diagram.jpg>]
-<VP diagrams/Login.jpg, id=918, 1050.92625pt x 582.175pt>
+[30 <./Figures/chapter2/design-class-diagram.jpg>]
+<VP diagrams/Login.jpg, id=911, 1050.92625pt x 582.175pt>
 File: VP diagrams/Login.jpg Graphic file (type jpg)
 <use VP diagrams/Login.jpg>
-Package pdftex.def Info: VP diagrams/Login.jpg  used on input line 291.
+Package pdftex.def Info: VP diagrams/Login.jpg  used on input line 304.
 (pdftex.def)             Requested size: 455.24411pt x 252.18697pt.
 
-Underfull \hbox (badness 4378) in paragraph at lines 297--298
+Underfull \hbox (badness 4378) in paragraph at lines 310--311
 [] [][] \T2A/cmr/m/n/12 (+20) Зу-раг [][]2.3[][]-т хэ-рэг-лэгч нэвт-рэх іед \T2
 A/cmr/m/it/12 (+20) AuthBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг хі-лээн авч,
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 \T2A/cmr/m/it/12 (+20) AuthenticationController \T2A/cmr/m/n/12 (+20) хэ-рэг-лэ
 г-чийн мэ-дээл-лийг шал-ган, ам-жилт-тай бол
  []
 
-<VP diagrams/Upload File.jpg, id=920, 1167.36125pt x 771.88374pt>
+
+
+[31 <./VP diagrams/Login.jpg>]
+<VP diagrams/Upload File.jpg, id=919, 1167.36125pt x 771.88374pt>
 File: VP diagrams/Upload File.jpg Graphic file (type jpg)
 <use VP diagrams/Upload File.jpg>
-Package pdftex.def Info: VP diagrams/Upload File.jpg  used on input line 301.
+Package pdftex.def Info: VP diagrams/Upload File.jpg  used on input line 314.
 (pdftex.def)             Requested size: 455.24411pt x 301.00989pt.
 
-
-[32 <./VP diagrams/Login.jpg>]
-Underfull \hbox (badness 2707) in paragraph at lines 307--308
+Underfull \hbox (badness 2707) in paragraph at lines 320--321
 [] [][] \T2A/cmr/m/n/12 (+20) Зу-раг [][]2.4[][]-т файл байр-шуу-лах іед \T2A/c
 mr/m/it/12 (+20) StorageBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг дам-жуулж,
  []
 
-<VP diagrams/Share Resource.jpg, id=929, 1301.86375pt x 955.57pt>
+<VP diagrams/Share Resource.jpg, id=921, 1301.86375pt x 955.57pt>
 File: VP diagrams/Share Resource.jpg Graphic file (type jpg)
 <use VP diagrams/Share Resource.jpg>
-Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 311
+Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 324
 .
 (pdftex.def)             Requested size: 455.24411pt x 334.14832pt.
 
 
-[33 <./VP diagrams/Upload File.jpg>]
-Underfull \hbox (badness 2828) in paragraph at lines 317--318
+[32 <./VP diagrams/Upload File.jpg>]
+Underfull \hbox (badness 2828) in paragraph at lines 330--331
 [] [][] \T2A/cmr/m/n/12 (+20) Зу-раг [][]2.5[][]-т хэ-рэг-лэгч н°°ц ху-ваал-цах
  іед \T2A/cmr/m/it/12 (+20) ShareBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг авч
 ,
  []
 
 
-Overfull \hbox (20.25348pt too wide) in paragraph at lines 317--318
+Overfull \hbox (20.25348pt too wide) in paragraph at lines 330--331
 \T2A/cmr/m/it/12 (-20) SharingController \T2A/cmr/m/n/12 (-20) зо-рил-тот хэ-рэ
 г-лэгч бо-лон н°°-цийг шал-гас-ны да-раа \T2A/cmr/m/it/12 (-20) SharePermission
 Entity
@@ -2194,22 +2160,22 @@ Entity
 
 
 
-[34 <./VP diagrams/Share Resource.jpg>])
+[33 <./VP diagrams/Share Resource.jpg>])
 
-[35]
+[34]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 3.
 
 
-[36
+[35
 
 
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio.png, id=955, 885.3075pt x 444.6612
+<Figures/chapter3/pcloud-architecture.drawio.png, id=950, 885.3075pt x 444.6612
 5pt>
 File: Figures/chapter3/pcloud-architecture.drawio.png Graphic file (type png)
 <use Figures/chapter3/pcloud-architecture.drawio.png>
@@ -2218,39 +2184,39 @@ on input line 11.
 (pdftex.def)             Requested size: 442.65266pt x 222.33008pt.
 
 
-[36
+[35
 
  <./Figures/chapter3/pcloud-architecture.drawio.png>]
-<VP diagrams/PCloud.jpg, id=964, 1477.52pt x 948.54375pt>
+<VP diagrams/PCloud.jpg, id=959, 1477.52pt x 948.54375pt>
 File: VP diagrams/PCloud.jpg Graphic file (type jpg)
 <use VP diagrams/PCloud.jpg>
 Package pdftex.def Info: VP diagrams/PCloud.jpg  used on input line 35.
 (pdftex.def)             Requested size: 455.24411pt x 292.2508pt.
-<Figures/chapter3/admin-first-launch.png, id=965, 1734.48pt x 1121.18875pt>
+
+
+[36 <./VP diagrams/PCloud.jpg>]
+<Figures/chapter3/admin-first-launch.png, id=967, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
  line 49.
 (pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
-
-
-[37 <./VP diagrams/PCloud.jpg>]
-<Figures/chapter3/login.png, id=975, 2178.1375pt x 1121.18875pt>
+<Figures/chapter3/login.png, id=968, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 58.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=976, 2178.1375pt x 1121.18875pt>
+
+
+[37 <./Figures/chapter3/admin-first-launch.png>]
+<Figures/chapter3/normal-user-homepage.png, id=977, 2178.1375pt x 1121.18875pt>
 
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
 Package pdftex.def Info: Figures/chapter3/normal-user-homepage.png  used on inp
 ut line 67.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-
-
-[38 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=984, 2195.20125pt x 1121.18875pt>
+<Figures/chapter3/admin-home-page.png, id=978, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2258,9 +2224,9 @@ ne 76.
 (pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
 
 
-[39 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
-e-page.png>]
-<Figures/chapter3/developed-interfaces/admin-initialize.png, id=994, 1481.535pt
+[38 <./Figures/chapter3/login.png> <./Figures/chapter3/normal-user-homepage.png
+>]
+<Figures/chapter3/developed-interfaces/admin-initialize.png, id=988, 1481.535pt
  x 790.955pt>
 File: Figures/chapter3/developed-interfaces/admin-initialize.png Graphic file (
 type png)
@@ -2268,7 +2234,7 @@ type png)
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/admin-initialize
 .png  used on input line 88.
 (pdftex.def)             Requested size: 318.66948pt x 170.12442pt.
-<Figures/chapter3/developed-interfaces/login.png, id=996, 1481.535pt x 790.955p
+<Figures/chapter3/developed-interfaces/login.png, id=990, 1481.535pt x 790.955p
 t>
 File: Figures/chapter3/developed-interfaces/login.png Graphic file (type png)
 <use Figures/chapter3/developed-interfaces/login.png>
@@ -2277,9 +2243,9 @@ on input line 98.
 (pdftex.def)             Requested size: 386.96027pt x 206.58482pt.
 
 
-[40 <./Figures/chapter3/developed-interfaces/admin-initialize.png> <./Figures/c
-hapter3/developed-interfaces/login.png>]
-<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1006, 383.4325
+[39 <./Figures/chapter3/admin-home-page.png> <./Figures/chapter3/developed-inte
+rfaces/admin-initialize.png>]
+<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1000, 383.4325
 pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-login-page.png Graphic file 
 (type png)
@@ -2287,6 +2253,9 @@ File: Figures/chapter3/developed-interfaces/mobile-login-page.png Graphic file
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-login-pag
 e.png  used on input line 108.
 (pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+
+
+[40 <./Figures/chapter3/developed-interfaces/login.png>]
 <Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1008, 1924.1
 8875pt x 921.4425pt>
 File: Figures/chapter3/developed-interfaces/home-page-dark-mode.png Graphic fil
@@ -2297,7 +2266,8 @@ ode.png  used on input line 118.
 (pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
 
 
-[41 <./Figures/chapter3/developed-interfaces/mobile-login-page.png>]
+[41 <./Figures/chapter3/developed-interfaces/mobile-login-page.png> <./Figures/
+chapter3/developed-interfaces/home-page-dark-mode.png>]
 <Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1017,
  383.4325pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png Grap
@@ -2306,11 +2276,7 @@ hic file (type png)
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
 -dark-mode.png  used on input line 128.
 (pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
-
-
-[42 <./Figures/chapter3/developed-interfaces/home-page-dark-mode.png> <./Figure
-s/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
-<Figures/chapter3/developed-interfaces/home-page-light-mode.png, id=1026, 1924.
+<Figures/chapter3/developed-interfaces/home-page-light-mode.png, id=1019, 1924.
 18875pt x 921.4425pt>
 File: Figures/chapter3/developed-interfaces/home-page-light-mode.png Graphic fi
 le (type png)
@@ -2318,6 +2284,9 @@ le (type png)
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-light-
 mode.png  used on input line 138.
 (pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
+
+
+[42 <./Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
 <Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png, id=1028
 , 383.4325pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png Gra
@@ -2329,7 +2298,7 @@ Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
 
 
 [43 <./Figures/chapter3/developed-interfaces/home-page-light-mode.png>]
-<Figures/chapter3/developed-interfaces/mobile-sidebar.png, id=1038, 383.4325pt 
+<Figures/chapter3/developed-interfaces/mobile-sidebar.png, id=1037, 383.4325pt 
 x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-sidebar.png Graphic file (ty
 pe png)
@@ -2949,17 +2918,17 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D01094CDD166B27B81E2CCD29F00A808;17086.
+(rerunfilecheck)             Checksum: FF4DF0059BF01E2FCE77C3877BB3208C;17076.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49387 strings out of 473197
- 1075686 string characters out of 5718605
- 2063062 words of memory out of 5000000
- 71016 multiletter control sequences out of 15000+600000
- 593305 words of font info for 217 fonts, out of 8000000 for 9000
+ 49366 strings out of 473197
+ 1074461 string characters out of 5718605
+ 2063061 words of memory out of 5000000
+ 70988 multiletter control sequences out of 15000+600000
+ 593404 words of font info for 218 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,2438b,2157s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/
@@ -2977,10 +2946,10 @@ uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (88 pages, 6450865 bytes).
+Output written on main.pdf (88 pages, 6420575 bytes).
 PDF statistics:
  1640 PDF objects out of 1728 (max. 8388607)
- 1442 compressed objects within 15 object streams
- 591 named destinations out of 1000 (max. 500000)
- 54435 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1447 compressed objects within 15 object streams
+ 596 named destinations out of 1000 (max. 500000)
+ 54415 words of extra memory for PDF output out of 61914 (max. 10000000)
 
