@@ -2413,8 +2413,14 @@
     <bcf:citekey order="36" intorder="1">owncloud-ocis-availability</bcf:citekey>
     <bcf:citekey order="37" intorder="1">owncloud-ocis-architecture</bcf:citekey>
     <bcf:citekey order="37" intorder="2">owncloud-ocis-availability</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">rust-book</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">postgresql-about</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">cloudflare-tunnel-docs</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">rfc6455-websocket</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">nginx-proxy-buffering</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">nginx-proxy-buffering</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">rfc9112-http11</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">whatwg-streams-standard</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">rust-book</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">postgresql-about</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,17 +1,152 @@
 % Бүлэг 3
 
-\chapter{Хувийн үүлэн хадгалалтын системийн зохиомж ба хөгжүүлэлт}
+\chapter{Хувийн үүлэн хадгалалтын системийн зохиомж}
 \label{Chapter3} % Энэ бүлэг рүү ишлэл хийх бол \ref{Chapter2} командыг ашигла 
 
 \section{Системийн архитектур}
 \paragraph{}
-Зураг~\ref{fig:sys-arch}-т хувийн үүлэн хадгалалтын системийн үндсэн програм хангамжийн архитектур диаграммыг харуулав. Энэхүү архитектур нь Raspberry Pi зэрэг хэрэглэгчийн өөрийн төхөөрөмж дээр ажиллах серверийн програм болон түүнд хандах веб, iOS клиентүүдээс бүрдэнэ. Энгийн хэрэглэгч болон админ гэсэн 2 төрлийн хэрэглэгч байх агаад бүх хэрэглэгчид веб болон iOS апп ашиглан системтэй харьцана. Веб апп-ийг Angular, iOS апп-ийг Swift технологиудыг ашиглан хөгжүүлнэ. Клиентүүд нь дотоод сүлжээнд шууд, шаардлагатай үед алсын холболтын тохиргоогоор сервертэй HTTPS холболтоор харьцаж зорилтот үйлдлүүдийг гүйцэтгэнэ. Сервер апп нь хэрэглэгчдийн нэвтрэлт, баталгаажуулалт, хэрэглэгчийн менежмент, файл менежмент, файл татах болон байршуулах үйлдлүүдийг хийнэ. Системийн нийт өгөгдлийг relational өгөгдлийн бааз болон серверийн file system-д хадгална. Тухайн үүлэн хадгалалт дээр байрших файлууд болон хавтаснуудын мета өгөгдлүүд нь өгөгдлийн бааз дээр хадгалагдана.
+Зураг~\ref{fig:sys-arch}-т хувийн үүлэн хадгалалтын системийн ерөнхий архитектурын зохиомжийг харуулав. Диаграммын дээд хэсэгт системийг ашиглах хэрэглэгчид, доод хэсэгт тухайн хэрэглэгчийн эзэмшилд байрших \textit{PCloud} төхөөрөмжүүд, харин баруун талд гадаад сүлжээнээс холбогдох үед ашиглагдах дамжуулагч серверийг дүрсэлсэн. Энд \textit{PCloud} төхөөрөмж бүр нь Raspberry Pi зэрэг хэрэглэгчийн өөрийн техник хангамж дээр ажиллах үндсэн серверийн аппликейшнийг илэрхийлнэ. Өөрөөр хэлбэл файлууд болон хэрэглэгчийн үндсэн өгөгдөл нь төвлөрсөн үүлэн үйлчилгээний сервер дээр бус, хэрэглэгчийн өөрийн төхөөрөмж дээр хадгалагдана.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{Figures/chapter3/pcloud-architecture.drawio.png}
-    \caption{Системийн архитектур}
+    \includegraphics[width=\textwidth]{\detokenize{Figures/chapter3/pcloud-architecture.drawio (2).png}}
+    \caption{Системийн ерөнхий архитектур}
     \label{fig:sys-arch}
 \end{figure}
+
+\paragraph{}
+Диаграммын зүүн болон төв хэсэгт байгаа босоо шулуун сумнууд нь хэрэглэгч болон өөрийн \textit{PCloud} төхөөрөмжийн хооронд үүсэх шууд холболтыг илэрхийлнэ. Энэ нь хэрэглэгч сервертэйгээ нэг дотоод сүлжээнд байгаа үед ашиглагдах үндсэн холболтын хэлбэр юм. Ийм үед клиент аппликейшн нь mDNS/DNS-SD ашиглан локал сүлжээнд зарлагдсан серверийг илрүүлэх эсвэл локал хаягаар нь шууд холбогдоно. Шууд холболтын үед хүсэлт, файл байршуулах, файл татах зэрэг өгөгдлийн урсгал нь дамжуулагч серверээр дамжихгүй тул latency бага, сүлжээний нөөцийн хэрэглээ үр ашигтай байна. Энэ шинж нь системийн \textit{LAN-first} зарчмыг илэрхийлж байна.
+
+\paragraph{}
+Харин өнгөөр ялгасан тасархай сумнууд нь хэрэглэгч өөрийн дотоод сүлжээнээс гадна байрлаж, интернетээр дамжин холбогдох үеийн урсгалыг харуулна. Энэ тохиолдолд хэрэглэгчийн клиент гадаад сүлжээнд байрших дамжуулагч серверээр дамжин өөрийн төхөөрөмжийг олж холбогдоно. Үндсэн \textit{PCloud} сервер нь өөрийн талаас дамжуулагч сервертэй тогтвортой холболт үүсгэхээр төлөвлөгдөх тул хэрэглэгчээс router дээр port forwarding хийх, static public IP авах зэрэг нэмэлт сүлжээний тохиргоо шаардахгүй. Дамжуулагч сервер нь хэрэглэгчийн хүсэлтийг тухайн төхөөрөмжийн таних кодоор зөв \textit{PCloud} сервер рүү дамжуулж, серверээс ирсэн хариуг буцаан клиентэд хүргэх зуучлагчийн үүрэгтэй.
+
+\paragraph{}
+Баруун талд байрлах дамжуулагч сервер нь системийн өгөгдлийг эзэмших эсвэл хадгалах үндсэн зангилаа биш юм. Түүний үүрэг нь зөвхөн гадаад сүлжээнээс ирэх холболтыг хэрэглэгчийн төхөөрөмж дээр ажиллаж буй сервер рүү зуучлахад оршино. Иймээс файлын бодит хадгалалт, хэрэглэгчийн бүртгэл, эрхийн мэдээлэл, хавтас болон файлын мета өгөгдөл нь тухайн хэрэглэгчийн \textit{PCloud} төхөөрөмж дээр хэвээр үлдэнэ. Дамжуулагч сервер ашигласан үед ч системийн үндсэн зорилго болох хэрэглэгч өөрийн өгөгдлөө өөрийн төхөөрөмж дээр хянах зарчим хадгалагдана.
+
+\paragraph{}
+Диаграммд хэд хэдэн хэрэглэгч болон хэд хэдэн \textit{PCloud} төхөөрөмжийг зэрэг харуулсан нь систем нэг төв сервер дээр бүх хэрэглэгчийн өгөгдлийг нэгтгэх бус, хэрэглэгч бүрийн хувийн сервер тусдаа ажиллах боломжтойг илэрхийлнэ. Ийм зохиомж нь хэрэглэгч бүрийн өгөгдлийн хяналтыг өөрийн төхөөрөмж дээр хадгалах давуу талтай. Цаашид хэрэглэгчийн тоо, зэрэг холболт болон сүлжээний ачаалал өсөх үед дамжуулагч серверийг олон зангилаатай болгох, төхөөрөмжийн бүртгэлийг хуваалцсан хадгалалттай уялдуулах, ачаалал тэнцвэржүүлэх зэрэг өргөтгөлийн хувилбаруудыг архитектурын түвшинд авч үзэх боломжтой.
+
+\section{Үндсэн сервер аппликейшний архитектур}
+\paragraph{}
+Зураг~\ref{fig:main-server-arch}-т хэрэглэгчийн төхөөрөмж дээр ажиллах \textit{PCloud} үндсэн сервер аппликейшний дотоод зохиомжийг харуулав. Диаграммын дээд хэсэгт веб клиент, админ тохиргооны интерфейс болон iOS клиент байрлаж, эдгээр нь сервер рүү HTTP хүсэлт илгээх нэг төрлийн гаднах хэрэглэгчийн интерфейсүүдийг илэрхийлнэ. Клиентүүд өөр өөр платформ дээр ажиллах боловч сервер талд нэг ижил API давхаргаар дамжин холбогдохоор төлөвлөгдсөн нь клиентүүдийн логикийг төв серверийн өгөгдлийн загвартай шууд холбохгүй байх давуу талтай.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[height=0.72\textheight,keepaspectratio]{Figures/chapter3/pcloud-architecture-main-server.drawio.png}
+    \caption{Үндсэн сервер аппликейшний архитектур}
+    \label{fig:main-server-arch}
+\end{figure}
+
+\paragraph{}
+Диаграммын эхний дотоод давхарга болох \textit{HTTP API Layer} нь клиентүүдээс ирэх хүсэлтийг хүлээн авах, route хийх, API болон статик веб аппликейшнийг нэг серверийн гадаргуугаар хүргэх үүрэгтэй. Энэ давхаргад клиент API, анхны тохиргооны API, мөн веб аппликейшний static file serving гэсэн гурван үндсэн оролтын хэлбэрийг нэгтгэн харуулсан. Ийм зохиомж нь хэрэглэгч системийг анх тохируулах үед ашиглагдах админ интерфейс болон өдөр тутмын файл удирдлагын клиент интерфейсийг нэг серверийн орчинд ажиллуулах боломж олгоно.
+
+\paragraph{}
+\textit{Application Modules} давхарга нь системийн хэрэглээний үндсэн боломжуудыг тусдаа хэсгүүд болгон хувааж байгаа хэсэг юм. Зурагт setup module, auth module, storage module, admin/user management module, system/status module гэсэн модулиудыг харуулсан. Setup module нь системийн эхний тохиргоо болон хадгалалтын үндсэн байршлыг тодорхойлох урсгалыг, auth module нь нэвтрэлт болон хэрэглэгчийн төлөвийг, storage module нь файл болон хавтасны үйлдлүүдийг, admin/user management module нь хэрэглэгчийн удирдлагыг, system/status module нь серверийн төлөв болон клиентэд хэрэгтэй ерөнхий мэдээллийг хариуцна. Ийм модульчилсан зохиомж нь хэрэглэгчийн үйлдлүүдийг нэг том төв logic-д төвлөрүүлэхгүй, харин тус бүрийн хариуцлагыг тодорхой хилтэй байлгах зорилготой.
+
+\paragraph{}
+\textit{Core Services} давхарга нь дээрх модулиудын ашиглах үндсэн домэйн logic-ийг илэрхийлнэ. Энд authentication/session logic, file/folder management, permission checking, trash/starred/shared logic, audit logging зэрэг системийн гол дүрмүүд байрлана. Жишээлбэл файл татах, хавтас үүсгэх, shared resource-д хандах зэрэг хүсэлт бүр зөвхөн route түвшинд биш, харин эрх шалгах болон metadata шинэчлэх домэйн дүрмээр дамжина. Ингэснээр UI эсвэл API endpoint өөрчлөгдсөн ч файлын эзэмшил, хэрэглэгчийн эрх, устгасан төлөв, одолсон файл, хуваалцсан нөөц зэрэг гол ойлголтууд нэг ижил үйлчилгээний logic-оор хянагдана.
+
+\subsection{Файл, хавтас удирдлага ба эрх шалгах логик}
+\paragraph{}
+\textit{Core Services} давхаргын хамгийн төв хэсэг нь файл, хавтас удирдлага болон тухайн нөөцөд хандах эрхийг шалгах logic юм. Хэрэглэгчийн хувьд системийн гол үйлдэл нь файл харах, байршуулах, татах, нэр өөрчлөх, зөөх, устгах, сэргээх, бусад хэрэглэгчид хуваалцах зэрэг storage operation-ууд байдаг. Эдгээр нь зөвхөн нэг хүснэгтэд бичилт хийх энгийн CRUD биш. Нэг operation бүр хэрэглэгчийн session, тухайн resource-ийн эзэмшигч, хавтасны модон бүтэц, permission inheritance, quota, local filesystem path болон PostgreSQL metadata-г хамтад нь авч үзэх шаардлагатай.
+
+\paragraph{}
+Файл, хавтасны загварт \textit{folders} хүснэгт мод хэлбэрийн namespace-ийг илэрхийлнэ. \textit{parent\_folder\_id} нь хавтас доторх хавтсын холбоог, \textit{path} нь хэрэглэгчид харагдах logical path-ийг хадгална. \textit{files} хүснэгт нь тухайн файлын нэр, хэмжээ, MIME төрөл, эзэмшигч, байрлах хавтас болон \textit{storage\_path}-ийг хадгална. Энд \textit{storage\_path} нь хэрэглэгчид харагдах path биш, харин local filesystem дээрх бодит файлыг олоход ашиглагдах metadata юм. Иймээс системд хоёр төрлийн path зэрэг оршино: хэрэглэгчийн интерфейс дээр харагдах logical path болон серверийн storage root доторх physical storage path.
+
+\paragraph{}
+Файл болон хавтасны үйлдлүүдийг service layer дараах ерөнхий дарааллаар зохион байгуулна. Эхлээд request-ээс ирсэн path, resource id, file name зэрэг оролтыг normalize хийж, root folder устгах, хоосон нэр ашиглах, path traversal хийх зэрэг буруу оролтыг хориглоно. Дараа нь тухайн resource эсвэл parent folder-г metadata-аас олж, хэрэглэгчийн access level-ийг тогтооно. Mutation operation хийх бол хэрэглэгч owner эсвэл editor байх ёстой. Үүний дараа нэр давхцах эсэх, storage quota хүрэлцэх эсэх, destination folder зөв эсэх зэрэг домэйн дүрмүүд шалгагдана. Зөвшөөрөгдсөн тохиолдолд database transaction эхэлж, шаардлагатай filesystem operation болон metadata update хийгдэнэ.
+
+\paragraph{}
+Upload operation энэ зохиомжийг хамгийн тод харуулна. Файл upload хийх үед HTTP layer ирсэн body-г түр файл болгон хадгалж, service layer-т тухайн temporary path болон metadata-г дамжуулна. Service layer target folder-г олж, editor эрхтэй эсэхийг шалгана. Хэрэв тухайн folder shared folder бол шинээр орж буй файл нь upload хийсэн хэрэглэгчийн namespace-д бус, parent folder-ийн эзэмшигчийн namespace болон quota-д хамаарна. Ингэснээр shared folder-д файл нэмэх үед resource ownership тогтвортой үлдэнэ. Дараа нь service layer temporary file-ийг бодит storage directory руу шилжүүлж, \textit{files} хүснэгтэд metadata үүсгэж, эзэмшигч хэрэглэгчийн \textit{storage\_used\_bytes}-ийг шинэчилнэ.
+
+\paragraph{}
+Database болон filesystem хоёр тусдаа хадгалалтын механизм тул consistency-ийн асуудал чухал. Жишээлбэл файл rename хийх үед filesystem дээрх бодит файлын нэр өөрчлөгдөхөөс гадна \textit{files.storage\_path}, \textit{files.name}, \textit{files.original\_file\_name} зэрэг metadata шинэчлэгдэнэ. Folder rename эсвэл move хийх үед тухайн хавтасны доорх бүх descendant folder болон file-ийн logical path, storage prefix өөрчлөгдөнө. Ийм operation-ууд transaction-ийн хүрээнд хийгдэх боловч filesystem нь PostgreSQL transaction-д автоматаар rollback хийгдэхгүй. Тиймээс service layer нь database update амжилтгүй болбол өмнө нь хийсэн filesystem rename/move үйлдлийг буцаах cleanup logic-той байх шаардлагатай.
+
+\begin{lstlisting}[caption={Файл upload хийх service урсгалын ерөнхий псевдокод},label={lst:upload-service-flow},showspaces=false,showstringspaces=false,showtabs=false,basicstyle=\ttfamily\small]
+function upload_file(current_user, input):
+    validate file size and normalized file name
+    load storage settings
+    begin database transaction
+
+    target_folder, access = resolve target folder
+    require access is owner or editor
+    require no duplicate name in target folder
+    require user quota and system quota are not exceeded
+
+    absolute_path = build filesystem path from storage root
+    move temporary uploaded file to absolute_path
+
+    insert file metadata into files table
+    update owner user's storage_used_bytes
+
+    if commit succeeds:
+        return storage entry DTO
+    else:
+        remove moved file from filesystem
+        return error
+\end{lstlisting}
+
+\paragraph{}
+Эх код~\ref{lst:upload-service-flow}-д upload operation-ийн service түвшний урсгалыг ерөнхийлөн харуулав. Үүний гол санаа нь файл хүлээн авах ажиллагаа зөвхөн byte хадгалах үйлдэл биш, харин permission, quota, name conflict, filesystem path, metadata insert, storage usage update гэсэн олон дүрмийг нэг transaction-like workflow болгон уялдуулах явдал юм. Rename, move, restore, permanent delete зэрэг бусад storage operation-ууд мөн ижил зарчмаар ажиллана.
+
+\paragraph{}
+Эрх шалгах logic нь owner, editor, viewer гэсэн түвшний ойлголт дээр тогтоно. Resource-ийн эзэмшигч нь тухайн файл эсвэл хавтас дээр бүрэн эрхтэй. \textit{file\_permissions} хүснэгт нь тодорхой файл дээр хэрэглэгчид viewer/editor эрх өгөхөд, \textit{folder\_permissions} хүснэгт нь тодорхой хавтас болон түүний доорх нөөцүүдэд хандах эрхийг тодорхойлоход ашиглагдана. Viewer эрхтэй хэрэглэгч файл харах, татах, preview хийх боломжтой боловч metadata өөрчлөх, upload хийх, rename хийх, delete хийх боломжгүй. Editor эрхтэй хэрэглэгч shared хавтас дотор файл нэмэх, нэр өөрчлөх зэрэг mutation operation хийх боломжтой. Харин permission нэмэх, өөрчлөх, устгах буюу sharing удирдах үйлдэл зөвхөн resource owner-д зөвшөөрөгдөнө.
+
+\paragraph{}
+Folder permission-ийн хамгийн чухал хэсэг нь inheritance буюу өвлөгдөх logic юм. Хэрэв хэрэглэгчид нэг parent folder дээр viewer эсвэл editor эрх өгсөн бол тухайн folder доторх child folder болон file-ууд дээр мөн адил access үүснэ. Иймээс файл татах, folder list хийх, search хийх үед зөвхөн тухайн file эсвэл folder дээр permission байгаа эсэхийг шалгах нь хангалтгүй. Service layer нь тухайн resource-ийн ancestor folder-уудыг шалгаж, аль нэг parent дээр хэрэглэгчид тохирох permission байгаа эсэхийг тодорхойлно.
+
+\begin{lstlisting}[caption={Resource access шалгах ерөнхий псевдокод},label={lst:permission-check-flow},showspaces=false,showstringspaces=false,showtabs=false,basicstyle=\ttfamily\small]
+function resolve_access(user, resource):
+    if resource.owner_user_id == user.id:
+        return owner
+
+    if direct file/folder permission exists:
+        return viewer or editor
+
+    ancestors = load parent folders of resource
+    for folder in ancestors:
+        if folder.owner_user_id == user.id:
+            return owner
+        if folder permission exists for user:
+            return viewer or editor
+
+    return denied
+\end{lstlisting}
+
+\paragraph{}
+Эх код~\ref{lst:permission-check-flow}-д үзүүлсэн access resolution нь системийн олон operation-д давтагдана. List хийх үед хэрэглэгчийн харах эрхтэй folder-ийн entries буцаагдана. Download хийх үед файл өөрөө устгагдаагүй, parent folder нь устгагдаагүй, хэрэглэгч owner/viewer/editor аль нэг эрхтэй байх ёстой. Upload, rename, move, delete хийх үед access level нь editor эсвэл owner байх шаардлагатай. Sharing удирдах үед editor эрх хангалтгүй бөгөөд resource-ийн owner байх ёстой. Ингэснээр shared user өдөр тутмын хамтын ажиллагааны үйлдэл хийж болох боловч resource-ийн эзэмшигчийн хяналтыг булаах боломжгүй.
+
+\paragraph{}
+Устгал болон сэргээх үйлдэлд мөн permission болон lifecycle logic хамт ажиллана. Энгийн delete нь файлыг filesystem-ээс шууд устгахгүй, харин \textit{is\_deleted} болон \textit{deleted\_at} metadata-г шинэчилж trash төлөвт оруулна. Folder delete хийх үед тухайн folder-ийн subtree буюу доорх хавтас, файлууд мөн trash төлөвт орно. Restore хийх үед metadata буцаан идэвхждэг. Харин permanent delete хийх үед metadata-г database-аас бүрэн устгаж, бодит файл эсвэл directory-г local filesystem-ээс цэвэрлэнэ. Энэ ялгаа нь хэрэглэгчийн алдаатай устгал сэргээх боломж болон storage quota-г зөв тооцох шаардлагыг зэрэг хангана.
+
+\paragraph{}
+Зурагт доод хэсэгт байрлах \textit{Persistence Layer} нь системийн өгөгдлийг хоёр өөр хэлбэрээр хадгалах зохиомжийг илэрхийлнэ. PostgreSQL өгөгдлийн сан нь хэрэглэгч, session, файл болон хавтасны metadata, эрхийн мэдээлэл, системийн тохиргоо, audit log зэрэг бүтэцтэй өгөгдлийг хадгална. Харин файлын бодит byte өгөгдөл нь local filesystem storage дээр байрлана. Ийм байдлаар өгөгдлийн сан нь файлын агуулгыг бус, файлыг олох зам, хэмжээ, нэр, төрөл, эзэмшигч, байрлал, төлөв зэрэг metadata-г удирдах үүрэгтэй байна.
+
+\paragraph{}
+Диаграммын хамгийн доод хэсэгт \textit{External/Network Support} давхаргыг тусгасан. Энэ нь үндсэн файл хадгалалтын logic-оос гадуур боловч системийг ашиглахад шаардлагатай сүлжээний дэмжлэгүүдийг илэрхийлнэ. mDNS/DNS-SD discovery нь нэг дотоод сүлжээнд байгаа клиентүүд серверийг автоматаар олох боломжийг бүрдүүлнэ. Relay client tunnel нь хэрэглэгч дотоод сүлжээнээс гадна байгаа үед дамжуулагч сервертэй гадагш чиглэсэн тогтвортой холболт үүсгэх үүрэгтэй. Иймээс үндсэн серверийн архитектур нь нэг талаас локал төхөөрөмж дээр өгөгдлөө хадгалах, нөгөө талаас LAN болон алсын хандалтын хоёр хэлбэрийг дэмжих зохиомжтой байна.
+
+\section{Дамжуулагч серверийн архитектур}
+\paragraph{}
+Зураг~\ref{fig:relay-server-arch}-т алсын холболтын үед ашиглагдах дамжуулагч серверийн дотоод зохиомжийг харуулав. Диаграммын зүүн талд remote client байрлаж, энэ клиент нь төхөөрөмжийн таних утга болох \code{device\_id}-г агуулсан HTTP хүсэлтээр дамжуулагч серверт хандана. Харин баруун талд хэрэглэгчийн \textit{PCloud} төхөөрөмж дээр ажиллаж буй relay client байрлаж, тэр нь дамжуулагч сервер рүү гадагш чиглэсэн WebSocket tunnel үүсгэсэн байна. Энэ чиглэл нь чухал: гэрийн router-ийн ард байрлах төхөөрөмж inbound port нээхгүйгээр өөрөө public relay сервер рүү холболт эхлүүлдэг.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/chapter3/pcloud-architecture-relay-server.drawio.png}
+    \caption{Дамжуулагч серверийн архитектур}
+    \label{fig:relay-server-arch}
+\end{figure}
+
+\paragraph{}
+Дамжуулагч серверийн доторх \textit{Relay HTTP Router} нь гадаад клиентээс ирэх endpoint-уудыг хүлээн авах эхний давхарга юм. Энэ давхарга нь төхөөрөмжийн төлөв шалгах, төхөөрөмжийн tunnel холболт үүсгэх, мөн \code{/d/\{device\_id\}/...} хэлбэрийн remote access хүсэлтийг зөв дотоод урсгал руу чиглүүлэх үүрэгтэй. Түүний дараах \textit{Proxy Layer} нь remote client-ийн HTTP хүсэлтийг relay protocol-ийн message болгон хувиргаж, тухайн төхөөрөмжийн tunnel-рүү дамжуулах хэсэг юм. Мөн төхөөрөмжөөс буцаж ирсэн response status, header, body chunk-уудыг дахин HTTP response болгон клиент рүү буцаана.
+
+\paragraph{}
+\textit{Device Tunnel Manager} нь \textit{PCloud} төхөөрөмжүүдээс ирэх outbound WebSocket tunnel-уудыг хариуцна. Төхөөрөмж холбогдох үед relay сервер тухайн холболтыг device identifier-тэй нь холбож, холболт тасрах үед бүртгэлээс хасна. \textit{Device Registry} нь энэ идэвхтэй холболтын зураглалыг хадгалах хэсэг бөгөөд үндсэн санаа нь \code{device\_id} бүрийг тухайн төхөөрөмжийн одоогийн tunnel connection-тэй холбох явдал юм. Remote client-ээс хүсэлт ирэхэд relay сервер эхлээд энэ registry-ээс тухайн төхөөрөмж online байгаа эсэхийг шалгана.
+
+\paragraph{}
+\textit{Pending Request Map} нь нэг tunnel дотор зэрэг олон HTTP хүсэлт дамжих боломжтой үед request бүрийн төлөвийг тусгаарлах зориулалттай. Remote client-ээс ирсэн хүсэлт бүрт request identifier оноож, тухайн identifier-аар device-ээс ирэх response start, response body chunk, response end зэрэг message-үүдийг зөв HTTP response-тэй нь тааруулна. Энэ нь relay серверийн өгөгдөл хадгалах хэсэг биш, харин идэвхтэй хүсэлтүүдийн түр төлөвийг барих connection state юм.
+
+\paragraph{}
+Диаграммын гол санаа нь дамжуулагч сервер нь хэрэглэгчийн файлыг хадгалах үндсэн сервер биш гэдгийг харуулахад оршино. Тэрээр remote client болон хэрэглэгчийн төхөөрөмж дээрх үндсэн серверийн хоорондох request/response урсгалыг чиглүүлэх зуучлагч давхарга юм. Файлын metadata, хэрэглэгчийн бүртгэл, эрхийн мэдээлэл болон бодит файл нь үндсэн \textit{PCloud} төхөөрөмж дээр хэвээр байрлана. Харин relay сервер дээр түр хугацаанд хадгалагдах зүйл нь идэвхтэй төхөөрөмжийн tunnel connection, device registry, pending request state зэрэг холболтын төлөвүүд байна.
 
 % \section{Зохиомжийн үндсэн компонентууд}
 % \paragraph{}
@@ -78,102 +213,6 @@
     \label{fig:admin-home-page}
 \end{figure}
 
-\section{Хөгжүүлсэн системийн интерфейс}
-
-\paragraph{}
-Зураг~\ref{fig:dev-admin-init}-т системийг анх ажиллуулах үед гарч ирэх анхны тохиргооны дэлгэцийг харуулав. Энэ дэлгэцэд хэрэглэгч админ бүртгэлийн нэр болон нууц үг, мөн файлуудыг хадгалах серверийн зам (storage path)-ийг тохируулна. Энэхүү анхны тохиргоог амжилттай дуусгасны дараа систем хэвийн ажиллах бэлэн болно.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.70\textwidth]{Figures/chapter3/developed-interfaces/admin-initialize.png}
-    \caption{Анхны тохиргооны дэлгэц (хөгжүүлсэн)}
-    \label{fig:dev-admin-init}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-login-web}-д веб клиентийн нэвтрэх дэлгэцийг харуулав. Серверийн хаяг, хэрэглэгчийн нэр болон нууц үг оруулах талбарууд байх бөгөөд self-hosted системд өөр өөр серверт холбогдох боломжийг олгодог.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{Figures/chapter3/developed-interfaces/login.png}
-    \caption{Веб нэвтрэх дэлгэц}
-    \label{fig:dev-login-web}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-login-mobile}-д мобайл клиентийн нэвтрэх дэлгэцийг харуулав. Веб хувилбарттай адил талбаруудыг агуулах бөгөөд мобайл дэлгэцийн хэмжээнд тохирсон компакт байршилтай.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-login-page.png}
-    \caption{Мобайл нэвтрэх дэлгэц}
-    \label{fig:dev-login-mobile}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-dark-home-web}-д хэрэглэгчийн нүүр хуудасны харанхуй горимын веб хувилбарыг харуулав. Файл болон хавтасны бүтэц жагсаалт хэлбэрээр харагдах бөгөөд upload, download, нэр өөрчлөх, устгах зэрэг үндсэн үйлдлүүдийг хийх боломжтой.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{Figures/chapter3/developed-interfaces/home-page-dark-mode.png}
-    \caption{Веб нүүр хуудас -- харанхуй горим}
-    \label{fig:dev-dark-home-web}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-dark-home-mobile}-д мобайл клиентийн харанхуй горимын нүүр хуудасыг харуулав. Веб хувилбарын нэгэн адил үндсэн файл удирдлагын үйлдлүүд мобайл дэлгэцийн хэмжээнд тохирсон хэлбэрт харагдана.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png}
-    \caption{Мобайл нүүр хуудас -- харанхуй горим}
-    \label{fig:dev-dark-home-mobile}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-light-home-web}-д нүүр хуудасны цайвар горимын веб хувилбарыг харуулав. Харанхуй горимтой адил бүрэн функциональ байхын зэрэгцээ цайвар дэвсгэр дээр тодорхой, ойлгомжтой загварыг ашигласан.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{Figures/chapter3/developed-interfaces/home-page-light-mode.png}
-    \caption{Веб нүүр хуудас -- цайвар горим}
-    \label{fig:dev-light-home-web}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-light-home-mobile}-д мобайл клиентийн цайвар горимын нүүр хуудасыг харуулав. Хэрэглэгч аппликейшний тохиргооноос харанхуй болон цайвар горимын аль нэгийг сонгон өөрчлөх боломжтой бөгөөд горим солигдоход бүх дэлгэцийн өнгөний схем нэгэн зэрэг шинэчлэгдэнэ.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png}
-    \caption{Мобайл нүүр хуудас -- цайвар горим}
-    \label{fig:dev-light-home-mobile}
-\end{figure}
-
-\paragraph{}
-Зураг~\ref{fig:dev-mobile-sidebar}-т мобайл аппликейшний хажуугийн навигацийн цэс (sidebar) харагдаж байна. Sidebar нь мобайл хэрэглэгчийн ерөнхий навигацийн хэсэг бөгөөд файл менежмент, хуваалцсан файлууд, дотоод хадгалалт болон аппын тохиргоо руу шилжих сонголтуудыг агуулна. Мобайл хэрэглэгчийн туршлагт нийцүүлэн дэлгэцийн зүүн талаас гулсуулан нээх хэлбэрээр хэрэгжүүлсэн.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.35\textwidth]{Figures/chapter3/developed-interfaces/mobile-sidebar.png}
-    \caption{Мобайл хажуугийн навигацийн цэс}
-    \label{fig:dev-mobile-sidebar}
-\end{figure}
-
-% \section{Системд хийгдсэн тест}
-% \paragraph{}
-augment.% Системийн баталгаажуулалтыг дараах түвшинд гүйцэтгэсэн.
-% \begin{enumerate}[nosep]
-%     \item \textbf{Функциональ тест}: Нэвтрэх, файл байршуулах, татах, нэр өөрчлөх, устгах, эрх олгох урсгалуудыг usecase тус бүрээр шалгасан.
-%     \item \textbf{Эрхийн тест}: Админ болон энгийн хэрэглэгчийн эрх ялгарах, зөвшөөрөлгүй хандалтыг блоклох шалгалт хийсэн.
-%     \item \textbf{Интерфейсийн тест}: Веб болон мобайл клиент дээр үндсэн дэлгэцүүдийн хэрэглээний урсгал, алдааны мэдэгдлийг шалгасан.
-% \end{enumerate}
-
-% \section{Системийн нэвтрүүлэлт}
-% \paragraph{}
-% Системийг дотоод туршилтын орчинд self-hosted хэлбэрээр нэвтрүүлж, серверийн локал storage directory-т өгөгдөл хадгалах байдлаар ажиллуулсан. Нэвтрүүлэлтийн үе шатанд хэрэглэгчийн бүртгэл үүсгэх, файл байршуулах, эрх хуваалцах, татах урсгалуудыг бодит хэрэглээний сценариар туршиж, ажиллагааны алдаануудыг засварласан.
-
-
 \chapterconclusiontitle{Бүлгийн дүгнэлт}
 \paragraph{}
-Энэ бүлэгт хувийн үүлэн хадгалалтын системийн архитектур, үндсэн компонентууд, өгөгдлийн зохиомж, прототип болон хэрэгжүүлсэн интерфейсийг тайлбарлалаа. Системийн шийдэл нь хэрэглэгчийн өгөгдлийг өөрийн төхөөрөмж дээр хадгалах self-hosted зарчимд тулгуурласан бөгөөд веб болон мобайл клиентээр дамжуулан нэгдсэн API-р ажиллахаар зохион байгуулагдсан. Энэхүү архитектур нь дотоод сүлжээнд шууд хандах, цаашид дамжуулагч сервер эсвэл шууд алсын холболтын хувилбаруудтай уялдах боломжтой суурь болж өгнө. Мөн функцийн болон эрхийн түвшний тестүүдээр системийн үндсэн урсгалуудыг баталгаажуулсан.
+Энэ бүлэгт хувийн үүлэн хадгалалтын системийн ерөнхий архитектур, үндсэн сервер аппликейшний дотоод зохиомж, дамжуулагч серверийн зохиомж, өгөгдлийн сангийн бүтэц болон интерфейсийн прототипийг тодорхойллоо. Системийн зохиомж нь хэрэглэгчийн өгөгдлийг өөрийн төхөөрөмж дээр хадгалах self-hosted зарчимд тулгуурлаж, веб болон мобайл клиентүүд нэг ижил үндсэн үйлчилгээтэй ажиллах боломжтой байхаар төлөвлөгдсөн. Мөн дотоод сүлжээнд шууд холбогдох болон шаардлагатай үед алсын холболтын дэд бүтцээр дамжин хандах хоёр үндсэн хандалтын хэлбэрийг архитектурын түвшинд тусгалаа. Дараагийн бүлэгт энэхүү зохиомжийг хэрэгжүүлсэн байдал, интерфейсийн бодит хувилбар, нэвтрүүлэлт болон туршилтын үр дүнг авч үзнэ.
