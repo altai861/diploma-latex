@@ -1,36 +1,38 @@
 \babel@toc {mongolian}{}\relax 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Хэрэглэгчдийн ашиглаж буй үүлэн хадгалалтын үйлчилгээний үзүүлэлт}}{6}{figure.caption.40}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Colossus control plane-ийн ерөнхий бүтэц (эх сурвалж: Google Cloud Blog) \blx@tocontentsinit {0}\cite {google-colossus-storage-layer}}}{7}{figure.caption.46}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Nextcloud-ийн хандалтын ба хадгалалтын давхаргын ерөнхий зураглал (эх сурвалж: Nextcloud Architecture Whitepaper) \blx@tocontentsinit {0}\cite {nextcloud2018architecture}}}{8}{figure.caption.50}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Docker орчинд ажиллуулсан Nextcloud-ийн веб интерфэйсийн дэлгэцийн зураг}}{9}{figure.caption.52}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Docker дээр ажиллуулсан Nextcloud AIO контейнерүүдийн санах ойн хэрэглээний дэлгэцийн зураг}}{9}{figure.caption.54}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces ownCloud Infinite Scale-ийн system context зураг (эх сурвалж: ownCloud docs) \blx@tocontentsinit {0}\cite {owncloud-ocis-architecture}}}{10}{figure.caption.58}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Дамжуулагч серверээр алсын холболт байгуулах ерөнхий зарчим}}{13}{figure.caption.69}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Buffering болон streaming аргачлалын ялгаа}}{15}{figure.caption.75}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Colossus control plane-ийн ерөнхий бүтэц (эх сурвалж: Google Cloud Blog) \blx@tocontentsinit {0}\cite {google-colossus-storage-layer}}}{8}{figure.caption.49}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Nextcloud-ийн хандалтын ба хадгалалтын давхаргын ерөнхий зураглал (эх сурвалж: Nextcloud Architecture Whitepaper) \blx@tocontentsinit {0}\cite {nextcloud2018architecture}}}{10}{figure.caption.56}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Docker орчинд ажиллуулсан Nextcloud-ийн веб интерфэйсийн дэлгэцийн зураг}}{11}{figure.caption.58}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Docker дээр ажиллуулсан Nextcloud AIO контейнерүүдийн санах ойн хэрэглээний дэлгэцийн зураг}}{11}{figure.caption.61}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces ownCloud Infinite Scale-ийн system context зураг (эх сурвалж: ownCloud docs) \blx@tocontentsinit {0}\cite {owncloud-ocis-architecture}}}{13}{figure.caption.69}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Дотоод сүлжээнд service discovery ашиглан сервер төхөөрөмж илрүүлэх ерөнхий зарчим}}{17}{figure.caption.80}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Гадаад сүлжээнээс NAT-ийн ард байрлах хувийн серверт хандах асуудал}}{18}{figure.caption.85}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Том хэмжээний файл дамжуулах үед buffering, streaming болон partial transfer-ийн ялгаа}}{19}{figure.caption.90}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{20}{figure.caption.95}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн класс диаграм}}{27}{figure.caption.179}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Нэвтрэх үеийн дарааллын диаграмм}}{29}{figure.caption.185}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Файл байршуулах үеийн дарааллын диаграмм}}{30}{figure.caption.187}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Нөөц хуваалцах үеийн дарааллын диаграмм}}{31}{figure.caption.189}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Usecase диаграм}}{24}{figure.caption.110}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Хувийн үүлэн хадгалалтын системийн класс диаграм}}{31}{figure.caption.194}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Нэвтрэх үеийн дарааллын диаграмм}}{33}{figure.caption.200}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Файл байршуулах үеийн дарааллын диаграмм}}{34}{figure.caption.202}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Нөөц хуваалцах үеийн дарааллын диаграмм}}{35}{figure.caption.204}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн ерөнхий архитектур}}{33}{figure.caption.203}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Үндсэн сервер аппликейшний архитектур}}{35}{figure.caption.210}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Дамжуулагч серверийн архитектур}}{37}{figure.caption.218}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{39}{figure.caption.226}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Анхны тохиргооны дэлгэц}}{40}{figure.caption.230}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Нэвтрэх дэлгэц}}{40}{figure.caption.232}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{41}{figure.caption.234}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{41}{figure.caption.236}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн ерөнхий архитектур}}{37}{figure.caption.218}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Үндсэн сервер аппликейшний архитектур}}{39}{figure.caption.225}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Дамжуулагч серверийн архитектур}}{41}{figure.caption.233}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{43}{figure.caption.241}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Анхны тохиргооны дэлгэц}}{47}{figure.caption.326}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Нэвтрэх дэлгэц}}{48}{figure.caption.328}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{49}{figure.caption.330}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{49}{figure.caption.332}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Анхны тохиргооны дэлгэц}}{43}{figure.caption.245}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Веб нэвтрэх дэлгэц}}{44}{figure.caption.247}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Мобайл нэвтрэх дэлгэц}}{45}{figure.caption.249}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Веб нүүр хуудас -- харанхуй горим}}{45}{figure.caption.251}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Мобайл нүүр хуудас -- харанхуй горим}}{46}{figure.caption.253}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Веб нүүр хуудас -- цайвар горим}}{47}{figure.caption.255}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Мобайл нүүр хуудас -- цайвар горим}}{48}{figure.caption.257}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Мобайл хажуугийн навигацийн цэс}}{49}{figure.caption.259}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ажиллаж буй Raspberry Pi 5}}{52}{figure.caption.344}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Тухайн Raspberry Pi дээрх ажиллаж буй үндсэн сервер апп ба Postgre бааз}}{52}{figure.caption.345}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Hetzner VPS admin console харагдах байдал}}{53}{figure.caption.346}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces VPS-рүү SSH хандалт хийж байгаа байдал}}{53}{figure.caption.347}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Анхны тохиргооны дэлгэц}}{54}{figure.caption.351}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Веб нэвтрэх дэлгэц}}{55}{figure.caption.353}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Мобайл нэвтрэх дэлгэц}}{56}{figure.caption.355}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Веб нүүр хуудас -- харанхуй горим}}{56}{figure.caption.357}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Мобайл нүүр хуудас -- харанхуй горим}}{57}{figure.caption.359}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

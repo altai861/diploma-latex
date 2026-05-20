@@ -9,7 +9,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{\detokenize{Figures/chapter3/pcloud-architecture.drawio (2).png}}
+    \includegraphics[width=\textwidth]{Figures/chapter3/new-general-architecture.png}
     \caption{Системийн ерөнхий архитектур}
     \label{fig:sys-arch}
 \end{figure}
@@ -32,7 +32,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=0.72\textheight,keepaspectratio]{Figures/chapter3/pcloud-architecture-main-server.drawio.png}
+    \includegraphics[height=0.72\textheight,keepaspectratio]{Figures/chapter3/new-main-server-architecture.png}
     \caption{Үндсэн сервер аппликейшний архитектур}
     \label{fig:main-server-arch}
 \end{figure}
@@ -99,12 +99,105 @@
     \label{fig:erd}
 \end{figure}
 
-\section{Системийн прототип}
+\section{Нөөц болон эрхийн логик}
 \paragraph{}
-Системийн ерөнхий интерфейсийн прототипийг Figma орчинд бэлтгэсэн. Прототип нь эхний тохиргоо, нэвтрэх хуудас, энгийн хэрэглэгчийн нүүр хуудас, админ хэрэглэгчийн нүүр хуудас гэсэн үндсэн урсгалуудыг хамарсан.
+Зураг~\ref{fig:erd}-д харуулсан ERD нь зөвхөн өгөгдлийн сангийн хүснэгтүүдийн статик холбоосыг илэрхийлэхээс гадна системийн хамгийн чухал үйлдлүүдийн дүрмийг тодорхойлох суурь болж өгнө. Тухайлбал \textit{users}, \textit{roles}, \textit{folders}, \textit{files}, \textit{folder\_permissions}, \textit{file\_permissions}, \textit{sessions} болон \textit{system\_settings} хүснэгтүүдийн хоорондын холбоо нь хэрэглэгч ямар файлд хандах, ямар хавтсанд файл байршуулах, ямар нөөцийг татаж авах боломжтойг шийдэх үндсэн logic-д шууд ашиглагдана. Иймээс ERD-ээс системийн runtime behavior руу шилжих хамгийн чухал хэсэг нь эрх шалгах, upload хийх, download хийх гурван урсгал юм.
 
 \paragraph{}
-Системийг анх ажиллуулах үед админ хэрэглэгч болон storage folder-ийн үндсэн тохиргоог авах дэлгэц нээгдэнэ. Энэ алхам нь self-hosted системийн хамгийн чухал эхний шат бөгөөд өгөгдөл хаана хадгалагдахыг тодорхойлно.
+Эрхийн logic нь тухайн нөөцийн эзэмшигч болон хэрэглэгчид олгосон privilege-ийн түвшинд тулгуурлана. Хэрэв хэрэглэгч файлын эсвэл хавтсын эзэмшигч бол хамгийн өндөр эрхтэй гэж үзнэ. Харин эзэмшигч биш хэрэглэгчийн хувьд \textit{file\_permissions} болон \textit{folder\_permissions} хүснэгтүүдээс тухайн файл, эсвэл түүний байрлаж буй хавтас болон эцэг хавтаснуудад олгогдсон эрхийг шалгана. \textit{viewer/read} түвшний эрх нь файл харах, татах боломж олгох бол \textit{editor/edit} түвшний эрх нь үүн дээр нэмээд тухайн хавтас дотор файл байршуулах, нэр өөрчлөх, зөөх зэрэг өөрчлөлтийн үйлдлийг зөвшөөрнө. Ингэснээр ERD дахь permission хүснэгтүүд нь application layer дээр нэг удаагийн шалгалт бус, файл удирдлагын бүх үйлдлийн өмнөх хамгаалалтын gate болж ажиллана.
+
+\paragraph{}
+Upload хийх үед систем эхлээд хэрэглэгчийн session эсвэл access token-ийг шалгаж, дараа нь зорилтот хавтсыг \textit{folders} хүснэгтээс олно. Хэрэв тухайн хэрэглэгч зорилтот хавтсанд owner эсвэл editor түвшний эрхгүй бол upload үйлдэл зогсоно. Эрх зөвшөөрөгдсөн тохиолдолд систем файлын нэр давхцаж байгаа эсэх, хэрэглэгчийн quota болон системийн нийт хадгалалтын хязгаар хэтрэх эсэхийг шалгана. Үүний дараа upload stream-ээр ирсэн byte өгөгдлийг түр файлд бичиж, эцсийн local filesystem storage руу шилжүүлээд, \textit{files} хүснэгтэд файлын metadata-г бүртгэнэ. Энд бодит файл нь диск дээр байрлаж, харин түүний нэр, хэмжээ, төрөл, checksum, эзэмшигч, үүсгэсэн хэрэглэгч, хадгалах path зэрэг metadata нь PostgreSQL-д хадгалагдана.
+
+\paragraph{}
+Download хийх үед систем мөн хэрэглэгчийн session эсвэл access token-ийг баталгаажуулж, хүссэн файлыг \textit{files} болон \textit{folders} хүснэгтүүдээр олно. Тухайн файл устгагдсан төлөвтэй биш, байрлах хавтас нь идэвхтэй, мөн хэрэглэгч owner, editor эсвэл viewer түвшний унших эрхтэй байх шаардлагатай. Эрх баталгаажсаны дараа өгөгдлийн санд хадгалсан \textit{storage\_path}-ийг \textit{system\_settings.storage\_root\_path}-тай нэгтгэн бодит файлын absolute path-ийг үүсгэнэ. Хэрэв файл диск дээр байгаа бол сервер файлыг memory-д бүхлээр нь ачаалахгүйгээр stream response болгон клиент рүү буцаана. Энэ зохиомж нь том файлуудтай ажиллах үед серверийн санах ойн хэрэглээг хязгаарлаж, өгөгдлийн сан болон filesystem-ийн үүргийг тодорхой тусгаарлаж өгдөг.
+
+\begin{lstlisting}[caption={Файл хадгалалтын үндсэн үйлдлийн псевдокод}, label={lst:storage-core-logic}]
+function UPLOAD_FILE(user_token, target_folder, upload_stream):
+    user = authenticate(user_token, sessions)
+    if user is null:
+        return Unauthorized
+
+    folder = resolve_folder(target_folder, folders)
+    if folder is null or folder.is_deleted:
+        return NotFound
+
+    access = resolve_access(user, folder)
+    if access not in {owner, editor}:
+        return Forbidden
+
+    if name_exists(folder, upload_stream.file_name):
+        return Conflict
+
+    owner = folder.owner_user_id
+    if quota_exceeded(owner, upload_stream.size_bytes):
+        return Conflict
+
+    temp_path = write_upload_stream_to_temp(upload_stream)
+    checksum = sha256(temp_path)
+    final_path = move_temp_to_user_storage(temp_path,
+                                           owner,
+                                           folder.path,
+                                           upload_stream.file_name)
+
+    insert files metadata:
+        owner_user_id = owner
+        created_by_user_id = user.id
+        folder_id = folder.id
+        name = upload_stream.file_name
+        size_bytes = upload_stream.size_bytes
+        storage_path = final_path
+        checksum = checksum
+
+    update users.storage_used_bytes
+    return Created
+
+function DOWNLOAD_FILE(user_token, target_file):
+    user = authenticate(user_token, sessions)
+    if user is null:
+        return Unauthorized
+
+    file = resolve_file(target_file, folders, files)
+    if file is null or file.is_deleted:
+        return NotFound
+
+    access = resolve_access(user, file)
+    if access not in {owner, editor, viewer}:
+        return Forbidden
+
+    absolute_path = join(system_settings.storage_root_path,
+                         file.storage_path)
+    if file_not_exists(absolute_path):
+        return NotFound
+
+    return stream_file(absolute_path, file.mime_type)
+
+function RESOLVE_ACCESS(user, resource):
+    if resource.owner_user_id == user.id:
+        return owner
+
+    if editor_permission_exists(user, resource,
+                                folder_permissions,
+                                file_permissions):
+        return editor
+
+    if viewer_permission_exists(user, resource,
+                                folder_permissions,
+                                file_permissions):
+        return viewer
+
+    return none
+\end{lstlisting}
+
+\paragraph{}
+Псевдокод~\ref{lst:storage-core-logic}-д харуулсан урсгал нь ERD-ийн хүснэгтүүд application logic-д хэрхэн ашиглагдаж байгааг нэгтгэн харуулна. \textit{sessions} нь хэрэглэгчийг баталгаажуулахад, \textit{folders} болон \textit{files} нь зорилтот нөөцийг олоход, \textit{folder\_permissions} болон \textit{file\_permissions} нь хандалтын түвшинг шийдэхэд, \textit{system\_settings} нь filesystem storage-ийн үндсэн байрлалыг тодорхойлоход ашиглагдана. Ийм байдлаар өгөгдлийн схем, permission model, файл хадгалах filesystem, API request processing зэрэг хэсгүүд салангид биш, харин нэг системийн хамгаалалттай файл удирдлагын урсгал болон ажиллана.
+
+\section{Системийн прототип}
+\paragraph{}
+Системийн ерөнхий интерфейсийн прототипийг Figma орчинд бэлтгэсэн. Прототип нь системийг анх тохируулах, хэрэглэгч нэвтрэх, энгийн хэрэглэгч файл удирдах, админ хэрэглэгч нэмэлт удирдлагын цэс ашиглах гэсэн үндсэн урсгалуудыг хамарсан. Эдгээр урсгалыг Зураг~\ref{fig:admin-first-launch}, Зураг~\ref{fig:login-screen}, Зураг~\ref{fig:normal-user-homepage} болон Зураг~\ref{fig:admin-home-page}-д тус тус харуулав.
+
+\paragraph{}
+Зураг~\ref{fig:admin-first-launch}-д системийг анх ажиллуулах үед харагдах тохиргооны дэлгэцийг харуулсан. Энэ дэлгэц дээр хамгийн эхний админ хэрэглэгчийн нэвтрэх нэр, нууц үг, нууц үгийн давталт, мөн үүлэн хадгалалтын үндсэн хавтас болон нийт багтаамжийг оруулах талбарууд байрлана. Ийм зохиомж нь self-hosted системийн эхний шатанд өгөгдөл хаана хадгалагдах, системийг хэн удирдахыг нэг дор тодорхойлох боломж олгоно.
 
 \begin{figure}[H]
     \centering
@@ -114,7 +207,7 @@
 \end{figure}
 
 \paragraph{}
-Нэвтрэх дэлгэц нь хэрэглэгчийн нэр, нууц үг, шаардлагатай үед серверийн хаяг оруулах талбаруудтай. Энэ загвар нь веб болон мобайл клиентээс нэг ижил backend-т холбогдох боломж олгодог.
+Зураг~\ref{fig:login-screen}-д нэвтрэх дэлгэцийн веб болон мобайл хувилбарын загварыг харуулсан. Веб хувилбар нь хэрэглэгчийн нэр, нууц үг болон нэвтрэх товчоос бүрдэх энгийн form бүтэцтэй бол мобайл хувилбар нь үүн дээр серверийн хаяг оруулах талбарыг нэмж харуулсан. Ингэснээр хэрэглэгч өөрийн локал \textit{PCloud} төхөөрөмж эсвэл дамжуулагч серверээр дамжих хаягийг сонгон нэг ижил backend API-д нэвтрэх боломжтой байна.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.20]{Figures/chapter3/login.png}
@@ -123,7 +216,7 @@
 \end{figure}
 
 \paragraph{}
-Энгийн хэрэглэгчийн нүүр хуудсан дээр файл болон хавтсын бүтэц харагдаж, upload/download, rename, delete, create folder зэрэг үндсэн үйлдлүүдийг хийх боломжтой. Мөн хайлт, харагдац өөрчлөх, shared файлууд харах зэрэг функцууд багтсан.
+Зураг~\ref{fig:normal-user-homepage}-д энгийн хэрэглэгчийн үндсэн файлын орчныг харуулсан. Дэлгэцийн зүүн талд Home, Storage, Starred, Shared with me, Trash зэрэг үндсэн навигацийн хэсгүүд, доод хэсэгт ашигласан багтаамжийн мэдээлэл байрлана. Гол хэсэгт breadcrumb зам, шүүлтүүрүүд, жагсаалт болон grid харагдац солих товч, мэдээллийн товч, мөн файл болон хавтсын жагсаалт харагдана. Энэ хуудсаар хэрэглэгч файл байршуулах, татах, хавтас үүсгэх, нэр өөрчлөх, устгах, одлох, хайх, shared нөөцүүдийг харах зэрэг өдөр тутмын үйлдлүүдийг гүйцэтгэнэ. Мөн зурагт баруун талд мобайл зохиомжийг харуулсан нь жижиг дэлгэц дээр хайлт, жагсаалт болон доод навигац хэрхэн байрлахыг илэрхийлнэ.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.20]{Figures/chapter3/normal-user-homepage.png}
@@ -132,7 +225,7 @@
 \end{figure}
 
 \paragraph{}
-Админ хэрэглэгчийн хувьд дээрх боломжууд дээр нэмээд хэрэглэгч удирдлага, эрхийн бодлого тохируулах, системийн төлөв хянах цэсүүдийг ашиглах боломжтой.
+Зураг~\ref{fig:admin-home-page}-д админ хэрэглэгчийн нүүр хуудсыг харуулсан. Энэ дэлгэц нь энгийн хэрэглэгчийн файл удирдлагын орчинтой ижил үндсэн бүтэцтэй боловч зүүн талын цэсэнд Admin гэсэн нэмэлт хэсэг байрлаж байгаа нь ялгаатай. Админ хэрэглэгч файл болон хавтсын ердийн үйлдлүүдээс гадна хэрэглэгч үүсгэх, хэрэглэгчийн мэдээлэл засах, quota болон эрхийн бодлоготой холбоотой тохиргоог удирдах урсгал руу шилжих боломжтой. Ийм байдлаар прототип нь role-based interface-ийн ялгааг нэг үндсэн layout дээр хадгалж, админ болон энгийн хэрэглэгчийн ажлын урсгалыг салгаж өгсөн.
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.20]{Figures/chapter3/admin-home-page.png}
@@ -142,4 +235,10 @@
 
 \chapterconclusiontitle{Бүлгийн дүгнэлт}
 \paragraph{}
-Энэ бүлэгт хувийн үүлэн хадгалалтын системийн ерөнхий архитектур, үндсэн сервер аппликейшний дотоод зохиомж, дамжуулагч серверийн зохиомж, өгөгдлийн сангийн бүтэц болон интерфейсийн прототипийг тодорхойллоо. Системийн зохиомж нь хэрэглэгчийн өгөгдлийг өөрийн төхөөрөмж дээр хадгалах self-hosted зарчимд тулгуурлаж, веб болон мобайл клиентүүд нэг ижил үндсэн үйлчилгээтэй ажиллах боломжтой байхаар төлөвлөгдсөн. Мөн дотоод сүлжээнд шууд холбогдох болон шаардлагатай үед алсын холболтын дэд бүтцээр дамжин хандах хоёр үндсэн хандалтын хэлбэрийг архитектурын түвшинд тусгалаа. Дараагийн бүлэгт энэхүү зохиомжийг хэрэгжүүлсэн байдал, интерфейсийн бодит хувилбар, нэвтрүүлэлт болон туршилтын үр дүнг авч үзнэ.
+Энэ бүлэгт хувийн үүлэн хадгалалтын системийг хэрхэн зохион байгуулахыг архитектур, өгөгдөл, үндсэн logic болон интерфейсийн түвшинд тодорхойллоо. Системийн гол санаа нь хэрэглэгчийн файл, metadata болон эрхийн мэдээллийг төвлөрсөн cloud сервер дээр бус, хэрэглэгчийн өөрийн \textit{PCloud} төхөөрөмж дээр хадгалах явдал юм. Харин дамжуулагч сервер нь зөвхөн алсын хандалтыг зуучлах үүрэгтэй бөгөөд системийн үндсэн өгөгдлийг эзэмшихгүй байхаар төлөвлөгдсөн.
+
+\paragraph{}
+ERD болон нөөц, эрхийн logic-ийн хэсгээр файл, хавтас, хэрэглэгч, session болон permission хүснэгтүүд upload, download, sharing зэрэг бодит үйлдлүүдтэй хэрхэн холбогдохыг тайлбарлав. Ингэснээр өгөгдлийн сангийн бүтэц, filesystem дээрх файл хадгалалт, хэрэглэгчийн эрх шалгалт гурвыг нэг уялдаатай зохиомж болгон авч үзсэн. Мөн прототипийн дэлгэцүүдээр анхны тохиргоо, нэвтрэлт, файл удирдлага болон админ хэрэглэгчийн нэмэлт урсгалуудыг харуулж, архитектурын шийдлүүд хэрэглэгчийн интерфейс дээр хэрхэн илрэхийг тодруулсан.
+
+\paragraph{}
+Ингэснээр энэ бүлэг нь дараагийн хэрэгжүүлэлтийн суурь загварыг бүрдүүлж байна. Дараагийн бүлэгт энэхүү зохиомжийг бодит систем болгон хэрэгжүүлсэн байдал, интерфейсийн ажиллагаа, нэвтрүүлэлт болон туршилтын үр дүнг авч үзнэ.

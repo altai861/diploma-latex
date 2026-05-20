@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  18 MAY 2026 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  20 MAY 2026 21:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1625,7 +1625,7 @@ Package biblatex Info: Reference segment=0 on input line 175.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=277, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=297, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1761,27 +1761,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 
-])
+]
+
+[7])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
 
-[7] (./main.lof)
+[8] (./main.lof
+
+[9
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
-[8
-
-] (./main.lot)
+[10] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
 
 
-[9
+[11
 
 ]
 \openout2 = `Chapters/Introduction.aux'.
@@ -1812,14 +1816,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 [4
 
 ]
-<Figures/chapter1/cloud-market.png, id=602, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=645, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
-52.
+51.
 (pdftex.def)             Requested size: 384.4353pt x 211.28885pt.
 
-Underfull \hbox (badness 7704) in paragraph at lines 53--53
+Underfull \hbox (badness 7704) in paragraph at lines 52--52
 []\T2A/cmr/m/sc/10.95 (+20) Зураг 1.1: |\T2A/cmr/m/n/10.95 (+20) Хэ-рэг-лэгч-ди
 йн ашиг-лаж буй іі-лэн хад-га-лал-тын
  []
@@ -1829,119 +1833,417 @@ Underfull \hbox (badness 7704) in paragraph at lines 53--53
 [5]
 
 [6 <./Figures/chapter1/cloud-market.png>]
-<Figures/chapter1/google-colossus-control-plane.png, id=622, 2007.5pt x 1129.21
+
+[7]
+<Figures/chapter1/google-colossus-control-plane.png, id=671, 2007.5pt x 1129.21
 875pt>
 File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
 )
 <use Figures/chapter1/google-colossus-control-plane.png>
 Package pdftex.def Info: Figures/chapter1/google-colossus-control-plane.png  us
-ed on input line 70.
+ed on input line 80.
 (pdftex.def)             Requested size: 432.48051pt x 243.25975pt.
 
 
-[7 <./Figures/chapter1/google-colossus-control-plane.png>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=643, 526.96875pt x 359.3425pt>
+[8 <./Figures/chapter1/google-colossus-control-plane.png>]
+<Figures/chapter1/nextcloud_data_diagram.png, id=685, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud_data_diagram.png  used on i
-nput line 84.
+nput line 104.
 (pdftex.def)             Requested size: 400.61703pt x 273.19633pt.
-<Figures/chapter1/nextcloud-interface.png, id=647, 1917.1625pt x 1044.90375pt>
+
+
+[9]
+<Figures/chapter1/nextcloud-interface.png, id=698, 1917.1625pt x 1044.90375pt>
 File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
 <use Figures/chapter1/nextcloud-interface.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
-t line 94.
+t line 114.
 (pdftex.def)             Requested size: 418.82375pt x 228.2692pt.
 
 
-[8 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=664, 785.93625pt x 202.
+[10 <./Figures/chapter1/nextcloud_data_diagram.png>]
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=706, 785.93625pt x 202.
 7575pt>
 File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
 )
 <use Figures/chapter1/nextcloud-containers-ramusage.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-containers-ramusage.png  us
-ed on input line 104.
+ed on input line 127.
 (pdftex.def)             Requested size: 373.3035pt x 96.30771pt.
 
 
-[9 <./Figures/chapter1/nextcloud-interface.png> <./Figures/chapter1/nextcloud-c
-ontainers-ramusage.png>]
-<Figures/chapter1/c4-ocis-system-context.png, id=679, 918.43124pt x 788.9475pt>
+[11 <./Figures/chapter1/nextcloud-interface.png> <./Figures/chapter1/nextcloud-
+containers-ramusage.png>]
+
+[12]
+<Figures/chapter1/c4-ocis-system-context.png, id=731, 918.43124pt x 788.9475pt>
 
 File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type png)
 <use Figures/chapter1/c4-ocis-system-context.png>
 Package pdftex.def Info: Figures/chapter1/c4-ocis-system-context.png  used on i
-nput line 118.
+nput line 154.
 (pdftex.def)             Requested size: 336.88313pt x 289.38998pt.
 
 
-[10 <./Figures/chapter1/c4-ocis-system-context.png>]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-133.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T2A).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+[13 <./Figures/chapter1/c4-ocis-system-context.png>]
+Underfull \hbox (badness 1655) in paragraph at lines 176--176
+[]|\T2A/cmr/bx/n/12 (+20) ownCloud Infinite
+ []
 
 
-[11]
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+[]|\T2A/cmr/m/n/12 (+20) ђг°гд°л Google-
+ []
 
-[12]
 
-[13]
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\T2A/cmr/m/n/12 (+20) ийн cloud
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\T2A/cmr/m/n/12 (+20) infrastructure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\T2A/cmr/m/n/12 (+20) фи-зик хя-налт
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 181--181
+\T2A/cmr/m/n/12 (+20) ний identity бо-лон
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\T2A/cmr/m/n/12 (+20) policy удирд-ла-гад
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 184--184
+\T2A/cmr/m/n/12 (+20) чинд хэ-рэг-лэг-чид
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 184--184
+\T2A/cmr/m/n/12 (+20) хял-бар турш-ла-га
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+[]|\T2A/cmr/m/n/12 (+20) Public cloud-той
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+[]|\T2A/cmr/m/n/12 (+20) Админ бо-лон
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T2A/cmr/m/n/12 (+20) deployment-ийн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T2A/cmr/m/n/12 (+20) хувьд иліі мэр-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
+\T2A/cmr/m/n/12 (+20) гэж-лийн мэд-лэг
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+[]|\T2A/cmr/m/n/12 (+20) Хэрэглэгчийн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T2A/cmr/m/n/12 (+20) т°-х°°-р°мж дээр
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
+\T2A/cmr/m/n/12 (+20) server хэл-бэ-рээр
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+\T2A/cmr/m/n/12 (+20) т°-х°°-р°мж дээр
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+\T2A/cmr/m/n/12 (+20) нь resource их
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 191--191
+[]|\T2A/cmr/m/n/12 (+20) Service-oriented заг-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+[]|\T2A/cmr/m/n/12 (+20) Архитектурын
+ []
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 194--194
+[]|\T2A/cmr/m/n/12 (+20) Metadata, storage,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\T2A/cmr/m/n/12 (+20) compute layer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\T2A/cmr/m/n/12 (+20) уудын тус-гаар-
+ []
+
+
+Underfull \hbox (badness 4492) in paragraph at lines 194--194
+\T2A/cmr/m/n/12 (+20) лалт; найд-вар-тай
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\T2A/cmr/m/n/12 (+20) upload/download;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+[]|\T2A/cmr/m/n/12 (+20) Self-hosted cloud,
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 195--195
+\T2A/cmr/m/n/12 (+20) web/mobile client,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+[]|\T2A/cmr/m/n/12 (+20) Gateway, identity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T2A/cmr/m/n/12 (+20) storage, sharing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T2A/cmr/m/n/12 (+20) service-іідэд за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\T2A/cmr/m/n/12 (+20) дар-сан °р-г°т-г°х
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
+[]|\T2A/cmr/m/n/12 (+20) Энэхіі дип-ло-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+[]|\T2A/cmr/m/n/12 (+20) Файлын byte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+\T2A/cmr/m/n/12 (+20) °г°г-д°л бо-лон
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+\T2A/cmr/m/n/12 (+20) cloud experience-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T2A/cmr/m/n/12 (+20) дээр ажил-лах
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
+\T2A/cmr/m/n/12 (+20) cloud storage-ийг
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\T2A/cmr/m/n/12 (+20) бі-рэл-дэ-хіі-ніі-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\T2A/cmr/m/n/12 (+20) дийг ирээ-дійд
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\T2A/cmr/m/n/12 (+20) gateway/service
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\T2A/cmr/m/n/12 (+20) байд-лаар °р-г°т-г°х
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\T2A/cmr/m/n/12 (+20) Шууд хуул-бар-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T2A/cmr/m/n/12 (+20) Т°вл°рс°н public
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T2A/cmr/m/n/12 (+20) cloud заг-вар нь
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 204--204
+\T2A/cmr/m/n/12 (+20) °г°гд-лийн эзэмш-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T2A/cmr/m/n/12 (+20) лийн зо-рил-го-той
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+[]|\T2A/cmr/m/n/12 (+20) Бірэн бо-лом-жит
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+\T2A/cmr/m/n/12 (+20) deployment нь
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+\T2A/cmr/m/n/12 (+20) MVP сис-те-мийн
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 205--205
+\T2A/cmr/m/n/12 (+20) хувьд хэт °р-г°н,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--205
+\T2A/cmr/m/n/12 (+20) resource их-тэй
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]|\T2A/cmr/m/n/12 (+20) Microservice/service-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+\T2A/cmr/m/n/12 (+20) oriented т°-в°г-шил
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+\T2A/cmr/m/n/12 (+20) нь эх-ний шат-ны
+ []
+
+
+Overfull \hbox (4.47577pt too wide) in paragraph at lines 174--209
+ [][] 
+ []
+
+
 
 [14]
 
-[15])
+[15]
+<Figures/chapter1/mDNS.png, id=755, 1453.43pt x 1090.0725pt>
+File: Figures/chapter1/mDNS.png Graphic file (type png)
+<use Figures/chapter1/mDNS.png>
+Package pdftex.def Info: Figures/chapter1/mDNS.png  used on input line 227.
+(pdftex.def)             Requested size: 400.61703pt x 300.46114pt.
+
 
 [16]
 
-[17]
+[17 <./Figures/chapter1/mDNS.png (PNG copy)>]
+<Figures/chapter1/NAT-problem.png, id=771, 1699.34875pt x 932.48375pt>
+File: Figures/chapter1/NAT-problem.png Graphic file (type png)
+<use Figures/chapter1/NAT-problem.png>
+Package pdftex.def Info: Figures/chapter1/NAT-problem.png  used on input line 2
+46.
+(pdftex.def)             Requested size: 409.71692pt x 224.8109pt.
+
+
+[18 <./Figures/chapter1/NAT-problem.png (PNG copy)>]
+<Figures/chapter1/buffer-stream.png, id=779, 1780.6525pt x 890.32625pt>
+File: Figures/chapter1/buffer-stream.png Graphic file (type png)
+<use Figures/chapter1/buffer-stream.png>
+Package pdftex.def Info: Figures/chapter1/buffer-stream.png  used on input line
+ 265.
+(pdftex.def)             Requested size: 409.71692pt x 204.85223pt.
+
+
+[19 <./Figures/chapter1/buffer-stream.png (PNG copy)>]
+
+[20])
+
+[21]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 2.
 
 
-[18
+[22
 
 
 
 
 ]
 
-[18
+[22
 
 ]
-<Figures/chapter2/usecase.jpg, id=773, 735.74875pt x 1040.88875pt>
+<Figures/chapter2/usecase.jpg, id=819, 735.74875pt x 1040.88875pt>
 File: Figures/chapter2/usecase.jpg Graphic file (type jpg)
 <use Figures/chapter2/usecase.jpg>
 Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 40.
 (pdftex.def)             Requested size: 404.66306pt x 572.49059pt.
 
 
-[19]
-
-[20 <./Figures/chapter2/usecase.jpg>]
-
-[21]
-
-[22]
-
 [23]
 
-[24]
+[24 <./Figures/chapter2/usecase.jpg>]
 
 [25]
 
 [26]
-<Figures/chapter2/design-class-diagram.jpg, id=888, 1597.97pt x 1096.095pt>
+
+[27]
+
+[28]
+
+[29]
+
+[30]
+<Figures/chapter2/design-class-diagram.jpg, id=934, 1597.97pt x 1096.095pt>
 File: Figures/chapter2/design-class-diagram.jpg Graphic file (type jpg)
 <use Figures/chapter2/design-class-diagram.jpg>
 Package pdftex.def Info: Figures/chapter2/design-class-diagram.jpg  used on inp
@@ -1957,7 +2259,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 302--303
 
 
 
-[27 <./Figures/chapter2/design-class-diagram.jpg>]
+[31 <./Figures/chapter2/design-class-diagram.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 305--306
 [] [][] \T2A/cmr/m/n/12 (+20) Boundary клас-суу-дын доор би \T2A/cmr/m/it/12 (+
 20) SetupController\T2A/cmr/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) Authenticatio
@@ -1971,14 +2273,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
 agementController \T2A/cmr/m/n/12 (+20) гэ-сэн control
  []
 
-<VP diagrams/Login.jpg, id=898, 1050.92625pt x 582.175pt>
+<VP diagrams/Login.jpg, id=944, 1050.92625pt x 582.175pt>
 File: VP diagrams/Login.jpg Graphic file (type jpg)
 <use VP diagrams/Login.jpg>
 Package pdftex.def Info: VP diagrams/Login.jpg  used on input line 317.
 (pdftex.def)             Requested size: 455.24411pt x 252.18697pt.
 
 
-[28]
+[32]
 Underfull \hbox (badness 4378) in paragraph at lines 323--324
 [] [][] \T2A/cmr/m/n/12 (+20) Зу-раг [][]2.3[][]-т хэ-рэг-лэгч нэвт-рэх іед \T2
 A/cmr/m/it/12 (+20) AuthBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг хі-лээн авч,
@@ -1991,20 +2293,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--324
 г-чийн мэ-дээл-лийг шал-ган, ам-жилт-тай бол
  []
 
-<VP diagrams/Upload File.jpg, id=907, 1167.36125pt x 771.88374pt>
+<VP diagrams/Upload File.jpg, id=953, 1167.36125pt x 771.88374pt>
 File: VP diagrams/Upload File.jpg Graphic file (type jpg)
 <use VP diagrams/Upload File.jpg>
 Package pdftex.def Info: VP diagrams/Upload File.jpg  used on input line 327.
 (pdftex.def)             Requested size: 455.24411pt x 301.00989pt.
 
 
-[29 <./VP diagrams/Login.jpg>]
+[33 <./VP diagrams/Login.jpg>]
 Underfull \hbox (badness 2707) in paragraph at lines 333--334
 [] [][] \T2A/cmr/m/n/12 (+20) Зу-раг [][]2.4[][]-т файл байр-шуу-лах іед \T2A/c
 mr/m/it/12 (+20) StorageBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг дам-жуулж,
  []
 
-<VP diagrams/Share Resource.jpg, id=914, 1301.86375pt x 955.57pt>
+<VP diagrams/Share Resource.jpg, id=960, 1301.86375pt x 955.57pt>
 File: VP diagrams/Share Resource.jpg Graphic file (type jpg)
 <use VP diagrams/Share Resource.jpg>
 Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 337
@@ -2012,7 +2314,7 @@ Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 337
 (pdftex.def)             Requested size: 455.24411pt x 334.14832pt.
 
 
-[30 <./VP diagrams/Upload File.jpg>]
+[34 <./VP diagrams/Upload File.jpg>]
 Underfull \hbox (badness 2828) in paragraph at lines 343--344
 [] [][] \T2A/cmr/m/n/12 (+20) Зу-раг [][]2.5[][]-т хэ-рэг-лэгч н°°ц ху-ваал-цах
  іед \T2A/cmr/m/it/12 (+20) ShareBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг авч
@@ -2028,51 +2330,61 @@ Entity
 
 
 
-[31 <./VP diagrams/Share Resource.jpg>])
+[35 <./VP diagrams/Share Resource.jpg>])
 
-[32]
+[36]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 3.
 
 
-[33
+[37
 
 
 
 
 ]
-<Figures/chapter3/pcloud-architecture.drawio (2).png, id=943, 866.23625pt x 615
-.29875pt>
-File: Figures/chapter3/pcloud-architecture.drawio (2).png Graphic file (type pn
-g)
-<use Figures/chapter3/pcloud-architecture.drawio (2).png>
-Package pdftex.def Info: Figures/chapter3/pcloud-architecture.drawio (2).png  u
-sed on input line 12.
-(pdftex.def)             Requested size: 455.24411pt x 323.36528pt.
+<Figures/chapter3/new-general-architecture.png, id=990, 1678.27pt x 944.52875pt
+>
+File: Figures/chapter3/new-general-architecture.png Graphic file (type png)
+<use Figures/chapter3/new-general-architecture.png>
+Package pdftex.def Info: Figures/chapter3/new-general-architecture.png  used on
+ input line 12.
+(pdftex.def)             Requested size: 455.24411pt x 256.20798pt.
 
 
-[33
+[37
 
- <./Figures/chapter3/pcloud-architecture.drawio (2).png>]
+ <./Figures/chapter3/new-general-architecture.png (PNG copy)>]
+<Figures/chapter3/new-main-server-architecture.png, id=998, 1057.9525pt x 1497.
+595pt>
+File: Figures/chapter3/new-main-server-architecture.png Graphic file (type png)
 
-[34]
-<Figures/chapter3/pcloud-architecture-main-server.drawio.png, id=960, 823.075pt
- x 903.375pt>
-File: Figures/chapter3/pcloud-architecture-main-server.drawio.png Graphic file 
-(type png)
-<use Figures/chapter3/pcloud-architecture-main-server.drawio.png>
-Package pdftex.def Info: Figures/chapter3/pcloud-architecture-main-server.drawi
-o.png  used on input line 35.
-(pdftex.def)             Requested size: 434.44427pt x 476.81549pt.
+<use Figures/chapter3/new-main-server-architecture.png>
+Package pdftex.def Info: Figures/chapter3/new-main-server-architecture.png  use
+d on input line 35.
+(pdftex.def)             Requested size: 336.84056pt x 476.81549pt.
 
 
-[35 <./Figures/chapter3/pcloud-architecture-main-server.drawio.png>]
+[38]
 
-[36]
-<Figures/chapter3/pcloud-architecture-relay-server.drawio.png, id=977, 900.3637
-5pt x 411.5375pt>
+[39 <./Figures/chapter3/new-main-server-architecture.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+57.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T2A).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+[40]
+<Figures/chapter3/pcloud-architecture-relay-server.drawio.png, id=1021, 900.363
+75pt x 411.5375pt>
 File: Figures/chapter3/pcloud-architecture-relay-server.drawio.png Graphic file
  (type png)
 <use Figures/chapter3/pcloud-architecture-relay-server.drawio.png>
@@ -2081,155 +2393,174 @@ io.png  used on input line 61.
 (pdftex.def)             Requested size: 455.24411pt x 208.08539pt.
 
 
-[37 <./Figures/chapter3/pcloud-architecture-relay-server.drawio.png>]
-
-[38]
-<VP diagrams/PCloud.jpg, id=996, 1477.52pt x 948.54375pt>
+[41 <./Figures/chapter3/pcloud-architecture-relay-server.drawio.png>]
+<VP diagrams/PCloud.jpg, id=1033, 1477.52pt x 948.54375pt>
 File: VP diagrams/PCloud.jpg Graphic file (type jpg)
 <use VP diagrams/PCloud.jpg>
 Package pdftex.def Info: VP diagrams/PCloud.jpg  used on input line 97.
 (pdftex.def)             Requested size: 455.24411pt x 292.2508pt.
-<Figures/chapter3/admin-first-launch.png, id=997, 1734.48pt x 1121.18875pt>
+
+
+[42]
+
+[43 <./VP diagrams/PCloud.jpg>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 115.
+
+
+[44]
+
+[45]
+<Figures/chapter3/admin-first-launch.png, id=1128, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
- line 111.
+ line 204.
 (pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
 
 
-[39 <./VP diagrams/PCloud.jpg>]
-<Figures/chapter3/login.png, id=1004, 2178.1375pt x 1121.18875pt>
+[46]
+<Figures/chapter3/login.png, id=1151, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
-Package pdftex.def Info: Figures/chapter3/login.png  used on input line 120.
+Package pdftex.def Info: Figures/chapter3/login.png  used on input line 213.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
-<Figures/chapter3/normal-user-homepage.png, id=1005, 2178.1375pt x 1121.18875pt
+
+
+[47 <./Figures/chapter3/admin-first-launch.png>]
+<Figures/chapter3/normal-user-homepage.png, id=1160, 2178.1375pt x 1121.18875pt
 >
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
 Package pdftex.def Info: Figures/chapter3/normal-user-homepage.png  used on inp
-ut line 129.
+ut line 222.
 (pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
 
 
-[40 <./Figures/chapter3/admin-first-launch.png> <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=1013, 2195.20125pt x 1121.18875pt>
+[48 <./Figures/chapter3/login.png>]
+<Figures/chapter3/admin-home-page.png, id=1168, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
-ne 138.
+ne 231.
 (pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
 
 
-[41 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
+[49 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
 e-page.png>])
 
-[42]
+[50]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
 {\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 4.
 
 
-[43
+[51
 
 
 
 
 ]
-<Figures/chapter3/developed-interfaces/admin-initialize.png, id=1033, 1481.535p
+<Figures/chapter4/working-pi-image.jpeg, id=1188, 603.9363pt x 712.5822pt>
+File: Figures/chapter4/working-pi-image.jpeg Graphic file (type jpg)
+<use Figures/chapter4/working-pi-image.jpeg>
+Package pdftex.def Info: Figures/chapter4/working-pi-image.jpeg  used on input 
+line 26.
+(pdftex.def)             Requested size: 250.38564pt x 295.4334pt.
+
+
+[51
+
+]
+<Figures/chapter4/ssh-pi-main-server-user-service.png, id=1199, 1175.39125pt x 
+481.8pt>
+File: Figures/chapter4/ssh-pi-main-server-user-service.png Graphic file (type p
+ng)
+<use Figures/chapter4/ssh-pi-main-server-user-service.png>
+Package pdftex.def Info: Figures/chapter4/ssh-pi-main-server-user-service.png  
+used on input line 36.
+(pdftex.def)             Requested size: 432.48051pt x 177.27808pt.
+
+
+[52 <./Figures/chapter4/working-pi-image.jpeg> <./Figures/chapter4/ssh-pi-main-
+server-user-service.png>]
+<Figures/chapter4/hetzner-admin-console.png, id=1207, 1906.12125pt x 892.33376p
+t>
+File: Figures/chapter4/hetzner-admin-console.png Graphic file (type png)
+<use Figures/chapter4/hetzner-admin-console.png>
+Package pdftex.def Info: Figures/chapter4/hetzner-admin-console.png  used on in
+put line 46.
+(pdftex.def)             Requested size: 432.48051pt x 202.4548pt.
+<Figures/chapter4/hetzner-vps-ssh.png, id=1209, 1919.17pt x 579.16376pt>
+File: Figures/chapter4/hetzner-vps-ssh.png Graphic file (type png)
+<use Figures/chapter4/hetzner-vps-ssh.png>
+Package pdftex.def Info: Figures/chapter4/hetzner-vps-ssh.png  used on input li
+ne 55.
+(pdftex.def)             Requested size: 432.48051pt x 130.50948pt.
+
+
+[53 <./Figures/chapter4/hetzner-admin-console.png> <./Figures/chapter4/hetzner-
+vps-ssh.png>]
+<Figures/chapter3/developed-interfaces/admin-initialize.png, id=1217, 1481.535p
 t x 790.955pt>
 File: Figures/chapter3/developed-interfaces/admin-initialize.png Graphic file (
 type png)
 <use Figures/chapter3/developed-interfaces/admin-initialize.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/admin-initialize
-.png  used on input line 20.
+.png  used on input line 69.
 (pdftex.def)             Requested size: 318.66948pt x 170.12442pt.
-
-
-[43
-
- <./Figures/chapter3/developed-interfaces/admin-initialize.png>]
-<Figures/chapter3/developed-interfaces/login.png, id=1043, 1481.535pt x 790.955
+<Figures/chapter3/developed-interfaces/login.png, id=1219, 1481.535pt x 790.955
 pt>
 File: Figures/chapter3/developed-interfaces/login.png Graphic file (type png)
 <use Figures/chapter3/developed-interfaces/login.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/login.png  used 
-on input line 30.
+on input line 80.
 (pdftex.def)             Requested size: 386.96027pt x 206.58482pt.
-<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1045, 383.4325
+
+
+[54 <./Figures/chapter3/developed-interfaces/admin-initialize.png>]
+<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1228, 383.4325
 pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-login-page.png Graphic file 
 (type png)
 <use Figures/chapter3/developed-interfaces/mobile-login-page.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-login-pag
-e.png  used on input line 40.
+e.png  used on input line 90.
 (pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
 
 
-[44 <./Figures/chapter3/developed-interfaces/login.png>]
-<Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1054, 1924.1
+[55 <./Figures/chapter3/developed-interfaces/login.png>]
+<Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1236, 1924.1
 8875pt x 921.4425pt>
 File: Figures/chapter3/developed-interfaces/home-page-dark-mode.png Graphic fil
 e (type png)
 <use Figures/chapter3/developed-interfaces/home-page-dark-mode.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-dark-m
-ode.png  used on input line 50.
+ode.png  used on input line 100.
 (pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
 
 
-[45 <./Figures/chapter3/developed-interfaces/mobile-login-page.png> <./Figures/
+[56 <./Figures/chapter3/developed-interfaces/mobile-login-page.png> <./Figures/
 chapter3/developed-interfaces/home-page-dark-mode.png>]
-<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1063,
+<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1245,
  383.4325pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png Grap
 hic file (type png)
 <use Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
--dark-mode.png  used on input line 60.
+-dark-mode.png  used on input line 110.
 (pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
-<Figures/chapter3/developed-interfaces/home-page-light-mode.png, id=1065, 1924.
-18875pt x 921.4425pt>
-File: Figures/chapter3/developed-interfaces/home-page-light-mode.png Graphic fi
-le (type png)
-<use Figures/chapter3/developed-interfaces/home-page-light-mode.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-light-
-mode.png  used on input line 70.
-(pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
+)
 
+[57 <./Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
 
-[46 <./Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
-<Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png, id=1074
-, 383.4325pt x 792.9625pt>
-File: Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png Gra
-phic file (type png)
-<use Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
--light-mode.png  used on input line 80.
-(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
-
-
-[47 <./Figures/chapter3/developed-interfaces/home-page-light-mode.png>]
-<Figures/chapter3/developed-interfaces/mobile-sidebar.png, id=1082, 383.4325pt 
-x 792.9625pt>
-File: Figures/chapter3/developed-interfaces/mobile-sidebar.png Graphic file (ty
-pe png)
-<use Figures/chapter3/developed-interfaces/mobile-sidebar.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-sidebar.p
-ng  used on input line 90.
-(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
-
-
-[48 <./Figures/chapter3/developed-interfaces/mobile-home-page-light-mode.png>]
-
-[49 <./Figures/chapter3/developed-interfaces/mobile-sidebar.png>])
-
-[50]
+[58]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex)
 
-[51
+[59
 
 
 
@@ -2240,14 +2571,14 @@ ng  used on input line 90.
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
 
 
-[52
+[60
 
 
 
 
 ])
 
-[52
+[60
 
 ]
 \openout2 = `Appendices/AppendixB.aux'.
@@ -2256,32 +2587,16 @@ ng  used on input line 90.
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } B.
 
 
-[53
+[61
 
 
 
 
 ]
 
-[53
+[61
 
 ]
-
-[54]
-
-[55]
-
-[56]
-
-[57]
-
-[58]
-
-[59]
-
-[60]
-
-[61]
 
 [62]
 
@@ -2295,11 +2610,27 @@ ng  used on input line 90.
 
 [67]
 
-[68])
+[68]
 
 [69]
 
 [70]
+
+[71]
+
+[72]
+
+[73]
+
+[74]
+
+[75]
+
+[76])
+
+[77]
+
+[78]
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2329,82 +2660,6 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-colossus-storage-layer' on input lin
 e 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-workspace-security-whitepaper' on in
-put line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-drive-api-manage-uploads' on input l
-ine 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-drive-api-manage-changes' on input l
-ine 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'google-drive-file-versions-help' on input l
-ine 238.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2455,89 +2710,6 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-external-storage' on input line 2
 38.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-
-[71
-
-
-
-]
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-file-access-control' on input lin
-e 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-encryption-configuration' on inpu
-t line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-file-versioning' on input line 23
-8.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-trashbin-configuration' on input 
-line 238.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2628,113 +2800,12 @@ bility\T2A/cmr/m/n/12 (+20) . ownCloud Infinite Scale Availability
  []
 
 
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
 
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'cloudflare-tunnel-docs' on input line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'rfc6455-websocket' on input line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'rfc6455-websocket' on input line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nginx-proxy-buffering' on input line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 238--238
-[]\T2A/cmr/m/n/12 (+20) NGINX. \T2A/cmr/m/it/12 (+20) Module ngx_http_proxy_mod
-ule\T2A/cmr/m/n/12 (+20) . Official NGINX proxy module
- []
+[79
 
 
 
-[72]
-
-Package biblatex Warning: Bibliography string 'and' untranslated
-(biblatex)                at entry 'rfc9112-http11' on input line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'rfc9112-http11' on input line 238.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdatelong.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdatelong.
-
-
-Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'whatwg-streams-standard' on input line 238.
-
-
-
-Package biblatex Warning: Using fallback definition for \mkbibdateshort.
-(biblatex)                The command should be defined in the .lbx file.
-(biblatex)                If you see this message, the .lbx file could not be
-(biblatex)                loaded, is faulty or does not contain a definition
-(biblatex)                for \mkbibdateshort.
-
+]
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2773,7 +2844,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[73] (./main.aux (./FrontBackMatter/Titlepage.aux)
+[80] (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
@@ -2786,19 +2857,19 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B9E0EAA3F4A125E1B0343C892F75838;17970.
+(rerunfilecheck)             Checksum: 6636C0E665BDC6EE0778A58124D9EA4A;19893.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49592 strings out of 473197
- 1079202 string characters out of 5718605
- 2065790 words of memory out of 5000000
- 71207 multiletter control sequences out of 15000+600000
- 591476 words of font info for 201 fonts, out of 8000000 for 9000
+ 49594 strings out of 473197
+ 1076394 string characters out of 5718605
+ 2114262 words of memory out of 5000000
+ 71130 multiletter control sequences out of 15000+600000
+ 590240 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 138i,20n,135p,2438b,2159s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 138i,20n,135p,2414b,2673s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
@@ -2808,16 +2879,16 @@ onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (94 pages, 6663153 bytes).
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sftt1200.pfb>
+Output written on main.pdf (103 pages, 13030255 bytes).
 PDF statistics:
- 1695 PDF objects out of 1728 (max. 8388607)
- 1492 compressed objects within 15 object streams
- 624 named destinations out of 1000 (max. 500000)
- 52401 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1828 PDF objects out of 2073 (max. 8388607)
+ 1614 compressed objects within 17 object streams
+ 712 named destinations out of 1000 (max. 500000)
+ 50413 words of extra memory for PDF output out of 51595 (max. 10000000)
 
