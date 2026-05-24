@@ -177,28 +177,30 @@
 \contentsline {paragraph}{}{67}{paragraph*.392}%
 \contentsline {chapter}{Ерөнхий дүгнэлт}{68}{section*.393}%
 \contentsline {paragraph}{}{68}{paragraph*.394}%
-\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{69}{appendix.395}%
-\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{69}{section.396}%
-\contentsline {paragraph}{}{69}{paragraph*.397}%
-\contentsline {chapter}{\numberline {B}Юзкейсийн дэлгэрэнгүй тодорхойлолтууд}{70}{appendix.414}%
-\contentsline {section}{\numberline {B.1}Үлдсэн юзкейсийн тодорхойлолтууд}{70}{section.415}%
-\contentsline {paragraph}{}{70}{paragraph*.416}%
-\contentsline {subsection}{\numberline {B.1.1}Хэрэглэгчийн жагсаалт харах (UC-004)}{70}{subsection.417}%
-\contentsline {subsection}{\numberline {B.1.2}Хэрэглэгчийн мэдээлэл өөрчлөх (UC-005)}{71}{subsection.425}%
-\contentsline {subsection}{\numberline {B.1.3}Хэрэглэгч устгах (UC-006)}{71}{subsection.436}%
-\contentsline {subsection}{\numberline {B.1.4}Системд нэвтрэх (UC-007)}{72}{subsection.448}%
-\contentsline {subsection}{\numberline {B.1.5}Нөөцүүдийг харах (UC-008)}{73}{subsection.461}%
-\contentsline {subsection}{\numberline {B.1.6}Нэрээр хайх (UC-009)}{74}{subsection.472}%
-\contentsline {subsection}{\numberline {B.1.7}Шинэ хавтас үүсгэх (UC-010)}{75}{subsection.483}%
-\contentsline {subsection}{\numberline {B.1.8}Файл байршуулах (UC-011)}{76}{subsection.495}%
-\contentsline {subsection}{\numberline {B.1.9}Нөөцийн нэр өөрчлөх (UC-012)}{77}{subsection.508}%
-\contentsline {subsection}{\numberline {B.1.10}Нөөц сэргээх (UC-013)}{78}{subsection.519}%
-\contentsline {subsection}{\numberline {B.1.11}Нөөц шилжүүлэх (UC-014)}{79}{subsection.530}%
-\contentsline {subsection}{\numberline {B.1.12}Нөөц устгах (UC-015)}{80}{subsection.543}%
-\contentsline {subsection}{\numberline {B.1.13}Нөөцийг бүр мөсөн устгах (UC-016)}{81}{subsection.555}%
-\contentsline {subsection}{\numberline {B.1.14}Файл татаж авах (UC-017)}{82}{subsection.569}%
-\contentsline {subsection}{\numberline {B.1.15}Шахсан файл хэлбэрээр татах (UC-018)}{83}{subsection.581}%
-\contentsline {subsection}{\numberline {B.1.16}Нөөц хуваалцах (UC-019)}{84}{subsection.593}%
-\contentsline {subsection}{\numberline {B.1.17}Хандалтын түвшин сонгох (UC-020)}{85}{subsection.605}%
-\contentsline {subsection}{\numberline {B.1.18}Онцлох төлөв өөрчлөх (UC-021)}{86}{subsection.615}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{88}{Item.624}%
+\contentsline {paragraph}{}{68}{paragraph*.395}%
+\contentsline {paragraph}{}{68}{paragraph*.396}%
+\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{69}{appendix.397}%
+\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{69}{section.398}%
+\contentsline {paragraph}{}{69}{paragraph*.399}%
+\contentsline {chapter}{\numberline {B}Юзкейсийн дэлгэрэнгүй тодорхойлолтууд}{70}{appendix.416}%
+\contentsline {section}{\numberline {B.1}Үлдсэн юзкейсийн тодорхойлолтууд}{70}{section.417}%
+\contentsline {paragraph}{}{70}{paragraph*.418}%
+\contentsline {subsection}{\numberline {B.1.1}Хэрэглэгчийн жагсаалт харах (UC-004)}{70}{subsection.419}%
+\contentsline {subsection}{\numberline {B.1.2}Хэрэглэгчийн мэдээлэл өөрчлөх (UC-005)}{71}{subsection.427}%
+\contentsline {subsection}{\numberline {B.1.3}Хэрэглэгч устгах (UC-006)}{71}{subsection.438}%
+\contentsline {subsection}{\numberline {B.1.4}Системд нэвтрэх (UC-007)}{72}{subsection.450}%
+\contentsline {subsection}{\numberline {B.1.5}Нөөцүүдийг харах (UC-008)}{73}{subsection.463}%
+\contentsline {subsection}{\numberline {B.1.6}Нэрээр хайх (UC-009)}{74}{subsection.474}%
+\contentsline {subsection}{\numberline {B.1.7}Шинэ хавтас үүсгэх (UC-010)}{75}{subsection.485}%
+\contentsline {subsection}{\numberline {B.1.8}Файл байршуулах (UC-011)}{76}{subsection.497}%
+\contentsline {subsection}{\numberline {B.1.9}Нөөцийн нэр өөрчлөх (UC-012)}{77}{subsection.510}%
+\contentsline {subsection}{\numberline {B.1.10}Нөөц сэргээх (UC-013)}{78}{subsection.521}%
+\contentsline {subsection}{\numberline {B.1.11}Нөөц шилжүүлэх (UC-014)}{79}{subsection.532}%
+\contentsline {subsection}{\numberline {B.1.12}Нөөц устгах (UC-015)}{80}{subsection.545}%
+\contentsline {subsection}{\numberline {B.1.13}Нөөцийг бүр мөсөн устгах (UC-016)}{81}{subsection.557}%
+\contentsline {subsection}{\numberline {B.1.14}Файл татаж авах (UC-017)}{82}{subsection.571}%
+\contentsline {subsection}{\numberline {B.1.15}Шахсан файл хэлбэрээр татах (UC-018)}{83}{subsection.583}%
+\contentsline {subsection}{\numberline {B.1.16}Нөөц хуваалцах (UC-019)}{84}{subsection.595}%
+\contentsline {subsection}{\numberline {B.1.17}Хандалтын түвшин сонгох (UC-020)}{85}{subsection.607}%
+\contentsline {subsection}{\numberline {B.1.18}Онцлох төлөв өөрчлөх (UC-021)}{86}{subsection.617}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{88}{Item.626}%
