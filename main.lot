@@ -7,23 +7,26 @@
 \contentsline {table}{\numberline {2.3}{\ignorespaces UC-003 юзкейсийн тодорхойлолт}}{28}{table.caption.140}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Бодит нэвтрүүлэлтийн орчны бүрэлдэхүүн хэсгүүд}}{52}{table.caption.343}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Туршилтад ашигласан орчин}}{64}{table.caption.381}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Гар ажиллагаатай функциональ туршилтын тохиолдлууд. {\fontfamily {pzd}\fontencoding {U}\fontseries {m}\fontshape {n}\selectfont \char 51} тэмдэг нь тухайн тохиолдол амжилттай биелснийг илэрхийлнэ}}{65}{table.caption.383}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces UC-004 юзкейсийн тодорхойлолт}}{61}{table.caption.389}%
-\contentsline {table}{\numberline {B.2}{\ignorespaces UC-005 юзкейсийн тодорхойлолт}}{62}{table.caption.397}%
-\contentsline {table}{\numberline {B.3}{\ignorespaces UC-006 юзкейсийн тодорхойлолт}}{63}{table.caption.408}%
-\contentsline {table}{\numberline {B.4}{\ignorespaces UC-007 юзкейсийн тодорхойлолт}}{64}{table.caption.420}%
-\contentsline {table}{\numberline {B.5}{\ignorespaces UC-008 юзкейсийн тодорхойлолт}}{65}{table.caption.433}%
-\contentsline {table}{\numberline {B.6}{\ignorespaces UC-009 юзкейсийн тодорхойлолт}}{66}{table.caption.444}%
-\contentsline {table}{\numberline {B.7}{\ignorespaces UC-010 юзкейсийн тодорхойлолт}}{67}{table.caption.455}%
-\contentsline {table}{\numberline {B.8}{\ignorespaces UC-011 юзкейсийн тодорхойлолт}}{68}{table.caption.467}%
-\contentsline {table}{\numberline {B.9}{\ignorespaces UC-012 юзкейсийн тодорхойлолт}}{69}{table.caption.480}%
-\contentsline {table}{\numberline {B.10}{\ignorespaces UC-013 юзкейсийн тодорхойлолт}}{70}{table.caption.491}%
-\contentsline {table}{\numberline {B.11}{\ignorespaces UC-014 юзкейсийн тодорхойлолт}}{71}{table.caption.502}%
-\contentsline {table}{\numberline {B.12}{\ignorespaces UC-015 юзкейсийн тодорхойлолт}}{72}{table.caption.515}%
-\contentsline {table}{\numberline {B.13}{\ignorespaces UC-016 юзкейсийн тодорхойлолт}}{73}{table.caption.527}%
-\contentsline {table}{\numberline {B.14}{\ignorespaces UC-017 юзкейсийн тодорхойлолт}}{74}{table.caption.541}%
-\contentsline {table}{\numberline {B.15}{\ignorespaces UC-018 юзкейсийн тодорхойлолт}}{75}{table.caption.553}%
-\contentsline {table}{\numberline {B.16}{\ignorespaces UC-019 юзкейсийн тодорхойлолт}}{76}{table.caption.565}%
-\contentsline {table}{\numberline {B.17}{\ignorespaces UC-020 юзкейсийн тодорхойлолт}}{77}{table.caption.577}%
-\contentsline {table}{\numberline {B.18}{\ignorespaces UC-021 юзкейсийн тодорхойлолт}}{78}{table.caption.587}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces UC-004 юзкейсийн тодорхойлолт}}{70}{table.caption.418}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces UC-005 юзкейсийн тодорхойлолт}}{71}{table.caption.426}%
+\contentsline {table}{\numberline {B.3}{\ignorespaces UC-006 юзкейсийн тодорхойлолт}}{72}{table.caption.437}%
+\contentsline {table}{\numberline {B.4}{\ignorespaces UC-007 юзкейсийн тодорхойлолт}}{73}{table.caption.449}%
+\contentsline {table}{\numberline {B.5}{\ignorespaces UC-008 юзкейсийн тодорхойлолт}}{74}{table.caption.462}%
+\contentsline {table}{\numberline {B.6}{\ignorespaces UC-009 юзкейсийн тодорхойлолт}}{75}{table.caption.473}%
+\contentsline {table}{\numberline {B.7}{\ignorespaces UC-010 юзкейсийн тодорхойлолт}}{76}{table.caption.484}%
+\contentsline {table}{\numberline {B.8}{\ignorespaces UC-011 юзкейсийн тодорхойлолт}}{77}{table.caption.496}%
+\contentsline {table}{\numberline {B.9}{\ignorespaces UC-012 юзкейсийн тодорхойлолт}}{78}{table.caption.509}%
+\contentsline {table}{\numberline {B.10}{\ignorespaces UC-013 юзкейсийн тодорхойлолт}}{79}{table.caption.520}%
+\contentsline {table}{\numberline {B.11}{\ignorespaces UC-014 юзкейсийн тодорхойлолт}}{80}{table.caption.531}%
+\contentsline {table}{\numberline {B.12}{\ignorespaces UC-015 юзкейсийн тодорхойлолт}}{81}{table.caption.544}%
+\contentsline {table}{\numberline {B.13}{\ignorespaces UC-016 юзкейсийн тодорхойлолт}}{82}{table.caption.556}%
+\contentsline {table}{\numberline {B.14}{\ignorespaces UC-017 юзкейсийн тодорхойлолт}}{83}{table.caption.570}%
+\contentsline {table}{\numberline {B.15}{\ignorespaces UC-018 юзкейсийн тодорхойлолт}}{84}{table.caption.582}%
+\contentsline {table}{\numberline {B.16}{\ignorespaces UC-019 юзкейсийн тодорхойлолт}}{85}{table.caption.594}%
+\contentsline {table}{\numberline {B.17}{\ignorespaces UC-020 юзкейсийн тодорхойлолт}}{86}{table.caption.606}%
+\contentsline {table}{\numberline {B.18}{\ignorespaces UC-021 юзкейсийн тодорхойлолт}}{87}{table.caption.616}%

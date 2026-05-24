@@ -25,14 +25,19 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{49}{figure.caption.330}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{49}{figure.caption.332}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ажиллаж буй Raspberry Pi 5}}{52}{figure.caption.344}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Тухайн Raspberry Pi дээрх ажиллаж буй үндсэн сервер апп ба Postgre бааз}}{52}{figure.caption.345}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Hetzner VPS admin console харагдах байдал}}{53}{figure.caption.346}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces VPS-рүү SSH хандалт хийж байгаа байдал}}{53}{figure.caption.347}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Анхны тохиргооны дэлгэц}}{54}{figure.caption.351}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Веб нэвтрэх дэлгэц}}{55}{figure.caption.353}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Мобайл нэвтрэх дэлгэц}}{56}{figure.caption.355}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Веб нүүр хуудас -- харанхуй горим}}{56}{figure.caption.357}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Мобайл нүүр хуудас -- харанхуй горим}}{57}{figure.caption.359}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ажиллаж буй Raspberry Pi 5}}{53}{figure.caption.345}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Raspberry Pi дээр ажиллаж буй үндсэн сервер аппликейшн ба PostgreSQL өгөгдлийн сан}}{53}{figure.caption.347}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Hetzner VPS admin console харагдах байдал}}{54}{figure.caption.349}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces VPS дээр ажиллаж буй relay болон Caddy контейнерууд}}{54}{figure.caption.351}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Дотоод сүлжээнээс вебээр хандаж байгаа байдал}}{56}{figure.caption.356}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Дамжуулагч серверээр вебээс хандаж байгаа байдал}}{56}{figure.caption.358}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Мобайл аппликейшний холболтын арга сонгох дэлгэц}}{57}{figure.caption.360}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Анхны тохиргооны дэлгэц}}{58}{figure.caption.364}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Веб нэвтрэх дэлгэц}}{59}{figure.caption.366}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Мобайл нэвтрэх дэлгэц}}{59}{figure.caption.367}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Веб нүүр хуудас -- харанхуй горим}}{60}{figure.caption.369}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Мобайл нүүр хуудас -- харанхуй горим}}{61}{figure.caption.371}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Мобайл клиент дээрх navigation болон нөөцийн тусгай харагдацууд}}{62}{figure.caption.373}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Мобайл клиент дээрх хуваалцах болон админ удирдлагын дэлгэцүүд}}{63}{figure.caption.375}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

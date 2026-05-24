@@ -137,47 +137,68 @@
 \contentsline {paragraph}{}{50}{paragraph*.335}%
 \contentsline {paragraph}{}{50}{paragraph*.336}%
 \contentsline {chapter}{\numberline {4}Системийн хэрэгжүүлэлт ба туршилт}{51}{chapter.337}%
-\contentsline {section}{\numberline {4.1}Хэрэгжүүлэлтийн зорилго ба хамрах хүрээ}{51}{section.338}%
+\contentsline {paragraph}{}{51}{paragraph*.338}%
 \contentsline {paragraph}{}{51}{paragraph*.339}%
 \contentsline {paragraph}{}{51}{paragraph*.340}%
-\contentsline {paragraph}{}{51}{paragraph*.341}%
-\contentsline {section}{\numberline {4.2}Бодит нэвтрүүлэлтийн орчин}{51}{section.342}%
-\contentsline {paragraph}{}{51}{paragraph*.343}%
-\contentsline {section}{\numberline {4.3}Системийн холболтын ажиллагаа}{54}{section.348}%
-\contentsline {section}{\numberline {4.4}Хөгжүүлсэн системийн интерфейс}{54}{section.349}%
+\contentsline {section}{\numberline {4.1}Бодит нэвтрүүлэлтийн орчин}{51}{section.341}%
+\contentsline {paragraph}{}{51}{paragraph*.342}%
+\contentsline {paragraph}{}{52}{paragraph*.344}%
+\contentsline {paragraph}{}{53}{paragraph*.346}%
+\contentsline {paragraph}{}{54}{paragraph*.348}%
 \contentsline {paragraph}{}{54}{paragraph*.350}%
-\contentsline {paragraph}{}{54}{paragraph*.352}%
+\contentsline {section}{\numberline {4.2}Системийн холболтын ажиллагаа}{55}{section.352}%
+\contentsline {paragraph}{}{55}{paragraph*.353}%
 \contentsline {paragraph}{}{55}{paragraph*.354}%
-\contentsline {paragraph}{}{56}{paragraph*.356}%
-\contentsline {paragraph}{}{57}{paragraph*.358}%
-\contentsline {section}{\numberline {4.5}Туршилтын арга зүй}{57}{section.360}%
-\contentsline {section}{\numberline {4.6}Туршилтын үр дүн}{57}{section.361}%
-\contentsline {section}{Бүлгийн дүгнэлт}{57}{section*.362}%
-\contentsline {paragraph}{}{57}{paragraph*.363}%
-\contentsline {chapter}{Ерөнхий дүгнэлт}{59}{section*.364}%
-\contentsline {paragraph}{}{59}{paragraph*.365}%
-\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{60}{appendix.366}%
-\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{60}{section.367}%
+\contentsline {paragraph}{}{55}{paragraph*.355}%
+\contentsline {paragraph}{}{56}{paragraph*.357}%
+\contentsline {paragraph}{}{57}{paragraph*.359}%
+\contentsline {section}{\numberline {4.3}Хөгжүүлсэн системийн интерфейс}{58}{section.361}%
+\contentsline {paragraph}{}{58}{paragraph*.362}%
+\contentsline {paragraph}{}{58}{paragraph*.363}%
+\contentsline {paragraph}{}{58}{paragraph*.365}%
 \contentsline {paragraph}{}{60}{paragraph*.368}%
-\contentsline {chapter}{\numberline {B}Юзкейсийн дэлгэрэнгүй тодорхойлолтууд}{61}{appendix.385}%
-\contentsline {section}{\numberline {B.1}Үлдсэн юзкейсийн тодорхойлолтууд}{61}{section.386}%
-\contentsline {paragraph}{}{61}{paragraph*.387}%
-\contentsline {subsection}{\numberline {B.1.1}Хэрэглэгчийн жагсаалт харах (UC-004)}{61}{subsection.388}%
-\contentsline {subsection}{\numberline {B.1.2}Хэрэглэгчийн мэдээлэл өөрчлөх (UC-005)}{62}{subsection.396}%
-\contentsline {subsection}{\numberline {B.1.3}Хэрэглэгч устгах (UC-006)}{62}{subsection.407}%
-\contentsline {subsection}{\numberline {B.1.4}Системд нэвтрэх (UC-007)}{63}{subsection.419}%
-\contentsline {subsection}{\numberline {B.1.5}Нөөцүүдийг харах (UC-008)}{64}{subsection.432}%
-\contentsline {subsection}{\numberline {B.1.6}Нэрээр хайх (UC-009)}{65}{subsection.443}%
-\contentsline {subsection}{\numberline {B.1.7}Шинэ хавтас үүсгэх (UC-010)}{66}{subsection.454}%
-\contentsline {subsection}{\numberline {B.1.8}Файл байршуулах (UC-011)}{67}{subsection.466}%
-\contentsline {subsection}{\numberline {B.1.9}Нөөцийн нэр өөрчлөх (UC-012)}{68}{subsection.479}%
-\contentsline {subsection}{\numberline {B.1.10}Нөөц сэргээх (UC-013)}{69}{subsection.490}%
-\contentsline {subsection}{\numberline {B.1.11}Нөөц шилжүүлэх (UC-014)}{70}{subsection.501}%
-\contentsline {subsection}{\numberline {B.1.12}Нөөц устгах (UC-015)}{71}{subsection.514}%
-\contentsline {subsection}{\numberline {B.1.13}Нөөцийг бүр мөсөн устгах (UC-016)}{72}{subsection.526}%
-\contentsline {subsection}{\numberline {B.1.14}Файл татаж авах (UC-017)}{73}{subsection.540}%
-\contentsline {subsection}{\numberline {B.1.15}Шахсан файл хэлбэрээр татах (UC-018)}{74}{subsection.552}%
-\contentsline {subsection}{\numberline {B.1.16}Нөөц хуваалцах (UC-019)}{75}{subsection.564}%
-\contentsline {subsection}{\numberline {B.1.17}Хандалтын түвшин сонгох (UC-020)}{76}{subsection.576}%
-\contentsline {subsection}{\numberline {B.1.18}Онцлох төлөв өөрчлөх (UC-021)}{77}{subsection.586}%
-\contentsline {chapter}{Ашигласан материалын жагсаалт}{79}{Item.595}%
+\contentsline {paragraph}{}{60}{paragraph*.370}%
+\contentsline {paragraph}{}{61}{paragraph*.372}%
+\contentsline {paragraph}{}{62}{paragraph*.374}%
+\contentsline {paragraph}{}{63}{paragraph*.376}%
+\contentsline {section}{\numberline {4.4}Туршилтын арга зүй}{63}{section.377}%
+\contentsline {paragraph}{}{63}{paragraph*.378}%
+\contentsline {paragraph}{}{64}{paragraph*.379}%
+\contentsline {paragraph}{}{64}{paragraph*.380}%
+\contentsline {paragraph}{}{64}{paragraph*.382}%
+\contentsline {section}{\numberline {4.5}Туршилтын үр дүн}{65}{section.384}%
+\contentsline {paragraph}{}{65}{paragraph*.385}%
+\contentsline {paragraph}{}{65}{paragraph*.386}%
+\contentsline {paragraph}{}{66}{paragraph*.387}%
+\contentsline {paragraph}{}{66}{paragraph*.388}%
+\contentsline {section}{Бүлгийн дүгнэлт}{66}{section*.389}%
+\contentsline {paragraph}{}{66}{paragraph*.390}%
+\contentsline {paragraph}{}{66}{paragraph*.391}%
+\contentsline {paragraph}{}{67}{paragraph*.392}%
+\contentsline {chapter}{Ерөнхий дүгнэлт}{68}{section*.393}%
+\contentsline {paragraph}{}{68}{paragraph*.394}%
+\contentsline {chapter}{\numberline {A}Серверийн API-ийн жишээ}{69}{appendix.395}%
+\contentsline {section}{\numberline {A.1}REST endpoint-ууд}{69}{section.396}%
+\contentsline {paragraph}{}{69}{paragraph*.397}%
+\contentsline {chapter}{\numberline {B}Юзкейсийн дэлгэрэнгүй тодорхойлолтууд}{70}{appendix.414}%
+\contentsline {section}{\numberline {B.1}Үлдсэн юзкейсийн тодорхойлолтууд}{70}{section.415}%
+\contentsline {paragraph}{}{70}{paragraph*.416}%
+\contentsline {subsection}{\numberline {B.1.1}Хэрэглэгчийн жагсаалт харах (UC-004)}{70}{subsection.417}%
+\contentsline {subsection}{\numberline {B.1.2}Хэрэглэгчийн мэдээлэл өөрчлөх (UC-005)}{71}{subsection.425}%
+\contentsline {subsection}{\numberline {B.1.3}Хэрэглэгч устгах (UC-006)}{71}{subsection.436}%
+\contentsline {subsection}{\numberline {B.1.4}Системд нэвтрэх (UC-007)}{72}{subsection.448}%
+\contentsline {subsection}{\numberline {B.1.5}Нөөцүүдийг харах (UC-008)}{73}{subsection.461}%
+\contentsline {subsection}{\numberline {B.1.6}Нэрээр хайх (UC-009)}{74}{subsection.472}%
+\contentsline {subsection}{\numberline {B.1.7}Шинэ хавтас үүсгэх (UC-010)}{75}{subsection.483}%
+\contentsline {subsection}{\numberline {B.1.8}Файл байршуулах (UC-011)}{76}{subsection.495}%
+\contentsline {subsection}{\numberline {B.1.9}Нөөцийн нэр өөрчлөх (UC-012)}{77}{subsection.508}%
+\contentsline {subsection}{\numberline {B.1.10}Нөөц сэргээх (UC-013)}{78}{subsection.519}%
+\contentsline {subsection}{\numberline {B.1.11}Нөөц шилжүүлэх (UC-014)}{79}{subsection.530}%
+\contentsline {subsection}{\numberline {B.1.12}Нөөц устгах (UC-015)}{80}{subsection.543}%
+\contentsline {subsection}{\numberline {B.1.13}Нөөцийг бүр мөсөн устгах (UC-016)}{81}{subsection.555}%
+\contentsline {subsection}{\numberline {B.1.14}Файл татаж авах (UC-017)}{82}{subsection.569}%
+\contentsline {subsection}{\numberline {B.1.15}Шахсан файл хэлбэрээр татах (UC-018)}{83}{subsection.581}%
+\contentsline {subsection}{\numberline {B.1.16}Нөөц хуваалцах (UC-019)}{84}{subsection.593}%
+\contentsline {subsection}{\numberline {B.1.17}Хандалтын түвшин сонгох (UC-020)}{85}{subsection.605}%
+\contentsline {subsection}{\numberline {B.1.18}Онцлох төлөв өөрчлөх (UC-021)}{86}{subsection.615}%
+\contentsline {chapter}{Ашигласан материалын жагсаалт}{88}{Item.624}%

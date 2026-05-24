@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  20 MAY 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  24 MAY 2026 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1625,7 +1625,7 @@ Package biblatex Info: Reference segment=0 on input line 175.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
 (./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=297, 221.82875pt x 406.51875pt>
+<Figures/MUST_logo.png, id=293, 221.82875pt x 406.51875pt>
 File: Figures/MUST_logo.png Graphic file (type png)
 <use Figures/MUST_logo.png>
 Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
@@ -1770,6 +1770,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 
 [8] (./main.lof
+Underfull \hbox (badness 1360) in paragraph at lines 29--29
+ [][] [][][]\T2A/cmr/m/n/12 (+20) Raspberry Pi дээр ажил-лаж буй інд-сэн сер-ве
+р апп-ли-кейшн ба 
+ []
+
+
 
 [9
 
@@ -1816,7 +1822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 [4
 
 ]
-<Figures/chapter1/cloud-market.png, id=645, 768.8725pt x 422.57875pt>
+<Figures/chapter1/cloud-market.png, id=659, 768.8725pt x 422.57875pt>
 File: Figures/chapter1/cloud-market.png Graphic file (type png)
 <use Figures/chapter1/cloud-market.png>
 Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
@@ -1835,7 +1841,7 @@ Underfull \hbox (badness 7704) in paragraph at lines 52--52
 [6 <./Figures/chapter1/cloud-market.png>]
 
 [7]
-<Figures/chapter1/google-colossus-control-plane.png, id=671, 2007.5pt x 1129.21
+<Figures/chapter1/google-colossus-control-plane.png, id=684, 2007.5pt x 1129.21
 875pt>
 File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
 )
@@ -1846,7 +1852,7 @@ ed on input line 80.
 
 
 [8 <./Figures/chapter1/google-colossus-control-plane.png>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=685, 526.96875pt x 359.3425pt>
+<Figures/chapter1/nextcloud_data_diagram.png, id=698, 526.96875pt x 359.3425pt>
 
 File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
 <use Figures/chapter1/nextcloud_data_diagram.png>
@@ -1856,7 +1862,7 @@ nput line 104.
 
 
 [9]
-<Figures/chapter1/nextcloud-interface.png, id=698, 1917.1625pt x 1044.90375pt>
+<Figures/chapter1/nextcloud-interface.png, id=711, 1917.1625pt x 1044.90375pt>
 File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
 <use Figures/chapter1/nextcloud-interface.png>
 Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
@@ -1865,7 +1871,7 @@ t line 114.
 
 
 [10 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=706, 785.93625pt x 202.
+<Figures/chapter1/nextcloud-containers-ramusage.png, id=719, 785.93625pt x 202.
 7575pt>
 File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
 )
@@ -1879,7 +1885,7 @@ ed on input line 127.
 containers-ramusage.png>]
 
 [12]
-<Figures/chapter1/c4-ocis-system-context.png, id=731, 918.43124pt x 788.9475pt>
+<Figures/chapter1/c4-ocis-system-context.png, id=744, 918.43124pt x 788.9475pt>
 
 File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type png)
 <use Figures/chapter1/c4-ocis-system-context.png>
@@ -2173,7 +2179,7 @@ Overfull \hbox (4.47577pt too wide) in paragraph at lines 174--209
 [14]
 
 [15]
-<Figures/chapter1/mDNS.png, id=755, 1453.43pt x 1090.0725pt>
+<Figures/chapter1/mDNS.png, id=768, 1453.43pt x 1090.0725pt>
 File: Figures/chapter1/mDNS.png Graphic file (type png)
 <use Figures/chapter1/mDNS.png>
 Package pdftex.def Info: Figures/chapter1/mDNS.png  used on input line 227.
@@ -2183,7 +2189,7 @@ Package pdftex.def Info: Figures/chapter1/mDNS.png  used on input line 227.
 [16]
 
 [17 <./Figures/chapter1/mDNS.png (PNG copy)>]
-<Figures/chapter1/NAT-problem.png, id=771, 1699.34875pt x 932.48375pt>
+<Figures/chapter1/NAT-problem.png, id=784, 1699.34875pt x 932.48375pt>
 File: Figures/chapter1/NAT-problem.png Graphic file (type png)
 <use Figures/chapter1/NAT-problem.png>
 Package pdftex.def Info: Figures/chapter1/NAT-problem.png  used on input line 2
@@ -2192,7 +2198,7 @@ Package pdftex.def Info: Figures/chapter1/NAT-problem.png  used on input line 2
 
 
 [18 <./Figures/chapter1/NAT-problem.png (PNG copy)>]
-<Figures/chapter1/buffer-stream.png, id=779, 1780.6525pt x 890.32625pt>
+<Figures/chapter1/buffer-stream.png, id=792, 1780.6525pt x 890.32625pt>
 File: Figures/chapter1/buffer-stream.png Graphic file (type png)
 <use Figures/chapter1/buffer-stream.png>
 Package pdftex.def Info: Figures/chapter1/buffer-stream.png  used on input line
@@ -2221,7 +2227,7 @@ Package pdftex.def Info: Figures/chapter1/buffer-stream.png  used on input line
 [22
 
 ]
-<Figures/chapter2/usecase.jpg, id=819, 735.74875pt x 1040.88875pt>
+<Figures/chapter2/usecase.jpg, id=832, 735.74875pt x 1040.88875pt>
 File: Figures/chapter2/usecase.jpg Graphic file (type jpg)
 <use Figures/chapter2/usecase.jpg>
 Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 40.
@@ -2243,7 +2249,7 @@ Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 40.
 [29]
 
 [30]
-<Figures/chapter2/design-class-diagram.jpg, id=934, 1597.97pt x 1096.095pt>
+<Figures/chapter2/design-class-diagram.jpg, id=947, 1597.97pt x 1096.095pt>
 File: Figures/chapter2/design-class-diagram.jpg Graphic file (type jpg)
 <use Figures/chapter2/design-class-diagram.jpg>
 Package pdftex.def Info: Figures/chapter2/design-class-diagram.jpg  used on inp
@@ -2273,7 +2279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--306
 agementController \T2A/cmr/m/n/12 (+20) гэ-сэн control
  []
 
-<VP diagrams/Login.jpg, id=944, 1050.92625pt x 582.175pt>
+<VP diagrams/Login.jpg, id=957, 1050.92625pt x 582.175pt>
 File: VP diagrams/Login.jpg Graphic file (type jpg)
 <use VP diagrams/Login.jpg>
 Package pdftex.def Info: VP diagrams/Login.jpg  used on input line 317.
@@ -2293,7 +2299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--324
 г-чийн мэ-дээл-лийг шал-ган, ам-жилт-тай бол
  []
 
-<VP diagrams/Upload File.jpg, id=953, 1167.36125pt x 771.88374pt>
+<VP diagrams/Upload File.jpg, id=966, 1167.36125pt x 771.88374pt>
 File: VP diagrams/Upload File.jpg Graphic file (type jpg)
 <use VP diagrams/Upload File.jpg>
 Package pdftex.def Info: VP diagrams/Upload File.jpg  used on input line 327.
@@ -2306,7 +2312,7 @@ Underfull \hbox (badness 2707) in paragraph at lines 333--334
 mr/m/it/12 (+20) StorageBoundary \T2A/cmr/m/n/12 (+20) хі-сэл-тийг дам-жуулж,
  []
 
-<VP diagrams/Share Resource.jpg, id=960, 1301.86375pt x 955.57pt>
+<VP diagrams/Share Resource.jpg, id=973, 1301.86375pt x 955.57pt>
 File: VP diagrams/Share Resource.jpg Graphic file (type jpg)
 <use VP diagrams/Share Resource.jpg>
 Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 337
@@ -2345,8 +2351,8 @@ Entity
 
 
 ]
-<Figures/chapter3/new-general-architecture.png, id=990, 1678.27pt x 944.52875pt
->
+<Figures/chapter3/new-general-architecture.png, id=1003, 1678.27pt x 944.52875p
+t>
 File: Figures/chapter3/new-general-architecture.png Graphic file (type png)
 <use Figures/chapter3/new-general-architecture.png>
 Package pdftex.def Info: Figures/chapter3/new-general-architecture.png  used on
@@ -2357,8 +2363,8 @@ Package pdftex.def Info: Figures/chapter3/new-general-architecture.png  used on
 [37
 
  <./Figures/chapter3/new-general-architecture.png (PNG copy)>]
-<Figures/chapter3/new-main-server-architecture.png, id=998, 1057.9525pt x 1497.
-595pt>
+<Figures/chapter3/new-main-server-architecture.png, id=1011, 1057.9525pt x 1497
+.595pt>
 File: Figures/chapter3/new-main-server-architecture.png Graphic file (type png)
 
 <use Figures/chapter3/new-main-server-architecture.png>
@@ -2383,7 +2389,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 [40]
-<Figures/chapter3/pcloud-architecture-relay-server.drawio.png, id=1021, 900.363
+<Figures/chapter3/pcloud-architecture-relay-server.drawio.png, id=1034, 900.363
 75pt x 411.5375pt>
 File: Figures/chapter3/pcloud-architecture-relay-server.drawio.png Graphic file
  (type png)
@@ -2394,7 +2400,7 @@ io.png  used on input line 61.
 
 
 [41 <./Figures/chapter3/pcloud-architecture-relay-server.drawio.png>]
-<VP diagrams/PCloud.jpg, id=1033, 1477.52pt x 948.54375pt>
+<VP diagrams/PCloud.jpg, id=1046, 1477.52pt x 948.54375pt>
 File: VP diagrams/PCloud.jpg Graphic file (type jpg)
 <use VP diagrams/PCloud.jpg>
 Package pdftex.def Info: VP diagrams/PCloud.jpg  used on input line 97.
@@ -2411,7 +2417,7 @@ nput line 115.
 [44]
 
 [45]
-<Figures/chapter3/admin-first-launch.png, id=1128, 1734.48pt x 1121.18875pt>
+<Figures/chapter3/admin-first-launch.png, id=1141, 1734.48pt x 1121.18875pt>
 File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
 <use Figures/chapter3/admin-first-launch.png>
 Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
@@ -2420,7 +2426,7 @@ Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
 
 
 [46]
-<Figures/chapter3/login.png, id=1151, 2178.1375pt x 1121.18875pt>
+<Figures/chapter3/login.png, id=1164, 2178.1375pt x 1121.18875pt>
 File: Figures/chapter3/login.png Graphic file (type png)
 <use Figures/chapter3/login.png>
 Package pdftex.def Info: Figures/chapter3/login.png  used on input line 213.
@@ -2428,7 +2434,7 @@ Package pdftex.def Info: Figures/chapter3/login.png  used on input line 213.
 
 
 [47 <./Figures/chapter3/admin-first-launch.png>]
-<Figures/chapter3/normal-user-homepage.png, id=1160, 2178.1375pt x 1121.18875pt
+<Figures/chapter3/normal-user-homepage.png, id=1173, 2178.1375pt x 1121.18875pt
 >
 File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
 <use Figures/chapter3/normal-user-homepage.png>
@@ -2438,7 +2444,7 @@ ut line 222.
 
 
 [48 <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=1168, 2195.20125pt x 1121.18875pt>
+<Figures/chapter3/admin-home-page.png, id=1181, 2195.20125pt x 1121.18875pt>
 File: Figures/chapter3/admin-home-page.png Graphic file (type png)
 <use Figures/chapter3/admin-home-page.png>
 Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
@@ -2462,105 +2468,213 @@ e-page.png>])
 
 
 ]
-<Figures/chapter4/working-pi-image.jpeg, id=1188, 603.9363pt x 712.5822pt>
-File: Figures/chapter4/working-pi-image.jpeg Graphic file (type jpg)
-<use Figures/chapter4/working-pi-image.jpeg>
-Package pdftex.def Info: Figures/chapter4/working-pi-image.jpeg  used on input 
-line 26.
-(pdftex.def)             Requested size: 250.38564pt x 295.4334pt.
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T2A/cmr/m/n/12 (+20) PostgreSQL, Docker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\T2A/cmr/m/n/12 (+20) HTTPS reverse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\T2A/cmr/m/n/12 (+20) Домэйн нэ-рээр ирэх
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+\T2A/cmr/m/n/12 (+20) HTTPS/WSS хол-бол-тыг
+ []
+
 
 
 [51
 
 ]
-<Figures/chapter4/ssh-pi-main-server-user-service.png, id=1199, 1175.39125pt x 
+<Figures/chapter4/working-pi-image.jpeg, id=1210, 603.9363pt x 712.5822pt>
+File: Figures/chapter4/working-pi-image.jpeg Graphic file (type jpg)
+<use Figures/chapter4/working-pi-image.jpeg>
+Package pdftex.def Info: Figures/chapter4/working-pi-image.jpeg  used on input 
+line 40.
+(pdftex.def)             Requested size: 250.38564pt x 295.4334pt.
+
+
+[52]
+<Figures/chapter4/ssh-pi-main-server-user-service.png, id=1218, 1175.39125pt x 
 481.8pt>
 File: Figures/chapter4/ssh-pi-main-server-user-service.png Graphic file (type p
 ng)
 <use Figures/chapter4/ssh-pi-main-server-user-service.png>
 Package pdftex.def Info: Figures/chapter4/ssh-pi-main-server-user-service.png  
-used on input line 36.
+used on input line 50.
 (pdftex.def)             Requested size: 432.48051pt x 177.27808pt.
 
 
-[52 <./Figures/chapter4/working-pi-image.jpeg> <./Figures/chapter4/ssh-pi-main-
+[53 <./Figures/chapter4/working-pi-image.jpeg> <./Figures/chapter4/ssh-pi-main-
 server-user-service.png>]
-<Figures/chapter4/hetzner-admin-console.png, id=1207, 1906.12125pt x 892.33376p
+<Figures/chapter4/hetzner-admin-console.png, id=1226, 1906.12125pt x 892.33376p
 t>
 File: Figures/chapter4/hetzner-admin-console.png Graphic file (type png)
 <use Figures/chapter4/hetzner-admin-console.png>
 Package pdftex.def Info: Figures/chapter4/hetzner-admin-console.png  used on in
-put line 46.
+put line 60.
 (pdftex.def)             Requested size: 432.48051pt x 202.4548pt.
-<Figures/chapter4/hetzner-vps-ssh.png, id=1209, 1919.17pt x 579.16376pt>
+<Figures/chapter4/hetzner-vps-ssh.png, id=1228, 1919.17pt x 579.16376pt>
 File: Figures/chapter4/hetzner-vps-ssh.png Graphic file (type png)
 <use Figures/chapter4/hetzner-vps-ssh.png>
 Package pdftex.def Info: Figures/chapter4/hetzner-vps-ssh.png  used on input li
-ne 55.
+ne 70.
 (pdftex.def)             Requested size: 432.48051pt x 130.50948pt.
 
 
-[53 <./Figures/chapter4/hetzner-admin-console.png> <./Figures/chapter4/hetzner-
+[54 <./Figures/chapter4/hetzner-admin-console.png> <./Figures/chapter4/hetzner-
 vps-ssh.png>]
-<Figures/chapter3/developed-interfaces/admin-initialize.png, id=1217, 1481.535p
+<Figures/chapter4/connection-method-LAN-web.png, id=1238, 1924.18875pt x 1013.7
+875pt>
+File: Figures/chapter4/connection-method-LAN-web.png Graphic file (type png)
+<use Figures/chapter4/connection-method-LAN-web.png>
+Package pdftex.def Info: Figures/chapter4/connection-method-LAN-web.png  used o
+n input line 88.
+(pdftex.def)             Requested size: 432.48051pt x 227.8603pt.
+
+
+[55]
+<Figures/chapter4/connection-method-RELAY-web.png, id=1247, 1924.18875pt x 1013
+.7875pt>
+File: Figures/chapter4/connection-method-RELAY-web.png Graphic file (type png)
+<use Figures/chapter4/connection-method-RELAY-web.png>
+Package pdftex.def Info: Figures/chapter4/connection-method-RELAY-web.png  used
+ on input line 98.
+(pdftex.def)             Requested size: 432.48051pt x 227.8603pt.
+
+
+[56 <./Figures/chapter4/connection-method-LAN-web.png> <./Figures/chapter4/conn
+ection-method-RELAY-web.png>]
+<Figures/chapter4/mobile-app-connection-selection.png, id=1256, 1129.21875pt x 
+2445.135pt>
+File: Figures/chapter4/mobile-app-connection-selection.png Graphic file (type p
+ng)
+<use Figures/chapter4/mobile-app-connection-selection.png>
+Package pdftex.def Info: Figures/chapter4/mobile-app-connection-selection.png  
+used on input line 108.
+(pdftex.def)             Requested size: 227.62206pt x 492.86124pt.
+
+
+[57 <./Figures/chapter4/mobile-app-connection-selection.png>]
+<Figures/chapter3/developed-interfaces/admin-initialize.png, id=1263, 1481.535p
 t x 790.955pt>
 File: Figures/chapter3/developed-interfaces/admin-initialize.png Graphic file (
 type png)
 <use Figures/chapter3/developed-interfaces/admin-initialize.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/admin-initialize
-.png  used on input line 69.
+.png  used on input line 124.
 (pdftex.def)             Requested size: 318.66948pt x 170.12442pt.
-<Figures/chapter3/developed-interfaces/login.png, id=1219, 1481.535pt x 790.955
+<Figures/chapter3/developed-interfaces/login.png, id=1266, 1481.535pt x 790.955
 pt>
 File: Figures/chapter3/developed-interfaces/login.png Graphic file (type png)
 <use Figures/chapter3/developed-interfaces/login.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/login.png  used 
-on input line 80.
+on input line 135.
 (pdftex.def)             Requested size: 386.96027pt x 206.58482pt.
 
 
-[54 <./Figures/chapter3/developed-interfaces/admin-initialize.png>]
-<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1228, 383.4325
+[58 <./Figures/chapter3/developed-interfaces/admin-initialize.png>]
+<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1276, 383.4325
 pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-login-page.png Graphic file 
 (type png)
 <use Figures/chapter3/developed-interfaces/mobile-login-page.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-login-pag
-e.png  used on input line 90.
+e.png  used on input line 142.
 (pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
 
 
-[55 <./Figures/chapter3/developed-interfaces/login.png>]
-<Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1236, 1924.1
+[59 <./Figures/chapter3/developed-interfaces/login.png> <./Figures/chapter3/dev
+eloped-interfaces/mobile-login-page.png>]
+<Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1284, 1924.1
 8875pt x 921.4425pt>
 File: Figures/chapter3/developed-interfaces/home-page-dark-mode.png Graphic fil
 e (type png)
 <use Figures/chapter3/developed-interfaces/home-page-dark-mode.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-dark-m
-ode.png  used on input line 100.
+ode.png  used on input line 152.
 (pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
-
-
-[56 <./Figures/chapter3/developed-interfaces/mobile-login-page.png> <./Figures/
-chapter3/developed-interfaces/home-page-dark-mode.png>]
-<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1245,
+<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1286,
  383.4325pt x 792.9625pt>
 File: Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png Grap
 hic file (type png)
 <use Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>
 Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
--dark-mode.png  used on input line 110.
+-dark-mode.png  used on input line 162.
 (pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
-)
 
-[57 <./Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
 
-[58]
+[60 <./Figures/chapter3/developed-interfaces/home-page-dark-mode.png>]
+<Figures/chapter4/mobile-sidebar-view.png, id=1295, 1129.21875pt x 2445.135pt>
+File: Figures/chapter4/mobile-sidebar-view.png Graphic file (type png)
+<use Figures/chapter4/mobile-sidebar-view.png>
+Package pdftex.def Info: Figures/chapter4/mobile-sidebar-view.png  used on inpu
+t line 174.
+(pdftex.def)             Requested size: 136.57462pt x 295.71674pt.
+<Figures/chapter4/starred-view-mobile.png, id=1296, 1129.21875pt x 2445.135pt>
+File: Figures/chapter4/starred-view-mobile.png Graphic file (type png)
+<use Figures/chapter4/starred-view-mobile.png>
+Package pdftex.def Info: Figures/chapter4/starred-view-mobile.png  used on inpu
+t line 181.
+(pdftex.def)             Requested size: 136.57462pt x 295.71674pt.
+<Figures/chapter4/shared-view-mobile.png, id=1297, 1129.21875pt x 2445.135pt>
+File: Figures/chapter4/shared-view-mobile.png Graphic file (type png)
+<use Figures/chapter4/shared-view-mobile.png>
+Package pdftex.def Info: Figures/chapter4/shared-view-mobile.png  used on input
+ line 188.
+(pdftex.def)             Requested size: 136.57462pt x 295.71674pt.
+
+
+[61 <./Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
+<Figures/chapter4/resource-sharing-mobile.png, id=1305, 1129.21875pt x 2445.135
+pt>
+File: Figures/chapter4/resource-sharing-mobile.png Graphic file (type png)
+<use Figures/chapter4/resource-sharing-mobile.png>
+Package pdftex.def Info: Figures/chapter4/resource-sharing-mobile.png  used on 
+input line 203.
+(pdftex.def)             Requested size: 159.33821pt x 345.00287pt.
+<Figures/chapter4/admin-view-mobile.png, id=1306, 1129.21875pt x 2445.135pt>
+File: Figures/chapter4/admin-view-mobile.png Graphic file (type png)
+<use Figures/chapter4/admin-view-mobile.png>
+Package pdftex.def Info: Figures/chapter4/admin-view-mobile.png  used on input 
+line 210.
+(pdftex.def)             Requested size: 159.33821pt x 345.00287pt.
+
+
+[62 <./Figures/chapter4/mobile-sidebar-view.png> <./Figures/chapter4/starred-vi
+ew-mobile.png> <./Figures/chapter4/shared-view-mobile.png>]
+
+[63 <./Figures/chapter4/resource-sharing-mobile.png> <./Figures/chapter4/admin-
+view-mobile.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[]|\T2A/cmr/bx/n/12 (+20) “р
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 266--266
+[]|\T2A/cmr/m/n/12 (+20) Public domain-р хан-да-хад ижил
+ []
+
+
+
+[64]
+
+[65])
+
+[66]
+
+[67]
 \openout2 = `Chapters/Summary.aux'.
 
  (./Chapters/Summary.tex)
 
-[59
+[68
 
 
 
@@ -2571,14 +2685,14 @@ Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
 
 
-[60
+[69
 
 
 
 
 ])
 
-[60
+[69
 
 ]
 \openout2 = `Appendices/AppendixB.aux'.
@@ -2587,34 +2701,16 @@ Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
 {\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } B.
 
 
-[61
+[70
 
 
 
 
 ]
 
-[61
+[70
 
 ]
-
-[62]
-
-[63]
-
-[64]
-
-[65]
-
-[66]
-
-[67]
-
-[68]
-
-[69]
-
-[70]
 
 [71]
 
@@ -2626,11 +2722,29 @@ Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
 
 [75]
 
-[76])
+[76]
 
 [77]
 
 [78]
+
+[79]
+
+[80]
+
+[81]
+
+[82]
+
+[83]
+
+[84]
+
+[85])
+
+[86]
+
+[87]
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -2801,7 +2915,7 @@ bility\T2A/cmr/m/n/12 (+20) . ownCloud Infinite Scale Availability
 
 
 
-[79
+[88
 
 
 
@@ -2844,7 +2958,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 
-[80] (./main.aux (./FrontBackMatter/Titlepage.aux)
+[89] (./main.aux (./FrontBackMatter/Titlepage.aux)
 (./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
 (./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
 (./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
@@ -2857,17 +2971,17 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6636C0E665BDC6EE0778A58124D9EA4A;19893.
+(rerunfilecheck)             Checksum: 718FBFD4128BBA48FD32D4263F80D465;19524.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49594 strings out of 473197
- 1076394 string characters out of 5718605
- 2114262 words of memory out of 5000000
- 71130 multiletter control sequences out of 15000+600000
- 590240 words of font info for 196 fonts, out of 8000000 for 9000
+ 49739 strings out of 473197
+ 1080759 string characters out of 5718605
+ 2116048 words of memory out of 5000000
+ 71221 multiletter control sequences out of 15000+600000
+ 592813 words of font info for 206 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,20n,135p,2414b,2673s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/
@@ -2875,20 +2989,22 @@ fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfcc2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sftt1200.pfb>
-Output written on main.pdf (103 pages, 13030255 bytes).
+-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (112 pages, 19458030 bytes).
 PDF statistics:
- 1828 PDF objects out of 2073 (max. 8388607)
- 1614 compressed objects within 17 object streams
- 712 named destinations out of 1000 (max. 500000)
- 50413 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1938 PDF objects out of 2073 (max. 8388607)
+ 1699 compressed objects within 17 object streams
+ 750 named destinations out of 1000 (max. 500000)
+ 54541 words of extra memory for PDF output out of 61914 (max. 10000000)
 
