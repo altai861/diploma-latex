@@ -16,28 +16,28 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Файл байршуулах үеийн дарааллын диаграмм}}{34}{figure.caption.202}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Нөөц хуваалцах үеийн дарааллын диаграмм}}{35}{figure.caption.204}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн ерөнхий архитектур}}{37}{figure.caption.218}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Үндсэн сервер аппликейшний архитектур}}{39}{figure.caption.225}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Дамжуулагч серверийн архитектур}}{41}{figure.caption.233}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{43}{figure.caption.241}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Анхны тохиргооны дэлгэц}}{47}{figure.caption.326}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Нэвтрэх дэлгэц}}{48}{figure.caption.328}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{49}{figure.caption.330}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{49}{figure.caption.332}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Системийн ерөнхий архитектур}}{37}{figure.caption.217}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Үндсэн сервер аппликейшний архитектур}}{39}{figure.caption.224}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Дамжуулагч серверийн архитектур}}{41}{figure.caption.232}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Хувийн үүлэн хадгалалтын системийн ERD}}{43}{figure.caption.240}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Анхны тохиргооны дэлгэц}}{47}{figure.caption.325}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Нэвтрэх дэлгэц}}{48}{figure.caption.327}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Энгийн хэрэглэгчийн үндсэн хуудас}}{49}{figure.caption.329}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Админ хэрэглэгчийн нүүр хуудас}}{49}{figure.caption.331}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ажиллаж буй Raspberry Pi 5}}{53}{figure.caption.345}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Raspberry Pi дээр ажиллаж буй үндсэн сервер аппликейшн ба PostgreSQL өгөгдлийн сан}}{53}{figure.caption.347}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Hetzner VPS admin console харагдах байдал}}{54}{figure.caption.349}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces VPS дээр ажиллаж буй relay болон Caddy контейнерууд}}{54}{figure.caption.351}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Дотоод сүлжээнээс вебээр хандаж байгаа байдал}}{56}{figure.caption.356}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Дамжуулагч серверээр вебээс хандаж байгаа байдал}}{56}{figure.caption.358}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Мобайл аппликейшний холболтын арга сонгох дэлгэц}}{57}{figure.caption.360}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Анхны тохиргооны дэлгэц}}{58}{figure.caption.364}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Веб нэвтрэх дэлгэц}}{59}{figure.caption.366}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Мобайл нэвтрэх дэлгэц}}{59}{figure.caption.367}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Веб нүүр хуудас -- харанхуй горим}}{60}{figure.caption.369}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Мобайл нүүр хуудас -- харанхуй горим}}{61}{figure.caption.371}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Мобайл клиент дээрх navigation болон нөөцийн тусгай харагдацууд}}{62}{figure.caption.373}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Мобайл клиент дээрх хуваалцах болон админ удирдлагын дэлгэцүүд}}{63}{figure.caption.375}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ажиллаж буй Raspberry Pi 5}}{53}{figure.caption.344}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Raspberry Pi дээр ажиллаж буй үндсэн сервер аппликейшн ба PostgreSQL өгөгдлийн сан}}{53}{figure.caption.346}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Hetzner VPS admin console харагдах байдал}}{54}{figure.caption.348}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces VPS дээр ажиллаж буй relay болон Caddy контейнерууд}}{54}{figure.caption.350}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Дотоод сүлжээнээс вебээр хандаж байгаа байдал}}{56}{figure.caption.355}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Дамжуулагч серверээр вебээс хандаж байгаа байдал}}{56}{figure.caption.357}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Мобайл аппликейшний холболтын арга сонгох дэлгэц}}{57}{figure.caption.359}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Анхны тохиргооны дэлгэц}}{58}{figure.caption.363}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Веб нэвтрэх дэлгэц}}{59}{figure.caption.365}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Мобайл нэвтрэх дэлгэц}}{59}{figure.caption.366}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Веб нүүр хуудас -- харанхуй горим}}{60}{figure.caption.368}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Мобайл нүүр хуудас -- харанхуй горим}}{61}{figure.caption.370}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Мобайл клиент дээрх navigation болон нөөцийн тусгай харагдацууд}}{62}{figure.caption.372}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Мобайл клиент дээрх хуваалцах болон админ удирдлагын дэлгэцүүд}}{63}{figure.caption.374}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
