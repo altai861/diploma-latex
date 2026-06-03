@@ -3,6 +3,22 @@
 %-------------------------------------------------------------------------------
 
 \begin{titlepage}
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=center] at (current page.center) {%
+    \includegraphics[height=\paperheight]{library-plan-signed.jpg}%
+  };
+\end{tikzpicture}
+\null
+\end{titlepage}
+
+\iffalse
+Temporarily replaced/removed pages:
+- The signed work-plan page above replaces the generated plan page.
+- The generated "ТӨГСӨЛТИЙН АЖЛЫН ЯВЦ" page is temporarily removed.
+- The critique pages are temporarily removed.
+
+\begin{titlepage}
 
 \vspace*{0.5cm}
 Батлав. \deptname ийн эрхлэгч: 
@@ -152,3 +168,4 @@
 Ажлын газар: \dotfill \\[0.5cm]
 Хаяг (Утас) \makebox[5cm]{\dotfill}
 \end{titlepage}
+\fi

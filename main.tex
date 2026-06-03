@@ -37,9 +37,36 @@ nolistspacing, % Хэрэв мөр хоорондын зай onehalfspacing эс
 headsepline, % Толгой мөрийн доогуур шугам татахын тулд комментыг арилга
 ]{MUST-Thesis} % Энэ класс файл нь баримтын бүтцийг тодорхойлно
 
-\usepackage[utf8]{inputenc} % Олон улсын тэмдэгт оруулахад хэрэгтэй
-\usepackage[T2A]{fontenc} % Олон улсын тэмдэгтийн гаралтын кодчилол
+\usepackage{fontspec} % XeLaTeX дээр системийн Unicode фонт ашиглахад хэрэгтэй
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont{Courier New}
 \usepackage[mongolian]{babel}
+\addto\captionsmongolian{%
+  \renewcommand{\prefacename}{Өмнөх үг}%
+  \renewcommand{\refname}{Ашигласан ном}%
+  \renewcommand{\abstractname}{Удиртгал}%
+  \renewcommand{\bibname}{Ном зүй}%
+  \renewcommand{\chaptername}{Бүлэг}%
+  \renewcommand{\appendixname}{Хавсралт}%
+  \renewcommand{\contentsname}{Гарчиг}%
+  \renewcommand{\listfigurename}{Зургийн жагсаалт}%
+  \renewcommand{\listtablename}{Хүснэгтийн жагсаалт}%
+  \renewcommand{\indexname}{Товъёог}%
+  \renewcommand{\authorname}{Нэрийн хэлхээ}%
+  \renewcommand{\figurename}{Зураг}%
+  \renewcommand{\tablename}{Хүснэгт}%
+  \renewcommand{\partname}{Хэсэг}%
+  \renewcommand{\enclname}{Ишлэл}%
+  \renewcommand{\ccname}{э.с.}%
+  \renewcommand{\headtoname}{}%
+  \renewcommand{\pagename}{тал}%
+  \renewcommand{\seename}{талд үз}%
+  \renewcommand{\alsoname}{мөн талд үз}%
+  \renewcommand{\proofname}{Баталгаа}%
+  \renewcommand{\glossaryname}{Тайлбар}%
+}
 
 \usepackage{float}
 \usepackage{listings}
@@ -179,6 +206,7 @@ morekeywords={__global__, __device__},  % CUDA specific keywords
 \pagestyle{plain} % Тезисийн загварыг дуудах хүртэлх толгой мөрийн суурь загвар
 
 \include{FrontBackMatter/Titlepage} % Нүүр хуудас
+\include{FrontBackMatter/LibraryCatalog} % Номын сангийн каталогийн хуудас
 \include{FrontBackMatter/Plan-Review} % Төлөвлөгөө, гүйцэтгэл, шүүмжийн хуудас
 \include{FrontBackMatter/Declaration} % Мэдэгдлийн хуудас
 \include{FrontBackMatter/Quotation} % Ишлэл хуудас

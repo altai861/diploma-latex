@@ -1,110 +1,112 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.2.14)  25 MAY 2026 13:38
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.3.2)  3 JUN 2026 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (./MUST-Thesis.cls
 Document Class: MUST-Thesis 2016/03/25 v1.4 LaTeXTemplates.com
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count192
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count197
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count193
 \l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count194
+\g__pdf_backend_link_int=\count195
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count198
-\c@chapter=\count199
-\c@section=\count266
-\c@subsection=\count267
-\c@subsubsection=\count268
-\c@paragraph=\count269
-\c@subparagraph=\count270
-\c@figure=\count271
-\c@table=\count272
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip51
 \LTright=\skip52
 \LTpre=\skip53
 \LTpost=\skip54
-\LTchunksize=\count273
+\LTchunksize=\count271
 \LTcapwidth=\dimen142
 \LT@head=\box53
 \LT@firsthead=\box54
 \LT@foot=\box55
 \LT@lastfoot=\box56
 \LT@gbox=\box57
-\LT@cols=\count274
-\LT@rows=\count275
-\c@LT@tables=\count276
-\c@LT@chunks=\count277
+\LT@cols=\count272
+\LT@rows=\count273
+\c@LT@tables=\count274
+\c@LT@chunks=\count275
 \LT@p@ftn=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count278
-\l__siunitx_number_exponent_fixed_int=\count279
-\l__siunitx_number_min_decimal_int=\count280
-\l__siunitx_number_min_integer_int=\count281
-\l__siunitx_number_round_precision_int=\count282
-\l__siunitx_number_lower_threshold_int=\count283
-\l__siunitx_number_upper_threshold_int=\count284
-\l__siunitx_number_group_first_int=\count285
-\l__siunitx_number_group_size_int=\count286
-\l__siunitx_number_group_minimum_int=\count287
+\l__siunitx_number_uncert_offset_int=\count276
+\l__siunitx_number_exponent_fixed_int=\count277
+\l__siunitx_number_min_decimal_int=\count278
+\l__siunitx_number_min_integer_int=\count279
+\l__siunitx_number_round_precision_int=\count280
+\l__siunitx_number_lower_threshold_int=\count281
+\l__siunitx_number_upper_threshold_int=\count282
+\l__siunitx_number_group_first_int=\count283
+\l__siunitx_number_group_size_int=\count284
+\l__siunitx_number_group_minimum_int=\count285
 \l__siunitx_angle_tmp_dim=\dimen143
 \l__siunitx_angle_marker_box=\box58
 \l__siunitx_angle_unit_box=\box59
-\l__siunitx_compound_count_int=\count288
+\l__siunitx_compound_count_int=\count286
 
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen144
@@ -119,11 +121,11 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \l__siunitx_table_after_box=\box65
 \l__siunitx_table_before_dim=\dimen147
 \l__siunitx_table_carry_dim=\dimen148
-\l__siunitx_unit_tmp_int=\count289
-\l__siunitx_unit_position_int=\count290
-\l__siunitx_unit_total_int=\count291
+\l__siunitx_unit_tmp_int=\count287
+\l__siunitx_unit_position_int=\count288
+\l__siunitx_unit_total_int=\count289
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen149
 \ar@mcellbox=\box66
@@ -133,31 +135,31 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \backup@length=\skip56
 \ar@cellbox=\box67
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: xetex.def on input line 106.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen151
 \Gin@req@width=\dimen152
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen153
 \lightrulewidth=\dimen154
@@ -169,18 +171,18 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen160
 \cmidrulekern=\dimen161
 \defaultaddspace=\dimen162
-\@cmidla=\count292
-\@cmidlb=\count293
+\@cmidla=\count290
+\@cmidlb=\count291
 \@aboverulesep=\dimen163
 \@belowrulesep=\dimen164
-\@thisruleclass=\count294
-\@lastruleclass=\count295
+\@thisruleclass=\count292
+\@lastruleclass=\count293
 \@thisrulewidth=\dimen165
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen166
 \captionmargin=\dimen167
@@ -192,22 +194,22 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen173
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count296
-\c@continuedfloat=\count297
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
 Package caption Info: longtable package is loaded.
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count298
-\Gm@cntv=\count299
-\c@Gm@tempcnt=\count300
+\Gm@cnth=\count296
+\Gm@cntv=\count297
+\c@Gm@tempcnt=\count298
 \Gm@bindingoffset=\dimen174
 \Gm@wd@mp=\dimen175
 \Gm@odd@mp=\dimen176
@@ -218,30 +220,30 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen181
 \Gm@dimlist=\toks21
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2024/10/24 v3.43 KOMA-Script package (end user interf
 ace for scrlayer)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlayer.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer.sty
 Package: scrlayer 2024/10/24 v3.43 KOMA-Script package (defining layers and pag
 e styles)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
 Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
 Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
@@ -259,326 +261,196 @@ Package scrbase Info: Unknown processing state.
 (scrbase)             a valid state. This will be interpreted
 (scrbase)             as \FamilyKeyStateProcessed on input line 649.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count299
+\l__fontspec_language_int=\count300
+\l__fontspec_strnum_int=\count301
+\l__fontspec_tmp_int=\count302
+\l__fontspec_tmpa_int=\count303
+\l__fontspec_tmpb_int=\count304
+\l__fontspec_tmpc_int=\count305
+\l__fontspec_em_int=\count306
+\l__fontspec_emdef_int=\count307
+\l__fontspec_strong_int=\count308
+\l__fontspec_strongdef_int=\count309
+\l__fontspec_tmpa_dim=\dimen182
+\l__fontspec_tmpb_dim=\dimen183
+\l__fontspec_tmpc_dim=\dimen184
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
-File: t2aenc.def 2023/11/07 v1.0k Cyrillic encoding definition file
-Now handling font encoding T2A ...
-... processing UTF-8 mapping file for font encoding T2A
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
-File: t2aenc.dfu 2022/06/07 v1.3c UTF-8 support
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0237 (decimal 567)
-   defining Unicode char U+0400 (decimal 1024)
-   defining Unicode char U+0401 (decimal 1025)
-   defining Unicode char U+0402 (decimal 1026)
-   defining Unicode char U+0403 (decimal 1027)
-   defining Unicode char U+0404 (decimal 1028)
-   defining Unicode char U+0405 (decimal 1029)
-   defining Unicode char U+0406 (decimal 1030)
-   defining Unicode char U+0407 (decimal 1031)
-   defining Unicode char U+0408 (decimal 1032)
-   defining Unicode char U+0409 (decimal 1033)
-   defining Unicode char U+040A (decimal 1034)
-   defining Unicode char U+040B (decimal 1035)
-   defining Unicode char U+040C (decimal 1036)
-   defining Unicode char U+040D (decimal 1037)
-   defining Unicode char U+040E (decimal 1038)
-   defining Unicode char U+040F (decimal 1039)
-   defining Unicode char U+0410 (decimal 1040)
-   defining Unicode char U+0411 (decimal 1041)
-   defining Unicode char U+0412 (decimal 1042)
-   defining Unicode char U+0413 (decimal 1043)
-   defining Unicode char U+0414 (decimal 1044)
-   defining Unicode char U+0415 (decimal 1045)
-   defining Unicode char U+0416 (decimal 1046)
-   defining Unicode char U+0417 (decimal 1047)
-   defining Unicode char U+0418 (decimal 1048)
-   defining Unicode char U+0419 (decimal 1049)
-   defining Unicode char U+041A (decimal 1050)
-   defining Unicode char U+041B (decimal 1051)
-   defining Unicode char U+041C (decimal 1052)
-   defining Unicode char U+041D (decimal 1053)
-   defining Unicode char U+041E (decimal 1054)
-   defining Unicode char U+041F (decimal 1055)
-   defining Unicode char U+0420 (decimal 1056)
-   defining Unicode char U+0421 (decimal 1057)
-   defining Unicode char U+0422 (decimal 1058)
-   defining Unicode char U+0423 (decimal 1059)
-   defining Unicode char U+0424 (decimal 1060)
-   defining Unicode char U+0425 (decimal 1061)
-   defining Unicode char U+0426 (decimal 1062)
-   defining Unicode char U+0427 (decimal 1063)
-   defining Unicode char U+0428 (decimal 1064)
-   defining Unicode char U+0429 (decimal 1065)
-   defining Unicode char U+042A (decimal 1066)
-   defining Unicode char U+042B (decimal 1067)
-   defining Unicode char U+042C (decimal 1068)
-   defining Unicode char U+042D (decimal 1069)
-   defining Unicode char U+042E (decimal 1070)
-   defining Unicode char U+042F (decimal 1071)
-   defining Unicode char U+0430 (decimal 1072)
-   defining Unicode char U+0431 (decimal 1073)
-   defining Unicode char U+0432 (decimal 1074)
-   defining Unicode char U+0433 (decimal 1075)
-   defining Unicode char U+0434 (decimal 1076)
-   defining Unicode char U+0435 (decimal 1077)
-   defining Unicode char U+0436 (decimal 1078)
-   defining Unicode char U+0437 (decimal 1079)
-   defining Unicode char U+0438 (decimal 1080)
-   defining Unicode char U+0439 (decimal 1081)
-   defining Unicode char U+043A (decimal 1082)
-   defining Unicode char U+043B (decimal 1083)
-   defining Unicode char U+043C (decimal 1084)
-   defining Unicode char U+043D (decimal 1085)
-   defining Unicode char U+043E (decimal 1086)
-   defining Unicode char U+043F (decimal 1087)
-   defining Unicode char U+0440 (decimal 1088)
-   defining Unicode char U+0441 (decimal 1089)
-   defining Unicode char U+0442 (decimal 1090)
-   defining Unicode char U+0443 (decimal 1091)
-   defining Unicode char U+0444 (decimal 1092)
-   defining Unicode char U+0445 (decimal 1093)
-   defining Unicode char U+0446 (decimal 1094)
-   defining Unicode char U+0447 (decimal 1095)
-   defining Unicode char U+0448 (decimal 1096)
-   defining Unicode char U+0449 (decimal 1097)
-   defining Unicode char U+044A (decimal 1098)
-   defining Unicode char U+044B (decimal 1099)
-   defining Unicode char U+044C (decimal 1100)
-   defining Unicode char U+044D (decimal 1101)
-   defining Unicode char U+044E (decimal 1102)
-   defining Unicode char U+044F (decimal 1103)
-   defining Unicode char U+0450 (decimal 1104)
-   defining Unicode char U+0451 (decimal 1105)
-   defining Unicode char U+0452 (decimal 1106)
-   defining Unicode char U+0453 (decimal 1107)
-   defining Unicode char U+0454 (decimal 1108)
-   defining Unicode char U+0455 (decimal 1109)
-   defining Unicode char U+0456 (decimal 1110)
-   defining Unicode char U+0457 (decimal 1111)
-   defining Unicode char U+0458 (decimal 1112)
-   defining Unicode char U+0459 (decimal 1113)
-   defining Unicode char U+045A (decimal 1114)
-   defining Unicode char U+045B (decimal 1115)
-   defining Unicode char U+045C (decimal 1116)
-   defining Unicode char U+045D (decimal 1117)
-   defining Unicode char U+045E (decimal 1118)
-   defining Unicode char U+045F (decimal 1119)
-   defining Unicode char U+0490 (decimal 1168)
-   defining Unicode char U+0491 (decimal 1169)
-   defining Unicode char U+0492 (decimal 1170)
-   defining Unicode char U+0493 (decimal 1171)
-   defining Unicode char U+0496 (decimal 1174)
-   defining Unicode char U+0497 (decimal 1175)
-   defining Unicode char U+0498 (decimal 1176)
-   defining Unicode char U+0499 (decimal 1177)
-   defining Unicode char U+049A (decimal 1178)
-   defining Unicode char U+049B (decimal 1179)
-   defining Unicode char U+049C (decimal 1180)
-   defining Unicode char U+049D (decimal 1181)
-   defining Unicode char U+04A0 (decimal 1184)
-   defining Unicode char U+04A1 (decimal 1185)
-   defining Unicode char U+04A2 (decimal 1186)
-   defining Unicode char U+04A3 (decimal 1187)
-   defining Unicode char U+04A4 (decimal 1188)
-   defining Unicode char U+04A5 (decimal 1189)
-   defining Unicode char U+04AA (decimal 1194)
-   defining Unicode char U+04AB (decimal 1195)
-   defining Unicode char U+04AE (decimal 1198)
-   defining Unicode char U+04AF (decimal 1199)
-   defining Unicode char U+04B0 (decimal 1200)
-   defining Unicode char U+04B1 (decimal 1201)
-   defining Unicode char U+04B2 (decimal 1202)
-   defining Unicode char U+04B3 (decimal 1203)
-   defining Unicode char U+04B6 (decimal 1206)
-   defining Unicode char U+04B7 (decimal 1207)
-   defining Unicode char U+04B8 (decimal 1208)
-   defining Unicode char U+04B9 (decimal 1209)
-   defining Unicode char U+04BA (decimal 1210)
-   defining Unicode char U+04BB (decimal 1211)
-   defining Unicode char U+04C0 (decimal 1216)
-   defining Unicode char U+04C1 (decimal 1217)
-   defining Unicode char U+04C2 (decimal 1218)
-   defining Unicode char U+04D0 (decimal 1232)
-   defining Unicode char U+04D1 (decimal 1233)
-   defining Unicode char U+04D2 (decimal 1234)
-   defining Unicode char U+04D3 (decimal 1235)
-   defining Unicode char U+04D4 (decimal 1236)
-   defining Unicode char U+04D5 (decimal 1237)
-   defining Unicode char U+04D6 (decimal 1238)
-   defining Unicode char U+04D7 (decimal 1239)
-   defining Unicode char U+04D8 (decimal 1240)
-   defining Unicode char U+04D9 (decimal 1241)
-   defining Unicode char U+04DA (decimal 1242)
-   defining Unicode char U+04DB (decimal 1243)
-   defining Unicode char U+04DC (decimal 1244)
-   defining Unicode char U+04DD (decimal 1245)
-   defining Unicode char U+04DE (decimal 1246)
-   defining Unicode char U+04DF (decimal 1247)
-   defining Unicode char U+04E2 (decimal 1250)
-   defining Unicode char U+04E3 (decimal 1251)
-   defining Unicode char U+04E4 (decimal 1252)
-   defining Unicode char U+04E5 (decimal 1253)
-   defining Unicode char U+04E6 (decimal 1254)
-   defining Unicode char U+04E7 (decimal 1255)
-   defining Unicode char U+04E8 (decimal 1256)
-   defining Unicode char U+04E9 (decimal 1257)
-   defining Unicode char U+04EC (decimal 1260)
-   defining Unicode char U+04ED (decimal 1261)
-   defining Unicode char U+04EE (decimal 1262)
-   defining Unicode char U+04EF (decimal 1263)
-   defining Unicode char U+04F0 (decimal 1264)
-   defining Unicode char U+04F1 (decimal 1265)
-   defining Unicode char U+04F2 (decimal 1266)
-   defining Unicode char U+04F3 (decimal 1267)
-   defining Unicode char U+04F4 (decimal 1268)
-   defining Unicode char U+04F5 (decimal 1269)
-   defining Unicode char U+04F8 (decimal 1272)
-   defining Unicode char U+04F9 (decimal 1273)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+3008 (decimal 12296)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+3009 (decimal 12297)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+27E8 (decimal 10216)
-   defining Unicode char U+27E9 (decimal 10217)
-   defining Unicode char U+FB00 (decimal 64256)
-   defining Unicode char U+FB01 (decimal 64257)
-   defining Unicode char U+FB02 (decimal 64258)
-   defining Unicode char U+FB03 (decimal 64259)
-   defining Unicode char U+FB04 (decimal 64260)
-   defining Unicode char U+FB05 (decimal 64261)
-   defining Unicode char U+FB06 (decimal 64262)
-))
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-16.
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+
+Package fontspec Info: 
+(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX,Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Arial/OT:script=latn;language=dflt;mapping=tex-text;
+"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Arial/B/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Arial/I/OT:script=latn;language=dflt;mapping=tex-tex
+t;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Arial/BI/OT:script=latn;language=dflt;mapping=tex-te
+xt;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'CourierNew(0)' created for font 'Courier
+(fontspec)             New' with options
+(fontspec)             [Ligatures=TeX,WordSpace={1,0,0},HyphenChar=None,Punctua
+tionSpace=WordSpace].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Courier
+(fontspec)             New/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Courier
+(fontspec)             New/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Courier
+(fontspec)             New/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Courier
+(fontspec)             New/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
 eX and XeLaTeX
-\babel@savecnt=\count301
-\U@D=\dimen182
+\babel@savecnt=\count310
+\U@D=\dimen185
 \l@unhyphenated=\language90
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count302
+\bbl@dirlevel=\count311
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language58). Reported on input line 105.
+(babel)             (\language22). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language58). Reported on input line 108.
+(babel)             (\language22). Reported on input line 108.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mongolian-babel/mongolian.ldf
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mongolian-babel/mongolian.ldf
 Language: mongolian 2008/03/30 v1.2 Mongolian support from the babel system
+
+
+Package babel Warning: No input encoding specified for Mongolian language on in
+put line 129.
+
 Package babel Info: Making " an active character on input line 175.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/mn/babel-mongolian.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/mn/babel-mongolian
+.tex
 Package babel Info: Importing font and identification data for mongolian
 (babel)             from babel-mn.ini. Reported on input line 11.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count303
-\float@exts=\toks24
+\c@float@type=\count312
+\float@exts=\toks22
 \float@box=\box68
-\@float@everytoks=\toks25
+\@float@everytoks=\toks23
 \@floatcapt=\box69
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count304
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count313
 \lst@gtempboxa=\box70
-\lst@token=\toks26
-\lst@length=\count305
-\lst@currlwidth=\dimen183
-\lst@column=\count306
-\lst@pos=\count307
-\lst@lostspace=\dimen184
-\lst@width=\dimen185
-\lst@newlines=\count308
-\lst@lineno=\count309
-\lst@maxwidth=\dimen186
+\lst@token=\toks24
+\lst@length=\count314
+\lst@currlwidth=\dimen186
+\lst@column=\count315
+\lst@pos=\count316
+\lst@lostspace=\dimen187
+\lst@width=\dimen188
+\lst@newlines=\count317
+\lst@lineno=\count318
+\lst@maxwidth=\dimen189
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstpatch.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count310
-\lst@skipnumbers=\count311
+\c@lstnumber=\count319
+\lst@skipnumbers=\count320
 \lst@framebox=\box71
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/anysize/anysize.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/anysize/anysize.sty
 Package: anysize 1994/08/13 setting margin sizes
 
 document style option `anysize' loaded
 Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
 Version 1.0, Aug 13, 1994
-\@Leftmargin=\dimen187
-\@Rightmargin=\dimen188
-\@Topmargin=\dimen189
-\@Bottommargin=\dimen190
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+\@Leftmargin=\dimen190
+\@Rightmargin=\dimen191
+\@Topmargin=\dimen192
+\@Bottommargin=\dimen193
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box72
 \beforetitleunit=\skip58
 \aftertitleunit=\skip59
-\ttl@plus=\dimen191
-\ttl@minus=\dimen192
-\ttl@toksa=\toks27
-\titlewidth=\dimen193
-\titlewidthlast=\dimen194
-\titlewidthfirst=\dimen195
+\ttl@plus=\dimen194
+\ttl@minus=\dimen195
+\ttl@toksa=\toks25
+\titlewidth=\dimen196
+\titlewidthlast=\dimen197
+\titlewidthfirst=\dimen198
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
@@ -587,147 +459,141 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
-\everycr=\toks28
+\everycr=\toks26
 \minrowclearance=\skip60
-\rownum=\count312
+\rownum=\count321
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count313
+\c@r@tfl@t=\count322
 \rotFPtop=\skip61
 \rotFPbot=\skip62
 \rot@float@box=\box73
-\rot@mess@toks=\toks29
+\rot@mess@toks=\toks27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip63
-\enit@outerparindent=\dimen196
-\enit@toks=\toks30
+\enit@outerparindent=\dimen199
+\enit@toks=\toks28
 \enit@inbox=\box74
-\enit@count@id=\count314
-\enitdp@description=\count315
+\enit@count@id=\count323
+\enitdp@description=\count324
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen197
-\TX@old@table=\dimen198
-\TX@old@col=\dimen199
-\TX@target=\dimen256
-\TX@delta=\dimen257
-\TX@cols=\count316
-\TX@ftn=\toks31
+\TX@col@width=\dimen256
+\TX@old@table=\dimen257
+\TX@old@col=\dimen258
+\TX@target=\dimen259
+\TX@delta=\dimen260
+\TX@cols=\count325
+\TX@ftn=\toks29
 )
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count317
-\l__lipsum_a_int=\count318
-\l__lipsum_b_int=\count319
-
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+\g__lipsum_par_int=\count326
+\l__lipsum_a_int=\count327
+\l__lipsum_b_int=\count328
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
-\MT@toks=\toks32
+\MT@toks=\toks30
 \MT@tempbox=\box75
-\MT@count=\count320
+\MT@count=\count329
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
-\MT@prot@toks=\toks33
+\MT@prot@toks=\toks31
 LaTeX Info: Redefining \rightprotrusion on input line 1107.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen258
+\MT@outer@kern=\dimen261
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count321
+\MT@listname@count=\count330
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2025/02/11 v3.2a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 944.
-LaTeX Info: Redefining \lslig on input line 944.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2025/02/11 v3.2a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
 \MT@outer@space=\skip64
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count322
+\c@section@level=\count331
 )
-(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen259
-\Hy@linkcounter=\count323
-\Hy@pagecounter=\count324
+\@linkdim=\dimen262
+\Hy@linkcounter=\count332
+\Hy@pagecounter=\count333
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count325
+\Hy@SavedSpaceFactor=\count334
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
@@ -736,25 +602,25 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count326
+\c@Hy@tempcnt=\count335
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen260
+\XeTeXLinkMargin=\dimen263
 
-(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count327
-\Field@Width=\dimen261
-\Fld@charsize=\dimen262
+\Fld@menulength=\count336
+\Field@Width=\dimen264
+\Fld@charsize=\dimen265
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -763,528 +629,546 @@ Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count328
-\c@Item=\count329
-\c@Hfootnote=\count330
+\Hy@abspage=\count337
+\c@Item=\count338
+\c@Hfootnote=\count339
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hxetex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box76
+\c@Hy@AnnotLevel=\count340
+\HyField@AnnotCount=\count341
+\Fld@listcount=\count342
+\c@bookmark@seq@number=\count343
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count331
-\c@bookmark@seq@number=\count332
-
-(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip65
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
 Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen263
-\pgfutil@tempdimb=\dimen264
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen266
+\pgfutil@tempdimb=\dimen267
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box76
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box77
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
-.code.tex
-\pgfkeys@tmptoks=\toks37
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen265
-\pgf@y=\dimen266
-\pgf@xa=\dimen267
-\pgf@ya=\dimen268
-\pgf@xb=\dimen269
-\pgf@yb=\dimen270
-\pgf@xc=\dimen271
-\pgf@yc=\dimen272
-\pgf@xd=\dimen273
-\pgf@yd=\dimen274
+\pgf@x=\dimen268
+\pgf@y=\dimen269
+\pgf@xa=\dimen270
+\pgf@ya=\dimen271
+\pgf@xb=\dimen272
+\pgf@yb=\dimen273
+\pgf@xc=\dimen274
+\pgf@yc=\dimen275
+\pgf@xd=\dimen276
+\pgf@yd=\dimen277
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count333
-\c@pgf@countb=\count334
-\c@pgf@countc=\count335
-\c@pgf@countd=\count336
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
-\pgf@sys@id@count=\count337
- (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+\c@pgf@counta=\count344
+\c@pgf@countb=\count345
+\c@pgf@countc=\count346
+\c@pgf@countd=\count347
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count348
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
-Driver file for pgf: pgfsys-pdftex.def
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+Driver file for pgf: pgfsys-xetex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
 f
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
-tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count338
-\pgfsyssoftpath@bigbuffer@items=\count339
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
-tex
+\pgfsys@objnum=\count349
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count350
+\pgfsyssoftpath@bigbuffer@items=\count351
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen275
-\pgfmath@count=\count340
-\pgfmath@box=\box77
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen278
+\pgfmath@count=\count352
+\pgfmath@box=\box78
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
-ric.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
 .code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
-tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
-thmetics.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count341
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
-x
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count353
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen276
-\pgf@picmaxx=\dimen277
-\pgf@picminy=\dimen278
-\pgf@picmaxy=\dimen279
-\pgf@pathminx=\dimen280
-\pgf@pathmaxx=\dimen281
-\pgf@pathminy=\dimen282
-\pgf@pathmaxy=\dimen283
-\pgf@xx=\dimen284
-\pgf@xy=\dimen285
-\pgf@yx=\dimen286
-\pgf@yy=\dimen287
-\pgf@zx=\dimen288
-\pgf@zy=\dimen289
+\pgf@picminx=\dimen279
+\pgf@picmaxx=\dimen280
+\pgf@picminy=\dimen281
+\pgf@picmaxy=\dimen282
+\pgf@pathminx=\dimen283
+\pgf@pathmaxx=\dimen284
+\pgf@pathminy=\dimen285
+\pgf@pathmaxy=\dimen286
+\pgf@xx=\dimen287
+\pgf@xy=\dimen288
+\pgf@yx=\dimen289
+\pgf@yy=\dimen290
+\pgf@zx=\dimen291
+\pgf@zy=\dimen292
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
-code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen290
-\pgf@path@lasty=\dimen291
+\pgf@path@lastx=\dimen293
+\pgf@path@lasty=\dimen294
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
-.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen292
-\pgf@shorten@start@additional=\dimen293
+\pgf@shorten@end@additional=\dimen295
+\pgf@shorten@start@additional=\dimen296
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
-x
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box78
-\pgf@hbox=\box79
-\pgf@layerbox@main=\box80
-\pgf@picture@serial@count=\count342
+\pgfpic=\box79
+\pgf@hbox=\box80
+\pgf@layerbox@main=\box81
+\pgf@picture@serial@count=\count354
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
-ode.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen294
+\pgflinewidth=\dimen297
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
-s.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen295
-\pgf@pt@y=\dimen296
-\pgf@pt@temp=\dimen297
+\pgf@pt@x=\dimen298
+\pgf@pt@y=\dimen299
+\pgf@pt@temp=\dimen300
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
-ex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
-.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
-x
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen298
+\pgfarrowsep=\dimen301
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen299
-\pgf@sys@shading@range@num=\count343
-\pgf@shadingcount=\count344
+\pgf@max=\dimen302
+\pgf@sys@shading@range@num=\count355
+\pgf@shadingcount=\count356
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
-tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box81
+\pgfexternal@startupbox=\box82
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
-x
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
-ode.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
-tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box82
-) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+\pgfnodeparttextbox=\box83
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
-.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen300
-\pgf@nodesepend=\dimen301
+\pgf@nodesepstart=\dimen303
+\pgf@nodesepend=\dimen304
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
-.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen302
-\pgffor@skip=\dimen303
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen305
+\pgffor@skip=\dimen306
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
-.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count345
-\pgfplotmarksize=\dimen304
+\pgf@plot@mark@count=\count357
+\pgfplotmarksize=\dimen307
 )
-\tikz@lastx=\dimen305
-\tikz@lasty=\dimen306
-\tikz@lastxsaved=\dimen307
-\tikz@lastysaved=\dimen308
-\tikz@lastmovetox=\dimen309
-\tikz@lastmovetoy=\dimen310
-\tikzleveldistance=\dimen311
-\tikzsiblingdistance=\dimen312
-\tikz@figbox=\box83
-\tikz@figbox@bg=\box84
-\tikz@tempbox=\box85
-\tikz@tempbox@bg=\box86
-\tikztreelevel=\count346
-\tikznumberofchildren=\count347
-\tikznumberofcurrentchild=\count348
-\tikz@fig@count=\count349
+\tikz@lastx=\dimen308
+\tikz@lasty=\dimen309
+\tikz@lastxsaved=\dimen310
+\tikz@lastysaved=\dimen311
+\tikz@lastmovetox=\dimen312
+\tikz@lastmovetoy=\dimen313
+\tikzleveldistance=\dimen314
+\tikzsiblingdistance=\dimen315
+\tikz@figbox=\box84
+\tikz@figbox@bg=\box85
+\tikz@tempbox=\box86
+\tikz@tempbox@bg=\box87
+\tikztreelevel=\count358
+\tikznumberofchildren=\count359
+\tikznumberofcurrentchild=\count360
+\tikz@fig@count=\count361
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count350
-\pgfmatrixcurrentcolumn=\count351
-\pgf@matrix@numberofcolumns=\count352
+\pgfmatrixcurrentrow=\count362
+\pgfmatrixcurrentcolumn=\count363
+\pgf@matrix@numberofcolumns=\count364
 )
-\tikz@expandcount=\count353
+\tikz@expandcount=\count365
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarytopaths.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryarrows.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
-tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen313
+\arrowsize=\dimen316
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybackgrounds.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box87
-\pgf@layerboxsaved@background=\box88
+\pgf@layerbox@background=\box88
+\pgf@layerboxsaved@background=\box89
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypatterns.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
-e.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
 File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarypositioning.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.geometric.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.geometric.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
+tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count354
-\pgf@cal@easter@Y=\count355
-\pgf@cal@easter@G=\count356
-\pgf@cal@easter@C=\count357
-\pgf@cal@easter@X=\count358
-\pgf@cal@easter@Z=\count359
-\pgf@cal@easter@D=\count360
-\pgf@cal@easter@E=\count361
-\pgf@cal@easter@N=\count362
-\pgf@cal@easter@M=\count363
-\pgf@cal@easter@julianday=\count364
+\pgfcalendarcurrentjulian=\count366
+\pgf@cal@easter@Y=\count367
+\pgf@cal@easter@G=\count368
+\pgf@cal@easter@C=\count369
+\pgf@cal@easter@X=\count370
+\pgf@cal@easter@Z=\count371
+\pgf@cal@easter@D=\count372
+\pgf@cal@easter@E=\count373
+\pgf@cal@easter@N=\count374
+\pgf@cal@easter@M=\count375
+\pgf@cal@easter@julianday=\count376
 ))
-\gtt@currentline=\count365
-\gtt@lasttitleline=\count366
-\gtt@currgrid=\count367
-\gtt@chartwidth=\count368
-\gtt@lasttitleslot=\count369
-\gtt@elementid=\count370
-\gtt@today@slot=\count371
-\gtt@startjulian=\count372
-\gtt@endjulian=\count373
-\gtt@chartid=\count374
-\gtt@vrule@slot=\count375
-\gtt@calendar@slots=\count376
-\gtt@calendar@weeknumber=\count377
-\gtt@calendar@startofweek=\count378
-\gtt@left@slot=\count379
-\gtt@right@slot=\count380
-) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+\gtt@currentline=\count377
+\gtt@lasttitleline=\count378
+\gtt@currgrid=\count379
+\gtt@chartwidth=\count380
+\gtt@lasttitleslot=\count381
+\gtt@elementid=\count382
+\gtt@today@slot=\count383
+\gtt@startjulian=\count384
+\gtt@endjulian=\count385
+\gtt@chartid=\count386
+\gtt@vrule@slot=\count387
+\gtt@calendar@slots=\count388
+\gtt@calendar@weeknumber=\count389
+\gtt@calendar@startofweek=\count390
+\gtt@left@slot=\count391
+\gtt@right@slot=\count392
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count381
+\c@subfigure=\count393
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count382
+\c@subtable=\count394
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.misc.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.misc.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.symbols.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.symbols.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.arrows.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.arrows.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.callouts.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.callouts.code.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryshapes.multipart.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
-s.multipart.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box89
-\pgfnodeparttwobox=\box90
-\pgfnodepartthreebox=\box91
-\pgfnodepartfourbox=\box92
-\pgfnodeparttwentybox=\box93
-\pgfnodepartnineteenbox=\box94
-\pgfnodeparteighteenbox=\box95
-\pgfnodepartseventeenbox=\box96
-\pgfnodepartsixteenbox=\box97
-\pgfnodepartfifteenbox=\box98
-\pgfnodepartfourteenbox=\box99
-\pgfnodepartthirteenbox=\box100
-\pgfnodeparttwelvebox=\box101
-\pgfnodepartelevenbox=\box102
-\pgfnodeparttenbox=\box103
-\pgfnodepartninebox=\box104
-\pgfnodeparteightbox=\box105
-\pgfnodepartsevenbox=\box106
-\pgfnodepartsixbox=\box107
-\pgfnodepartfivebox=\box108
+\pgfnodepartlowerbox=\box90
+\pgfnodeparttwobox=\box91
+\pgfnodepartthreebox=\box92
+\pgfnodepartfourbox=\box93
+\pgfnodeparttwentybox=\box94
+\pgfnodepartnineteenbox=\box95
+\pgfnodeparteighteenbox=\box96
+\pgfnodepartseventeenbox=\box97
+\pgfnodepartsixteenbox=\box98
+\pgfnodepartfifteenbox=\box99
+\pgfnodepartfourteenbox=\box100
+\pgfnodepartthirteenbox=\box101
+\pgfnodeparttwelvebox=\box102
+\pgfnodepartelevenbox=\box103
+\pgfnodeparttenbox=\box104
+\pgfnodepartninebox=\box105
+\pgfnodeparteightbox=\box106
+\pgfnodepartsevenbox=\box107
+\pgfnodepartsixbox=\box108
+\pgfnodepartfivebox=\box109
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryautomata.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryautomata.code.tex
 File: tikzlibraryautomata.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count383
-\csq@gtype=\count384
-\csq@glevel=\count385
-\csq@qlevel=\count386
-\csq@maxlvl=\count387
-\csq@tshold=\count388
-\csq@ltx@everypar=\toks46
+\csq@reset=\count395
+\csq@gtype=\count396
+\csq@glevel=\count397
+\csq@qlevel=\count398
+\csq@maxlvl=\count399
+\csq@tshold=\count400
+\csq@ltx@everypar=\toks44
 
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Disabling multilingual quotes.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count389
+\lrq@indent=\count401
 
-(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count390
-\c@listtotal=\count391
-\c@listcount=\count392
-\c@liststart=\count393
-\c@liststop=\count394
-\c@citecount=\count395
-\c@citetotal=\count396
-\c@multicitecount=\count397
-\c@multicitetotal=\count398
-\c@instcount=\count399
-\c@maxnames=\count400
-\c@minnames=\count401
-\c@maxitems=\count402
-\c@minitems=\count403
-\c@citecounter=\count404
-\c@maxcitecounter=\count405
-\c@savedcitecounter=\count406
-\c@uniquelist=\count407
-\c@uniquename=\count408
-\c@refsection=\count409
-\c@refsegment=\count410
-\c@maxextratitle=\count411
-\c@maxextratitleyear=\count412
-\c@maxextraname=\count413
-\c@maxextradate=\count414
-\c@maxextraalpha=\count415
-\c@abbrvpenalty=\count416
-\c@highnamepenalty=\count417
-\c@lownamepenalty=\count418
-\c@maxparens=\count419
-\c@parenlevel=\count420
-\blx@tempcnta=\count421
-\blx@tempcntb=\count422
-\blx@tempcntc=\count423
-\c@blx@maxsection=\count424
-\blx@maxsegment@0=\count425
-\blx@notetype=\count426
-\blx@parenlevel@text=\count427
-\blx@parenlevel@foot=\count428
-\blx@sectionciteorder@0=\count429
-\blx@sectionciteorderinternal@0=\count430
-\blx@entrysetcounter=\count431
-\blx@biblioinstance=\count432
+\c@tabx@nest=\count402
+\c@listtotal=\count403
+\c@listcount=\count404
+\c@liststart=\count405
+\c@liststop=\count406
+\c@citecount=\count407
+\c@citetotal=\count408
+\c@multicitecount=\count409
+\c@multicitetotal=\count410
+\c@instcount=\count411
+\c@maxnames=\count412
+\c@minnames=\count413
+\c@maxitems=\count414
+\c@minitems=\count415
+\c@citecounter=\count416
+\c@maxcitecounter=\count417
+\c@savedcitecounter=\count418
+\c@uniquelist=\count419
+\c@uniquename=\count420
+\c@refsection=\count421
+\c@refsegment=\count422
+\c@maxextratitle=\count423
+\c@maxextratitleyear=\count424
+\c@maxextraname=\count425
+\c@maxextradate=\count426
+\c@maxextraalpha=\count427
+\c@abbrvpenalty=\count428
+\c@highnamepenalty=\count429
+\c@lownamepenalty=\count430
+\c@maxparens=\count431
+\c@parenlevel=\count432
+\blx@tempcnta=\count433
+\blx@tempcntb=\count434
+\blx@tempcntc=\count435
+\c@blx@maxsection=\count436
+\blx@maxsegment@0=\count437
+\blx@notetype=\count438
+\blx@parenlevel@text=\count439
+\blx@parenlevel@foot=\count440
+\blx@sectionciteorder@0=\count441
+\blx@sectionciteorderinternal@0=\count442
+\blx@entrysetcounter=\count443
+\blx@biblioinstance=\count444
 \labelnumberwidth=\skip66
 \labelalphawidth=\skip67
 \biblabelsep=\skip68
@@ -1296,87 +1180,87 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language91
-\c@mincomprange=\count433
-\c@maxcomprange=\count434
-\c@mincompwidth=\count435
+\c@mincomprange=\count445
+\c@maxcomprange=\count446
+\c@mincompwidth=\count447
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count436
-\c@savedafterword=\count437
-\c@annotator=\count438
-\c@savedannotator=\count439
-\c@author=\count440
-\c@savedauthor=\count441
-\c@bookauthor=\count442
-\c@savedbookauthor=\count443
-\c@commentator=\count444
-\c@savedcommentator=\count445
-\c@editor=\count446
-\c@savededitor=\count447
-\c@editora=\count448
-\c@savededitora=\count449
-\c@editorb=\count450
-\c@savededitorb=\count451
-\c@editorc=\count452
-\c@savededitorc=\count453
-\c@foreword=\count454
-\c@savedforeword=\count455
-\c@holder=\count456
-\c@savedholder=\count457
-\c@introduction=\count458
-\c@savedintroduction=\count459
-\c@namea=\count460
-\c@savednamea=\count461
-\c@nameb=\count462
-\c@savednameb=\count463
-\c@namec=\count464
-\c@savednamec=\count465
-\c@translator=\count466
-\c@savedtranslator=\count467
-\c@shortauthor=\count468
-\c@savedshortauthor=\count469
-\c@shorteditor=\count470
-\c@savedshorteditor=\count471
-\c@labelname=\count472
-\c@savedlabelname=\count473
-\c@institution=\count474
-\c@savedinstitution=\count475
-\c@lista=\count476
-\c@savedlista=\count477
-\c@listb=\count478
-\c@savedlistb=\count479
-\c@listc=\count480
-\c@savedlistc=\count481
-\c@listd=\count482
-\c@savedlistd=\count483
-\c@liste=\count484
-\c@savedliste=\count485
-\c@listf=\count486
-\c@savedlistf=\count487
-\c@location=\count488
-\c@savedlocation=\count489
-\c@organization=\count490
-\c@savedorganization=\count491
-\c@origlocation=\count492
-\c@savedoriglocation=\count493
-\c@origpublisher=\count494
-\c@savedorigpublisher=\count495
-\c@publisher=\count496
-\c@savedpublisher=\count497
-\c@language=\count498
-\c@savedlanguage=\count499
-\c@origlanguage=\count500
-\c@savedoriglanguage=\count501
-\c@pageref=\count502
-\c@savedpageref=\count503
+\c@afterword=\count448
+\c@savedafterword=\count449
+\c@annotator=\count450
+\c@savedannotator=\count451
+\c@author=\count452
+\c@savedauthor=\count453
+\c@bookauthor=\count454
+\c@savedbookauthor=\count455
+\c@commentator=\count456
+\c@savedcommentator=\count457
+\c@editor=\count458
+\c@savededitor=\count459
+\c@editora=\count460
+\c@savededitora=\count461
+\c@editorb=\count462
+\c@savededitorb=\count463
+\c@editorc=\count464
+\c@savededitorc=\count465
+\c@foreword=\count466
+\c@savedforeword=\count467
+\c@holder=\count468
+\c@savedholder=\count469
+\c@introduction=\count470
+\c@savedintroduction=\count471
+\c@namea=\count472
+\c@savednamea=\count473
+\c@nameb=\count474
+\c@savednameb=\count475
+\c@namec=\count476
+\c@savednamec=\count477
+\c@translator=\count478
+\c@savedtranslator=\count479
+\c@shortauthor=\count480
+\c@savedshortauthor=\count481
+\c@shorteditor=\count482
+\c@savedshorteditor=\count483
+\c@labelname=\count484
+\c@savedlabelname=\count485
+\c@institution=\count486
+\c@savedinstitution=\count487
+\c@lista=\count488
+\c@savedlista=\count489
+\c@listb=\count490
+\c@savedlistb=\count491
+\c@listc=\count492
+\c@savedlistc=\count493
+\c@listd=\count494
+\c@savedlistd=\count495
+\c@liste=\count496
+\c@savedliste=\count497
+\c@listf=\count498
+\c@savedlistf=\count499
+\c@location=\count500
+\c@savedlocation=\count501
+\c@organization=\count502
+\c@savedorganization=\count503
+\c@origlocation=\count504
+\c@savedoriglocation=\count505
+\c@origpublisher=\count506
+\c@savedorigpublisher=\count507
+\c@publisher=\count508
+\c@savedpublisher=\count509
+\c@language=\count510
+\c@savedlanguage=\count511
+\c@origlanguage=\count512
+\c@savedoriglanguage=\count513
+\c@pageref=\count514
+\c@savedpageref=\count515
 \shorthandwidth=\skip74
 \shortjournalwidth=\skip75
 \shortserieswidth=\skip76
@@ -1391,48 +1275,52 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip85
 \localshortauthorwidth=\skip86
 \localshorteditorwidth=\skip87
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count504
-\c@textcitetotal=\count505
-\c@textcitemaxnames=\count506
-\c@biburlbigbreakpenalty=\count507
-\c@biburlbreakpenalty=\count508
-\c@biburlnumpenalty=\count509
-\c@biburlucpenalty=\count510
-\c@biburllcpenalty=\count511
+\c@textcitecount=\count516
+\c@textcitetotal=\count517
+\c@textcitemaxnames=\count518
+\c@biburlbigbreakpenalty=\count519
+\c@biburlbreakpenalty=\count520
+\c@biburlnumpenalty=\count521
+\c@biburlucpenalty=\count522
+\c@biburllcpenalty=\count523
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count512
+\c@smartand=\count524
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count513
-\c@bbx:relatedtotal=\count514
+\c@bbx:relatedcount=\count525
+\c@bbx:relatedtotal=\count526
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
 File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -1449,88 +1337,66 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
 (biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 121.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 121.
-Package hyperref Info: Option `colorlinks' set `true' on input line 121.
-Package hyperref Info: Option `unicode' set `true' on input line 121.
-Package hyperref Info: Option `breaklinks' set `true' on input line 121.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 148.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 148.
+Package hyperref Info: Option `colorlinks' set `true' on input line 148.
+Package hyperref Info: Option `unicode' set `true' on input line 148.
+Package hyperref Info: Option `breaklinks' set `true' on input line 148.
 
 (./main.aux (./FrontBackMatter/Titlepage.aux)
-(./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
-(./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
-(./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
-(./Chapters/Introduction.aux) (./Chapters/Chapter1.aux)
-(./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux)
-(./Chapters/Summary.aux) (./Appendices/AppendixA.aux)
+(./FrontBackMatter/LibraryCatalog.aux) (./FrontBackMatter/Plan-Review.aux)
+(./FrontBackMatter/Declaration.aux) (./FrontBackMatter/Quotation.aux)
+(./FrontBackMatter/Abstract.aux) (./FrontBackMatter/Acknowledgments.aux)
+(./FrontBackMatter/Abbreviations.aux) (./Chapters/Introduction.aux)
+(./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux)
+(./Chapters/Chapter4.aux) (./Chapters/Summary.aux) (./Appendices/AppendixA.aux)
 (./Appendices/AppendixB.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 175.
-LaTeX Font Info:    ... okay on input line 175.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 202.
+LaTeX Font Info:    ... okay on input line 202.
 Package translations Info: no dictionary file `translations-basic-dictionary-mo
-ngolian.trsl' found. on input line 175.
+ngolian.trsl' found. on input line 202.
 
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
-nary-english.trsl
+(/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 175.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count515
-\scratchdimen=\dimen314
-\scratchbox=\box109
-\nofMPsegments=\count516
-\nofMParguments=\count517
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count518
-\MPscratchDim=\dimen315
-\MPnumerator=\count519
-\makeMPintoPDFobject=\count520
-\everyMPtoPDFconversion=\toks48
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+or `english'. on input line 202.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1539,9 +1405,9 @@ Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1551,11 +1417,11 @@ Package caption Info: End \AtBeginDocument code.
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=662.24261pt
+* \textheight=662.22131pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-15.36449pt
-* \headheight=20.66669pt
+* \headheight=20.68799pt
 * \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=28.45274pt
@@ -1572,31 +1438,93 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count521
-LaTeX Info: Redefining \microtypecontext on input line 175.
-Package microtype Info: Applying patch `item' on input line 175.
-Package microtype Info: Applying patch `toc' on input line 175.
-Package microtype Info: Applying patch `eqnum' on input line 175.
-Package microtype Info: Applying patch `footnote' on input line 175.
-Package microtype Info: Applying patch `verbatim' on input line 175.
-LaTeX Info: Redefining \microtypesetup on input line 175.
-Package microtype Info: Generating PDF output.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 202.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 202.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 202.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 202.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 202.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 202.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 202.
+LaTeX Font Info:    Redeclaring math accent \check on input line 202.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 202.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 202.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 202.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 202.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 202.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
+02.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 202.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+202.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+202.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Arial(0)/m/n on input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 202
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Arial(0)/b/n on input line 202.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/b/n on input line 202
+.
+\c@lstlisting=\count527
+LaTeX Info: Redefining \microtypecontext on input line 202.
+Package microtype Info: Applying patch `item' on input line 202.
+Package microtype Info: Applying patch `toc' on input line 202.
+Package microtype Info: Applying patch `eqnum' on input line 202.
+Package microtype Info: Applying patch `footnote' on input line 202.
+Package microtype Info: Applying patch `verbatim' on input line 202.
+LaTeX Info: Redefining \microtypesetup on input line 202.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 175.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-Package hyperref Info: Link coloring ON on input line 175.
- (./main.out)
-(./main.out)
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `TimesNewRoman' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 202.
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1605,31 +1533,34 @@ Package biblatex Info: ... file 'mongolian.lbx' not found.
 
 
 Package biblatex Warning: Language 'mongolian' not supported.
-(biblatex)                Using dummy definitions on input line 175.
+(biblatex)                Using dummy definitions on input line 202.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 175.
-Package biblatex Info: Reference segment=0 on input line 175.
+
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 202.
+Package biblatex Info: Reference segment=0 on input line 202.
 \openout2 = `FrontBackMatter/Titlepage.aux'.
 
-(./FrontBackMatter/Titlepage.tex
-<Figures/MUST_logo.png, id=293, 221.82875pt x 406.51875pt>
-File: Figures/MUST_logo.png Graphic file (type png)
-<use Figures/MUST_logo.png>
-Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
-(pdftex.def)             Requested size: 44.36496pt x 81.3023pt.
+ (./FrontBackMatter/Titlepage.tex
+
+LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 8.
+
+File: Figures/MUST_logo.png Graphic file (type bmp)
+<Figures/MUST_logo.png>
 
 
 [1
@@ -1637,21 +1568,26 @@ Package pdftex.def Info: Figures/MUST_logo.png  used on input line 13.
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t2a.enc} <./Figures/MUST_logo.png>]
+]
 
 [1
+
+])
+\openout2 = `FrontBackMatter/LibraryCatalog.aux'.
+
+ (./FrontBackMatter/LibraryCatalog.tex
+
+[1
+
+
+
 
 ])
 \openout2 = `FrontBackMatter/Plan-Review.aux'.
 
  (./FrontBackMatter/Plan-Review.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+File: Figures/library-plan-signed.jpg Graphic file (type bmp)
+<Figures/library-plan-signed.jpg>
 
 
 [1
@@ -1659,21 +1595,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-]
-
-[2]
-
-[1
-
-]
-
-[2])
+])
 \openout2 = `FrontBackMatter/Declaration.aux'.
 
  (./FrontBackMatter/Declaration.tex
---------------------
- Зохиогч эрхийн хамгаалал
---------------------
+File: Figures/copyright-approval-signed.jpg Graphic file (type bmp)
+<Figures/copyright-approval-signed.jpg>
 
 
 [1
@@ -1681,13 +1608,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+])
 \openout2 = `FrontBackMatter/Quotation.aux'.
 
+ (./FrontBackMatter/Quotation.tex)
 
-(./FrontBackMatter/Quotation.tex)
-
-[2
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
+lable
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
+t line 212.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 212.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 212.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 212.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [1
 
 
 
@@ -1695,9 +1634,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 \openout2 = `FrontBackMatter/Abstract.aux'.
 
- (./FrontBackMatter/Abstract.tex)
 
-[3
+(./FrontBackMatter/Abstract.tex)
+
+[2
 
 
 
@@ -1709,6 +1649,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  Талархал
 --------------------
 
+Underfull \hbox (badness 1484) in paragraph at lines 8--11
+\TU/TimesNewRoman(0)/m/sc/12 багш Э.Батцэцэг багшдаа хамгийн түрүүнд чин сэтгэл
+ээсээ баярлалаа гэж хэлмээр
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
@@ -1726,6 +1672,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 14--17
+\TU/TimesNewRoman(0)/m/sc/12 логиудыг судлан, мэргэжлийн хувьд туршлагажих боло
+мж олгож байсан Грэйпсити
  []
 
 
@@ -1740,7 +1692,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
 )
 
-[4
+[3
 
 
 
@@ -1750,34 +1702,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  (./FrontBackMatter/Abbreviations.tex)
 
-[5
+[4
 
 
 
 
 ] (./main.toc
 
-[6
+[5
 
 
 
-]
-
-[7])
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
 
-[8] (./main.lof
-Underfull \hbox (badness 1360) in paragraph at lines 29--29
- [][] [][][]\T2A/cmr/m/n/12 (+20) Raspberry Pi ���� ����-��� ��� ���-��� ���-��
-� ���-��-����� �� 
- []
+[6] (./main.lof
 
-
-
-[9
+[7
 
 ])
 \tf@lof=\write7
@@ -1785,13 +1729,13 @@ Underfull \hbox (badness 1360) in paragraph at lines 29--29
 
 
 
-[10] (./main.lot)
+[8] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
 
 
-[11
+[9
 
 ]
 \openout2 = `Chapters/Introduction.aux'.
@@ -1802,6 +1746,30 @@ Underfull \hbox (badness 1360) in paragraph at lines 29--29
 
 
 ]
+Underfull \hbox (badness 2173) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/sc/12 Хувийн үүлэн хадгалалтын системийн чиглэлээр дэлхи
+й дахинд Nextcloud, Seafile,
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/sc/12 Syncthing зэрэг нээлттэй эхийн төслүүд өргөнөөр су
+длагдаж, хөгжүүлэгдсээр ирсэн.
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/sc/12 Эдгээр системүүд нь хэрэглэгчийн өгөгдлийн нууцлал
+ыг хангах үндсэн зорилготой
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 40--41
+\TU/TimesNewRoman(0)/m/sc/12 ихсэх, тохиргоо хийхэд хэт нарийн мэргэжлийн мэдлэ
+г шаарддаг зэрэг дутагдалтай
+ []
+
+
 
 [2])
 
@@ -1809,7 +1777,7 @@ Underfull \hbox (badness 1360) in paragraph at lines 29--29
 \openout2 = `Chapters/Chapter1.aux'.
 
  (./Chapters/Chapter1.tex
-{\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 1.
+Бүлэг 1.
 
 
 [4
@@ -1822,351 +1790,448 @@ Underfull \hbox (badness 1360) in paragraph at lines 29--29
 [4
 
 ]
-<Figures/chapter1/cloud-market.png, id=659, 768.8725pt x 422.57875pt>
-File: Figures/chapter1/cloud-market.png Graphic file (type png)
-<use Figures/chapter1/cloud-market.png>
-Package pdftex.def Info: Figures/chapter1/cloud-market.png  used on input line 
-51.
-(pdftex.def)             Requested size: 384.4353pt x 211.28885pt.
-
-Underfull \hbox (badness 7704) in paragraph at lines 52--52
-[]\T2A/cmr/m/sc/10.95 (+20) ����� 1.1: |\T2A/cmr/m/n/10.95 (+20) ��-���-����-��
-�� ����-��� ��� ��-��� ���-��-���-���
- []
-
+File: Figures/chapter1/cloud-market.png Graphic file (type bmp)
+<Figures/chapter1/cloud-market.png>
 
 
 [5]
 
-[6 <./Figures/chapter1/cloud-market.png>]
+[6]
+Underfull \hbox (badness 2790) in paragraph at lines 70--71
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Google Drive нь хэрэглэгчийн өгөгдлийг Goo
+gle-ийн төвлөрсөн distributed cloud
+ []
+
+
 
 [7]
-<Figures/chapter1/google-colossus-control-plane.png, id=684, 2007.5pt x 1129.21
-875pt>
-File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type png
+File: Figures/chapter1/google-colossus-control-plane.png Graphic file (type bmp
 )
-<use Figures/chapter1/google-colossus-control-plane.png>
-Package pdftex.def Info: Figures/chapter1/google-colossus-control-plane.png  us
-ed on input line 80.
-(pdftex.def)             Requested size: 432.48051pt x 243.25975pt.
+<Figures/chapter1/google-colossus-control-plane.png>
 
 
-[8 <./Figures/chapter1/google-colossus-control-plane.png>]
-<Figures/chapter1/nextcloud_data_diagram.png, id=698, 526.96875pt x 359.3425pt>
-
-File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type png)
-<use Figures/chapter1/nextcloud_data_diagram.png>
-Package pdftex.def Info: Figures/chapter1/nextcloud_data_diagram.png  used on i
-nput line 104.
-(pdftex.def)             Requested size: 400.61703pt x 273.19633pt.
+[8]
+File: Figures/chapter1/nextcloud_data_diagram.png Graphic file (type bmp)
+<Figures/chapter1/nextcloud_data_diagram.png>
 
 
 [9]
-<Figures/chapter1/nextcloud-interface.png, id=711, 1917.1625pt x 1044.90375pt>
-File: Figures/chapter1/nextcloud-interface.png Graphic file (type png)
-<use Figures/chapter1/nextcloud-interface.png>
-Package pdftex.def Info: Figures/chapter1/nextcloud-interface.png  used on inpu
-t line 114.
-(pdftex.def)             Requested size: 418.82375pt x 228.2692pt.
+File: Figures/chapter1/nextcloud-interface.png Graphic file (type bmp)
+<Figures/chapter1/nextcloud-interface.png>
 
 
-[10 <./Figures/chapter1/nextcloud_data_diagram.png>]
-<Figures/chapter1/nextcloud-containers-ramusage.png, id=719, 785.93625pt x 202.
-7575pt>
-File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type png
+[10]
+File: Figures/chapter1/nextcloud-containers-ramusage.png Graphic file (type bmp
 )
-<use Figures/chapter1/nextcloud-containers-ramusage.png>
-Package pdftex.def Info: Figures/chapter1/nextcloud-containers-ramusage.png  us
-ed on input line 127.
-(pdftex.def)             Requested size: 373.3035pt x 96.30771pt.
+<Figures/chapter1/nextcloud-containers-ramusage.png>
 
 
-[11 <./Figures/chapter1/nextcloud-interface.png> <./Figures/chapter1/nextcloud-
-containers-ramusage.png>]
+[11]
+Underfull \hbox (badness 1571) in paragraph at lines 136--137
+\TU/TimesNewRoman(0)/m/sc/12 болон хэрэглэгчийн төхөөрөмж дээр байрлах filesyst
+em storage бүхий илүү хөнгөн
+ []
+
+
 
 [12]
-<Figures/chapter1/c4-ocis-system-context.png, id=744, 918.43124pt x 788.9475pt>
-
-File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type png)
-<use Figures/chapter1/c4-ocis-system-context.png>
-Package pdftex.def Info: Figures/chapter1/c4-ocis-system-context.png  used on i
-nput line 154.
-(pdftex.def)             Requested size: 336.88313pt x 289.38998pt.
+File: Figures/chapter1/c4-ocis-system-context.png Graphic file (type bmp)
+<Figures/chapter1/c4-ocis-system-context.png>
 
 
-[13 <./Figures/chapter1/c4-ocis-system-context.png>]
-Underfull \hbox (badness 1655) in paragraph at lines 176--176
-[]|\T2A/cmr/bx/n/12 (+20) ownCloud Infinite
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\TU/TimesNewRoman(0)/b/n/12 ownCloud Infinite
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+[]|\TU/TimesNewRoman(0)/m/sc/12 Өгөгдлийн эзэм-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
-[]|\T2A/cmr/m/n/12 (+20) ����� Google-
+[]|\TU/TimesNewRoman(0)/m/sc/12 Өгөгдөл Google-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
-\T2A/cmr/m/n/12 (+20) ��� cloud
+\TU/TimesNewRoman(0)/m/sc/12 ийн cloud
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
-\T2A/cmr/m/n/12 (+20) infrastructure
+\TU/TimesNewRoman(0)/m/sc/12 infrastructure дээр
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 179--179
-\T2A/cmr/m/n/12 (+20) ��-��� ��-����
+\TU/TimesNewRoman(0)/m/sc/12 хадгалагдана. Хэ-
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 181--181
-\T2A/cmr/m/n/12 (+20) ��� identity ��-���
+Underfull \hbox (badness 10000) in paragraph at lines 179--179
+\TU/TimesNewRoman(0)/m/sc/12 рэглэгчийн шууд
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 179--179
+\TU/TimesNewRoman(0)/m/sc/12 физик хяналт хяз-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+[]|\TU/TimesNewRoman(0)/m/sc/12 Өгөгдлийг өөрийн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+\TU/TimesNewRoman(0)/m/sc/12 сервер дээр хад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+\TU/TimesNewRoman(0)/m/sc/12 галах боломжтой.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
+\TU/TimesNewRoman(0)/m/sc/12 Хэрэглэгчийн хя-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 181--181
-\T2A/cmr/m/n/12 (+20) policy �����-��-���
+[]|\TU/TimesNewRoman(0)/m/sc/12 Self-hosted байдлаар
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 184--184
-\T2A/cmr/m/n/12 (+20) ���� ��-���-���-���
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\TU/TimesNewRoman(0)/m/sc/12 ажиллах боломжтой.
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 184--184
-\T2A/cmr/m/n/12 (+20) ���-��� ����-��-��
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\TU/TimesNewRoman(0)/m/sc/12 Байгууллагын түвш-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\TU/TimesNewRoman(0)/m/sc/12 ний identity болон
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+\TU/TimesNewRoman(0)/m/sc/12 policy удирдлагад
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 183--183
+[]|\TU/TimesNewRoman(0)/m/sc/12 Хэрэглээний хял-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\TU/TimesNewRoman(0)/m/sc/12 Маш өндөр. Web,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\TU/TimesNewRoman(0)/m/sc/12 mobile, desktop
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+\TU/TimesNewRoman(0)/m/sc/12 хялбар туршлага
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 185--185
-[]|\T2A/cmr/m/n/12 (+20) Public cloud-���
+[]|\TU/TimesNewRoman(0)/m/sc/12 Public cloud-той
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 185--185
+\TU/TimesNewRoman(0)/m/sc/12 төстэй хэрэглээний
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 185--185
+\TU/TimesNewRoman(0)/m/sc/12 туршлага өгдөг бо-
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 185--185
+\TU/TimesNewRoman(0)/m/sc/12 ловч суурилуулалт,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--185
+\TU/TimesNewRoman(0)/m/sc/12 тохиргоо нь илүү
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]|\T2A/cmr/m/n/12 (+20) ����� ��-���
+[]|\TU/TimesNewRoman(0)/m/sc/12 Админ болон
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 186--186
-\T2A/cmr/m/n/12 (+20) deployment-���
+\TU/TimesNewRoman(0)/m/sc/12 илүү мэргэжлийн
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-\T2A/cmr/m/n/12 (+20) ����� �볳 ���-
+Underfull \hbox (badness 1490) in paragraph at lines 188--188
+[]|\TU/TimesNewRoman(0)/m/sc/12 Бага нөөцтэй тө-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-\T2A/cmr/m/n/12 (+20) ���-���� ���-���
+Underfull \hbox (badness 2582) in paragraph at lines 188--188
+\TU/TimesNewRoman(0)/m/sc/12 хөөрөмжид тохи-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 189--189
-[]|\T2A/cmr/m/n/12 (+20) ������������
+[]|\TU/TimesNewRoman(0)/m/sc/12 Хэрэглэгчийн тө-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T2A/cmr/m/n/12 (+20) �-���-��� ����
+Underfull \hbox (badness 1242) in paragraph at lines 189--189
+\TU/TimesNewRoman(0)/m/sc/12 хэлбэрээр ажиллах-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
-\T2A/cmr/m/n/12 (+20) server ���-��-����
+Underfull \hbox (badness 4713) in paragraph at lines 190--190
+[]|\TU/TimesNewRoman(0)/m/sc/12 Raspberry Pi зэрэг
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 190--190
-\T2A/cmr/m/n/12 (+20) �-���-��� ����
+\TU/TimesNewRoman(0)/m/sc/12 төхөөрөмж дээр
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 190--190
-\T2A/cmr/m/n/12 (+20) �� resource ��
+\TU/TimesNewRoman(0)/m/sc/12 ажиллуулж болох
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 191--191
-[]|\T2A/cmr/m/n/12 (+20) Service-oriented ���-
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\TU/TimesNewRoman(0)/m/sc/12 Service-oriented
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\TU/TimesNewRoman(0)/m/sc/12 загвартай тул бага
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 191--191
+\TU/TimesNewRoman(0)/m/sc/12 нөөцтэй MVP төхөө-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\TU/TimesNewRoman(0)/m/sc/12 рөмжид бүхэлд нь
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 193--193
-[]|\T2A/cmr/m/n/12 (+20) ������������
- []
-
-
-Underfull \hbox (badness 2707) in paragraph at lines 194--194
-[]|\T2A/cmr/m/n/12 (+20) Metadata, storage,
+[]|\TU/TimesNewRoman(0)/m/sc/12 Архитектурын
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--194
-\T2A/cmr/m/n/12 (+20) compute layer-
+[]|\TU/TimesNewRoman(0)/m/sc/12 Metadata, storage,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--194
-\T2A/cmr/m/n/12 (+20) ����� ���-����-
- []
-
-
-Underfull \hbox (badness 4492) in paragraph at lines 194--194
-\T2A/cmr/m/n/12 (+20) ����; ����-���-���
+\TU/TimesNewRoman(0)/m/sc/12 compute layer-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 194--194
-\T2A/cmr/m/n/12 (+20) upload/download;
+\TU/TimesNewRoman(0)/m/sc/12 уудын тусгаар-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\TU/TimesNewRoman(0)/m/sc/12 лалт; найдвартай
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\TU/TimesNewRoman(0)/m/sc/12 upload/download;
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 195--195
-[]|\T2A/cmr/m/n/12 (+20) Self-hosted cloud,
+[]|\TU/TimesNewRoman(0)/m/sc/12 Self-hosted cloud,
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 195--195
-\T2A/cmr/m/n/12 (+20) web/mobile client,
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\TU/TimesNewRoman(0)/m/sc/12 web/mobile client,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]|\T2A/cmr/m/n/12 (+20) Gateway, identity,
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\TU/TimesNewRoman(0)/m/sc/12 storage abstraction,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T2A/cmr/m/n/12 (+20) storage, sharing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T2A/cmr/m/n/12 (+20) service-����� ��-
+Underfull \hbox (badness 10000) in paragraph at lines 195--195
+\TU/TimesNewRoman(0)/m/sc/12 sharing, permission,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 196--196
-\T2A/cmr/m/n/12 (+20) ���-��� ��-��-��
+[]|\TU/TimesNewRoman(0)/m/sc/12 Gateway, identity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\TU/TimesNewRoman(0)/m/sc/12 storage, sharing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\TU/TimesNewRoman(0)/m/sc/12 service-үүдэд за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\TU/TimesNewRoman(0)/m/sc/12 дарсан өргөтгөх
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+\TU/TimesNewRoman(0)/m/sc/12 боломжтой архитек-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]|\T2A/cmr/m/n/12 (+20) ������ ���-��-
+[]|\TU/TimesNewRoman(0)/m/sc/12 Энэхүү дипло-
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 198--198
+\TU/TimesNewRoman(0)/m/sc/12 мын ажилд авах
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--199
-[]|\T2A/cmr/m/n/12 (+20) ������ byte
+[]|\TU/TimesNewRoman(0)/m/sc/12 Файлын byte
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--199
-\T2A/cmr/m/n/12 (+20) ���-�� ��-���
+\TU/TimesNewRoman(0)/m/sc/12 өгөгдөл болон
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--199
-\T2A/cmr/m/n/12 (+20) cloud experience-
+\TU/TimesNewRoman(0)/m/sc/12 metadata-г тусгаар-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+\TU/TimesNewRoman(0)/m/sc/12 лах, хэрэглэгчийн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+\TU/TimesNewRoman(0)/m/sc/12 cloud experience-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--200
-\T2A/cmr/m/n/12 (+20) ���� ����-���
+[]|\TU/TimesNewRoman(0)/m/sc/12 Өөрийн төхөө-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 200--200
-\T2A/cmr/m/n/12 (+20) cloud storage-���
+\TU/TimesNewRoman(0)/m/sc/12 cloud storage-ийг
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 201--201
+[]|\TU/TimesNewRoman(0)/m/sc/12 Relay болон backend
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 201--201
-\T2A/cmr/m/n/12 (+20) �-���-��-���-���-
+\TU/TimesNewRoman(0)/m/sc/12 бүрэлдэхүүнүү-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 201--201
-\T2A/cmr/m/n/12 (+20) ���� ����-���
+\TU/TimesNewRoman(0)/m/sc/12 дийг ирээдүйд
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 201--201
-\T2A/cmr/m/n/12 (+20) gateway/service
+\TU/TimesNewRoman(0)/m/sc/12 gateway/service
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 201--201
-\T2A/cmr/m/n/12 (+20) ����-���� ��-��-��
+\TU/TimesNewRoman(0)/m/sc/12 байдлаар өргөтгөх
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 203--203
-[]|\T2A/cmr/m/n/12 (+20) ���� ����-���-
+[]|\TU/TimesNewRoman(0)/m/sc/12 Шууд хуулбар-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]|\T2A/cmr/m/n/12 (+20) Ұ����� public
+[]|\TU/TimesNewRoman(0)/m/sc/12 Төвлөрсөн public
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
-\T2A/cmr/m/n/12 (+20) cloud ���-��� ��
- []
-
-
-Underfull \hbox (badness 5119) in paragraph at lines 204--204
-\T2A/cmr/m/n/12 (+20) ����-���� �����-
+\TU/TimesNewRoman(0)/m/sc/12 cloud загвар нь
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 204--204
-\T2A/cmr/m/n/12 (+20) ���� ��-���-��-���
+\TU/TimesNewRoman(0)/m/sc/12 өгөгдлийн эзэмш-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\TU/TimesNewRoman(0)/m/sc/12 лийн зорилготой
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 205--205
-[]|\T2A/cmr/m/n/12 (+20) ����� ��-���-���
+[]|\TU/TimesNewRoman(0)/m/sc/12 Бүрэн боломжит
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 205--205
-\T2A/cmr/m/n/12 (+20) deployment ��
+\TU/TimesNewRoman(0)/m/sc/12 системийн хувьд
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-\T2A/cmr/m/n/12 (+20) MVP ���-��-����
- []
-
-
-Underfull \hbox (badness 4242) in paragraph at lines 205--205
-\T2A/cmr/m/n/12 (+20) ����� ��� ��-��,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--205
-\T2A/cmr/m/n/12 (+20) resource ��-���
+Underfull \hbox (badness 1383) in paragraph at lines 205--205
+\TU/TimesNewRoman(0)/m/sc/12 хэт өргөн, resource
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--206
-[]|\T2A/cmr/m/n/12 (+20) Microservice/service-
+[]|\TU/TimesNewRoman(0)/m/sc/12 Microservice/service-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
-\T2A/cmr/m/n/12 (+20) oriented �-��-���
+Underfull \hbox (badness 1331) in paragraph at lines 206--206
+\TU/TimesNewRoman(0)/m/sc/12 oriented төвөгшил нь
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
-\T2A/cmr/m/n/12 (+20) �� ��-��� ���-��
+Underfull \hbox (badness 1502) in paragraph at lines 206--206
+\TU/TimesNewRoman(0)/m/sc/12 эхний шатны хувийн
  []
 
 
@@ -2179,42 +2244,37 @@ Overfull \hbox (4.47577pt too wide) in paragraph at lines 174--209
 [14]
 
 [15]
-<Figures/chapter1/mDNS.png, id=768, 1453.43pt x 1090.0725pt>
-File: Figures/chapter1/mDNS.png Graphic file (type png)
-<use Figures/chapter1/mDNS.png>
-Package pdftex.def Info: Figures/chapter1/mDNS.png  used on input line 227.
-(pdftex.def)             Requested size: 400.61703pt x 300.46114pt.
+File: Figures/chapter1/mDNS.png Graphic file (type bmp)
+<Figures/chapter1/mDNS.png>
 
 
 [16]
 
-[17 <./Figures/chapter1/mDNS.png (PNG copy)>]
-<Figures/chapter1/NAT-problem.png, id=784, 1699.34875pt x 932.48375pt>
-File: Figures/chapter1/NAT-problem.png Graphic file (type png)
-<use Figures/chapter1/NAT-problem.png>
-Package pdftex.def Info: Figures/chapter1/NAT-problem.png  used on input line 2
-46.
-(pdftex.def)             Requested size: 409.71692pt x 224.8109pt.
+[17]
+File: Figures/chapter1/NAT-problem.png Graphic file (type bmp)
+<Figures/chapter1/NAT-problem.png>
 
 
-[18 <./Figures/chapter1/NAT-problem.png (PNG copy)>]
-<Figures/chapter1/buffer-stream.png, id=792, 1780.6525pt x 890.32625pt>
-File: Figures/chapter1/buffer-stream.png Graphic file (type png)
-<use Figures/chapter1/buffer-stream.png>
-Package pdftex.def Info: Figures/chapter1/buffer-stream.png  used on input line
- 265.
-(pdftex.def)             Requested size: 409.71692pt x 204.85223pt.
+[18]
+File: Figures/chapter1/buffer-stream.png Graphic file (type bmp)
+<Figures/chapter1/buffer-stream.png>
 
 
-[19 <./Figures/chapter1/buffer-stream.png (PNG copy)>]
+[19]
 
-[20])
+[20]
+Underfull \hbox (badness 1603) in paragraph at lines 293--294
+\TU/TimesNewRoman(0)/m/sc/12 талд байдаггүй нь харагдлаа. Харин self-hosted чиг
+лэлийн шийдлүүд нь өгөгдлийн
+ []
+
+)
 
 [21]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
-{\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 2.
+Бүлэг 2.
 
 
 [22
@@ -2227,20 +2287,32 @@ Package pdftex.def Info: Figures/chapter1/buffer-stream.png  used on input line
 [22
 
 ]
-<Figures/chapter2/usecase.jpg, id=832, 735.74875pt x 1040.88875pt>
-File: Figures/chapter2/usecase.jpg Graphic file (type jpg)
-<use Figures/chapter2/usecase.jpg>
-Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 40.
-(pdftex.def)             Requested size: 404.66306pt x 572.49059pt.
+File: Figures/chapter2/usecase.jpg Graphic file (type bmp)
+<Figures/chapter2/usecase.jpg>
 
 
 [23]
 
-[24 <./Figures/chapter2/usecase.jpg>]
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [25]
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [26]
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [27]
 
@@ -2249,93 +2321,160 @@ Package pdftex.def Info: Figures/chapter2/usecase.jpg  used on input line 40.
 [29]
 
 [30]
-<Figures/chapter2/design-class-diagram.jpg, id=947, 1597.97pt x 1096.095pt>
-File: Figures/chapter2/design-class-diagram.jpg Graphic file (type jpg)
-<use Figures/chapter2/design-class-diagram.jpg>
-Package pdftex.def Info: Figures/chapter2/design-class-diagram.jpg  used on inp
-ut line 296.
-(pdftex.def)             Requested size: 455.24411pt x 312.25652pt.
+Underfull \hbox (badness 5939) in paragraph at lines 292--293
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Usecase-үүдийг дараагийн шатанд дарааллын 
+диаграммаар илэрхийлэх боломж-
+ []
 
-Underfull \hbox (badness 8113) in paragraph at lines 302--303
-[] [][] \T2A/cmr/m/n/12 (+20) ���-����-��� ���� ��-���� \T2A/cmr/m/it/12 (+20) 
-SetupBoundary\T2A/cmr/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) AuthBoundary\T2A/cm
-r/m/n/12 (+20) , \T2A/cmr/m/it/12 (+20) StorageBoundary\T2A/cmr/m/n/12 (+20) ,
+
+Underfull \hbox (badness 3954) in paragraph at lines 292--293
+\TU/TimesNewRoman(0)/m/sc/12 той байлгахын тулд энэ классын диаграммыг \TU/Time
+sNewRoman(0)/m/it/12 boundary-control-entity \TU/TimesNewRoman(0)/m/sc/12 бүтэц
+тэйгээр
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 292--293
+\TU/TimesNewRoman(0)/m/sc/12 боловсруулсан. Зураг [][]2.2[][]-т системийн гадна
+х оролт хүлээн авах boundary классууд,
+ []
+
+File: Figures/chapter2/design-class-diagram.jpg Graphic file (type bmp)
+<Figures/chapter2/design-class-diagram.jpg>
+
+Overfull \hbox (2.5929pt too wide) in paragraph at lines 302--303
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Диаграммын дээд хэсэгт \TU/TimesNewRoman(0
+)/m/it/12 SetupBoundary\TU/TimesNewRoman(0)/m/sc/12 , \TU/TimesNewRoman(0)/m/it
+/12 AuthBoundary\TU/TimesNewRoman(0)/m/sc/12 , \TU/TimesNewRoman(0)/m/it/12 Sto
+rageBoundary\TU/TimesNewRoman(0)/m/sc/12 , \TU/TimesNewRoman(0)/m/it/12 ShareBo
+undary\TU/TimesNewRoman(0)/m/sc/12 ,
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 302--303
+\TU/TimesNewRoman(0)/m/sc/12 цэгүүд гэж үзсэн бөгөөд анхны тохиргоо, нэвтрэлт, 
+хадгалалтын үйлдэл, хуваалцах
  []
 
 
 
-[31 <./Figures/chapter2/design-class-diagram.jpg>]
-Overfull \hbox (4.03348pt too wide) in paragraph at lines 305--306
-[] [][] \T2A/cmr/m/n/12 (-20) Boundary ����-���-��� ���� \T2A/cmr/m/it/12 (-20)
- SetupController\T2A/cmr/m/n/12 (-20) , \T2A/cmr/m/it/12 (-20) AuthenticationCo
-ntroller\T2A/cmr/m/n/12 (-20) , \T2A/cmr/m/it/12 (-20) StorageController\T2A/cm
-r/m/n/12 (-20) ,
+[31]
+Underfull \hbox (badness 5345) in paragraph at lines 305--306
+\TU/TimesNewRoman(0)/m/it/12 SharingController\TU/TimesNewRoman(0)/m/sc/12 , \T
+U/TimesNewRoman(0)/m/it/12 UserManagementController \TU/TimesNewRoman(0)/m/sc/1
+2 гэсэн control классуудыг байрлуулсан.
  []
 
-<VP diagrams/Login.jpg, id=957, 1050.92625pt x 582.175pt>
-File: VP diagrams/Login.jpg Graphic file (type jpg)
-<use VP diagrams/Login.jpg>
-Package pdftex.def Info: VP diagrams/Login.jpg  used on input line 317.
-(pdftex.def)             Requested size: 455.24411pt x 252.18697pt.
+
+Underfull \hbox (badness 2409) in paragraph at lines 305--306
+\TU/TimesNewRoman(0)/m/sc/12 тай холбоотой үндсэн урсгалуудыг, \TU/TimesNewRoma
+n(0)/m/it/12 SharingController\TU/TimesNewRoman(0)/m/sc/12 -т хуваалцах эрхийн 
+логикийг,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+[] [][] \TU/TimesNewRoman(0)/m/it/12 Entity \TU/TimesNewRoman(0)/m/sc/12 давхар
+гад \TU/TimesNewRoman(0)/m/it/12 UserEntity\TU/TimesNewRoman(0)/m/sc/12 , \TU/T
+imesNewRoman(0)/m/it/12 StorageEntity\TU/TimesNewRoman(0)/m/sc/12 , \TU/TimesNe
+wRoman(0)/m/it/12 FolderEntity\TU/TimesNewRoman(0)/m/sc/12 , \TU/TimesNewRoman(
+0)/m/it/12 FileEntity\TU/TimesNewRoman(0)/m/sc/12 , \TU/TimesNewRoman(0)/m/it/1
+2 SessionEntity\TU/TimesNewRoman(0)/m/sc/12 ,
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 308--309
+\TU/TimesNewRoman(0)/m/it/12 SystemConfigEntity\TU/TimesNewRoman(0)/m/sc/12 , \
+TU/TimesNewRoman(0)/m/it/12 SharePermissionEntity \TU/TimesNewRoman(0)/m/sc/12 
+гэсэн үндсэн классуудыг оруулсан. Энд
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 308--309
+\TU/TimesNewRoman(0)/m/it/12 StorageEntity\TU/TimesNewRoman(0)/m/sc/12 -г хадга
+лалтын нийтлэг шинжийг нэгтгэсэн суурь класс байдлаар то-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
+\TU/TimesNewRoman(0)/m/sc/12 дорхойлж, түүнээс \TU/TimesNewRoman(0)/m/it/12 Fol
+derEntity \TU/TimesNewRoman(0)/m/sc/12 болон \TU/TimesNewRoman(0)/m/it/12 FileE
+ntity \TU/TimesNewRoman(0)/m/sc/12 өвлөгдөхөөр зохиосон. Харин
+ []
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 308--309
+\TU/TimesNewRoman(0)/m/it/12 SharePermissionEntity \TU/TimesNewRoman(0)/m/sc/12
+ болон \TU/TimesNewRoman(0)/m/it/12 AccessLevel \TU/TimesNewRoman(0)/m/sc/12 en
+um-аар нөөц хуваалцах эрхийн түвшинг,
+ []
+
+File: VP diagrams/Login.jpg Graphic file (type bmp)
+<VP diagrams/Login.jpg>
 
 
 [32]
-Underfull \hbox (badness 4378) in paragraph at lines 323--324
-[] [][] \T2A/cmr/m/n/12 (+20) ��-��� [][]2.3[][]-� ��-���-���� ����-��� ��� \T2
-A/cmr/m/it/12 (+20) AuthBoundary \T2A/cmr/m/n/12 (+20) ��-���-���� ��-���� ���,
-
+Overfull \hbox (29.01718pt too wide) in paragraph at lines 323--324
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Зураг [][]2.3[][]-т хэрэглэгч нэвтрэх үед 
+\TU/TimesNewRoman(0)/m/it/12 AuthBoundary \TU/TimesNewRoman(0)/m/sc/12 хүсэлтий
+г хүлээн авч, \TU/TimesNewRoman(0)/m/it/12 AuthenticationController
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-\T2A/cmr/m/it/12 (+20) AuthenticationController \T2A/cmr/m/n/12 (+20) ��-���-��
-�-���� ��-����-���� ���-���, ��-����-��� ���
+Underfull \hbox (badness 1342) in paragraph at lines 323--324
+\TU/TimesNewRoman(0)/m/sc/12 Энэ дараалал нь нэвтрэлтийн үндсэн баталгаажуулалт
+ын урсгалыг товч илэрхийлж
  []
 
-<VP diagrams/Upload File.jpg, id=966, 1167.36125pt x 771.88374pt>
-File: VP diagrams/Upload File.jpg Graphic file (type jpg)
-<use VP diagrams/Upload File.jpg>
-Package pdftex.def Info: VP diagrams/Upload File.jpg  used on input line 327.
-(pdftex.def)             Requested size: 455.24411pt x 301.00989pt.
+File: VP diagrams/Upload File.jpg Graphic file (type bmp)
+<VP diagrams/Upload File.jpg>
 
 
-[33 <./VP diagrams/Login.jpg>]
-Underfull \hbox (badness 2707) in paragraph at lines 333--334
-[] [][] \T2A/cmr/m/n/12 (+20) ��-��� [][]2.4[][]-� ���� ����-���-��� ��� \T2A/c
-mr/m/it/12 (+20) StorageBoundary \T2A/cmr/m/n/12 (+20) ��-���-���� ���-�����,
+[33]
+Overfull \hbox (9.38046pt too wide) in paragraph at lines 333--334
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Зураг [][]2.4[][]-т файл байршуулах үед \T
+U/TimesNewRoman(0)/m/it/12 StorageBoundary \TU/TimesNewRoman(0)/m/sc/12 хүсэлти
+йг дамжуулж, \TU/TimesNewRoman(0)/m/it/12 StorageController
  []
 
-<VP diagrams/Share Resource.jpg, id=973, 1301.86375pt x 955.57pt>
-File: VP diagrams/Share Resource.jpg Graphic file (type jpg)
-<use VP diagrams/Share Resource.jpg>
-Package pdftex.def Info: VP diagrams/Share Resource.jpg  used on input line 337
-.
-(pdftex.def)             Requested size: 455.24411pt x 334.14832pt.
+File: VP diagrams/Share Resource.jpg Graphic file (type bmp)
+<VP diagrams/Share Resource.jpg>
 
 
-[34 <./VP diagrams/Upload File.jpg>]
-Underfull \hbox (badness 2828) in paragraph at lines 343--344
-[] [][] \T2A/cmr/m/n/12 (+20) ��-��� [][]2.5[][]-� ��-���-���� ���� ��-����-���
- ��� \T2A/cmr/m/it/12 (+20) ShareBoundary \T2A/cmr/m/n/12 (+20) ��-���-���� ���
-,
+[34]
+Overfull \hbox (3.62265pt too wide) in paragraph at lines 343--344
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Зураг [][]2.5[][]-т хэрэглэгч нөөц хуваалц
+ах үед \TU/TimesNewRoman(0)/m/it/12 ShareBoundary \TU/TimesNewRoman(0)/m/sc/12 
+хүсэлтийг авч, \TU/TimesNewRoman(0)/m/it/12 SharingController
  []
 
 
-Overfull \hbox (20.25348pt too wide) in paragraph at lines 343--344
-\T2A/cmr/m/it/12 (-20) SharingController \T2A/cmr/m/n/12 (-20) ��-���-��� ��-��
-�-���� ��-��� ���-���� ���-���-�� ��-��� \T2A/cmr/m/it/12 (-20) SharePermission
-Entity
+Underfull \hbox (badness 1184) in paragraph at lines 343--344
+\TU/TimesNewRoman(0)/m/sc/12 үзүүлсэн. Ингэснээр нөөц дээр ямар хэрэглэгчид яма
+р түвшний эрх олгож байгааг
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 350--351
+\TU/TimesNewRoman(0)/m/sc/12 харах, байршуулах, татах, үүсгэх, устгах, шилжүүлэ
+х, мөн хуваалцах эрхийн
  []
 
 
 
-[35 <./VP diagrams/Share Resource.jpg>])
+[35])
+Underfull \hbox (badness 3108) in paragraph at lines 381--240
+\TU/TimesNewRoman(0)/m/sc/12 бүлэгт эдгээр шаардлагад тулгуурласан системийн ар
+хитектур, өгөгдлийн сангийн
+ []
+
+
 
 [36]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
-{\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 3.
+Бүлэг 3.
 
 
 [37
@@ -2344,65 +2483,65 @@ Entity
 
 
 ]
-<Figures/chapter3/new-general-architecture.png, id=1002, 1678.27pt x 944.52875p
-t>
-File: Figures/chapter3/new-general-architecture.png Graphic file (type png)
-<use Figures/chapter3/new-general-architecture.png>
-Package pdftex.def Info: Figures/chapter3/new-general-architecture.png  used on
- input line 12.
-(pdftex.def)             Requested size: 455.24411pt x 256.20798pt.
+File: Figures/chapter3/new-general-architecture.png Graphic file (type bmp)
+<Figures/chapter3/new-general-architecture.png>
 
 
 [37
 
- <./Figures/chapter3/new-general-architecture.png (PNG copy)>]
-<Figures/chapter3/new-main-server-architecture.png, id=1010, 1057.9525pt x 1497
-.595pt>
-File: Figures/chapter3/new-main-server-architecture.png Graphic file (type png)
+]
+File: Figures/chapter3/new-main-server-architecture.png Graphic file (type bmp)
 
-<use Figures/chapter3/new-main-server-architecture.png>
-Package pdftex.def Info: Figures/chapter3/new-main-server-architecture.png  use
-d on input line 35.
-(pdftex.def)             Requested size: 336.84056pt x 476.81549pt.
+<Figures/chapter3/new-main-server-architecture.png>
 
 
 [38]
 
-[39 <./Figures/chapter3/new-main-server-architecture.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-57.
+[39]
+Underfull \hbox (badness 2726) in paragraph at lines 47--48
+\TU/TimesNewRoman(0)/m/sc/12 хийлнэ. Энд authentication/session logic, file/fol
+der management, permission checking,
+ []
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T2A).
+(microtype)             `CourierNew' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
 [40]
-<Figures/chapter3/pcloud-architecture-relay-server.drawio.png, id=1033, 900.363
-75pt x 411.5375pt>
 File: Figures/chapter3/pcloud-architecture-relay-server.drawio.png Graphic file
- (type png)
-<use Figures/chapter3/pcloud-architecture-relay-server.drawio.png>
-Package pdftex.def Info: Figures/chapter3/pcloud-architecture-relay-server.draw
-io.png  used on input line 61.
-(pdftex.def)             Requested size: 455.24411pt x 208.08539pt.
+ (type bmp)
+<Figures/chapter3/pcloud-architecture-relay-server.drawio.png>
 
 
-[41 <./Figures/chapter3/pcloud-architecture-relay-server.drawio.png>]
-<VP diagrams/PCloud.jpg, id=1045, 1477.52pt x 948.54375pt>
-File: VP diagrams/PCloud.jpg Graphic file (type jpg)
-<use VP diagrams/PCloud.jpg>
-Package pdftex.def Info: VP diagrams/PCloud.jpg  used on input line 97.
-(pdftex.def)             Requested size: 455.24411pt x 292.2508pt.
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Мөн хуваалцах болон хандалтын эрхийн логик
+ийг \TU/TimesNewRoman(0)/m/it/12 folder_permissions \TU/TimesNewRoman(0)/m/sc/1
+2 болон
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 93--94
+\TU/TimesNewRoman(0)/m/it/12 file_permissions \TU/TimesNewRoman(0)/m/sc/12 хүсн
+эгтүүдээр тусад нь шийдэж, файл эсвэл хавтас бүр дээр ямар
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 93--94
+\TU/TimesNewRoman(0)/m/sc/12 token-тэй холбоотой мэдээллийг \TU/TimesNewRoman(0
+)/m/it/12 sessions \TU/TimesNewRoman(0)/m/sc/12 хүснэгтэд, системийн үндсэн тох
+иргоог
+ []
+
+File: VP diagrams/PCloud.jpg Graphic file (type bmp)
+<VP diagrams/PCloud.jpg>
 
 
 [42]
 
-[43 <./VP diagrams/PCloud.jpg>]
+[43]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 115.
 
@@ -2410,49 +2549,32 @@ nput line 115.
 [44]
 
 [45]
-<Figures/chapter3/admin-first-launch.png, id=1140, 1734.48pt x 1121.18875pt>
-File: Figures/chapter3/admin-first-launch.png Graphic file (type png)
-<use Figures/chapter3/admin-first-launch.png>
-Package pdftex.def Info: Figures/chapter3/admin-first-launch.png  used on input
- line 204.
-(pdftex.def)             Requested size: 433.61894pt x 280.2965pt.
+File: Figures/chapter3/admin-first-launch.png Graphic file (type bmp)
+<Figures/chapter3/admin-first-launch.png>
 
 
 [46]
-<Figures/chapter3/login.png, id=1163, 2178.1375pt x 1121.18875pt>
-File: Figures/chapter3/login.png Graphic file (type png)
-<use Figures/chapter3/login.png>
-Package pdftex.def Info: Figures/chapter3/login.png  used on input line 213.
-(pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
+File: Figures/chapter3/login.png Graphic file (type bmp)
+<Figures/chapter3/login.png>
 
 
-[47 <./Figures/chapter3/admin-first-launch.png>]
-<Figures/chapter3/normal-user-homepage.png, id=1172, 2178.1375pt x 1121.18875pt
->
-File: Figures/chapter3/normal-user-homepage.png Graphic file (type png)
-<use Figures/chapter3/normal-user-homepage.png>
-Package pdftex.def Info: Figures/chapter3/normal-user-homepage.png  used on inp
-ut line 222.
-(pdftex.def)             Requested size: 435.61978pt x 224.23378pt.
+[47]
+File: Figures/chapter3/normal-user-homepage.png Graphic file (type bmp)
+<Figures/chapter3/normal-user-homepage.png>
 
 
-[48 <./Figures/chapter3/login.png>]
-<Figures/chapter3/admin-home-page.png, id=1180, 2195.20125pt x 1121.18875pt>
-File: Figures/chapter3/admin-home-page.png Graphic file (type png)
-<use Figures/chapter3/admin-home-page.png>
-Package pdftex.def Info: Figures/chapter3/admin-home-page.png  used on input li
-ne 231.
-(pdftex.def)             Requested size: 439.03247pt x 224.23378pt.
+[48]
+File: Figures/chapter3/admin-home-page.png Graphic file (type bmp)
+<Figures/chapter3/admin-home-page.png>
 
 
-[49 <./Figures/chapter3/normal-user-homepage.png> <./Figures/chapter3/admin-hom
-e-page.png>])
+[49])
 
 [50]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
-{\Mongolian \CYRB \cyry \cyrl \cyrerev \cyrg } 4.
+Бүлэг 4.
 
 
 [51
@@ -2461,23 +2583,39 @@ e-page.png>])
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T2A/cmr/m/n/12 (+20) PostgreSQL, Docker
+Underfull \hbox (badness 1360) in paragraph at lines 10--11
+\TU/TimesNewRoman(0)/m/sc/12 жуулагч серверийг Hetzner VPS орчинд байршуулсан. 
+Мөн худалдан авсан домэйн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(0)/m/sc/12 Raspberry Pi 5, 8GB
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 25--25
+[]|\TU/TimesNewRoman(0)/m/sc/12 Файл, хэрэглэгч, эрх болон
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+\TU/TimesNewRoman(0)/m/sc/12 metadata-г хэрэглэгчийн тө-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 26--26
+\TU/TimesNewRoman(0)/m/sc/12 тас болон permission мэдээл-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T2A/cmr/m/n/12 (+20) HTTPS reverse
+[]|\TU/TimesNewRoman(0)/m/sc/12 Домэйн нэрээр ирэх
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T2A/cmr/m/n/12 (+20) ������ ��-���� ����
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-\T2A/cmr/m/n/12 (+20) HTTPS/WSS ���-���-���
+\TU/TimesNewRoman(0)/m/sc/12 HTTPS/WSS холболтыг
  []
 
 
@@ -2485,182 +2623,146 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--28
 [51
 
 ]
-<Figures/chapter4/working-pi-image.jpeg, id=1209, 603.9363pt x 712.5822pt>
-File: Figures/chapter4/working-pi-image.jpeg Graphic file (type jpg)
-<use Figures/chapter4/working-pi-image.jpeg>
-Package pdftex.def Info: Figures/chapter4/working-pi-image.jpeg  used on input 
-line 40.
-(pdftex.def)             Requested size: 250.38564pt x 295.4334pt.
+File: Figures/chapter4/working-pi-image.jpeg Graphic file (type bmp)
+<Figures/chapter4/working-pi-image.jpeg>
 
 
 [52]
-<Figures/chapter4/ssh-pi-main-server-user-service.png, id=1217, 1175.39125pt x 
-481.8pt>
-File: Figures/chapter4/ssh-pi-main-server-user-service.png Graphic file (type p
-ng)
-<use Figures/chapter4/ssh-pi-main-server-user-service.png>
-Package pdftex.def Info: Figures/chapter4/ssh-pi-main-server-user-service.png  
-used on input line 50.
-(pdftex.def)             Requested size: 432.48051pt x 177.27808pt.
+Underfull \hbox (badness 1226) in paragraph at lines 46--47
+\TU/TimesNewRoman(0)/m/sc/12 байдлаар ажиллаж буй төлөвийг харуулав. Мөн Postgr
+eSQL өгөгдлийн санг Docker
+ []
+
+File: Figures/chapter4/ssh-pi-main-server-user-service.png Graphic file (type b
+mp)
+<Figures/chapter4/ssh-pi-main-server-user-service.png>
 
 
-[53 <./Figures/chapter4/working-pi-image.jpeg> <./Figures/chapter4/ssh-pi-main-
-server-user-service.png>]
-<Figures/chapter4/hetzner-admin-console.png, id=1225, 1906.12125pt x 892.33376p
-t>
-File: Figures/chapter4/hetzner-admin-console.png Graphic file (type png)
-<use Figures/chapter4/hetzner-admin-console.png>
-Package pdftex.def Info: Figures/chapter4/hetzner-admin-console.png  used on in
-put line 60.
-(pdftex.def)             Requested size: 432.48051pt x 202.4548pt.
-<Figures/chapter4/hetzner-vps-ssh.png, id=1227, 1919.17pt x 579.16376pt>
-File: Figures/chapter4/hetzner-vps-ssh.png Graphic file (type png)
-<use Figures/chapter4/hetzner-vps-ssh.png>
-Package pdftex.def Info: Figures/chapter4/hetzner-vps-ssh.png  used on input li
-ne 70.
-(pdftex.def)             Requested size: 432.48051pt x 130.50948pt.
+[53]
+File: Figures/chapter4/hetzner-admin-console.png Graphic file (type bmp)
+<Figures/chapter4/hetzner-admin-console.png>
+File: Figures/chapter4/hetzner-vps-ssh.png Graphic file (type bmp)
+<Figures/chapter4/hetzner-vps-ssh.png>
 
 
-[54 <./Figures/chapter4/hetzner-admin-console.png> <./Figures/chapter4/hetzner-
-vps-ssh.png>]
-<Figures/chapter4/connection-method-LAN-web.png, id=1237, 1924.18875pt x 1013.7
-875pt>
-File: Figures/chapter4/connection-method-LAN-web.png Graphic file (type png)
-<use Figures/chapter4/connection-method-LAN-web.png>
-Package pdftex.def Info: Figures/chapter4/connection-method-LAN-web.png  used o
-n input line 88.
-(pdftex.def)             Requested size: 432.48051pt x 227.8603pt.
+[54]
+File: Figures/chapter4/connection-method-LAN-web.png Graphic file (type bmp)
+<Figures/chapter4/connection-method-LAN-web.png>
 
 
 [55]
-<Figures/chapter4/connection-method-RELAY-web.png, id=1246, 1924.18875pt x 1013
-.7875pt>
-File: Figures/chapter4/connection-method-RELAY-web.png Graphic file (type png)
-<use Figures/chapter4/connection-method-RELAY-web.png>
-Package pdftex.def Info: Figures/chapter4/connection-method-RELAY-web.png  used
- on input line 98.
-(pdftex.def)             Requested size: 432.48051pt x 227.8603pt.
+File: Figures/chapter4/connection-method-RELAY-web.png Graphic file (type bmp)
+<Figures/chapter4/connection-method-RELAY-web.png>
+File: Figures/chapter4/mobile-app-connection-selection.png Graphic file (type b
+mp)
+<Figures/chapter4/mobile-app-connection-selection.png>
 
 
-[56 <./Figures/chapter4/connection-method-LAN-web.png> <./Figures/chapter4/conn
-ection-method-RELAY-web.png>]
-<Figures/chapter4/mobile-app-connection-selection.png, id=1255, 1129.21875pt x 
-2445.135pt>
-File: Figures/chapter4/mobile-app-connection-selection.png Graphic file (type p
-ng)
-<use Figures/chapter4/mobile-app-connection-selection.png>
-Package pdftex.def Info: Figures/chapter4/mobile-app-connection-selection.png  
-used on input line 108.
-(pdftex.def)             Requested size: 227.62206pt x 492.86124pt.
+[56]
 
-
-[57 <./Figures/chapter4/mobile-app-connection-selection.png>]
-<Figures/chapter3/developed-interfaces/admin-initialize.png, id=1262, 1481.535p
-t x 790.955pt>
+[57]
 File: Figures/chapter3/developed-interfaces/admin-initialize.png Graphic file (
-type png)
-<use Figures/chapter3/developed-interfaces/admin-initialize.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/admin-initialize
-.png  used on input line 124.
-(pdftex.def)             Requested size: 318.66948pt x 170.12442pt.
-<Figures/chapter3/developed-interfaces/login.png, id=1265, 1481.535pt x 790.955
-pt>
-File: Figures/chapter3/developed-interfaces/login.png Graphic file (type png)
-<use Figures/chapter3/developed-interfaces/login.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/login.png  used 
-on input line 135.
-(pdftex.def)             Requested size: 386.96027pt x 206.58482pt.
+type bmp)
+<Figures/chapter3/developed-interfaces/admin-initialize.png>
+File: Figures/chapter3/developed-interfaces/login.png Graphic file (type bmp)
+<Figures/chapter3/developed-interfaces/login.png>
 
 
-[58 <./Figures/chapter3/developed-interfaces/admin-initialize.png>]
-<Figures/chapter3/developed-interfaces/mobile-login-page.png, id=1275, 383.4325
-pt x 792.9625pt>
+[58]
 File: Figures/chapter3/developed-interfaces/mobile-login-page.png Graphic file 
-(type png)
-<use Figures/chapter3/developed-interfaces/mobile-login-page.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-login-pag
-e.png  used on input line 142.
-(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+(type bmp)
+<Figures/chapter3/developed-interfaces/mobile-login-page.png>
 
 
-[59 <./Figures/chapter3/developed-interfaces/login.png> <./Figures/chapter3/dev
-eloped-interfaces/mobile-login-page.png>]
-<Figures/chapter3/developed-interfaces/home-page-dark-mode.png, id=1283, 1924.1
-8875pt x 921.4425pt>
+[59]
 File: Figures/chapter3/developed-interfaces/home-page-dark-mode.png Graphic fil
-e (type png)
-<use Figures/chapter3/developed-interfaces/home-page-dark-mode.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/home-page-dark-m
-ode.png  used on input line 152.
-(pdftex.def)             Requested size: 386.96027pt x 185.29756pt.
-<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png, id=1285,
- 383.4325pt x 792.9625pt>
+e (type bmp)
+<Figures/chapter3/developed-interfaces/home-page-dark-mode.png>
 File: Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png Grap
-hic file (type png)
-<use Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>
-Package pdftex.def Info: Figures/chapter3/developed-interfaces/mobile-home-page
--dark-mode.png  used on input line 162.
-(pdftex.def)             Requested size: 159.33821pt x 329.52098pt.
+hic file (type bmp)
+<Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>
 
 
-[60 <./Figures/chapter3/developed-interfaces/home-page-dark-mode.png>]
-<Figures/chapter4/mobile-sidebar-view.png, id=1294, 1129.21875pt x 2445.135pt>
-File: Figures/chapter4/mobile-sidebar-view.png Graphic file (type png)
-<use Figures/chapter4/mobile-sidebar-view.png>
-Package pdftex.def Info: Figures/chapter4/mobile-sidebar-view.png  used on inpu
-t line 174.
-(pdftex.def)             Requested size: 136.57462pt x 295.71674pt.
-<Figures/chapter4/starred-view-mobile.png, id=1295, 1129.21875pt x 2445.135pt>
-File: Figures/chapter4/starred-view-mobile.png Graphic file (type png)
-<use Figures/chapter4/starred-view-mobile.png>
-Package pdftex.def Info: Figures/chapter4/starred-view-mobile.png  used on inpu
-t line 181.
-(pdftex.def)             Requested size: 136.57462pt x 295.71674pt.
-<Figures/chapter4/shared-view-mobile.png, id=1296, 1129.21875pt x 2445.135pt>
-File: Figures/chapter4/shared-view-mobile.png Graphic file (type png)
-<use Figures/chapter4/shared-view-mobile.png>
-Package pdftex.def Info: Figures/chapter4/shared-view-mobile.png  used on input
- line 188.
-(pdftex.def)             Requested size: 136.57462pt x 295.71674pt.
+[60]
+File: Figures/chapter4/mobile-sidebar-view.png Graphic file (type bmp)
+<Figures/chapter4/mobile-sidebar-view.png>
+File: Figures/chapter4/starred-view-mobile.png Graphic file (type bmp)
+<Figures/chapter4/starred-view-mobile.png>
+File: Figures/chapter4/shared-view-mobile.png Graphic file (type bmp)
+<Figures/chapter4/shared-view-mobile.png>
 
-
-[61 <./Figures/chapter3/developed-interfaces/mobile-home-page-dark-mode.png>]
-<Figures/chapter4/resource-sharing-mobile.png, id=1304, 1129.21875pt x 2445.135
-pt>
-File: Figures/chapter4/resource-sharing-mobile.png Graphic file (type png)
-<use Figures/chapter4/resource-sharing-mobile.png>
-Package pdftex.def Info: Figures/chapter4/resource-sharing-mobile.png  used on 
-input line 203.
-(pdftex.def)             Requested size: 159.33821pt x 345.00287pt.
-<Figures/chapter4/admin-view-mobile.png, id=1305, 1129.21875pt x 2445.135pt>
-File: Figures/chapter4/admin-view-mobile.png Graphic file (type png)
-<use Figures/chapter4/admin-view-mobile.png>
-Package pdftex.def Info: Figures/chapter4/admin-view-mobile.png  used on input 
-line 210.
-(pdftex.def)             Requested size: 159.33821pt x 345.00287pt.
-
-
-[62 <./Figures/chapter4/mobile-sidebar-view.png> <./Figures/chapter4/starred-vi
-ew-mobile.png> <./Figures/chapter4/shared-view-mobile.png>]
-
-[63 <./Figures/chapter4/resource-sharing-mobile.png> <./Figures/chapter4/admin-
-view-mobile.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-[]|\T2A/cmr/bx/n/12 (+20) ��
+Underfull \hbox (badness 7362) in paragraph at lines 192--192
+[]\TU/TimesNewRoman(0)/m/sc/10.95 Зураг 4.13: |Мобайл клиент дээрх navigation б
+олон нөөцийн тусгай
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 266--266
-[]|\T2A/cmr/m/n/12 (+20) Public domain-� ���-��-��� ����
+
+[61]
+File: Figures/chapter4/resource-sharing-mobile.png Graphic file (type bmp)
+<Figures/chapter4/resource-sharing-mobile.png>
+File: Figures/chapter4/admin-view-mobile.png Graphic file (type bmp)
+<Figures/chapter4/admin-view-mobile.png>
+
+Underfull \hbox (badness 2334) in paragraph at lines 214--214
+[]\TU/TimesNewRoman(0)/m/sc/10.95 Зураг 4.14: |Мобайл клиент дээрх хуваалцах бо
+лон админ удирдлагын
+ []
+
+
+
+[62]
+Underfull \hbox (badness 3407) in paragraph at lines 224--225
+\TU/TimesNewRoman(0)/m/sc/12 функциональ болон end-to-end туршилтын хэлбэрээр г
+үйцэтгэсэн. Туршилтын гол
+ []
+
+
+
+[63]
+Underfull \hbox (badness 1953) in paragraph at lines 248--249
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Гар ажиллагаатай функциональ туршилтын үнд
+сэн тохиолдлуудыг Хүснэгт [][]4.3[][]-д
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 248--249
+\TU/TimesNewRoman(0)/m/sc/12 шаардлагууд болон гуравдугаар бүлэгт боловсруулсан
+ системийн зохиомжийн гол
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--254
+[]|\TU/TimesNewRoman(0)/b/n/12 Үр
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 259--259
+[]|\TU/TimesNewRoman(0)/m/sc/12 Байршуулсан файлыг веб болон мо-
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 265--265
+[]|\TU/TimesNewRoman(0)/m/sc/12 Дотоод сүлжээгээр холбог-
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 266--266
+[]|\TU/TimesNewRoman(0)/m/sc/12 Дамжуулагч серверээр хол-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+[]|\TU/TimesNewRoman(0)/m/sc/12 Public domain-р хандахад ижил
  []
 
 
 
 [64]
 
-[65])
+[65]
 
-[66]
+[66])
 
 [67]
 \openout2 = `Chapters/Summary.aux'.
@@ -2675,7 +2777,7 @@ Underfull \hbox (badness 4832) in paragraph at lines 266--266
 \openout2 = `Appendices/AppendixA.aux'.
 
  (./Appendices/AppendixA.tex
-{\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } A.
+Хавсралт A.
 
 
 [69
@@ -2683,7 +2785,13 @@ Underfull \hbox (badness 4832) in paragraph at lines 266--266
 
 
 
-])
+]
+Underfull \hbox (badness 1769) in paragraph at lines 8--9
+[] [][] \TU/TimesNewRoman(0)/m/sc/12 Энэ хавсралтад хувийн үүлэн хадгалалтын си
+стемийн сервер талын үндсэн API
+ []
+
+)
 
 [69
 
@@ -2691,7 +2799,7 @@ Underfull \hbox (badness 4832) in paragraph at lines 266--266
 \openout2 = `Appendices/AppendixB.aux'.
 
  (./Appendices/AppendixB.tex
-{\Mongolian \CYRH \cyra \cyrv \cyrs \cyrr \cyra \cyrl \cyrt } B.
+Хавсралт B.
 
 
 [70
@@ -2700,40 +2808,200 @@ Underfull \hbox (badness 4832) in paragraph at lines 266--266
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [70
 
 ]
+Underfull \hbox (badness 2142) in paragraph at lines 139--140
+[]\TU/TimesNewRoman(0)/m/sc/12 Устгасан хэрэглэгч системд нэвтрэх боломжгүй
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 145--146
+[]\TU/TimesNewRoman(0)/m/sc/12 Хэрэв сонгосон хэрэглэгч олдохгүй бол систем
+ []
+
+
 
 [71]
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [72]
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [73]
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\TU/TimesNewRoman(0)/b/n/12 Сегмент 1 өмнөх
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 266--267
+[]\TU/TimesNewRoman(0)/m/sc/12 UC-008 “Нөөцүүдийг харах” юзкейсийн дэлгэц
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]|\TU/TimesNewRoman(0)/b/n/12 Сегмент 1 дараах
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [74]
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [75]
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [76]
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [77]
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [78]
+Underfull \hbox (badness 5203) in paragraph at lines 500--501
+[]\TU/TimesNewRoman(0)/m/sc/12 Шилжүүлэх нөөц болон зорилтот хавтас дээр
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--518
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [79]
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [80]
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
+[]|\TU/TimesNewRoman(0)/b/n/12 Сегмент 1 өмнөх
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+[]|\TU/TimesNewRoman(0)/b/n/12 Сегмент 1 дараах
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 616--617
+[]\TU/TimesNewRoman(0)/m/sc/12 Хэрэв хэрэглэгч баталгаажуулахгүй бол үйлдэл
+ []
+
+
 
 [81]
+Underfull \hbox (badness 10000) in paragraph at lines 661--661
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 663--664
+[]\TU/TimesNewRoman(0)/m/sc/12 Хэрэв хэд хэдэн файл эсвэл хавтас хамт татах
+ []
+
+
 
 [82]
+Underfull \hbox (badness 10000) in paragraph at lines 688--688
+[]|\TU/TimesNewRoman(0)/b/n/12 Сегмент 1 өмнөх
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--703
+[]|\TU/TimesNewRoman(0)/b/n/12 Сегмент 1 дараах
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [83]
+Underfull \hbox (badness 1354) in paragraph at lines 738--739
+[]\TU/TimesNewRoman(0)/m/sc/12 Хуваалцах нөөц нь тухайн хэрэглэгчийн эзэмш-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--755
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+
 
 [84]
+Underfull \hbox (badness 10000) in paragraph at lines 800--800
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
 
-[85])
+
+
+[85]
+Underfull \hbox (badness 2662) in paragraph at lines 830--831
+[]\TU/TimesNewRoman(0)/m/sc/12 Сонгосон нөөц нь тухайн хэрэглэгчийн эзэмш-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 845--845
+[]|\TU/TimesNewRoman(0)/b/n/12 Альтернатив урс-
+ []
+
+)
 
 [86]
 
@@ -2747,7 +3015,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'cloudstorageusage' on input line 238.
+(biblatex)                at entry 'cloudstorageusage' on input line 266.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2766,7 +3034,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'google-colossus-storage-layer' on input lin
-e 238.
+e 266.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2784,7 +3052,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'nextcloud-files-overview' on input line 238
+(biblatex)                at entry 'nextcloud-files-overview' on input line 266
 .
 
 
@@ -2795,6 +3063,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
+Underfull \hbox (badness 1502) in paragraph at lines 266--266
+[]\TU/TimesNewRoman(0)/m/sc/12 Nextcloud. \TU/TimesNewRoman(0)/m/it/12 Nextclou
+d Files - Open source file sync and share platform\TU/TimesNewRoman(0)/m/sc/12 
+. Official
+ []
+
+
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
 (biblatex)                If you see this message, the .lbx file could not be
@@ -2803,8 +3078,8 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'july' untranslated
-(biblatex)                at entry 'nextcloud2018architecture' on input line 23
-8.
+(biblatex)                at entry 'nextcloud2018architecture' on input line 26
+6.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2816,7 +3091,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'nextcloud-external-storage' on input line 2
-38.
+66.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2835,7 +3110,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-infinite-scale-release' on input l
-ine 238.
+ine 266.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2843,6 +3118,12 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                If you see this message, the .lbx file could not be
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 266--266
+\TU/TimesNewRoman(0)/m/it/12 here\TU/TimesNewRoman(0)/m/sc/12 . Official ownClo
+ud Infinite Scale release announcement. 2022. url: [][]$[][][][][] []
+ []
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2854,7 +3135,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-ocis-architecture' on input line 2
-38.
+66.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2862,6 +3143,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                If you see this message, the .lbx file could not be
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 266--266
+[]\TU/TimesNewRoman(0)/m/sc/12 ownCloud. \TU/TimesNewRoman(0)/m/it/12 Architect
+ure and Concepts of Infinite Scale\TU/TimesNewRoman(0)/m/sc/12 . ownCloud Infin
+ite Scale
+ []
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2872,7 +3160,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'owncloud-ocis-security' on input line 238.
+(biblatex)                at entry 'owncloud-ocis-security' on input line 266.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2880,6 +3168,13 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                If you see this message, the .lbx file could not be
 (biblatex)                loaded, is faulty or does not contain a definition
 (biblatex)                for \mkbibdateshort.
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 266--266
+[]\TU/TimesNewRoman(0)/m/sc/12 ownCloud. \TU/TimesNewRoman(0)/m/it/12 Security 
+Aspects of Infinite Scale\TU/TimesNewRoman(0)/m/sc/12 . ownCloud Infinite Scale
+ Security
+ []
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -2891,7 +3186,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
 (biblatex)                at entry 'owncloud-ocis-availability' on input line 2
-38.
+66.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2901,9 +3196,16 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 (biblatex)                for \mkbibdateshort.
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 238--238
-[]\T2A/cmr/m/n/12 (+20) ownCloud. \T2A/cmr/m/it/12 (+20) Availability and Scala
-bility\T2A/cmr/m/n/12 (+20) . ownCloud Infinite Scale Availability
+Underfull \hbox (badness 2165) in paragraph at lines 266--266
+[]\TU/TimesNewRoman(0)/m/sc/12 ownCloud. \TU/TimesNewRoman(0)/m/it/12 Availabil
+ity and Scalability\TU/TimesNewRoman(0)/m/sc/12 . ownCloud Infinite Scale Avail
+ability and
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 266--266
+[][][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][
+][][][][] [] [][][][]$[][] \TU/TimesNewRoman(0)/m/sc/12 ([]
  []
 
 
@@ -2922,7 +3224,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'rust-book' on input line 238.
+(biblatex)                at entry 'rust-book' on input line 266.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2940,7 +3242,7 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'urlseen' untranslated
-(biblatex)                at entry 'postgresql-about' on input line 238.
+(biblatex)                at entry 'postgresql-about' on input line 266.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdateshort.
@@ -2952,52 +3254,34 @@ Package biblatex Warning: Using fallback definition for \mkbibdateshort.
 
 
 [89] (./main.aux (./FrontBackMatter/Titlepage.aux)
-(./FrontBackMatter/Plan-Review.aux) (./FrontBackMatter/Declaration.aux)
-(./FrontBackMatter/Quotation.aux) (./FrontBackMatter/Abstract.aux)
-(./FrontBackMatter/Acknowledgments.aux) (./FrontBackMatter/Abbreviations.aux)
-(./Chapters/Introduction.aux) (./Chapters/Chapter1.aux)
-(./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux)
-(./Chapters/Summary.aux) (./Appendices/AppendixA.aux)
+(./FrontBackMatter/LibraryCatalog.aux) (./FrontBackMatter/Plan-Review.aux)
+(./FrontBackMatter/Declaration.aux) (./FrontBackMatter/Quotation.aux)
+(./FrontBackMatter/Abstract.aux) (./FrontBackMatter/Acknowledgments.aux)
+(./FrontBackMatter/Abbreviations.aux) (./Chapters/Introduction.aux)
+(./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux)
+(./Chapters/Chapter4.aux) (./Chapters/Summary.aux) (./Appendices/AppendixA.aux)
 (./Appendices/AppendixB.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5869CFAA44F45FB9069C49D2EBB6727D;19524.
+(rerunfilecheck)             Checksum: F7112C265B20EEAFBE24E3B6741492F2;19535.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49740 strings out of 473197
- 1080779 string characters out of 5718605
- 2116038 words of memory out of 5000000
- 71221 multiletter control sequences out of 15000+600000
- 592813 words of font info for 206 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 138i,20n,135p,2414b,2673s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfcc1440.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfcc1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc2074.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfsl1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (112 pages, 19457981 bytes).
-PDF statistics:
- 1941 PDF objects out of 2073 (max. 8388607)
- 1701 compressed objects within 18 object streams
- 751 named destinations out of 1000 (max. 500000)
- 54541 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 49262 strings out of 473832
+ 1141737 string characters out of 5729482
+ 2233971 words of memory out of 5000000
+ 71491 multiletter control sequences out of 15000+600000
+ 563375 words of font info for 98 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 138i,20n,135p,1361b,5596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on main.pdf (109 pages).
